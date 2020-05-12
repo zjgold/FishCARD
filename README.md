@@ -1,14 +1,18 @@
 # FishCARD: Marine Fish 12S California Specific Reference Database for Enhanced Metabarcoding Efforts
 
+
 Zachary Gold<sup>1</sup>, Emma Choi<sup>2</sup>, Ben Frable<sup>2</sup>, Dovi Kacev<sup>2</sup>, Ron Burton<sup>2</sup>, Kelly Goodwin<sup>3</sup>, Andrew R. Thompson<sup>4</sup>, Paul H. Barber<sup>1</sup>
 
-1 Department of Ecology and Evolutionary Biology, UCLA, Los Angeles
 
-2 Scripps Institution of Oceanography, UCSD, La Jolla
+<sup>1</sup>Department of Ecology and Evolutionary Biology, UCLA, Los Angeles
 
-3 Ocean Chemistry and Ecosystems Division, Atlantic Oceanographic and Meteorological Laboratory, National Oceanic and Atmospheric Administration, stationed at Southwest Fisheries Science Center, La Jolla, California, USA
+<sup>2</sup>Scripps Institution of Oceanography, UCSD, La Jolla
 
-4 Southwest Fisheries Science Center, NMFS/NOAA, La Jolla
+<sup>3</sup>Ocean Chemistry and Ecosystems Division, Atlantic Oceanographic and Meteorological Laboratory, National Oceanic and Atmospheric Administration, stationed at Southwest Fisheries Science Center, La Jolla, California, USA
+
+<sup>4</sup>Southwest Fisheries Science Center, NMFS/NOAA, La Jolla
+
+
 
 
 ## Abstract
