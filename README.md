@@ -1,6 +1,8 @@
 # FishCARD: Marine Fish 12S California Specific Reference Database for Enhanced Metabarcoding Efforts
 
-https://www.biorxiv.org/content/10.1101/2020.08.20.258889v1.full  
+Pre-print is Available here - https://www.biorxiv.org/content/10.1101/2020.08.20.258889v1.full  
+  
+  
 Zachary Gold<sup>1</sup>, Emma Choi<sup>2</sup>, Ben Frable<sup>2</sup>, Dovi Kacev<sup>2</sup>, Ron Burton<sup>2</sup>, Kelly Goodwin<sup>3</sup>, Andrew R. Thompson<sup>4</sup>, Paul H. Barber<sup>1</sup>
 
 
