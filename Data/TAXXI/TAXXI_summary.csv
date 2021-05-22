@@ -1,0 +1,721 @@
+"","Comparison","BLCA_score","Taxonomic_rank","Metric","Value"
+"1","global_trim_vs_global_trim",40,"Species","True Positive Rate",93.1
+"2","global_trim_vs_global_trim",40,"Species","Under-classification Rate ",2.6
+"3","global_trim_vs_global_trim",40,"Species","Misclassification Rate",4.3
+"4","global_trim_vs_global_trim",40,"Species","Over-classification Rate",NA
+"5","global_trim_vs_global_trim",40,"Species","Accuracy",93.1
+"6","global_trim_vs_global_trim",40,"Genus","True Positive Rate",99
+"7","global_trim_vs_global_trim",40,"Genus","Under-classification Rate ",0.3
+"8","global_trim_vs_global_trim",40,"Genus","Misclassification Rate",0.7
+"9","global_trim_vs_global_trim",40,"Genus","Over-classification Rate",NA
+"10","global_trim_vs_global_trim",40,"Genus","Accuracy",99
+"11","global_trim_vs_global_trim",40,"Family","True Positive Rate",99.9
+"12","global_trim_vs_global_trim",40,"Family","Under-classification Rate ",0
+"13","global_trim_vs_global_trim",40,"Family","Misclassification Rate",0.1
+"14","global_trim_vs_global_trim",40,"Family","Over-classification Rate",NA
+"15","global_trim_vs_global_trim",40,"Family","Accuracy",99.9
+"16","global_trim_vs_global_trim",40,"Order","True Positive Rate",99.9
+"17","global_trim_vs_global_trim",40,"Order","Under-classification Rate ",0
+"18","global_trim_vs_global_trim",40,"Order","Misclassification Rate",0
+"19","global_trim_vs_global_trim",40,"Order","Over-classification Rate",NA
+"20","global_trim_vs_global_trim",40,"Order","Accuracy",99.9
+"21","global_trim_vs_global_trim",40,"Class","True Positive Rate",100
+"22","global_trim_vs_global_trim",40,"Class","Under-classification Rate ",0
+"23","global_trim_vs_global_trim",40,"Class","Misclassification Rate",0
+"24","global_trim_vs_global_trim",40,"Class","Over-classification Rate",NA
+"25","global_trim_vs_global_trim",40,"Class","Accuracy",100
+"26","global_trim_vs_global_trim",40,"Phylum","True Positive Rate",100
+"27","global_trim_vs_global_trim",40,"Phylum","Under-classification Rate ",0
+"28","global_trim_vs_global_trim",40,"Phylum","Misclassification Rate",0
+"29","global_trim_vs_global_trim",40,"Phylum","Over-classification Rate",NA
+"30","global_trim_vs_global_trim",40,"Phylum","Accuracy",100
+"31","global_trim_vs_global_trim",50,"Species","True Positive Rate",91.9
+"32","global_trim_vs_global_trim",50,"Species","Under-classification Rate ",4.9
+"33","global_trim_vs_global_trim",50,"Species","Misclassification Rate",3.2
+"34","global_trim_vs_global_trim",50,"Species","Over-classification Rate",NA
+"35","global_trim_vs_global_trim",50,"Species","Accuracy",91.9
+"36","global_trim_vs_global_trim",50,"Genus","True Positive Rate",98.9
+"37","global_trim_vs_global_trim",50,"Genus","Under-classification Rate ",0.4
+"38","global_trim_vs_global_trim",50,"Genus","Misclassification Rate",0.6
+"39","global_trim_vs_global_trim",50,"Genus","Over-classification Rate",NA
+"40","global_trim_vs_global_trim",50,"Genus","Accuracy",98.9
+"41","global_trim_vs_global_trim",50,"Family","True Positive Rate",99.9
+"42","global_trim_vs_global_trim",50,"Family","Under-classification Rate ",0.1
+"43","global_trim_vs_global_trim",50,"Family","Misclassification Rate",0.1
+"44","global_trim_vs_global_trim",50,"Family","Over-classification Rate",NA
+"45","global_trim_vs_global_trim",50,"Family","Accuracy",99.9
+"46","global_trim_vs_global_trim",50,"Order","True Positive Rate",99.9
+"47","global_trim_vs_global_trim",50,"Order","Under-classification Rate ",0
+"48","global_trim_vs_global_trim",50,"Order","Misclassification Rate",0
+"49","global_trim_vs_global_trim",50,"Order","Over-classification Rate",NA
+"50","global_trim_vs_global_trim",50,"Order","Accuracy",99.9
+"51","global_trim_vs_global_trim",50,"Class","True Positive Rate",100
+"52","global_trim_vs_global_trim",50,"Class","Under-classification Rate ",0
+"53","global_trim_vs_global_trim",50,"Class","Misclassification Rate",0
+"54","global_trim_vs_global_trim",50,"Class","Over-classification Rate",NA
+"55","global_trim_vs_global_trim",50,"Class","Accuracy",100
+"56","global_trim_vs_global_trim",50,"Phylum","True Positive Rate",100
+"57","global_trim_vs_global_trim",50,"Phylum","Under-classification Rate ",0
+"58","global_trim_vs_global_trim",50,"Phylum","Misclassification Rate",0
+"59","global_trim_vs_global_trim",50,"Phylum","Over-classification Rate",NA
+"60","global_trim_vs_global_trim",50,"Phylum","Accuracy",100
+"61","global_trim_vs_global_trim",60,"Species","True Positive Rate",89.7
+"62","global_trim_vs_global_trim",60,"Species","Under-classification Rate ",8.6
+"63","global_trim_vs_global_trim",60,"Species","Misclassification Rate",1.7
+"64","global_trim_vs_global_trim",60,"Species","Over-classification Rate",NA
+"65","global_trim_vs_global_trim",60,"Species","Accuracy",89.7
+"66","global_trim_vs_global_trim",60,"Genus","True Positive Rate",98.5
+"67","global_trim_vs_global_trim",60,"Genus","Under-classification Rate ",1.1
+"68","global_trim_vs_global_trim",60,"Genus","Misclassification Rate",0.4
+"69","global_trim_vs_global_trim",60,"Genus","Over-classification Rate",NA
+"70","global_trim_vs_global_trim",60,"Genus","Accuracy",98.5
+"71","global_trim_vs_global_trim",60,"Family","True Positive Rate",99.8
+"72","global_trim_vs_global_trim",60,"Family","Under-classification Rate ",0.1
+"73","global_trim_vs_global_trim",60,"Family","Misclassification Rate",0
+"74","global_trim_vs_global_trim",60,"Family","Over-classification Rate",NA
+"75","global_trim_vs_global_trim",60,"Family","Accuracy",99.8
+"76","global_trim_vs_global_trim",60,"Order","True Positive Rate",99.9
+"77","global_trim_vs_global_trim",60,"Order","Under-classification Rate ",0.1
+"78","global_trim_vs_global_trim",60,"Order","Misclassification Rate",0
+"79","global_trim_vs_global_trim",60,"Order","Over-classification Rate",NA
+"80","global_trim_vs_global_trim",60,"Order","Accuracy",99.9
+"81","global_trim_vs_global_trim",60,"Class","True Positive Rate",100
+"82","global_trim_vs_global_trim",60,"Class","Under-classification Rate ",0
+"83","global_trim_vs_global_trim",60,"Class","Misclassification Rate",0
+"84","global_trim_vs_global_trim",60,"Class","Over-classification Rate",NA
+"85","global_trim_vs_global_trim",60,"Class","Accuracy",100
+"86","global_trim_vs_global_trim",60,"Phylum","True Positive Rate",100
+"87","global_trim_vs_global_trim",60,"Phylum","Under-classification Rate ",0
+"88","global_trim_vs_global_trim",60,"Phylum","Misclassification Rate",0
+"89","global_trim_vs_global_trim",60,"Phylum","Over-classification Rate",NA
+"90","global_trim_vs_global_trim",60,"Phylum","Accuracy",100
+"91","global_trim_vs_global_trim",70,"Species","True Positive Rate",87.2
+"92","global_trim_vs_global_trim",70,"Species","Under-classification Rate ",12
+"93","global_trim_vs_global_trim",70,"Species","Misclassification Rate",0.8
+"94","global_trim_vs_global_trim",70,"Species","Over-classification Rate",NA
+"95","global_trim_vs_global_trim",70,"Species","Accuracy",87.2
+"96","global_trim_vs_global_trim",70,"Genus","True Positive Rate",98.1
+"97","global_trim_vs_global_trim",70,"Genus","Under-classification Rate ",1.7
+"98","global_trim_vs_global_trim",70,"Genus","Misclassification Rate",0.2
+"99","global_trim_vs_global_trim",70,"Genus","Over-classification Rate",NA
+"100","global_trim_vs_global_trim",70,"Genus","Accuracy",98.1
+"101","global_trim_vs_global_trim",70,"Family","True Positive Rate",99.8
+"102","global_trim_vs_global_trim",70,"Family","Under-classification Rate ",0.2
+"103","global_trim_vs_global_trim",70,"Family","Misclassification Rate",0
+"104","global_trim_vs_global_trim",70,"Family","Over-classification Rate",NA
+"105","global_trim_vs_global_trim",70,"Family","Accuracy",99.8
+"106","global_trim_vs_global_trim",70,"Order","True Positive Rate",99.9
+"107","global_trim_vs_global_trim",70,"Order","Under-classification Rate ",0.1
+"108","global_trim_vs_global_trim",70,"Order","Misclassification Rate",0
+"109","global_trim_vs_global_trim",70,"Order","Over-classification Rate",NA
+"110","global_trim_vs_global_trim",70,"Order","Accuracy",99.9
+"111","global_trim_vs_global_trim",70,"Class","True Positive Rate",100
+"112","global_trim_vs_global_trim",70,"Class","Under-classification Rate ",0
+"113","global_trim_vs_global_trim",70,"Class","Misclassification Rate",0
+"114","global_trim_vs_global_trim",70,"Class","Over-classification Rate",NA
+"115","global_trim_vs_global_trim",70,"Class","Accuracy",100
+"116","global_trim_vs_global_trim",70,"Phylum","True Positive Rate",100
+"117","global_trim_vs_global_trim",70,"Phylum","Under-classification Rate ",0
+"118","global_trim_vs_global_trim",70,"Phylum","Misclassification Rate",0
+"119","global_trim_vs_global_trim",70,"Phylum","Over-classification Rate",NA
+"120","global_trim_vs_global_trim",70,"Phylum","Accuracy",100
+"121","global_trim_vs_global_trim",80,"Species","True Positive Rate",83.5
+"122","global_trim_vs_global_trim",80,"Species","Under-classification Rate ",16.1
+"123","global_trim_vs_global_trim",80,"Species","Misclassification Rate",0.4
+"124","global_trim_vs_global_trim",80,"Species","Over-classification Rate",NA
+"125","global_trim_vs_global_trim",80,"Species","Accuracy",83.5
+"126","global_trim_vs_global_trim",80,"Genus","True Positive Rate",97.4
+"127","global_trim_vs_global_trim",80,"Genus","Under-classification Rate ",2.5
+"128","global_trim_vs_global_trim",80,"Genus","Misclassification Rate",0.1
+"129","global_trim_vs_global_trim",80,"Genus","Over-classification Rate",NA
+"130","global_trim_vs_global_trim",80,"Genus","Accuracy",97.4
+"131","global_trim_vs_global_trim",80,"Family","True Positive Rate",99.7
+"132","global_trim_vs_global_trim",80,"Family","Under-classification Rate ",0.3
+"133","global_trim_vs_global_trim",80,"Family","Misclassification Rate",0
+"134","global_trim_vs_global_trim",80,"Family","Over-classification Rate",NA
+"135","global_trim_vs_global_trim",80,"Family","Accuracy",99.7
+"136","global_trim_vs_global_trim",80,"Order","True Positive Rate",99.9
+"137","global_trim_vs_global_trim",80,"Order","Under-classification Rate ",0.1
+"138","global_trim_vs_global_trim",80,"Order","Misclassification Rate",0
+"139","global_trim_vs_global_trim",80,"Order","Over-classification Rate",NA
+"140","global_trim_vs_global_trim",80,"Order","Accuracy",99.9
+"141","global_trim_vs_global_trim",80,"Class","True Positive Rate",100
+"142","global_trim_vs_global_trim",80,"Class","Under-classification Rate ",0
+"143","global_trim_vs_global_trim",80,"Class","Misclassification Rate",0
+"144","global_trim_vs_global_trim",80,"Class","Over-classification Rate",NA
+"145","global_trim_vs_global_trim",80,"Class","Accuracy",100
+"146","global_trim_vs_global_trim",80,"Phylum","True Positive Rate",100
+"147","global_trim_vs_global_trim",80,"Phylum","Under-classification Rate ",0
+"148","global_trim_vs_global_trim",80,"Phylum","Misclassification Rate",0
+"149","global_trim_vs_global_trim",80,"Phylum","Over-classification Rate",NA
+"150","global_trim_vs_global_trim",80,"Phylum","Accuracy",100
+"151","global_trim_vs_global_trim",90,"Species","True Positive Rate",78.3
+"152","global_trim_vs_global_trim",90,"Species","Under-classification Rate ",21.5
+"153","global_trim_vs_global_trim",90,"Species","Misclassification Rate",0.2
+"154","global_trim_vs_global_trim",90,"Species","Over-classification Rate",NA
+"155","global_trim_vs_global_trim",90,"Species","Accuracy",78.3
+"156","global_trim_vs_global_trim",90,"Genus","True Positive Rate",96.2
+"157","global_trim_vs_global_trim",90,"Genus","Under-classification Rate ",3.7
+"158","global_trim_vs_global_trim",90,"Genus","Misclassification Rate",0
+"159","global_trim_vs_global_trim",90,"Genus","Over-classification Rate",NA
+"160","global_trim_vs_global_trim",90,"Genus","Accuracy",96.2
+"161","global_trim_vs_global_trim",90,"Family","True Positive Rate",99.6
+"162","global_trim_vs_global_trim",90,"Family","Under-classification Rate ",0.4
+"163","global_trim_vs_global_trim",90,"Family","Misclassification Rate",0
+"164","global_trim_vs_global_trim",90,"Family","Over-classification Rate",NA
+"165","global_trim_vs_global_trim",90,"Family","Accuracy",99.6
+"166","global_trim_vs_global_trim",90,"Order","True Positive Rate",99.9
+"167","global_trim_vs_global_trim",90,"Order","Under-classification Rate ",0.1
+"168","global_trim_vs_global_trim",90,"Order","Misclassification Rate",0
+"169","global_trim_vs_global_trim",90,"Order","Over-classification Rate",NA
+"170","global_trim_vs_global_trim",90,"Order","Accuracy",99.9
+"171","global_trim_vs_global_trim",90,"Class","True Positive Rate",100
+"172","global_trim_vs_global_trim",90,"Class","Under-classification Rate ",0
+"173","global_trim_vs_global_trim",90,"Class","Misclassification Rate",0
+"174","global_trim_vs_global_trim",90,"Class","Over-classification Rate",NA
+"175","global_trim_vs_global_trim",90,"Class","Accuracy",100
+"176","global_trim_vs_global_trim",90,"Phylum","True Positive Rate",100
+"177","global_trim_vs_global_trim",90,"Phylum","Under-classification Rate ",0
+"178","global_trim_vs_global_trim",90,"Phylum","Misclassification Rate",0
+"179","global_trim_vs_global_trim",90,"Phylum","Over-classification Rate",NA
+"180","global_trim_vs_global_trim",90,"Phylum","Accuracy",100
+"181","global_trim_vs_global_trim",95,"Species","True Positive Rate",72.9
+"182","global_trim_vs_global_trim",95,"Species","Under-classification Rate ",27
+"183","global_trim_vs_global_trim",95,"Species","Misclassification Rate",0.1
+"184","global_trim_vs_global_trim",95,"Species","Over-classification Rate",NA
+"185","global_trim_vs_global_trim",95,"Species","Accuracy",72.9
+"186","global_trim_vs_global_trim",95,"Genus","True Positive Rate",94.9
+"187","global_trim_vs_global_trim",95,"Genus","Under-classification Rate ",5
+"188","global_trim_vs_global_trim",95,"Genus","Misclassification Rate",0
+"189","global_trim_vs_global_trim",95,"Genus","Over-classification Rate",NA
+"190","global_trim_vs_global_trim",95,"Genus","Accuracy",94.9
+"191","global_trim_vs_global_trim",95,"Family","True Positive Rate",99.4
+"192","global_trim_vs_global_trim",95,"Family","Under-classification Rate ",0.6
+"193","global_trim_vs_global_trim",95,"Family","Misclassification Rate",0
+"194","global_trim_vs_global_trim",95,"Family","Over-classification Rate",NA
+"195","global_trim_vs_global_trim",95,"Family","Accuracy",99.4
+"196","global_trim_vs_global_trim",95,"Order","True Positive Rate",99.8
+"197","global_trim_vs_global_trim",95,"Order","Under-classification Rate ",0.2
+"198","global_trim_vs_global_trim",95,"Order","Misclassification Rate",0
+"199","global_trim_vs_global_trim",95,"Order","Over-classification Rate",NA
+"200","global_trim_vs_global_trim",95,"Order","Accuracy",99.8
+"201","global_trim_vs_global_trim",95,"Class","True Positive Rate",100
+"202","global_trim_vs_global_trim",95,"Class","Under-classification Rate ",0
+"203","global_trim_vs_global_trim",95,"Class","Misclassification Rate",0
+"204","global_trim_vs_global_trim",95,"Class","Over-classification Rate",NA
+"205","global_trim_vs_global_trim",95,"Class","Accuracy",100
+"206","global_trim_vs_global_trim",95,"Phylum","True Positive Rate",100
+"207","global_trim_vs_global_trim",95,"Phylum","Under-classification Rate ",0
+"208","global_trim_vs_global_trim",95,"Phylum","Misclassification Rate",0
+"209","global_trim_vs_global_trim",95,"Phylum","Over-classification Rate",NA
+"210","global_trim_vs_global_trim",95,"Phylum","Accuracy",100
+"211","global_trim_vs_global_trim",100,"Species","True Positive Rate",55.2
+"212","global_trim_vs_global_trim",100,"Species","Under-classification Rate ",44.8
+"213","global_trim_vs_global_trim",100,"Species","Misclassification Rate",0
+"214","global_trim_vs_global_trim",100,"Species","Over-classification Rate",NA
+"215","global_trim_vs_global_trim",100,"Species","Accuracy",55.2
+"216","global_trim_vs_global_trim",100,"Genus","True Positive Rate",87.1
+"217","global_trim_vs_global_trim",100,"Genus","Under-classification Rate ",12.9
+"218","global_trim_vs_global_trim",100,"Genus","Misclassification Rate",0
+"219","global_trim_vs_global_trim",100,"Genus","Over-classification Rate",NA
+"220","global_trim_vs_global_trim",100,"Genus","Accuracy",87.1
+"221","global_trim_vs_global_trim",100,"Family","True Positive Rate",97.9
+"222","global_trim_vs_global_trim",100,"Family","Under-classification Rate ",2.1
+"223","global_trim_vs_global_trim",100,"Family","Misclassification Rate",0
+"224","global_trim_vs_global_trim",100,"Family","Over-classification Rate",NA
+"225","global_trim_vs_global_trim",100,"Family","Accuracy",97.9
+"226","global_trim_vs_global_trim",100,"Order","True Positive Rate",99.3
+"227","global_trim_vs_global_trim",100,"Order","Under-classification Rate ",0.7
+"228","global_trim_vs_global_trim",100,"Order","Misclassification Rate",0
+"229","global_trim_vs_global_trim",100,"Order","Over-classification Rate",NA
+"230","global_trim_vs_global_trim",100,"Order","Accuracy",99.3
+"231","global_trim_vs_global_trim",100,"Class","True Positive Rate",99.7
+"232","global_trim_vs_global_trim",100,"Class","Under-classification Rate ",0.3
+"233","global_trim_vs_global_trim",100,"Class","Misclassification Rate",0
+"234","global_trim_vs_global_trim",100,"Class","Over-classification Rate",NA
+"235","global_trim_vs_global_trim",100,"Class","Accuracy",99.7
+"236","global_trim_vs_global_trim",100,"Phylum","True Positive Rate",99.7
+"237","global_trim_vs_global_trim",100,"Phylum","Under-classification Rate ",0.3
+"238","global_trim_vs_global_trim",100,"Phylum","Misclassification Rate",0
+"239","global_trim_vs_global_trim",100,"Phylum","Over-classification Rate",NA
+"240","global_trim_vs_global_trim",100,"Phylum","Accuracy",99.7
+"241","local_trim_vs_local_trim",40,"Species","True Positive Rate",94.2
+"242","local_trim_vs_local_trim",40,"Species","Under-classification Rate ",2.8
+"243","local_trim_vs_local_trim",40,"Species","Misclassification Rate",3.1
+"244","local_trim_vs_local_trim",40,"Species","Over-classification Rate",NA
+"245","local_trim_vs_local_trim",40,"Species","Accuracy",94.2
+"246","local_trim_vs_local_trim",40,"Genus","True Positive Rate",97.8
+"247","local_trim_vs_local_trim",40,"Genus","Under-classification Rate ",1.5
+"248","local_trim_vs_local_trim",40,"Genus","Misclassification Rate",0.8
+"249","local_trim_vs_local_trim",40,"Genus","Over-classification Rate",NA
+"250","local_trim_vs_local_trim",40,"Genus","Accuracy",97.8
+"251","local_trim_vs_local_trim",40,"Family","True Positive Rate",99.9
+"252","local_trim_vs_local_trim",40,"Family","Under-classification Rate ",0
+"253","local_trim_vs_local_trim",40,"Family","Misclassification Rate",0.1
+"254","local_trim_vs_local_trim",40,"Family","Over-classification Rate",NA
+"255","local_trim_vs_local_trim",40,"Family","Accuracy",99.9
+"256","local_trim_vs_local_trim",40,"Order","True Positive Rate",100
+"257","local_trim_vs_local_trim",40,"Order","Under-classification Rate ",0
+"258","local_trim_vs_local_trim",40,"Order","Misclassification Rate",0
+"259","local_trim_vs_local_trim",40,"Order","Over-classification Rate",NA
+"260","local_trim_vs_local_trim",40,"Order","Accuracy",100
+"261","local_trim_vs_local_trim",40,"Class","True Positive Rate",100
+"262","local_trim_vs_local_trim",40,"Class","Under-classification Rate ",0
+"263","local_trim_vs_local_trim",40,"Class","Misclassification Rate",0
+"264","local_trim_vs_local_trim",40,"Class","Over-classification Rate",NA
+"265","local_trim_vs_local_trim",40,"Class","Accuracy",100
+"266","local_trim_vs_local_trim",40,"Phylum","True Positive Rate",100
+"267","local_trim_vs_local_trim",40,"Phylum","Under-classification Rate ",0
+"268","local_trim_vs_local_trim",40,"Phylum","Misclassification Rate",0
+"269","local_trim_vs_local_trim",40,"Phylum","Over-classification Rate",NA
+"270","local_trim_vs_local_trim",40,"Phylum","Accuracy",100
+"271","local_trim_vs_local_trim",50,"Species","True Positive Rate",93
+"272","local_trim_vs_local_trim",50,"Species","Under-classification Rate ",4.7
+"273","local_trim_vs_local_trim",50,"Species","Misclassification Rate",2.3
+"274","local_trim_vs_local_trim",50,"Species","Over-classification Rate",NA
+"275","local_trim_vs_local_trim",50,"Species","Accuracy",93
+"276","local_trim_vs_local_trim",50,"Genus","True Positive Rate",97.8
+"277","local_trim_vs_local_trim",50,"Genus","Under-classification Rate ",1.5
+"278","local_trim_vs_local_trim",50,"Genus","Misclassification Rate",0.7
+"279","local_trim_vs_local_trim",50,"Genus","Over-classification Rate",NA
+"280","local_trim_vs_local_trim",50,"Genus","Accuracy",97.8
+"281","local_trim_vs_local_trim",50,"Family","True Positive Rate",99.9
+"282","local_trim_vs_local_trim",50,"Family","Under-classification Rate ",0
+"283","local_trim_vs_local_trim",50,"Family","Misclassification Rate",0.1
+"284","local_trim_vs_local_trim",50,"Family","Over-classification Rate",NA
+"285","local_trim_vs_local_trim",50,"Family","Accuracy",99.9
+"286","local_trim_vs_local_trim",50,"Order","True Positive Rate",100
+"287","local_trim_vs_local_trim",50,"Order","Under-classification Rate ",0
+"288","local_trim_vs_local_trim",50,"Order","Misclassification Rate",0
+"289","local_trim_vs_local_trim",50,"Order","Over-classification Rate",NA
+"290","local_trim_vs_local_trim",50,"Order","Accuracy",100
+"291","local_trim_vs_local_trim",50,"Class","True Positive Rate",100
+"292","local_trim_vs_local_trim",50,"Class","Under-classification Rate ",0
+"293","local_trim_vs_local_trim",50,"Class","Misclassification Rate",0
+"294","local_trim_vs_local_trim",50,"Class","Over-classification Rate",NA
+"295","local_trim_vs_local_trim",50,"Class","Accuracy",100
+"296","local_trim_vs_local_trim",50,"Phylum","True Positive Rate",100
+"297","local_trim_vs_local_trim",50,"Phylum","Under-classification Rate ",0
+"298","local_trim_vs_local_trim",50,"Phylum","Misclassification Rate",0
+"299","local_trim_vs_local_trim",50,"Phylum","Over-classification Rate",NA
+"300","local_trim_vs_local_trim",50,"Phylum","Accuracy",100
+"301","local_trim_vs_local_trim",60,"Species","True Positive Rate",90.9
+"302","local_trim_vs_local_trim",60,"Species","Under-classification Rate ",7.8
+"303","local_trim_vs_local_trim",60,"Species","Misclassification Rate",1.3
+"304","local_trim_vs_local_trim",60,"Species","Over-classification Rate",NA
+"305","local_trim_vs_local_trim",60,"Species","Accuracy",90.9
+"306","local_trim_vs_local_trim",60,"Genus","True Positive Rate",96.9
+"307","local_trim_vs_local_trim",60,"Genus","Under-classification Rate ",2.9
+"308","local_trim_vs_local_trim",60,"Genus","Misclassification Rate",0.2
+"309","local_trim_vs_local_trim",60,"Genus","Over-classification Rate",NA
+"310","local_trim_vs_local_trim",60,"Genus","Accuracy",96.9
+"311","local_trim_vs_local_trim",60,"Family","True Positive Rate",99.8
+"312","local_trim_vs_local_trim",60,"Family","Under-classification Rate ",0.1
+"313","local_trim_vs_local_trim",60,"Family","Misclassification Rate",0
+"314","local_trim_vs_local_trim",60,"Family","Over-classification Rate",NA
+"315","local_trim_vs_local_trim",60,"Family","Accuracy",99.8
+"316","local_trim_vs_local_trim",60,"Order","True Positive Rate",100
+"317","local_trim_vs_local_trim",60,"Order","Under-classification Rate ",0
+"318","local_trim_vs_local_trim",60,"Order","Misclassification Rate",0
+"319","local_trim_vs_local_trim",60,"Order","Over-classification Rate",NA
+"320","local_trim_vs_local_trim",60,"Order","Accuracy",100
+"321","local_trim_vs_local_trim",60,"Class","True Positive Rate",100
+"322","local_trim_vs_local_trim",60,"Class","Under-classification Rate ",0
+"323","local_trim_vs_local_trim",60,"Class","Misclassification Rate",0
+"324","local_trim_vs_local_trim",60,"Class","Over-classification Rate",NA
+"325","local_trim_vs_local_trim",60,"Class","Accuracy",100
+"326","local_trim_vs_local_trim",60,"Phylum","True Positive Rate",100
+"327","local_trim_vs_local_trim",60,"Phylum","Under-classification Rate ",0
+"328","local_trim_vs_local_trim",60,"Phylum","Misclassification Rate",0
+"329","local_trim_vs_local_trim",60,"Phylum","Over-classification Rate",NA
+"330","local_trim_vs_local_trim",60,"Phylum","Accuracy",100
+"331","local_trim_vs_local_trim",70,"Species","True Positive Rate",88.6
+"332","local_trim_vs_local_trim",70,"Species","Under-classification Rate ",10.9
+"333","local_trim_vs_local_trim",70,"Species","Misclassification Rate",0.5
+"334","local_trim_vs_local_trim",70,"Species","Over-classification Rate",NA
+"335","local_trim_vs_local_trim",70,"Species","Accuracy",88.6
+"336","local_trim_vs_local_trim",70,"Genus","True Positive Rate",96.4
+"337","local_trim_vs_local_trim",70,"Genus","Under-classification Rate ",3.5
+"338","local_trim_vs_local_trim",70,"Genus","Misclassification Rate",0.1
+"339","local_trim_vs_local_trim",70,"Genus","Over-classification Rate",NA
+"340","local_trim_vs_local_trim",70,"Genus","Accuracy",96.4
+"341","local_trim_vs_local_trim",70,"Family","True Positive Rate",99.8
+"342","local_trim_vs_local_trim",70,"Family","Under-classification Rate ",0.2
+"343","local_trim_vs_local_trim",70,"Family","Misclassification Rate",0
+"344","local_trim_vs_local_trim",70,"Family","Over-classification Rate",NA
+"345","local_trim_vs_local_trim",70,"Family","Accuracy",99.8
+"346","local_trim_vs_local_trim",70,"Order","True Positive Rate",100
+"347","local_trim_vs_local_trim",70,"Order","Under-classification Rate ",0
+"348","local_trim_vs_local_trim",70,"Order","Misclassification Rate",0
+"349","local_trim_vs_local_trim",70,"Order","Over-classification Rate",NA
+"350","local_trim_vs_local_trim",70,"Order","Accuracy",100
+"351","local_trim_vs_local_trim",70,"Class","True Positive Rate",100
+"352","local_trim_vs_local_trim",70,"Class","Under-classification Rate ",0
+"353","local_trim_vs_local_trim",70,"Class","Misclassification Rate",0
+"354","local_trim_vs_local_trim",70,"Class","Over-classification Rate",NA
+"355","local_trim_vs_local_trim",70,"Class","Accuracy",100
+"356","local_trim_vs_local_trim",70,"Phylum","True Positive Rate",100
+"357","local_trim_vs_local_trim",70,"Phylum","Under-classification Rate ",0
+"358","local_trim_vs_local_trim",70,"Phylum","Misclassification Rate",0
+"359","local_trim_vs_local_trim",70,"Phylum","Over-classification Rate",NA
+"360","local_trim_vs_local_trim",70,"Phylum","Accuracy",100
+"361","local_trim_vs_local_trim",80,"Species","True Positive Rate",85.1
+"362","local_trim_vs_local_trim",80,"Species","Under-classification Rate ",14.8
+"363","local_trim_vs_local_trim",80,"Species","Misclassification Rate",0.1
+"364","local_trim_vs_local_trim",80,"Species","Over-classification Rate",NA
+"365","local_trim_vs_local_trim",80,"Species","Accuracy",85.1
+"366","local_trim_vs_local_trim",80,"Genus","True Positive Rate",94.8
+"367","local_trim_vs_local_trim",80,"Genus","Under-classification Rate ",5.1
+"368","local_trim_vs_local_trim",80,"Genus","Misclassification Rate",0.1
+"369","local_trim_vs_local_trim",80,"Genus","Over-classification Rate",NA
+"370","local_trim_vs_local_trim",80,"Genus","Accuracy",94.8
+"371","local_trim_vs_local_trim",80,"Family","True Positive Rate",99.7
+"372","local_trim_vs_local_trim",80,"Family","Under-classification Rate ",0.3
+"373","local_trim_vs_local_trim",80,"Family","Misclassification Rate",0
+"374","local_trim_vs_local_trim",80,"Family","Over-classification Rate",NA
+"375","local_trim_vs_local_trim",80,"Family","Accuracy",99.7
+"376","local_trim_vs_local_trim",80,"Order","True Positive Rate",99.9
+"377","local_trim_vs_local_trim",80,"Order","Under-classification Rate ",0.1
+"378","local_trim_vs_local_trim",80,"Order","Misclassification Rate",0
+"379","local_trim_vs_local_trim",80,"Order","Over-classification Rate",NA
+"380","local_trim_vs_local_trim",80,"Order","Accuracy",99.9
+"381","local_trim_vs_local_trim",80,"Class","True Positive Rate",100
+"382","local_trim_vs_local_trim",80,"Class","Under-classification Rate ",0
+"383","local_trim_vs_local_trim",80,"Class","Misclassification Rate",0
+"384","local_trim_vs_local_trim",80,"Class","Over-classification Rate",NA
+"385","local_trim_vs_local_trim",80,"Class","Accuracy",100
+"386","local_trim_vs_local_trim",80,"Phylum","True Positive Rate",100
+"387","local_trim_vs_local_trim",80,"Phylum","Under-classification Rate ",0
+"388","local_trim_vs_local_trim",80,"Phylum","Misclassification Rate",0
+"389","local_trim_vs_local_trim",80,"Phylum","Over-classification Rate",NA
+"390","local_trim_vs_local_trim",80,"Phylum","Accuracy",100
+"391","local_trim_vs_local_trim",90,"Species","True Positive Rate",80.3
+"392","local_trim_vs_local_trim",90,"Species","Under-classification Rate ",19.6
+"393","local_trim_vs_local_trim",90,"Species","Misclassification Rate",0.1
+"394","local_trim_vs_local_trim",90,"Species","Over-classification Rate",NA
+"395","local_trim_vs_local_trim",90,"Species","Accuracy",80.3
+"396","local_trim_vs_local_trim",90,"Genus","True Positive Rate",93
+"397","local_trim_vs_local_trim",90,"Genus","Under-classification Rate ",7
+"398","local_trim_vs_local_trim",90,"Genus","Misclassification Rate",0
+"399","local_trim_vs_local_trim",90,"Genus","Over-classification Rate",NA
+"400","local_trim_vs_local_trim",90,"Genus","Accuracy",93
+"401","local_trim_vs_local_trim",90,"Family","True Positive Rate",99.4
+"402","local_trim_vs_local_trim",90,"Family","Under-classification Rate ",0.6
+"403","local_trim_vs_local_trim",90,"Family","Misclassification Rate",0
+"404","local_trim_vs_local_trim",90,"Family","Over-classification Rate",NA
+"405","local_trim_vs_local_trim",90,"Family","Accuracy",99.4
+"406","local_trim_vs_local_trim",90,"Order","True Positive Rate",99.8
+"407","local_trim_vs_local_trim",90,"Order","Under-classification Rate ",0.2
+"408","local_trim_vs_local_trim",90,"Order","Misclassification Rate",0
+"409","local_trim_vs_local_trim",90,"Order","Over-classification Rate",NA
+"410","local_trim_vs_local_trim",90,"Order","Accuracy",99.8
+"411","local_trim_vs_local_trim",90,"Class","True Positive Rate",99.9
+"412","local_trim_vs_local_trim",90,"Class","Under-classification Rate ",0.1
+"413","local_trim_vs_local_trim",90,"Class","Misclassification Rate",0
+"414","local_trim_vs_local_trim",90,"Class","Over-classification Rate",NA
+"415","local_trim_vs_local_trim",90,"Class","Accuracy",99.9
+"416","local_trim_vs_local_trim",90,"Phylum","True Positive Rate",100
+"417","local_trim_vs_local_trim",90,"Phylum","Under-classification Rate ",0
+"418","local_trim_vs_local_trim",90,"Phylum","Misclassification Rate",0
+"419","local_trim_vs_local_trim",90,"Phylum","Over-classification Rate",NA
+"420","local_trim_vs_local_trim",90,"Phylum","Accuracy",100
+"421","local_trim_vs_local_trim",95,"Species","True Positive Rate",74.5
+"422","local_trim_vs_local_trim",95,"Species","Under-classification Rate ",25.5
+"423","local_trim_vs_local_trim",95,"Species","Misclassification Rate",0
+"424","local_trim_vs_local_trim",95,"Species","Over-classification Rate",NA
+"425","local_trim_vs_local_trim",95,"Species","Accuracy",74.5
+"426","local_trim_vs_local_trim",95,"Genus","True Positive Rate",90.4
+"427","local_trim_vs_local_trim",95,"Genus","Under-classification Rate ",9.6
+"428","local_trim_vs_local_trim",95,"Genus","Misclassification Rate",0
+"429","local_trim_vs_local_trim",95,"Genus","Over-classification Rate",NA
+"430","local_trim_vs_local_trim",95,"Genus","Accuracy",90.4
+"431","local_trim_vs_local_trim",95,"Family","True Positive Rate",98.9
+"432","local_trim_vs_local_trim",95,"Family","Under-classification Rate ",1.1
+"433","local_trim_vs_local_trim",95,"Family","Misclassification Rate",0
+"434","local_trim_vs_local_trim",95,"Family","Over-classification Rate",NA
+"435","local_trim_vs_local_trim",95,"Family","Accuracy",98.9
+"436","local_trim_vs_local_trim",95,"Order","True Positive Rate",99.7
+"437","local_trim_vs_local_trim",95,"Order","Under-classification Rate ",0.3
+"438","local_trim_vs_local_trim",95,"Order","Misclassification Rate",0
+"439","local_trim_vs_local_trim",95,"Order","Over-classification Rate",NA
+"440","local_trim_vs_local_trim",95,"Order","Accuracy",99.7
+"441","local_trim_vs_local_trim",95,"Class","True Positive Rate",99.9
+"442","local_trim_vs_local_trim",95,"Class","Under-classification Rate ",0.1
+"443","local_trim_vs_local_trim",95,"Class","Misclassification Rate",0
+"444","local_trim_vs_local_trim",95,"Class","Over-classification Rate",NA
+"445","local_trim_vs_local_trim",95,"Class","Accuracy",99.9
+"446","local_trim_vs_local_trim",95,"Phylum","True Positive Rate",100
+"447","local_trim_vs_local_trim",95,"Phylum","Under-classification Rate ",0
+"448","local_trim_vs_local_trim",95,"Phylum","Misclassification Rate",0
+"449","local_trim_vs_local_trim",95,"Phylum","Over-classification Rate",NA
+"450","local_trim_vs_local_trim",95,"Phylum","Accuracy",100
+"451","local_trim_vs_local_trim",100,"Species","True Positive Rate",64.2
+"452","local_trim_vs_local_trim",100,"Species","Under-classification Rate ",35.8
+"453","local_trim_vs_local_trim",100,"Species","Misclassification Rate",0
+"454","local_trim_vs_local_trim",100,"Species","Over-classification Rate",NA
+"455","local_trim_vs_local_trim",100,"Species","Accuracy",64.2
+"456","local_trim_vs_local_trim",100,"Genus","True Positive Rate",80.5
+"457","local_trim_vs_local_trim",100,"Genus","Under-classification Rate ",19.5
+"458","local_trim_vs_local_trim",100,"Genus","Misclassification Rate",0
+"459","local_trim_vs_local_trim",100,"Genus","Over-classification Rate",NA
+"460","local_trim_vs_local_trim",100,"Genus","Accuracy",80.5
+"461","local_trim_vs_local_trim",100,"Family","True Positive Rate",94.6
+"462","local_trim_vs_local_trim",100,"Family","Under-classification Rate ",5.4
+"463","local_trim_vs_local_trim",100,"Family","Misclassification Rate",0
+"464","local_trim_vs_local_trim",100,"Family","Over-classification Rate",NA
+"465","local_trim_vs_local_trim",100,"Family","Accuracy",94.6
+"466","local_trim_vs_local_trim",100,"Order","True Positive Rate",97.4
+"467","local_trim_vs_local_trim",100,"Order","Under-classification Rate ",2.6
+"468","local_trim_vs_local_trim",100,"Order","Misclassification Rate",0
+"469","local_trim_vs_local_trim",100,"Order","Over-classification Rate",NA
+"470","local_trim_vs_local_trim",100,"Order","Accuracy",97.4
+"471","local_trim_vs_local_trim",100,"Class","True Positive Rate",99.3
+"472","local_trim_vs_local_trim",100,"Class","Under-classification Rate ",0.7
+"473","local_trim_vs_local_trim",100,"Class","Misclassification Rate",0
+"474","local_trim_vs_local_trim",100,"Class","Over-classification Rate",NA
+"475","local_trim_vs_local_trim",100,"Class","Accuracy",99.3
+"476","local_trim_vs_local_trim",100,"Phylum","True Positive Rate",100
+"477","local_trim_vs_local_trim",100,"Phylum","Under-classification Rate ",0
+"478","local_trim_vs_local_trim",100,"Phylum","Misclassification Rate",0
+"479","local_trim_vs_local_trim",100,"Phylum","Over-classification Rate",NA
+"480","local_trim_vs_local_trim",100,"Phylum","Accuracy",100
+"481","global_trim_vs_local_trim",40,"Species","True Positive Rate",90.8
+"482","global_trim_vs_local_trim",40,"Species","Under-classification Rate ",4.8
+"483","global_trim_vs_local_trim",40,"Species","Misclassification Rate",4.5
+"484","global_trim_vs_local_trim",40,"Species","Over-classification Rate",NA
+"485","global_trim_vs_local_trim",40,"Species","Accuracy",90.8
+"486","global_trim_vs_local_trim",40,"Genus","True Positive Rate",97.2
+"487","global_trim_vs_local_trim",40,"Genus","Under-classification Rate ",1.8
+"488","global_trim_vs_local_trim",40,"Genus","Misclassification Rate",1
+"489","global_trim_vs_local_trim",40,"Genus","Over-classification Rate",NA
+"490","global_trim_vs_local_trim",40,"Genus","Accuracy",97.2
+"491","global_trim_vs_local_trim",40,"Family","True Positive Rate",99.9
+"492","global_trim_vs_local_trim",40,"Family","Under-classification Rate ",0
+"493","global_trim_vs_local_trim",40,"Family","Misclassification Rate",0.1
+"494","global_trim_vs_local_trim",40,"Family","Over-classification Rate",NA
+"495","global_trim_vs_local_trim",40,"Family","Accuracy",99.9
+"496","global_trim_vs_local_trim",40,"Order","True Positive Rate",100
+"497","global_trim_vs_local_trim",40,"Order","Under-classification Rate ",0
+"498","global_trim_vs_local_trim",40,"Order","Misclassification Rate",0
+"499","global_trim_vs_local_trim",40,"Order","Over-classification Rate",NA
+"500","global_trim_vs_local_trim",40,"Order","Accuracy",100
+"501","global_trim_vs_local_trim",40,"Class","True Positive Rate",100
+"502","global_trim_vs_local_trim",40,"Class","Under-classification Rate ",0
+"503","global_trim_vs_local_trim",40,"Class","Misclassification Rate",0
+"504","global_trim_vs_local_trim",40,"Class","Over-classification Rate",NA
+"505","global_trim_vs_local_trim",40,"Class","Accuracy",100
+"506","global_trim_vs_local_trim",40,"Phylum","True Positive Rate",100
+"507","global_trim_vs_local_trim",40,"Phylum","Under-classification Rate ",0
+"508","global_trim_vs_local_trim",40,"Phylum","Misclassification Rate",0
+"509","global_trim_vs_local_trim",40,"Phylum","Over-classification Rate",NA
+"510","global_trim_vs_local_trim",40,"Phylum","Accuracy",100
+"511","global_trim_vs_local_trim",50,"Species","True Positive Rate",89
+"512","global_trim_vs_local_trim",50,"Species","Under-classification Rate ",7.9
+"513","global_trim_vs_local_trim",50,"Species","Misclassification Rate",3.1
+"514","global_trim_vs_local_trim",50,"Species","Over-classification Rate",NA
+"515","global_trim_vs_local_trim",50,"Species","Accuracy",89
+"516","global_trim_vs_local_trim",50,"Genus","True Positive Rate",97.1
+"517","global_trim_vs_local_trim",50,"Genus","Under-classification Rate ",2
+"518","global_trim_vs_local_trim",50,"Genus","Misclassification Rate",0.9
+"519","global_trim_vs_local_trim",50,"Genus","Over-classification Rate",NA
+"520","global_trim_vs_local_trim",50,"Genus","Accuracy",97.1
+"521","global_trim_vs_local_trim",50,"Family","True Positive Rate",99.9
+"522","global_trim_vs_local_trim",50,"Family","Under-classification Rate ",0
+"523","global_trim_vs_local_trim",50,"Family","Misclassification Rate",0.1
+"524","global_trim_vs_local_trim",50,"Family","Over-classification Rate",NA
+"525","global_trim_vs_local_trim",50,"Family","Accuracy",99.9
+"526","global_trim_vs_local_trim",50,"Order","True Positive Rate",100
+"527","global_trim_vs_local_trim",50,"Order","Under-classification Rate ",0
+"528","global_trim_vs_local_trim",50,"Order","Misclassification Rate",0
+"529","global_trim_vs_local_trim",50,"Order","Over-classification Rate",NA
+"530","global_trim_vs_local_trim",50,"Order","Accuracy",100
+"531","global_trim_vs_local_trim",50,"Class","True Positive Rate",100
+"532","global_trim_vs_local_trim",50,"Class","Under-classification Rate ",0
+"533","global_trim_vs_local_trim",50,"Class","Misclassification Rate",0
+"534","global_trim_vs_local_trim",50,"Class","Over-classification Rate",NA
+"535","global_trim_vs_local_trim",50,"Class","Accuracy",100
+"536","global_trim_vs_local_trim",50,"Phylum","True Positive Rate",100
+"537","global_trim_vs_local_trim",50,"Phylum","Under-classification Rate ",0
+"538","global_trim_vs_local_trim",50,"Phylum","Misclassification Rate",0
+"539","global_trim_vs_local_trim",50,"Phylum","Over-classification Rate",NA
+"540","global_trim_vs_local_trim",50,"Phylum","Accuracy",100
+"541","global_trim_vs_local_trim",60,"Species","True Positive Rate",86.5
+"542","global_trim_vs_local_trim",60,"Species","Under-classification Rate ",11.8
+"543","global_trim_vs_local_trim",60,"Species","Misclassification Rate",1.8
+"544","global_trim_vs_local_trim",60,"Species","Over-classification Rate",NA
+"545","global_trim_vs_local_trim",60,"Species","Accuracy",86.5
+"546","global_trim_vs_local_trim",60,"Genus","True Positive Rate",96.1
+"547","global_trim_vs_local_trim",60,"Genus","Under-classification Rate ",3.7
+"548","global_trim_vs_local_trim",60,"Genus","Misclassification Rate",0.3
+"549","global_trim_vs_local_trim",60,"Genus","Over-classification Rate",NA
+"550","global_trim_vs_local_trim",60,"Genus","Accuracy",96.1
+"551","global_trim_vs_local_trim",60,"Family","True Positive Rate",99.7
+"552","global_trim_vs_local_trim",60,"Family","Under-classification Rate ",0.3
+"553","global_trim_vs_local_trim",60,"Family","Misclassification Rate",0
+"554","global_trim_vs_local_trim",60,"Family","Over-classification Rate",NA
+"555","global_trim_vs_local_trim",60,"Family","Accuracy",99.7
+"556","global_trim_vs_local_trim",60,"Order","True Positive Rate",99.9
+"557","global_trim_vs_local_trim",60,"Order","Under-classification Rate ",0.1
+"558","global_trim_vs_local_trim",60,"Order","Misclassification Rate",0
+"559","global_trim_vs_local_trim",60,"Order","Over-classification Rate",NA
+"560","global_trim_vs_local_trim",60,"Order","Accuracy",99.9
+"561","global_trim_vs_local_trim",60,"Class","True Positive Rate",100
+"562","global_trim_vs_local_trim",60,"Class","Under-classification Rate ",0
+"563","global_trim_vs_local_trim",60,"Class","Misclassification Rate",0
+"564","global_trim_vs_local_trim",60,"Class","Over-classification Rate",NA
+"565","global_trim_vs_local_trim",60,"Class","Accuracy",100
+"566","global_trim_vs_local_trim",60,"Phylum","True Positive Rate",100
+"567","global_trim_vs_local_trim",60,"Phylum","Under-classification Rate ",0
+"568","global_trim_vs_local_trim",60,"Phylum","Misclassification Rate",0
+"569","global_trim_vs_local_trim",60,"Phylum","Over-classification Rate",NA
+"570","global_trim_vs_local_trim",60,"Phylum","Accuracy",100
+"571","global_trim_vs_local_trim",70,"Species","True Positive Rate",82.4
+"572","global_trim_vs_local_trim",70,"Species","Under-classification Rate ",16.8
+"573","global_trim_vs_local_trim",70,"Species","Misclassification Rate",0.8
+"574","global_trim_vs_local_trim",70,"Species","Over-classification Rate",NA
+"575","global_trim_vs_local_trim",70,"Species","Accuracy",82.4
+"576","global_trim_vs_local_trim",70,"Genus","True Positive Rate",95.3
+"577","global_trim_vs_local_trim",70,"Genus","Under-classification Rate ",4.5
+"578","global_trim_vs_local_trim",70,"Genus","Misclassification Rate",0.1
+"579","global_trim_vs_local_trim",70,"Genus","Over-classification Rate",NA
+"580","global_trim_vs_local_trim",70,"Genus","Accuracy",95.3
+"581","global_trim_vs_local_trim",70,"Family","True Positive Rate",99.6
+"582","global_trim_vs_local_trim",70,"Family","Under-classification Rate ",0.3
+"583","global_trim_vs_local_trim",70,"Family","Misclassification Rate",0
+"584","global_trim_vs_local_trim",70,"Family","Over-classification Rate",NA
+"585","global_trim_vs_local_trim",70,"Family","Accuracy",99.6
+"586","global_trim_vs_local_trim",70,"Order","True Positive Rate",99.9
+"587","global_trim_vs_local_trim",70,"Order","Under-classification Rate ",0.1
+"588","global_trim_vs_local_trim",70,"Order","Misclassification Rate",0
+"589","global_trim_vs_local_trim",70,"Order","Over-classification Rate",NA
+"590","global_trim_vs_local_trim",70,"Order","Accuracy",99.9
+"591","global_trim_vs_local_trim",70,"Class","True Positive Rate",100
+"592","global_trim_vs_local_trim",70,"Class","Under-classification Rate ",0
+"593","global_trim_vs_local_trim",70,"Class","Misclassification Rate",0
+"594","global_trim_vs_local_trim",70,"Class","Over-classification Rate",NA
+"595","global_trim_vs_local_trim",70,"Class","Accuracy",100
+"596","global_trim_vs_local_trim",70,"Phylum","True Positive Rate",100
+"597","global_trim_vs_local_trim",70,"Phylum","Under-classification Rate ",0
+"598","global_trim_vs_local_trim",70,"Phylum","Misclassification Rate",0
+"599","global_trim_vs_local_trim",70,"Phylum","Over-classification Rate",NA
+"600","global_trim_vs_local_trim",70,"Phylum","Accuracy",100
+"601","global_trim_vs_local_trim",80,"Species","True Positive Rate",77.3
+"602","global_trim_vs_local_trim",80,"Species","Under-classification Rate ",22.2
+"603","global_trim_vs_local_trim",80,"Species","Misclassification Rate",0.5
+"604","global_trim_vs_local_trim",80,"Species","Over-classification Rate",NA
+"605","global_trim_vs_local_trim",80,"Species","Accuracy",77.3
+"606","global_trim_vs_local_trim",80,"Genus","True Positive Rate",93.3
+"607","global_trim_vs_local_trim",80,"Genus","Under-classification Rate ",6.6
+"608","global_trim_vs_local_trim",80,"Genus","Misclassification Rate",0.1
+"609","global_trim_vs_local_trim",80,"Genus","Over-classification Rate",NA
+"610","global_trim_vs_local_trim",80,"Genus","Accuracy",93.3
+"611","global_trim_vs_local_trim",80,"Family","True Positive Rate",99.6
+"612","global_trim_vs_local_trim",80,"Family","Under-classification Rate ",0.4
+"613","global_trim_vs_local_trim",80,"Family","Misclassification Rate",0
+"614","global_trim_vs_local_trim",80,"Family","Over-classification Rate",NA
+"615","global_trim_vs_local_trim",80,"Family","Accuracy",99.6
+"616","global_trim_vs_local_trim",80,"Order","True Positive Rate",99.8
+"617","global_trim_vs_local_trim",80,"Order","Under-classification Rate ",0.2
+"618","global_trim_vs_local_trim",80,"Order","Misclassification Rate",0
+"619","global_trim_vs_local_trim",80,"Order","Over-classification Rate",NA
+"620","global_trim_vs_local_trim",80,"Order","Accuracy",99.8
+"621","global_trim_vs_local_trim",80,"Class","True Positive Rate",100
+"622","global_trim_vs_local_trim",80,"Class","Under-classification Rate ",0
+"623","global_trim_vs_local_trim",80,"Class","Misclassification Rate",0
+"624","global_trim_vs_local_trim",80,"Class","Over-classification Rate",NA
+"625","global_trim_vs_local_trim",80,"Class","Accuracy",100
+"626","global_trim_vs_local_trim",80,"Phylum","True Positive Rate",100
+"627","global_trim_vs_local_trim",80,"Phylum","Under-classification Rate ",0
+"628","global_trim_vs_local_trim",80,"Phylum","Misclassification Rate",0
+"629","global_trim_vs_local_trim",80,"Phylum","Over-classification Rate",NA
+"630","global_trim_vs_local_trim",80,"Phylum","Accuracy",100
+"631","global_trim_vs_local_trim",90,"Species","True Positive Rate",70.2
+"632","global_trim_vs_local_trim",90,"Species","Under-classification Rate ",29.3
+"633","global_trim_vs_local_trim",90,"Species","Misclassification Rate",0.4
+"634","global_trim_vs_local_trim",90,"Species","Over-classification Rate",NA
+"635","global_trim_vs_local_trim",90,"Species","Accuracy",70.2
+"636","global_trim_vs_local_trim",90,"Genus","True Positive Rate",89.7
+"637","global_trim_vs_local_trim",90,"Genus","Under-classification Rate ",10.2
+"638","global_trim_vs_local_trim",90,"Genus","Misclassification Rate",0
+"639","global_trim_vs_local_trim",90,"Genus","Over-classification Rate",NA
+"640","global_trim_vs_local_trim",90,"Genus","Accuracy",89.7
+"641","global_trim_vs_local_trim",90,"Family","True Positive Rate",98.7
+"642","global_trim_vs_local_trim",90,"Family","Under-classification Rate ",1.3
+"643","global_trim_vs_local_trim",90,"Family","Misclassification Rate",0
+"644","global_trim_vs_local_trim",90,"Family","Over-classification Rate",NA
+"645","global_trim_vs_local_trim",90,"Family","Accuracy",98.7
+"646","global_trim_vs_local_trim",90,"Order","True Positive Rate",99.4
+"647","global_trim_vs_local_trim",90,"Order","Under-classification Rate ",0.6
+"648","global_trim_vs_local_trim",90,"Order","Misclassification Rate",0
+"649","global_trim_vs_local_trim",90,"Order","Over-classification Rate",NA
+"650","global_trim_vs_local_trim",90,"Order","Accuracy",99.4
+"651","global_trim_vs_local_trim",90,"Class","True Positive Rate",99.9
+"652","global_trim_vs_local_trim",90,"Class","Under-classification Rate ",0.1
+"653","global_trim_vs_local_trim",90,"Class","Misclassification Rate",0
+"654","global_trim_vs_local_trim",90,"Class","Over-classification Rate",NA
+"655","global_trim_vs_local_trim",90,"Class","Accuracy",99.9
+"656","global_trim_vs_local_trim",90,"Phylum","True Positive Rate",100
+"657","global_trim_vs_local_trim",90,"Phylum","Under-classification Rate ",0
+"658","global_trim_vs_local_trim",90,"Phylum","Misclassification Rate",0
+"659","global_trim_vs_local_trim",90,"Phylum","Over-classification Rate",NA
+"660","global_trim_vs_local_trim",90,"Phylum","Accuracy",100
+"661","global_trim_vs_local_trim",95,"Species","True Positive Rate",64
+"662","global_trim_vs_local_trim",95,"Species","Under-classification Rate ",35.8
+"663","global_trim_vs_local_trim",95,"Species","Misclassification Rate",0.1
+"664","global_trim_vs_local_trim",95,"Species","Over-classification Rate",NA
+"665","global_trim_vs_local_trim",95,"Species","Accuracy",64
+"666","global_trim_vs_local_trim",95,"Genus","True Positive Rate",86.9
+"667","global_trim_vs_local_trim",95,"Genus","Under-classification Rate ",13.1
+"668","global_trim_vs_local_trim",95,"Genus","Misclassification Rate",0
+"669","global_trim_vs_local_trim",95,"Genus","Over-classification Rate",NA
+"670","global_trim_vs_local_trim",95,"Genus","Accuracy",86.9
+"671","global_trim_vs_local_trim",95,"Family","True Positive Rate",98.3
+"672","global_trim_vs_local_trim",95,"Family","Under-classification Rate ",1.7
+"673","global_trim_vs_local_trim",95,"Family","Misclassification Rate",0
+"674","global_trim_vs_local_trim",95,"Family","Over-classification Rate",NA
+"675","global_trim_vs_local_trim",95,"Family","Accuracy",98.3
+"676","global_trim_vs_local_trim",95,"Order","True Positive Rate",99.4
+"677","global_trim_vs_local_trim",95,"Order","Under-classification Rate ",0.6
+"678","global_trim_vs_local_trim",95,"Order","Misclassification Rate",0
+"679","global_trim_vs_local_trim",95,"Order","Over-classification Rate",NA
+"680","global_trim_vs_local_trim",95,"Order","Accuracy",99.4
+"681","global_trim_vs_local_trim",95,"Class","True Positive Rate",99.9
+"682","global_trim_vs_local_trim",95,"Class","Under-classification Rate ",0.1
+"683","global_trim_vs_local_trim",95,"Class","Misclassification Rate",0
+"684","global_trim_vs_local_trim",95,"Class","Over-classification Rate",NA
+"685","global_trim_vs_local_trim",95,"Class","Accuracy",99.9
+"686","global_trim_vs_local_trim",95,"Phylum","True Positive Rate",100
+"687","global_trim_vs_local_trim",95,"Phylum","Under-classification Rate ",0
+"688","global_trim_vs_local_trim",95,"Phylum","Misclassification Rate",0
+"689","global_trim_vs_local_trim",95,"Phylum","Over-classification Rate",NA
+"690","global_trim_vs_local_trim",95,"Phylum","Accuracy",100
+"691","global_trim_vs_local_trim",100,"Species","True Positive Rate",51.3
+"692","global_trim_vs_local_trim",100,"Species","Under-classification Rate ",48.7
+"693","global_trim_vs_local_trim",100,"Species","Misclassification Rate",0
+"694","global_trim_vs_local_trim",100,"Species","Over-classification Rate",NA
+"695","global_trim_vs_local_trim",100,"Species","Accuracy",51.3
+"696","global_trim_vs_local_trim",100,"Genus","True Positive Rate",74.2
+"697","global_trim_vs_local_trim",100,"Genus","Under-classification Rate ",25.8
+"698","global_trim_vs_local_trim",100,"Genus","Misclassification Rate",0
+"699","global_trim_vs_local_trim",100,"Genus","Over-classification Rate",NA
+"700","global_trim_vs_local_trim",100,"Genus","Accuracy",74.2
+"701","global_trim_vs_local_trim",100,"Family","True Positive Rate",93.5
+"702","global_trim_vs_local_trim",100,"Family","Under-classification Rate ",6.5
+"703","global_trim_vs_local_trim",100,"Family","Misclassification Rate",0
+"704","global_trim_vs_local_trim",100,"Family","Over-classification Rate",NA
+"705","global_trim_vs_local_trim",100,"Family","Accuracy",93.5
+"706","global_trim_vs_local_trim",100,"Order","True Positive Rate",97.6
+"707","global_trim_vs_local_trim",100,"Order","Under-classification Rate ",2.4
+"708","global_trim_vs_local_trim",100,"Order","Misclassification Rate",0
+"709","global_trim_vs_local_trim",100,"Order","Over-classification Rate",NA
+"710","global_trim_vs_local_trim",100,"Order","Accuracy",97.6
+"711","global_trim_vs_local_trim",100,"Class","True Positive Rate",99.9
+"712","global_trim_vs_local_trim",100,"Class","Under-classification Rate ",0.1
+"713","global_trim_vs_local_trim",100,"Class","Misclassification Rate",0
+"714","global_trim_vs_local_trim",100,"Class","Over-classification Rate",NA
+"715","global_trim_vs_local_trim",100,"Class","Accuracy",99.9
+"716","global_trim_vs_local_trim",100,"Phylum","True Positive Rate",100
+"717","global_trim_vs_local_trim",100,"Phylum","Under-classification Rate ",0
+"718","global_trim_vs_local_trim",100,"Phylum","Misclassification Rate",0
+"719","global_trim_vs_local_trim",100,"Phylum","Over-classification Rate",NA
+"720","global_trim_vs_local_trim",100,"Phylum","Accuracy",100

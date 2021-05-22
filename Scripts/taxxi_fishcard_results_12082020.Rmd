@@ -1,0 +1,272 @@
+---
+title: "TAXXI Taxonomic Assignment Metrics Comparison"
+author: "Zack Gold"
+date: "12/08/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(here)
+```
+
+# Load and Clean Data 
+```{r}
+all_Data <- read.table(file =here("Data","TAXXI","summary_taxxi_runs_10142020.txt"))
+
+# Clean Up data Frame
+all_Data %>% as.data.frame() %>% 
+  dplyr::select( Comparison =V1, BLCA_score = V2, Taxonomic_rank = V5, Metric = V3, Value = V6) %>% 
+  mutate(., Taxonomic_rank = recode(Taxonomic_rank, 
+                                   `s`="Species",
+                                   `g`="Genus",
+                                   `f`="Family",
+                                   `c`="Class",
+                                   `o`="Order",
+                                   `p`="Phylum",
+                                   `d`="Domain",) ) %>% 
+  mutate(., Metric = recode(Metric, 
+                                   `Acc`="Accuracy",
+                                   `MCR`="Misclassification Rate",
+                                   `OCR`="Over-classification Rate",
+                                   `TPR`="True Positive Rate",
+                                   `UCR`="Under-classification Rate ") )-> all_Data_df
+
+all_Data_df$BLCA_score <- as.numeric(all_Data_df$BLCA_score)
+all_Data_df$Value <- as.numeric(all_Data_df$Value)
+```
+
+```{r}
+#Colors for plotting
+library(wesanderson)
+wes_palette("GrandBudapest1") -> moon1
+wes_palette("GrandBudapest2") -> moon2
+wes_palette("Moonrise3") -> moon3
+
+```
+
+# TAXXI Summary Statistics
+
+### Global Reference Database Assigned by Global Reference Database
+```{r}
+all_Data_df$Taxonomic_rank<- as.factor(all_Data_df$Taxonomic_rank)
+all_Data_df$Taxonomic_rank <- ordered(all_Data_df$Taxonomic_rank, levels = c("Phylum","Class","Order",  "Family",
+ "Genus",
+ "Species"))
+
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  pivot_wider(names_from = Metric, values_from=Value) %>%
+  mutate(., Sensitivity = 100*`True Positive Rate` / (`True Positive Rate` + `Under-classification Rate `),
+         Specificity = 100-(`Misclassification Rate`+`Over-classification Rate`)) %>% 
+  pivot_longer(cols = `True Positive Rate`:`Specificity`, names_to = "Metric",values_to ="Value") ->all_Data_df
+```
+
+```{r}
+all_Data_df %>% 
+  filter(., Comparison=="global_trim_vs_global_trim") %>% 
+  ggplot(., aes(y=Value/100, x=BLCA_score, color=Taxonomic_rank, group=Taxonomic_rank)) +geom_line(size = 1, alpha=0.7) +facet_wrap(~Metric) + ggtitle(label = "Global Reference Database Assigned by Global Reference Database") +  scale_color_manual(name = "Taxonomic Rank", values=c(moon3[-1],moon2[2],moon2[4])) + ylab("Percent") + xlab("Bootstrap Confidence Score") + scale_y_continuous(labels = scales::percent) + theme_bw() +
+  theme(axis.text.x= element_text(size=16),                                                                          axis.text.y= element_text(size=16),
+        axis.title=element_text(size=18,face="bold"),
+        strip.text.x = element_text(size=18),
+        legend.text=element_text(size=16),
+        legend.title=element_text(size=18))-> taxxi_gvg
+
+taxxi_gvg
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","taxxi_gvg.eps"),
+       plot = taxxi_gvg,
+       device = cairo_ps,
+       dpi = 300,
+       width = 14,
+  height = 8,
+  units = c("in"))
+
+```
+
+
+
+### Local Reference Database Assigned by Global Reference Database
+
+```{r}
+
+all_Data_df %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  ggplot(., aes(y=Value/100, x=BLCA_score, color=Taxonomic_rank, group=Taxonomic_rank)) +geom_line(size = 1, alpha=0.7) +facet_wrap(~Metric) + ggtitle(label = "Regional Reference Database Assigned by Global Reference Database") +  scale_color_manual(name = "Taxonomic Rank", values=c(moon3[-1],moon2[2],moon2[4])) + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + scale_y_continuous(labels = scales::percent) + theme_bw() +
+  theme(axis.text.x= element_text(size=16),                                                                          axis.text.y= element_text(size=16),
+        axis.title=element_text(size=18,face="bold"),
+        strip.text.x = element_text(size=18),
+        legend.text=element_text(size=16),
+        legend.title=element_text(size=18))-> taxxi_gvl
+taxxi_gvl
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","taxxi_gvl.eps"),
+       plot = taxxi_gvl,
+       device = cairo_ps,
+       dpi = 300,
+       width = 14,
+  height = 8,
+  units = c("in"))
+
+```
+
+### Local Reference Database Assigned by Local Reference Database
+
+```{r}
+all_Data_df %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  ggplot(., aes(y=Value/100, x=BLCA_score, color=Taxonomic_rank, group=Taxonomic_rank)) +geom_line(size = 1, alpha=0.7) +facet_wrap(~Metric) + ggtitle(label = "Regional Reference Database Assigned by Regional Reference Database") +  scale_color_manual(name = "Taxonomic Rank", values=c(moon3[-1],moon2[2],moon2[4])) + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + scale_y_continuous(labels = scales::percent) + theme_bw()+
+  theme(axis.text.x= element_text(size=16),                                                                          axis.text.y= element_text(size=16),
+        axis.title=element_text(size=18,face="bold"),
+        strip.text.x = element_text(size=18),
+        legend.text=element_text(size=16),
+        legend.title=element_text(size=18)) -> taxxi_lvl
+taxxi_lvl
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","taxxi_lvl.eps"),
+       plot = taxxi_lvl,
+       device = cairo_ps,
+       dpi = 300,
+       width = 14,
+  height = 8,
+  units = c("in"))
+```
+
+## Accuracy
+### Local Reference Database Assigned by Global Reference Database
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  filter(., Metric=="Accuracy") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+### Local Reference Database Assigned by Local Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  filter(., Metric=="Accuracy") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+## Misclassification Rate
+
+### Local Reference Database Assigned by Global Reference Database
+
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  filter(., Metric=="Misclassification Rate") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+### Local Reference Database Assigned by Local Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  filter(., Metric=="Misclassification Rate") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+### Local Reference Database Assigned by Global Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  filter(., Metric=="Misclassification Rate") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  filter(., BLCA_score < 61) %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+### Local Reference Database Assigned by Local Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  filter(., Metric=="Misclassification Rate") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+    filter(., BLCA_score < 61) %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+## Under-classification Rate
+
+### Local Reference Database Assigned by Global Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  filter(., Metric=="Under-classification Rate ") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+### Local Reference Database Assigned by Local Reference Database
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  filter(., Metric=="Under-classification Rate ") %>% 
+  filter(., Taxonomic_rank=="Species") %>% 
+  summarise(., max(Value), mean(Value), min(Value))
+```
+
+### Global reference Database Assigned by Global Reference database Taxonomic cutoff score 60 results
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_global_trim") %>% 
+  filter(., BLCA_score==60) %>% 
+  filter(., Taxonomic_rank=="Species")
+```
+
+```{r}
+
+write.csv(all_Data_df,file = here("Data","TAXXI","TAXXI_summary.csv"))
+```
+
+
+### Contignency Table
+
+```{r}
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_global_trim") %>% 
+  filter(., BLCA_score==60) %>% 
+  filter(., Taxonomic_rank=="Species") 
+  
+
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="global_trim_vs_local_trim") %>% 
+  filter(., BLCA_score==60) %>% 
+  filter(., Taxonomic_rank=="Species") 
+
+all_Data_df %>% 
+  mutate(., Value = replace_na(Value, 0)) %>% 
+  filter(., Comparison=="local_trim_vs_local_trim") %>% 
+  filter(., BLCA_score==60) %>% 
+  filter(., Taxonomic_rank=="Species") 
+  
+```

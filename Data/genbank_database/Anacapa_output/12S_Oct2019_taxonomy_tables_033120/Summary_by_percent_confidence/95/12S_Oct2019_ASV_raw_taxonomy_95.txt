@@ -1,0 +1,2153 @@
+Oct2019_seq_number	X12S_Oct2019_LSC.B.1.S22.L001	X12S_Oct2019_PP.B.1.S4.L001	X12S_Oct2019_PedRF.B.1.S13.L001	sum taxonomy
+forward_12S_Oct2019_1	14	73	53	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_2	43	18	10	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_3	38	15	18	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_4	31	4	19	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_5	0	38	10	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_6	0	0	37	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_7	12	12	7	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_8	14	0	11	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_9	17	2	2	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_10	10	5	3	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_11	11	5	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_12	1	6	8	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_13	5	6	3	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_14	5	6	3	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_15	2	11	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_16	2	1	10	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_17	0	11	2	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_18	3	1	7	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_19	0	6	5	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_20	2	5	3	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_21	2	4	4	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_22	0	0	10	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_23	6	2	1	
+forward_12S_Oct2019_24	8	0	0	
+forward_12S_Oct2019_25	5	2	1	
+forward_12S_Oct2019_26	5	1	2	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_27	7	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_28	5	1	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_29	5	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_30	4	2	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_31	2	2	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_32	0	2	4	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_33	0	2	4	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_34	0	0	6	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_35	4	1	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_36	3	0	2	
+forward_12S_Oct2019_37	0	1	4	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_38	4	0	0	
+forward_12S_Oct2019_39	4	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_40	4	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_41	3	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_42	3	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_43	3	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_44	2	1	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_45	1	2	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_46	0	4	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_47	0	4	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_12S_Oct2019_48	0	0	4	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_49	0	0	4	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_50	0	0	4	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_51	0	0	4	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_52	0	0	4	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;;
+forward_12S_Oct2019_53	3	0	0	
+forward_12S_Oct2019_54	3	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_55	2	0	1	
+forward_12S_Oct2019_56	2	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_57	2	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_58	1	2	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_59	1	0	2	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_60	1	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_61	1	0	2	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_62	1	0	2	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_63	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_64	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_65	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_66	0	2	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_67	0	2	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_68	0	0	3	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_69	0	0	3	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_70	2	0	0	
+forward_12S_Oct2019_71	2	0	0	
+forward_12S_Oct2019_72	2	0	0	
+forward_12S_Oct2019_73	2	0	0	
+forward_12S_Oct2019_74	2	0	0	
+forward_12S_Oct2019_75	2	0	0	
+forward_12S_Oct2019_76	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_77	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_78	2	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_79	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_80	2	0	0	
+forward_12S_Oct2019_81	2	0	0	
+forward_12S_Oct2019_82	2	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_83	2	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_84	2	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_85	2	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_86	2	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_87	1	0	1	
+forward_12S_Oct2019_88	1	1	0	
+forward_12S_Oct2019_89	1	1	0	
+forward_12S_Oct2019_90	1	1	0	
+forward_12S_Oct2019_91	1	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_92	1	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_93	1	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_94	1	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_95	1	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_96	1	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_97	1	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_98	1	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_99	0	2	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_100	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_101	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_102	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_103	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_104	0	2	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_105	0	2	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_106	0	2	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_107	0	2	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_108	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_109	0	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_110	0	2	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Brachyistius;Brachyistius frenatus
+forward_12S_Oct2019_111	0	1	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_112	0	1	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_113	0	1	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_114	0	0	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_115	0	0	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_116	0	0	2	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_117	0	0	2	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_118	0	0	2	Eukaryota;Chordata;Actinopteri;Blenniiformes;;;
+forward_12S_Oct2019_119	0	0	2	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_120	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_121	0	0	2	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_122	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_123	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_124	1	0	0	
+forward_12S_Oct2019_125	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_126	1	0	0	
+forward_12S_Oct2019_127	1	0	0	
+forward_12S_Oct2019_128	1	0	0	
+forward_12S_Oct2019_129	1	0	0	
+forward_12S_Oct2019_130	1	0	0	
+forward_12S_Oct2019_131	1	0	0	
+forward_12S_Oct2019_132	1	0	0	
+forward_12S_Oct2019_133	1	0	0	
+forward_12S_Oct2019_134	1	0	0	
+forward_12S_Oct2019_135	1	0	0	
+forward_12S_Oct2019_136	1	0	0	
+forward_12S_Oct2019_137	1	0	0	
+forward_12S_Oct2019_138	1	0	0	
+forward_12S_Oct2019_139	1	0	0	
+forward_12S_Oct2019_140	1	0	0	
+forward_12S_Oct2019_141	1	0	0	
+forward_12S_Oct2019_142	1	0	0	
+forward_12S_Oct2019_143	1	0	0	
+forward_12S_Oct2019_144	1	0	0	
+forward_12S_Oct2019_145	1	0	0	
+forward_12S_Oct2019_146	1	0	0	
+forward_12S_Oct2019_147	1	0	0	
+forward_12S_Oct2019_148	1	0	0	
+forward_12S_Oct2019_149	1	0	0	
+forward_12S_Oct2019_150	1	0	0	
+forward_12S_Oct2019_151	1	0	0	
+forward_12S_Oct2019_152	1	0	0	
+forward_12S_Oct2019_153	1	0	0	
+forward_12S_Oct2019_154	1	0	0	
+forward_12S_Oct2019_155	1	0	0	
+forward_12S_Oct2019_156	1	0	0	
+forward_12S_Oct2019_157	1	0	0	
+forward_12S_Oct2019_158	1	0	0	
+forward_12S_Oct2019_159	1	0	0	
+forward_12S_Oct2019_160	1	0	0	
+forward_12S_Oct2019_161	1	0	0	
+forward_12S_Oct2019_162	1	0	0	
+forward_12S_Oct2019_163	1	0	0	
+forward_12S_Oct2019_164	1	0	0	
+forward_12S_Oct2019_165	1	0	0	
+forward_12S_Oct2019_166	1	0	0	
+forward_12S_Oct2019_167	1	0	0	
+forward_12S_Oct2019_168	1	0	0	
+forward_12S_Oct2019_169	1	0	0	
+forward_12S_Oct2019_170	1	0	0	
+forward_12S_Oct2019_171	1	0	0	
+forward_12S_Oct2019_172	1	0	0	
+forward_12S_Oct2019_173	1	0	0	
+forward_12S_Oct2019_174	1	0	0	
+forward_12S_Oct2019_175	1	0	0	
+forward_12S_Oct2019_176	1	0	0	
+forward_12S_Oct2019_177	1	0	0	
+forward_12S_Oct2019_178	1	0	0	
+forward_12S_Oct2019_179	1	0	0	
+forward_12S_Oct2019_180	1	0	0	
+forward_12S_Oct2019_181	1	0	0	
+forward_12S_Oct2019_182	1	0	0	
+forward_12S_Oct2019_183	1	0	0	
+forward_12S_Oct2019_184	1	0	0	
+forward_12S_Oct2019_185	1	0	0	
+forward_12S_Oct2019_186	1	0	0	
+forward_12S_Oct2019_187	1	0	0	
+forward_12S_Oct2019_188	1	0	0	
+forward_12S_Oct2019_189	1	0	0	
+forward_12S_Oct2019_190	1	0	0	
+forward_12S_Oct2019_191	1	0	0	
+forward_12S_Oct2019_192	1	0	0	
+forward_12S_Oct2019_193	1	0	0	
+forward_12S_Oct2019_194	1	0	0	
+forward_12S_Oct2019_195	1	0	0	
+forward_12S_Oct2019_196	1	0	0	
+forward_12S_Oct2019_197	1	0	0	
+forward_12S_Oct2019_198	1	0	0	
+forward_12S_Oct2019_199	1	0	0	
+forward_12S_Oct2019_200	1	0	0	
+forward_12S_Oct2019_201	1	0	0	
+forward_12S_Oct2019_202	1	0	0	
+forward_12S_Oct2019_203	1	0	0	
+forward_12S_Oct2019_204	1	0	0	
+forward_12S_Oct2019_205	1	0	0	
+forward_12S_Oct2019_206	1	0	0	
+forward_12S_Oct2019_207	1	0	0	
+forward_12S_Oct2019_208	1	0	0	
+forward_12S_Oct2019_209	1	0	0	
+forward_12S_Oct2019_210	1	0	0	
+forward_12S_Oct2019_211	1	0	0	
+forward_12S_Oct2019_212	1	0	0	
+forward_12S_Oct2019_213	1	0	0	
+forward_12S_Oct2019_214	1	0	0	
+forward_12S_Oct2019_215	1	0	0	
+forward_12S_Oct2019_216	1	0	0	
+forward_12S_Oct2019_217	1	0	0	
+forward_12S_Oct2019_218	1	0	0	
+forward_12S_Oct2019_219	1	0	0	
+forward_12S_Oct2019_220	1	0	0	
+forward_12S_Oct2019_221	1	0	0	
+forward_12S_Oct2019_222	1	0	0	
+forward_12S_Oct2019_223	1	0	0	
+forward_12S_Oct2019_224	1	0	0	
+forward_12S_Oct2019_225	1	0	0	
+forward_12S_Oct2019_226	1	0	0	
+forward_12S_Oct2019_227	1	0	0	
+forward_12S_Oct2019_228	1	0	0	
+forward_12S_Oct2019_229	1	0	0	
+forward_12S_Oct2019_230	1	0	0	
+forward_12S_Oct2019_231	1	0	0	
+forward_12S_Oct2019_232	1	0	0	
+forward_12S_Oct2019_233	1	0	0	
+forward_12S_Oct2019_234	1	0	0	
+forward_12S_Oct2019_235	1	0	0	
+forward_12S_Oct2019_236	1	0	0	
+forward_12S_Oct2019_237	1	0	0	
+forward_12S_Oct2019_238	1	0	0	
+forward_12S_Oct2019_239	1	0	0	
+forward_12S_Oct2019_240	1	0	0	
+forward_12S_Oct2019_241	1	0	0	
+forward_12S_Oct2019_242	1	0	0	
+forward_12S_Oct2019_243	1	0	0	
+forward_12S_Oct2019_244	1	0	0	
+forward_12S_Oct2019_245	1	0	0	
+forward_12S_Oct2019_246	1	0	0	
+forward_12S_Oct2019_247	1	0	0	
+forward_12S_Oct2019_248	1	0	0	
+forward_12S_Oct2019_249	1	0	0	
+forward_12S_Oct2019_250	1	0	0	
+forward_12S_Oct2019_251	1	0	0	
+forward_12S_Oct2019_252	1	0	0	
+forward_12S_Oct2019_253	1	0	0	
+forward_12S_Oct2019_254	1	0	0	
+forward_12S_Oct2019_255	1	0	0	
+forward_12S_Oct2019_256	1	0	0	
+forward_12S_Oct2019_257	1	0	0	
+forward_12S_Oct2019_258	1	0	0	
+forward_12S_Oct2019_259	1	0	0	
+forward_12S_Oct2019_260	1	0	0	
+forward_12S_Oct2019_261	1	0	0	
+forward_12S_Oct2019_262	1	0	0	
+forward_12S_Oct2019_263	1	0	0	
+forward_12S_Oct2019_264	1	0	0	
+forward_12S_Oct2019_265	1	0	0	
+forward_12S_Oct2019_266	1	0	0	
+forward_12S_Oct2019_267	1	0	0	
+forward_12S_Oct2019_268	1	0	0	
+forward_12S_Oct2019_269	1	0	0	
+forward_12S_Oct2019_270	1	0	0	
+forward_12S_Oct2019_271	1	0	0	
+forward_12S_Oct2019_272	1	0	0	
+forward_12S_Oct2019_273	1	0	0	
+forward_12S_Oct2019_274	1	0	0	
+forward_12S_Oct2019_275	1	0	0	
+forward_12S_Oct2019_276	1	0	0	
+forward_12S_Oct2019_277	1	0	0	
+forward_12S_Oct2019_278	1	0	0	
+forward_12S_Oct2019_279	1	0	0	
+forward_12S_Oct2019_280	1	0	0	
+forward_12S_Oct2019_281	1	0	0	
+forward_12S_Oct2019_282	1	0	0	
+forward_12S_Oct2019_283	1	0	0	
+forward_12S_Oct2019_284	1	0	0	
+forward_12S_Oct2019_285	1	0	0	
+forward_12S_Oct2019_286	1	0	0	
+forward_12S_Oct2019_287	1	0	0	
+forward_12S_Oct2019_288	1	0	0	
+forward_12S_Oct2019_289	1	0	0	
+forward_12S_Oct2019_290	1	0	0	
+forward_12S_Oct2019_291	1	0	0	
+forward_12S_Oct2019_292	1	0	0	
+forward_12S_Oct2019_293	1	0	0	
+forward_12S_Oct2019_294	1	0	0	
+forward_12S_Oct2019_295	1	0	0	
+forward_12S_Oct2019_296	1	0	0	
+forward_12S_Oct2019_297	1	0	0	
+forward_12S_Oct2019_298	1	0	0	
+forward_12S_Oct2019_299	1	0	0	
+forward_12S_Oct2019_300	1	0	0	
+forward_12S_Oct2019_301	1	0	0	
+forward_12S_Oct2019_302	1	0	0	
+forward_12S_Oct2019_303	1	0	0	
+forward_12S_Oct2019_304	1	0	0	
+forward_12S_Oct2019_305	1	0	0	
+forward_12S_Oct2019_306	1	0	0	
+forward_12S_Oct2019_307	1	0	0	
+forward_12S_Oct2019_308	1	0	0	
+forward_12S_Oct2019_309	1	0	0	
+forward_12S_Oct2019_310	1	0	0	
+forward_12S_Oct2019_311	1	0	0	
+forward_12S_Oct2019_312	1	0	0	
+forward_12S_Oct2019_313	1	0	0	
+forward_12S_Oct2019_314	1	0	0	
+forward_12S_Oct2019_315	1	0	0	
+forward_12S_Oct2019_316	1	0	0	
+forward_12S_Oct2019_317	1	0	0	
+forward_12S_Oct2019_318	1	0	0	
+forward_12S_Oct2019_319	1	0	0	
+forward_12S_Oct2019_320	1	0	0	
+forward_12S_Oct2019_321	1	0	0	
+forward_12S_Oct2019_322	1	0	0	
+forward_12S_Oct2019_323	1	0	0	
+forward_12S_Oct2019_324	1	0	0	
+forward_12S_Oct2019_325	1	0	0	
+forward_12S_Oct2019_326	1	0	0	
+forward_12S_Oct2019_327	1	0	0	
+forward_12S_Oct2019_328	1	0	0	
+forward_12S_Oct2019_329	1	0	0	
+forward_12S_Oct2019_330	1	0	0	
+forward_12S_Oct2019_331	1	0	0	
+forward_12S_Oct2019_332	1	0	0	
+forward_12S_Oct2019_333	1	0	0	
+forward_12S_Oct2019_334	1	0	0	
+forward_12S_Oct2019_335	1	0	0	
+forward_12S_Oct2019_336	1	0	0	
+forward_12S_Oct2019_337	1	0	0	
+forward_12S_Oct2019_338	1	0	0	
+forward_12S_Oct2019_339	1	0	0	
+forward_12S_Oct2019_340	1	0	0	
+forward_12S_Oct2019_341	1	0	0	
+forward_12S_Oct2019_342	1	0	0	
+forward_12S_Oct2019_343	1	0	0	
+forward_12S_Oct2019_344	1	0	0	
+forward_12S_Oct2019_345	1	0	0	
+forward_12S_Oct2019_346	1	0	0	
+forward_12S_Oct2019_347	1	0	0	
+forward_12S_Oct2019_348	1	0	0	
+forward_12S_Oct2019_349	1	0	0	
+forward_12S_Oct2019_350	1	0	0	
+forward_12S_Oct2019_351	1	0	0	
+forward_12S_Oct2019_352	1	0	0	
+forward_12S_Oct2019_353	1	0	0	
+forward_12S_Oct2019_354	1	0	0	
+forward_12S_Oct2019_355	1	0	0	
+forward_12S_Oct2019_356	1	0	0	
+forward_12S_Oct2019_357	1	0	0	
+forward_12S_Oct2019_358	1	0	0	
+forward_12S_Oct2019_359	1	0	0	
+forward_12S_Oct2019_360	1	0	0	
+forward_12S_Oct2019_361	1	0	0	
+forward_12S_Oct2019_362	1	0	0	
+forward_12S_Oct2019_363	1	0	0	
+forward_12S_Oct2019_364	1	0	0	
+forward_12S_Oct2019_365	1	0	0	
+forward_12S_Oct2019_366	1	0	0	
+forward_12S_Oct2019_367	1	0	0	
+forward_12S_Oct2019_368	1	0	0	
+forward_12S_Oct2019_369	1	0	0	
+forward_12S_Oct2019_370	1	0	0	
+forward_12S_Oct2019_371	1	0	0	
+forward_12S_Oct2019_372	1	0	0	
+forward_12S_Oct2019_373	1	0	0	
+forward_12S_Oct2019_374	1	0	0	
+forward_12S_Oct2019_375	1	0	0	
+forward_12S_Oct2019_376	1	0	0	
+forward_12S_Oct2019_377	1	0	0	
+forward_12S_Oct2019_378	1	0	0	
+forward_12S_Oct2019_379	1	0	0	
+forward_12S_Oct2019_380	1	0	0	
+forward_12S_Oct2019_381	1	0	0	
+forward_12S_Oct2019_382	1	0	0	
+forward_12S_Oct2019_383	1	0	0	
+forward_12S_Oct2019_384	1	0	0	
+forward_12S_Oct2019_385	1	0	0	
+forward_12S_Oct2019_386	1	0	0	
+forward_12S_Oct2019_387	1	0	0	
+forward_12S_Oct2019_388	1	0	0	
+forward_12S_Oct2019_389	1	0	0	
+forward_12S_Oct2019_390	1	0	0	
+forward_12S_Oct2019_391	1	0	0	
+forward_12S_Oct2019_392	1	0	0	
+forward_12S_Oct2019_393	1	0	0	
+forward_12S_Oct2019_394	1	0	0	
+forward_12S_Oct2019_395	1	0	0	
+forward_12S_Oct2019_396	1	0	0	
+forward_12S_Oct2019_397	1	0	0	
+forward_12S_Oct2019_398	1	0	0	
+forward_12S_Oct2019_399	1	0	0	
+forward_12S_Oct2019_400	1	0	0	
+forward_12S_Oct2019_401	1	0	0	
+forward_12S_Oct2019_402	1	0	0	
+forward_12S_Oct2019_403	1	0	0	
+forward_12S_Oct2019_404	1	0	0	
+forward_12S_Oct2019_405	1	0	0	
+forward_12S_Oct2019_406	1	0	0	
+forward_12S_Oct2019_407	1	0	0	
+forward_12S_Oct2019_408	1	0	0	
+forward_12S_Oct2019_409	1	0	0	
+forward_12S_Oct2019_410	1	0	0	
+forward_12S_Oct2019_411	1	0	0	
+forward_12S_Oct2019_412	1	0	0	
+forward_12S_Oct2019_413	1	0	0	
+forward_12S_Oct2019_414	1	0	0	
+forward_12S_Oct2019_415	1	0	0	
+forward_12S_Oct2019_416	1	0	0	
+forward_12S_Oct2019_417	1	0	0	
+forward_12S_Oct2019_418	1	0	0	
+forward_12S_Oct2019_419	1	0	0	
+forward_12S_Oct2019_420	1	0	0	
+forward_12S_Oct2019_421	1	0	0	
+forward_12S_Oct2019_422	1	0	0	
+forward_12S_Oct2019_423	1	0	0	
+forward_12S_Oct2019_424	1	0	0	
+forward_12S_Oct2019_425	1	0	0	
+forward_12S_Oct2019_426	1	0	0	
+forward_12S_Oct2019_427	1	0	0	
+forward_12S_Oct2019_428	1	0	0	
+forward_12S_Oct2019_429	1	0	0	
+forward_12S_Oct2019_430	1	0	0	
+forward_12S_Oct2019_431	1	0	0	
+forward_12S_Oct2019_432	1	0	0	
+forward_12S_Oct2019_433	1	0	0	
+forward_12S_Oct2019_434	1	0	0	
+forward_12S_Oct2019_435	1	0	0	
+forward_12S_Oct2019_436	1	0	0	
+forward_12S_Oct2019_437	1	0	0	
+forward_12S_Oct2019_438	1	0	0	
+forward_12S_Oct2019_439	1	0	0	
+forward_12S_Oct2019_440	1	0	0	
+forward_12S_Oct2019_441	1	0	0	
+forward_12S_Oct2019_442	1	0	0	
+forward_12S_Oct2019_443	1	0	0	
+forward_12S_Oct2019_444	1	0	0	
+forward_12S_Oct2019_445	1	0	0	
+forward_12S_Oct2019_446	1	0	0	
+forward_12S_Oct2019_447	1	0	0	
+forward_12S_Oct2019_448	1	0	0	
+forward_12S_Oct2019_449	1	0	0	
+forward_12S_Oct2019_450	1	0	0	
+forward_12S_Oct2019_451	1	0	0	
+forward_12S_Oct2019_452	1	0	0	
+forward_12S_Oct2019_453	1	0	0	
+forward_12S_Oct2019_454	1	0	0	
+forward_12S_Oct2019_455	1	0	0	
+forward_12S_Oct2019_456	1	0	0	
+forward_12S_Oct2019_457	1	0	0	
+forward_12S_Oct2019_458	1	0	0	
+forward_12S_Oct2019_459	1	0	0	
+forward_12S_Oct2019_460	1	0	0	
+forward_12S_Oct2019_461	1	0	0	
+forward_12S_Oct2019_462	1	0	0	
+forward_12S_Oct2019_463	1	0	0	
+forward_12S_Oct2019_464	1	0	0	
+forward_12S_Oct2019_465	1	0	0	
+forward_12S_Oct2019_466	1	0	0	
+forward_12S_Oct2019_467	1	0	0	
+forward_12S_Oct2019_468	1	0	0	
+forward_12S_Oct2019_469	1	0	0	
+forward_12S_Oct2019_470	1	0	0	
+forward_12S_Oct2019_471	1	0	0	
+forward_12S_Oct2019_472	1	0	0	
+forward_12S_Oct2019_473	1	0	0	
+forward_12S_Oct2019_474	1	0	0	
+forward_12S_Oct2019_475	1	0	0	
+forward_12S_Oct2019_476	1	0	0	
+forward_12S_Oct2019_477	1	0	0	
+forward_12S_Oct2019_478	1	0	0	
+forward_12S_Oct2019_479	1	0	0	
+forward_12S_Oct2019_480	1	0	0	
+forward_12S_Oct2019_481	1	0	0	
+forward_12S_Oct2019_482	1	0	0	
+forward_12S_Oct2019_483	1	0	0	
+forward_12S_Oct2019_484	1	0	0	
+forward_12S_Oct2019_485	1	0	0	
+forward_12S_Oct2019_486	1	0	0	
+forward_12S_Oct2019_487	1	0	0	
+forward_12S_Oct2019_488	1	0	0	
+forward_12S_Oct2019_489	1	0	0	
+forward_12S_Oct2019_490	1	0	0	
+forward_12S_Oct2019_491	1	0	0	
+forward_12S_Oct2019_492	1	0	0	
+forward_12S_Oct2019_493	1	0	0	
+forward_12S_Oct2019_494	1	0	0	
+forward_12S_Oct2019_495	1	0	0	
+forward_12S_Oct2019_496	1	0	0	
+forward_12S_Oct2019_497	1	0	0	
+forward_12S_Oct2019_498	1	0	0	
+forward_12S_Oct2019_499	1	0	0	
+forward_12S_Oct2019_500	1	0	0	
+forward_12S_Oct2019_501	1	0	0	
+forward_12S_Oct2019_502	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_503	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_504	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;
+forward_12S_Oct2019_505	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_506	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_507	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_508	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;
+forward_12S_Oct2019_509	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_510	1	0	0	
+forward_12S_Oct2019_511	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_512	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_513	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_514	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_515	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_516	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_517	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_518	1	0	0	
+forward_12S_Oct2019_519	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_520	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_521	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_522	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_523	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_524	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_525	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_526	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_527	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_528	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_529	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_530	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_531	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_532	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_533	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_534	1	0	0	
+forward_12S_Oct2019_535	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_536	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_537	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_538	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_539	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_540	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_541	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_542	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_543	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_544	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_545	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_546	1	0	0	
+forward_12S_Oct2019_547	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_548	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_549	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_550	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_551	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_552	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_553	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_554	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_555	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_556	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_557	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_558	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_559	1	0	0	
+forward_12S_Oct2019_560	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_561	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_562	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_563	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_564	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_565	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_566	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_567	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Scombropidae;Scombrops;
+forward_12S_Oct2019_568	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_569	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_570	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_571	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_572	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_573	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_574	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_575	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_576	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_577	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_578	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_579	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_580	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;
+forward_12S_Oct2019_581	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_582	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_583	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_584	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_585	1	0	0	
+forward_12S_Oct2019_586	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_587	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_588	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_589	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_590	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_591	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_592	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_593	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_594	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_595	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_596	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+forward_12S_Oct2019_597	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_598	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_599	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;;;
+forward_12S_Oct2019_600	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_601	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_602	1	0	0	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus kasmira
+forward_12S_Oct2019_603	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_604	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_605	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_606	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_607	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_608	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_609	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_610	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_611	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_612	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_613	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_614	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Monodactylidae;Monodactylus;Monodactylus argenteus
+forward_12S_Oct2019_615	1	0	0	
+forward_12S_Oct2019_616	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Grammistes;Grammistes sexlineatus
+forward_12S_Oct2019_617	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_618	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_619	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Monodactylidae;Monodactylus;Monodactylus argenteus
+forward_12S_Oct2019_620	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_621	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_622	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_623	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis japonicus
+forward_12S_Oct2019_624	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_625	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_626	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_627	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_628	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_629	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_630	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_631	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_632	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_633	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_634	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_635	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_636	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_637	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_638	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_639	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_640	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_641	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_642	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_643	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_644	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_645	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_646	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_647	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_648	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_649	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_650	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_651	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_652	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_653	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_654	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_655	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_656	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_657	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_658	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_659	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_660	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_661	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_662	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_663	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_664	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_665	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_666	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_667	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_668	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_669	1	0	0	
+forward_12S_Oct2019_670	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_671	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_12S_Oct2019_672	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_673	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_674	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_675	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_676	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_677	1	0	0	
+forward_12S_Oct2019_678	1	0	0	
+forward_12S_Oct2019_679	1	0	0	
+forward_12S_Oct2019_680	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_681	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Tripterygiidae;Enneapterygius;Enneapterygius philippinus
+forward_12S_Oct2019_682	1	0	0	
+forward_12S_Oct2019_683	1	0	0	
+forward_12S_Oct2019_684	1	0	0	
+forward_12S_Oct2019_685	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_686	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_687	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_688	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_689	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;;
+forward_12S_Oct2019_690	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+forward_12S_Oct2019_691	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_692	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_693	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_694	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_695	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_696	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_697	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_698	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_699	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_700	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_701	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_702	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_703	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_704	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_705	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_706	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_707	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_708	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_709	1	0	0	
+forward_12S_Oct2019_710	1	0	0	
+forward_12S_Oct2019_711	1	0	0	
+forward_12S_Oct2019_712	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_713	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_714	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_715	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_716	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_717	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_718	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_719	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_720	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_721	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_722	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_723	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_724	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_725	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_726	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_727	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+forward_12S_Oct2019_728	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_729	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_730	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_731	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_732	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_733	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_734	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_735	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_736	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_737	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_738	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_739	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_740	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_741	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_742	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_743	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_744	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_745	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_746	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_747	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_748	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_749	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;;
+forward_12S_Oct2019_750	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_751	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_752	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_753	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;;
+forward_12S_Oct2019_754	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_755	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_756	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_757	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_758	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_759	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_760	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_761	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_762	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_763	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_764	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_765	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_766	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_767	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_768	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_769	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_770	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_771	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_772	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_773	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_774	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_775	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_776	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_777	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_778	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_779	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_780	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_781	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_782	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_783	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_784	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_785	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_786	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_787	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_788	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_789	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_790	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_791	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_792	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_793	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_794	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_795	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_796	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_797	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_798	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_799	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_800	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_801	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_802	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_803	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_804	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_805	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_806	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_807	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_808	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_809	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_810	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_811	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_812	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_813	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_814	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_815	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_816	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_817	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_818	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_819	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_820	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_821	1	0	0	
+forward_12S_Oct2019_822	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_823	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_824	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_825	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_826	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_827	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_828	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_829	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_830	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_831	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_832	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_833	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_834	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_835	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_836	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;;
+forward_12S_Oct2019_837	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_838	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_839	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_840	1	0	0	
+forward_12S_Oct2019_841	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_842	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_843	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_844	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_845	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_846	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_847	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_848	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_849	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_850	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_851	1	0	0	
+forward_12S_Oct2019_852	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_853	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_854	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_855	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_856	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_857	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_858	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_859	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_860	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_861	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_862	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_863	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_864	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_865	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_866	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_867	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_868	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_869	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_870	1	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+forward_12S_Oct2019_871	1	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+forward_12S_Oct2019_872	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_873	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_874	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_875	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_876	1	0	0	Eukaryota;Chordata;Actinopteri;Alepocephaliformes;Platytroctidae;Normichthys;Normichthys operosus
+forward_12S_Oct2019_877	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_878	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_879	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;;
+forward_12S_Oct2019_880	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_881	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_882	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_883	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_884	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_885	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax unicolor
+forward_12S_Oct2019_886	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_887	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_888	1	0	0	
+forward_12S_Oct2019_889	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_890	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_891	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_892	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_893	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_894	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_895	1	0	0	
+forward_12S_Oct2019_896	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_897	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_898	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_899	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_900	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_901	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_902	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_903	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_904	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_905	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_906	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_907	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_908	1	0	0	
+forward_12S_Oct2019_909	1	0	0	
+forward_12S_Oct2019_910	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_911	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_912	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_913	1	0	0	
+forward_12S_Oct2019_914	1	0	0	
+forward_12S_Oct2019_915	1	0	0	
+forward_12S_Oct2019_916	1	0	0	
+forward_12S_Oct2019_917	1	0	0	
+forward_12S_Oct2019_918	1	0	0	
+forward_12S_Oct2019_919	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_920	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_921	1	0	0	
+forward_12S_Oct2019_922	1	0	0	
+forward_12S_Oct2019_923	1	0	0	
+forward_12S_Oct2019_924	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_925	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_926	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_927	0	1	0	
+forward_12S_Oct2019_928	0	1	0	
+forward_12S_Oct2019_929	0	1	0	
+forward_12S_Oct2019_930	0	1	0	
+forward_12S_Oct2019_931	0	1	0	
+forward_12S_Oct2019_932	0	1	0	
+forward_12S_Oct2019_933	0	1	0	
+forward_12S_Oct2019_934	0	1	0	
+forward_12S_Oct2019_935	0	1	0	
+forward_12S_Oct2019_936	0	1	0	
+forward_12S_Oct2019_937	0	1	0	
+forward_12S_Oct2019_938	0	1	0	
+forward_12S_Oct2019_939	0	1	0	
+forward_12S_Oct2019_940	0	1	0	
+forward_12S_Oct2019_941	0	1	0	
+forward_12S_Oct2019_942	0	1	0	
+forward_12S_Oct2019_943	0	1	0	
+forward_12S_Oct2019_944	0	1	0	
+forward_12S_Oct2019_945	0	1	0	
+forward_12S_Oct2019_946	0	1	0	
+forward_12S_Oct2019_947	0	1	0	
+forward_12S_Oct2019_948	0	1	0	
+forward_12S_Oct2019_949	0	1	0	
+forward_12S_Oct2019_950	0	1	0	
+forward_12S_Oct2019_951	0	1	0	
+forward_12S_Oct2019_952	0	1	0	
+forward_12S_Oct2019_953	0	1	0	
+forward_12S_Oct2019_954	0	1	0	
+forward_12S_Oct2019_955	0	1	0	
+forward_12S_Oct2019_956	0	1	0	
+forward_12S_Oct2019_957	0	1	0	
+forward_12S_Oct2019_958	0	1	0	
+forward_12S_Oct2019_959	0	1	0	
+forward_12S_Oct2019_960	0	1	0	
+forward_12S_Oct2019_961	0	1	0	
+forward_12S_Oct2019_962	0	1	0	
+forward_12S_Oct2019_963	0	1	0	
+forward_12S_Oct2019_964	0	1	0	
+forward_12S_Oct2019_965	0	1	0	
+forward_12S_Oct2019_966	0	1	0	
+forward_12S_Oct2019_967	0	1	0	
+forward_12S_Oct2019_968	0	1	0	
+forward_12S_Oct2019_969	0	1	0	
+forward_12S_Oct2019_970	0	1	0	
+forward_12S_Oct2019_971	0	1	0	
+forward_12S_Oct2019_972	0	1	0	
+forward_12S_Oct2019_973	0	1	0	
+forward_12S_Oct2019_974	0	1	0	
+forward_12S_Oct2019_975	0	1	0	
+forward_12S_Oct2019_976	0	1	0	
+forward_12S_Oct2019_977	0	1	0	
+forward_12S_Oct2019_978	0	1	0	
+forward_12S_Oct2019_979	0	1	0	
+forward_12S_Oct2019_980	0	1	0	
+forward_12S_Oct2019_981	0	1	0	
+forward_12S_Oct2019_982	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_983	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_984	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_985	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_986	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_987	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_988	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_989	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_990	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_991	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_992	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_993	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_994	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_995	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_996	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_997	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_998	0	1	0	
+forward_12S_Oct2019_999	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1000	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1001	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1002	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1003	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1004	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1005	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1006	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1007	0	1	0	
+forward_12S_Oct2019_1008	0	1	0	
+forward_12S_Oct2019_1009	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1010	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1011	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1012	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1013	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1014	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1015	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1016	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1017	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1018	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1019	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1020	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1021	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1022	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1023	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1024	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1025	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1026	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1027	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1028	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1029	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1030	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1031	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1032	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1033	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1034	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1035	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1036	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1037	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1038	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1039	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1040	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1041	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1042	0	1	0	
+forward_12S_Oct2019_1043	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1044	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1045	0	1	0	
+forward_12S_Oct2019_1046	0	1	0	
+forward_12S_Oct2019_1047	0	1	0	
+forward_12S_Oct2019_1048	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1049	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1050	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1051	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1052	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1053	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1054	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1055	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1056	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1057	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1058	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1059	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1060	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1061	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1062	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1063	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1064	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1065	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1066	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1067	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1068	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1069	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1070	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1071	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1072	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1073	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1074	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1075	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1076	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1077	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1078	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1079	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1080	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1081	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1082	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1083	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1084	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1085	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella tricuspidata
+forward_12S_Oct2019_1086	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_1087	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_1088	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1089	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1090	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Microcanthus;Microcanthus strigatus
+forward_12S_Oct2019_1091	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1092	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1093	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1094	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1095	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1096	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1097	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1098	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1099	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1100	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1101	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1102	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1103	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1104	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1105	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1106	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1107	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_1108	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1109	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1110	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1111	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1112	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1113	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1114	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1115	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1116	0	1	0	
+forward_12S_Oct2019_1117	0	1	0	
+forward_12S_Oct2019_1118	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1119	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1120	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1121	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1122	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1123	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1124	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1125	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1126	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1127	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1128	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1129	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1130	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1131	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1132	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1133	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1134	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1135	0	1	0	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;
+forward_12S_Oct2019_1136	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1137	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1138	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1139	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1140	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1141	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1142	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1143	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1144	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1145	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1146	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1147	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1148	0	1	0	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus argentimaculatus
+forward_12S_Oct2019_1149	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1150	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1151	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1152	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1153	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1154	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1155	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1156	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1157	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1158	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1159	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1160	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1161	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1162	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1163	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1164	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1165	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_12S_Oct2019_1166	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1167	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1168	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1169	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1170	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1171	0	1	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+forward_12S_Oct2019_1172	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1173	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1174	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1175	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1176	0	1	0	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Xystreurys;Xystreurys liolepis
+forward_12S_Oct2019_1177	0	1	0	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;
+forward_12S_Oct2019_1178	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1179	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1180	0	1	0	
+forward_12S_Oct2019_1181	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1182	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1183	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1184	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1185	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1186	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1187	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1188	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1189	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1190	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1191	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1192	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1193	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1194	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1195	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1196	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1197	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1198	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1199	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1200	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1201	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+forward_12S_Oct2019_1202	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1203	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1204	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1205	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1206	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1207	0	1	0	
+forward_12S_Oct2019_1208	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+forward_12S_Oct2019_1209	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1210	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1211	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1212	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1213	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1214	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1215	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1216	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1217	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1218	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1219	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1220	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1221	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1222	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1223	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1224	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1225	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1226	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1227	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1228	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1229	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1230	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1231	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1232	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1233	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1234	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1235	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1236	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1237	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1238	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_12S_Oct2019_1239	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1240	0	1	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1241	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_12S_Oct2019_1242	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1243	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1244	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_12S_Oct2019_1245	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1246	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1247	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1248	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1249	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1250	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_12S_Oct2019_1251	0	1	0	
+forward_12S_Oct2019_1252	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1253	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1254	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1255	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1256	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1257	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1258	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1259	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1260	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1261	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1262	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1263	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1264	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1265	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1266	0	1	0	
+forward_12S_Oct2019_1267	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1268	0	1	0	
+forward_12S_Oct2019_1269	0	0	1	
+forward_12S_Oct2019_1270	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1271	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1272	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1273	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1274	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1275	0	0	1	
+forward_12S_Oct2019_1276	0	0	1	
+forward_12S_Oct2019_1277	0	0	1	
+forward_12S_Oct2019_1278	0	0	1	
+forward_12S_Oct2019_1279	0	0	1	
+forward_12S_Oct2019_1280	0	0	1	
+forward_12S_Oct2019_1281	0	0	1	
+forward_12S_Oct2019_1282	0	0	1	
+forward_12S_Oct2019_1283	0	0	1	
+forward_12S_Oct2019_1284	0	0	1	
+forward_12S_Oct2019_1285	0	0	1	
+forward_12S_Oct2019_1286	0	0	1	
+forward_12S_Oct2019_1287	0	0	1	
+forward_12S_Oct2019_1288	0	0	1	
+forward_12S_Oct2019_1289	0	0	1	
+forward_12S_Oct2019_1290	0	0	1	
+forward_12S_Oct2019_1291	0	0	1	
+forward_12S_Oct2019_1292	0	0	1	
+forward_12S_Oct2019_1293	0	0	1	
+forward_12S_Oct2019_1294	0	0	1	
+forward_12S_Oct2019_1295	0	0	1	
+forward_12S_Oct2019_1296	0	0	1	
+forward_12S_Oct2019_1297	0	0	1	
+forward_12S_Oct2019_1298	0	0	1	
+forward_12S_Oct2019_1299	0	0	1	
+forward_12S_Oct2019_1300	0	0	1	
+forward_12S_Oct2019_1301	0	0	1	
+forward_12S_Oct2019_1302	0	0	1	
+forward_12S_Oct2019_1303	0	0	1	
+forward_12S_Oct2019_1304	0	0	1	
+forward_12S_Oct2019_1305	0	0	1	
+forward_12S_Oct2019_1306	0	0	1	
+forward_12S_Oct2019_1307	0	0	1	
+forward_12S_Oct2019_1308	0	0	1	
+forward_12S_Oct2019_1309	0	0	1	
+forward_12S_Oct2019_1310	0	0	1	
+forward_12S_Oct2019_1311	0	0	1	
+forward_12S_Oct2019_1312	0	0	1	
+forward_12S_Oct2019_1313	0	0	1	
+forward_12S_Oct2019_1314	0	0	1	
+forward_12S_Oct2019_1315	0	0	1	
+forward_12S_Oct2019_1316	0	0	1	
+forward_12S_Oct2019_1317	0	0	1	
+forward_12S_Oct2019_1318	0	0	1	
+forward_12S_Oct2019_1319	0	0	1	
+forward_12S_Oct2019_1320	0	0	1	
+forward_12S_Oct2019_1321	0	0	1	
+forward_12S_Oct2019_1322	0	0	1	
+forward_12S_Oct2019_1323	0	0	1	
+forward_12S_Oct2019_1324	0	0	1	
+forward_12S_Oct2019_1325	0	0	1	
+forward_12S_Oct2019_1326	0	0	1	
+forward_12S_Oct2019_1327	0	0	1	
+forward_12S_Oct2019_1328	0	0	1	
+forward_12S_Oct2019_1329	0	0	1	
+forward_12S_Oct2019_1330	0	0	1	
+forward_12S_Oct2019_1331	0	0	1	
+forward_12S_Oct2019_1332	0	0	1	
+forward_12S_Oct2019_1333	0	0	1	
+forward_12S_Oct2019_1334	0	0	1	
+forward_12S_Oct2019_1335	0	0	1	
+forward_12S_Oct2019_1336	0	0	1	
+forward_12S_Oct2019_1337	0	0	1	
+forward_12S_Oct2019_1338	0	0	1	
+forward_12S_Oct2019_1339	0	0	1	
+forward_12S_Oct2019_1340	0	0	1	
+forward_12S_Oct2019_1341	0	0	1	
+forward_12S_Oct2019_1342	0	0	1	
+forward_12S_Oct2019_1343	0	0	1	
+forward_12S_Oct2019_1344	0	0	1	
+forward_12S_Oct2019_1345	0	0	1	
+forward_12S_Oct2019_1346	0	0	1	
+forward_12S_Oct2019_1347	0	0	1	
+forward_12S_Oct2019_1348	0	0	1	
+forward_12S_Oct2019_1349	0	0	1	
+forward_12S_Oct2019_1350	0	0	1	
+forward_12S_Oct2019_1351	0	0	1	
+forward_12S_Oct2019_1352	0	0	1	
+forward_12S_Oct2019_1353	0	0	1	
+forward_12S_Oct2019_1354	0	0	1	
+forward_12S_Oct2019_1355	0	0	1	
+forward_12S_Oct2019_1356	0	0	1	
+forward_12S_Oct2019_1357	0	0	1	
+forward_12S_Oct2019_1358	0	0	1	
+forward_12S_Oct2019_1359	0	0	1	
+forward_12S_Oct2019_1360	0	0	1	
+forward_12S_Oct2019_1361	0	0	1	
+forward_12S_Oct2019_1362	0	0	1	
+forward_12S_Oct2019_1363	0	0	1	
+forward_12S_Oct2019_1364	0	0	1	
+forward_12S_Oct2019_1365	0	0	1	
+forward_12S_Oct2019_1366	0	0	1	
+forward_12S_Oct2019_1367	0	0	1	
+forward_12S_Oct2019_1368	0	0	1	
+forward_12S_Oct2019_1369	0	0	1	
+forward_12S_Oct2019_1370	0	0	1	
+forward_12S_Oct2019_1371	0	0	1	
+forward_12S_Oct2019_1372	0	0	1	
+forward_12S_Oct2019_1373	0	0	1	
+forward_12S_Oct2019_1374	0	0	1	
+forward_12S_Oct2019_1375	0	0	1	
+forward_12S_Oct2019_1376	0	0	1	
+forward_12S_Oct2019_1377	0	0	1	
+forward_12S_Oct2019_1378	0	0	1	
+forward_12S_Oct2019_1379	0	0	1	
+forward_12S_Oct2019_1380	0	0	1	
+forward_12S_Oct2019_1381	0	0	1	
+forward_12S_Oct2019_1382	0	0	1	
+forward_12S_Oct2019_1383	0	0	1	
+forward_12S_Oct2019_1384	0	0	1	
+forward_12S_Oct2019_1385	0	0	1	
+forward_12S_Oct2019_1386	0	0	1	
+forward_12S_Oct2019_1387	0	0	1	
+forward_12S_Oct2019_1388	0	0	1	
+forward_12S_Oct2019_1389	0	0	1	
+forward_12S_Oct2019_1390	0	0	1	
+forward_12S_Oct2019_1391	0	0	1	
+forward_12S_Oct2019_1392	0	0	1	
+forward_12S_Oct2019_1393	0	0	1	
+forward_12S_Oct2019_1394	0	0	1	
+forward_12S_Oct2019_1395	0	0	1	
+forward_12S_Oct2019_1396	0	0	1	
+forward_12S_Oct2019_1397	0	0	1	
+forward_12S_Oct2019_1398	0	0	1	
+forward_12S_Oct2019_1399	0	0	1	
+forward_12S_Oct2019_1400	0	0	1	
+forward_12S_Oct2019_1401	0	0	1	
+forward_12S_Oct2019_1402	0	0	1	
+forward_12S_Oct2019_1403	0	0	1	
+forward_12S_Oct2019_1404	0	0	1	
+forward_12S_Oct2019_1405	0	0	1	
+forward_12S_Oct2019_1406	0	0	1	
+forward_12S_Oct2019_1407	0	0	1	
+forward_12S_Oct2019_1408	0	0	1	
+forward_12S_Oct2019_1409	0	0	1	
+forward_12S_Oct2019_1410	0	0	1	
+forward_12S_Oct2019_1411	0	0	1	
+forward_12S_Oct2019_1412	0	0	1	
+forward_12S_Oct2019_1413	0	0	1	
+forward_12S_Oct2019_1414	0	0	1	
+forward_12S_Oct2019_1415	0	0	1	
+forward_12S_Oct2019_1416	0	0	1	
+forward_12S_Oct2019_1417	0	0	1	
+forward_12S_Oct2019_1418	0	0	1	
+forward_12S_Oct2019_1419	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1420	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1421	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1422	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1423	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1424	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1425	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1426	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1427	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1428	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1429	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1430	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1431	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1432	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_1433	0	0	1	Eukaryota;Chordata;Actinopteri;Cypriniformes;Cyprinidae;;
+forward_12S_Oct2019_1434	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1435	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1436	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1437	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1438	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1439	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1440	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1441	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1442	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1443	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1444	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1445	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1446	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1447	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1448	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1449	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1450	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1451	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1452	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1453	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1454	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1455	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1456	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1457	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1458	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1459	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1460	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1461	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1462	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1463	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1464	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1465	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1466	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1467	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1468	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1469	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1470	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1471	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1472	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1473	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1474	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1475	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1476	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1477	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1478	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1479	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1480	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1481	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+forward_12S_Oct2019_1482	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1483	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1484	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1485	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1486	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1487	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1488	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1489	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1490	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1491	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1492	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1493	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1494	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1495	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1496	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1497	0	0	1	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus argentimaculatus
+forward_12S_Oct2019_1498	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+forward_12S_Oct2019_1499	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1500	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1501	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1502	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1503	0	0	1	
+forward_12S_Oct2019_1504	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1505	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1506	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1507	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1508	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1509	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Peristediidae;Satyrichthys;Satyrichthys welchi
+forward_12S_Oct2019_1510	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1511	0	0	1	
+forward_12S_Oct2019_1512	0	0	1	
+forward_12S_Oct2019_1513	0	0	1	
+forward_12S_Oct2019_1514	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1515	0	0	1	
+forward_12S_Oct2019_1516	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1517	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1518	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1519	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1520	0	0	1	
+forward_12S_Oct2019_1521	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1522	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1523	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1524	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi
+forward_12S_Oct2019_1525	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Centrarchidae;Micropterus;
+forward_12S_Oct2019_1526	0	0	1	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus argentimaculatus
+forward_12S_Oct2019_1527	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1528	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1529	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1530	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1531	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1532	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1533	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1534	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1535	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1536	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1537	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1538	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1539	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1540	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1541	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1542	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1543	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1544	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1545	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1546	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1547	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1548	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1549	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1550	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1551	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1552	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1553	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1554	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+forward_12S_Oct2019_1555	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1556	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1557	0	0	1	
+forward_12S_Oct2019_1558	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1559	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1560	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1561	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1562	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;
+forward_12S_Oct2019_1563	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;
+forward_12S_Oct2019_1564	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1565	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1566	0	0	1	
+forward_12S_Oct2019_1567	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachinotus;Trachinotus baillonii
+forward_12S_Oct2019_1568	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1569	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1570	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1571	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1572	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1573	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1574	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1575	0	0	1	
+forward_12S_Oct2019_1576	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1577	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1578	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1579	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1580	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea
+forward_12S_Oct2019_1581	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1582	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1583	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1584	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1585	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Monodactylidae;Monodactylus;Monodactylus argenteus
+forward_12S_Oct2019_1586	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1587	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1588	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1589	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1590	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1591	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1592	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+forward_12S_Oct2019_1593	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1594	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+forward_12S_Oct2019_1595	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1596	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1597	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1598	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1599	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1600	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1601	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1602	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_12S_Oct2019_1603	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1604	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_12S_Oct2019_1605	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1606	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;
+forward_12S_Oct2019_1607	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1608	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1609	0	0	1	
+forward_12S_Oct2019_1610	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1611	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1612	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;
+forward_12S_Oct2019_1613	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1614	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_12S_Oct2019_1615	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;
+forward_12S_Oct2019_1616	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1617	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1618	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1619	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1620	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1621	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1622	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1623	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;
+forward_12S_Oct2019_1624	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;
+forward_12S_Oct2019_1625	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1626	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1627	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1628	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+forward_12S_Oct2019_1629	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1630	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1631	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_12S_Oct2019_1632	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1633	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1634	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1635	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1636	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1637	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1638	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1639	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;
+forward_12S_Oct2019_1640	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1641	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1642	0	0	1	
+forward_12S_Oct2019_1643	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1644	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1645	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1646	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1647	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_12S_Oct2019_1648	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1649	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1650	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1651	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1652	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1653	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1654	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1655	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_12S_Oct2019_1656	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1657	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1658	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1659	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1660	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1661	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1662	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1663	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1664	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1665	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1666	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1667	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1668	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1669	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1670	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1671	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1672	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1673	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1674	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1675	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1676	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1677	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1678	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1679	0	0	1	
+forward_12S_Oct2019_1680	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_12S_Oct2019_1681	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1682	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1683	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1684	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1685	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1686	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1687	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1688	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1689	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1690	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+forward_12S_Oct2019_1691	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1692	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1693	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1694	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1695	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1696	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1697	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1698	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1699	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1700	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1701	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1702	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1703	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1704	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1705	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1706	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1707	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1708	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1709	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1710	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1711	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1712	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1713	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena africana
+forward_12S_Oct2019_1714	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1715	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1716	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1717	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1718	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1719	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1720	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1721	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;
+forward_12S_Oct2019_1722	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1723	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1724	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1725	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1726	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1727	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1728	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1729	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1730	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1731	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1732	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1733	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1734	0	0	1	
+forward_12S_Oct2019_1735	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1736	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1737	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1738	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1739	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_12S_Oct2019_1740	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1741	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1742	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1743	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax unicolor
+forward_12S_Oct2019_1744	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1745	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1746	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1747	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1748	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1749	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1750	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1751	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1752	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1753	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1754	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1755	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1756	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+forward_12S_Oct2019_1757	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax unicolor
+forward_12S_Oct2019_1758	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;
+forward_12S_Oct2019_1759	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax unicolor
+forward_12S_Oct2019_1760	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;;
+forward_12S_Oct2019_1761	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;;
+forward_12S_Oct2019_1762	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+forward_12S_Oct2019_1763	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+forward_12S_Oct2019_1764	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+forward_12S_Oct2019_1765	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+forward_12S_Oct2019_1766	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;;
+forward_12S_Oct2019_1767	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+forward_12S_Oct2019_1768	0	0	1	
+forward_12S_Oct2019_1769	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1770	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_12S_Oct2019_1771	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1772	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_12S_Oct2019_1773	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+forward_12S_Oct2019_1774	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1775	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+forward_12S_Oct2019_1776	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1777	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1778	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_12S_Oct2019_1779	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1780	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_12S_Oct2019_1781	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+forward_12S_Oct2019_1782	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_12S_Oct2019_1783	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1784	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1785	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_12S_Oct2019_1786	0	0	1	
+forward_12S_Oct2019_1787	0	0	1	
+forward_12S_Oct2019_1788	0	0	1	
+forward_12S_Oct2019_1789	0	0	1	
+forward_12S_Oct2019_1790	0	0	1	
+forward_12S_Oct2019_1791	0	0	1	
+forward_12S_Oct2019_1792	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_12S_Oct2019_1793	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_12S_Oct2019_1794	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_12S_Oct2019_1795	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_12S_Oct2019_1796	0	0	1	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+merged_12S_Oct2019_1	7310	27791	18715	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_2	16111	8783	4698	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+merged_12S_Oct2019_3	12870	6292	6255	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_12S_Oct2019_4	0	17890	4446	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+merged_12S_Oct2019_5	9623	1269	8185	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+merged_12S_Oct2019_6	13729	1614	3173	
+merged_12S_Oct2019_7	8642	1837	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_12S_Oct2019_8	0	0	9607	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+merged_12S_Oct2019_9	6164	0	3392	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_10	6954	444	1776	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+merged_12S_Oct2019_11	875	2503	4097	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+merged_12S_Oct2019_12	5283	672	1181	
+merged_12S_Oct2019_13	3532	2730	626	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+merged_12S_Oct2019_14	2721	750	688	
+merged_12S_Oct2019_15	0	0	3656	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+merged_12S_Oct2019_16	2527	423	533	
+merged_12S_Oct2019_17	939	293	2135	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Rhacochilus;Rhacochilus vacca
+merged_12S_Oct2019_18	0	0	3350	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+merged_12S_Oct2019_19	3134	178	0	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_20	2864	0	0	
+merged_12S_Oct2019_21	0	727	1793	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+merged_12S_Oct2019_22	1245	257	1014	
+merged_12S_Oct2019_23	352	2059	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+merged_12S_Oct2019_24	1578	0	645	
+merged_12S_Oct2019_25	0	164	2020	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+merged_12S_Oct2019_26	0	0	2046	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus
+merged_12S_Oct2019_27	1367	0	677	
+merged_12S_Oct2019_28	1227	160	445	
+merged_12S_Oct2019_29	1383	32	340	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_30	0	0	1630	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+merged_12S_Oct2019_31	1097	0	450	
+merged_12S_Oct2019_32	1515	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+merged_12S_Oct2019_33	1478	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+merged_12S_Oct2019_34	1030	0	377	
+merged_12S_Oct2019_35	0	0	1319	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+merged_12S_Oct2019_36	1310	0	0	
+merged_12S_Oct2019_37	1284	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;;
+merged_12S_Oct2019_38	0	134	1140	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+merged_12S_Oct2019_39	933	123	209	
+merged_12S_Oct2019_40	806	0	393	
+merged_12S_Oct2019_41	413	113	601	
+merged_12S_Oct2019_42	670	0	430	
+merged_12S_Oct2019_43	798	104	189	
+merged_12S_Oct2019_44	700	144	161	
+merged_12S_Oct2019_45	999	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+merged_12S_Oct2019_46	0	0	995	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Icelinus;Icelinus filamentosus
+merged_12S_Oct2019_47	0	0	938	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_12S_Oct2019_48	0	855	0	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_49	689	155	0	
+merged_12S_Oct2019_50	537	90	142	
+merged_12S_Oct2019_51	0	0	723	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_52	570	0	128	
+merged_12S_Oct2019_53	695	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+merged_12S_Oct2019_54	668	0	0	
+merged_12S_Oct2019_55	457	83	126	
+merged_12S_Oct2019_56	412	65	167	
+merged_12S_Oct2019_57	0	226	380	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;;;
+merged_12S_Oct2019_58	367	54	166	
+merged_12S_Oct2019_59	329	0	252	
+merged_12S_Oct2019_60	463	0	106	
+merged_12S_Oct2019_61	553	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_12S_Oct2019_62	0	0	531	
+merged_12S_Oct2019_63	0	0	530	
+merged_12S_Oct2019_64	528	0	0	
+merged_12S_Oct2019_65	528	0	0	
+merged_12S_Oct2019_66	456	49	0	
+merged_12S_Oct2019_67	0	0	493	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_12S_Oct2019_68	357	0	135	
+merged_12S_Oct2019_69	491	0	0	
+merged_12S_Oct2019_70	375	0	105	
+merged_12S_Oct2019_71	0	0	474	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Etelis;Etelis carbunculus
+merged_12S_Oct2019_72	461	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_12S_Oct2019_73	350	88	0	
+merged_12S_Oct2019_74	296	36	106	
+merged_12S_Oct2019_75	0	415	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Brachyistius;Brachyistius frenatus
+merged_12S_Oct2019_76	413	0	0	
+merged_12S_Oct2019_77	0	0	397	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+merged_12S_Oct2019_78	257	21	109	
+merged_12S_Oct2019_79	0	0	387	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_12S_Oct2019_80	375	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+merged_12S_Oct2019_81	0	372	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+merged_12S_Oct2019_82	261	0	93	
+merged_12S_Oct2019_83	354	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+merged_12S_Oct2019_84	299	46	0	
+merged_12S_Oct2019_85	0	0	337	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea
+merged_12S_Oct2019_86	336	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Sebastidae;Sebastes;
+merged_12S_Oct2019_87	231	0	100	
+merged_12S_Oct2019_88	295	0	33	
+merged_12S_Oct2019_89	299	29	0	
+merged_12S_Oct2019_90	320	0	0	
+merged_12S_Oct2019_91	166	0	146	
+merged_12S_Oct2019_92	194	43	67	
+merged_12S_Oct2019_93	260	0	34	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+merged_12S_Oct2019_94	238	51	0	
+merged_12S_Oct2019_95	0	274	0	
+merged_12S_Oct2019_96	267	0	0	
+merged_12S_Oct2019_97	263	0	0	
+merged_12S_Oct2019_98	198	55	0	
+merged_12S_Oct2019_99	247	0	0	
+merged_12S_Oct2019_100	0	246	0	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_101	240	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_12S_Oct2019_102	0	0	240	
+merged_12S_Oct2019_103	0	237	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+merged_12S_Oct2019_104	232	0	0	
+merged_12S_Oct2019_105	224	0	0	
+merged_12S_Oct2019_106	0	0	210	
+merged_12S_Oct2019_107	208	0	0	
+merged_12S_Oct2019_108	0	206	0	
+merged_12S_Oct2019_109	191	0	0	
+merged_12S_Oct2019_110	0	0	191	
+merged_12S_Oct2019_111	189	0	0	
+merged_12S_Oct2019_112	0	0	183	
+merged_12S_Oct2019_113	117	0	60	
+merged_12S_Oct2019_114	0	176	0	
+merged_12S_Oct2019_115	0	170	0	
+merged_12S_Oct2019_116	114	0	54	
+merged_12S_Oct2019_117	163	0	0	
+merged_12S_Oct2019_118	129	0	34	
+merged_12S_Oct2019_119	0	162	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus
+merged_12S_Oct2019_120	157	0	0	
+merged_12S_Oct2019_121	156	0	0	
+merged_12S_Oct2019_122	94	0	60	
+merged_12S_Oct2019_123	152	0	0	
+merged_12S_Oct2019_124	0	0	152	
+merged_12S_Oct2019_125	147	0	0	
+merged_12S_Oct2019_126	142	0	0	
+merged_12S_Oct2019_127	119	19	0	
+merged_12S_Oct2019_128	0	0	138	
+merged_12S_Oct2019_129	136	0	0	
+merged_12S_Oct2019_130	0	136	0	Eukaryota;Chordata;Actinopteri;;;;
+merged_12S_Oct2019_131	0	135	0	
+merged_12S_Oct2019_132	133	0	0	
+merged_12S_Oct2019_133	103	0	30	
+merged_12S_Oct2019_134	0	0	133	
+merged_12S_Oct2019_135	0	0	128	Eukaryota;Chordata;Actinopteri;;Opistognathidae;Opistognathus;
+merged_12S_Oct2019_136	72	0	53	
+merged_12S_Oct2019_137	0	125	0	
+merged_12S_Oct2019_138	123	0	0	
+merged_12S_Oct2019_139	119	0	0	
+merged_12S_Oct2019_140	115	0	0	
+merged_12S_Oct2019_141	76	0	39	
+merged_12S_Oct2019_142	80	0	33	
+merged_12S_Oct2019_143	95	16	0	
+merged_12S_Oct2019_144	0	0	111	
+merged_12S_Oct2019_145	107	0	0	
+merged_12S_Oct2019_146	106	0	0	
+merged_12S_Oct2019_147	0	0	102	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+merged_12S_Oct2019_148	97	0	0	
+merged_12S_Oct2019_149	96	0	0	
+merged_12S_Oct2019_150	0	0	95	
+merged_12S_Oct2019_151	0	92	0	
+merged_12S_Oct2019_152	86	0	0	
+merged_12S_Oct2019_153	84	0	0	
+merged_12S_Oct2019_154	82	0	0	
+merged_12S_Oct2019_155	80	0	0	
+merged_12S_Oct2019_156	79	0	0	
+merged_12S_Oct2019_157	55	0	23	
+merged_12S_Oct2019_158	71	0	0	
+merged_12S_Oct2019_159	71	0	0	
+merged_12S_Oct2019_160	70	0	0	
+merged_12S_Oct2019_161	0	0	69	
+merged_12S_Oct2019_162	68	0	0	
+merged_12S_Oct2019_163	43	0	20	
+merged_12S_Oct2019_164	63	0	0	
+merged_12S_Oct2019_165	62	0	0	
+merged_12S_Oct2019_166	61	0	0	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+merged_12S_Oct2019_167	59	0	0	
+merged_12S_Oct2019_168	59	0	0	
+merged_12S_Oct2019_169	58	0	0	
+merged_12S_Oct2019_170	0	0	58	
+merged_12S_Oct2019_171	55	0	0	
+merged_12S_Oct2019_172	0	0	52	
+merged_12S_Oct2019_173	51	0	0	
+merged_12S_Oct2019_174	49	0	0	
+merged_12S_Oct2019_175	0	0	47	
+merged_12S_Oct2019_176	44	0	0	
+merged_12S_Oct2019_177	42	0	0	
+merged_12S_Oct2019_178	42	0	0	
+merged_12S_Oct2019_179	39	0	0	
+merged_12S_Oct2019_180	38	0	0	
+merged_12S_Oct2019_181	36	0	0	
+merged_12S_Oct2019_182	36	0	0	
+merged_12S_Oct2019_183	35	0	0	
+merged_12S_Oct2019_184	0	0	35	
+merged_12S_Oct2019_185	34	0	0	
+merged_12S_Oct2019_186	34	0	0	
+merged_12S_Oct2019_187	34	0	0	
+merged_12S_Oct2019_188	33	0	0	
+merged_12S_Oct2019_189	0	0	33	
+merged_12S_Oct2019_190	0	0	32	
+merged_12S_Oct2019_191	21	0	8	
+merged_12S_Oct2019_192	28	0	0	
+merged_12S_Oct2019_193	27	0	0	
+merged_12S_Oct2019_194	27	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;
+merged_12S_Oct2019_195	26	0	0	
+merged_12S_Oct2019_196	25	0	0	
+merged_12S_Oct2019_197	25	0	0	
+merged_12S_Oct2019_198	0	0	25	
+merged_12S_Oct2019_199	24	0	0	
+merged_12S_Oct2019_200	22	0	0	
+merged_12S_Oct2019_201	0	0	17	
+merged_12S_Oct2019_202	0	0	17	
+merged_12S_Oct2019_203	16	0	0	
+merged_12S_Oct2019_204	11	0	0	
+merged_12S_Oct2019_205	7	0	0	
+merged_12S_Oct2019_206	7	0	0	
+merged_12S_Oct2019_207	6	0	0	
+merged_12S_Oct2019_208	0	6	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+merged_12S_Oct2019_209	4	0	0	
+merged_12S_Oct2019_210	0	4	0	Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;;
+merged_12S_Oct2019_211	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+merged_12S_Oct2019_212	1	0	0	
+reverse_12S_Oct2019_1	1	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_2	1	1	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_3	1	1	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_4	0	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;
+reverse_12S_Oct2019_5	0	1	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_6	0	1	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_7	0	0	2	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_8	1	0	0	
+reverse_12S_Oct2019_9	1	0	0	
+reverse_12S_Oct2019_10	1	0	0	
+reverse_12S_Oct2019_11	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_12S_Oct2019_12	1	0	0	
+reverse_12S_Oct2019_13	1	0	0	
+reverse_12S_Oct2019_14	1	0	0	
+reverse_12S_Oct2019_15	1	0	0	
+reverse_12S_Oct2019_16	1	0	0	
+reverse_12S_Oct2019_17	1	0	0	
+reverse_12S_Oct2019_18	1	0	0	
+reverse_12S_Oct2019_19	1	0	0	
+reverse_12S_Oct2019_20	1	0	0	
+reverse_12S_Oct2019_21	1	0	0	
+reverse_12S_Oct2019_22	1	0	0	
+reverse_12S_Oct2019_23	1	0	0	
+reverse_12S_Oct2019_24	1	0	0	
+reverse_12S_Oct2019_25	1	0	0	
+reverse_12S_Oct2019_26	1	0	0	
+reverse_12S_Oct2019_27	1	0	0	
+reverse_12S_Oct2019_28	1	0	0	
+reverse_12S_Oct2019_29	1	0	0	
+reverse_12S_Oct2019_30	1	0	0	
+reverse_12S_Oct2019_31	1	0	0	
+reverse_12S_Oct2019_32	1	0	0	
+reverse_12S_Oct2019_33	1	0	0	
+reverse_12S_Oct2019_34	1	0	0	
+reverse_12S_Oct2019_35	1	0	0	
+reverse_12S_Oct2019_36	1	0	0	
+reverse_12S_Oct2019_37	1	0	0	
+reverse_12S_Oct2019_38	1	0	0	
+reverse_12S_Oct2019_39	1	0	0	
+reverse_12S_Oct2019_40	1	0	0	
+reverse_12S_Oct2019_41	1	0	0	
+reverse_12S_Oct2019_42	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+reverse_12S_Oct2019_43	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;;
+reverse_12S_Oct2019_44	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_45	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_46	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_47	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_48	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_12S_Oct2019_49	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_50	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_51	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_52	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_53	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+reverse_12S_Oct2019_54	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+reverse_12S_Oct2019_55	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_12S_Oct2019_56	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;;;
+reverse_12S_Oct2019_57	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_58	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_12S_Oct2019_59	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_12S_Oct2019_60	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_61	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_62	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_63	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_12S_Oct2019_64	1	0	0	Eukaryota;Chordata;Actinopteri;Spariformes;;;
+reverse_12S_Oct2019_65	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_66	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_67	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;
+reverse_12S_Oct2019_68	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+reverse_12S_Oct2019_69	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+reverse_12S_Oct2019_70	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+reverse_12S_Oct2019_71	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+reverse_12S_Oct2019_72	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena africana
+reverse_12S_Oct2019_73	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri
+reverse_12S_Oct2019_74	1	0	0	
+reverse_12S_Oct2019_75	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_76	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_77	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;;
+reverse_12S_Oct2019_78	1	0	0	
+reverse_12S_Oct2019_79	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_12S_Oct2019_80	1	0	0	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+reverse_12S_Oct2019_81	1	0	0	
+reverse_12S_Oct2019_82	1	0	0	Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis
+reverse_12S_Oct2019_83	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;;;
+reverse_12S_Oct2019_84	1	0	0	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Dipterygonotus;Dipterygonotus balteatus
+reverse_12S_Oct2019_85	0	1	0	
+reverse_12S_Oct2019_86	0	1	0	
+reverse_12S_Oct2019_87	0	1	0	
+reverse_12S_Oct2019_88	0	1	0	
+reverse_12S_Oct2019_89	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_90	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_91	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_92	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_93	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_94	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;
+reverse_12S_Oct2019_95	0	1	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+reverse_12S_Oct2019_96	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_12S_Oct2019_97	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_98	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_99	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_100	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chrysiptera;Chrysiptera rex
+reverse_12S_Oct2019_101	0	1	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+reverse_12S_Oct2019_102	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+reverse_12S_Oct2019_103	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+reverse_12S_Oct2019_104	0	0	1	
+reverse_12S_Oct2019_105	0	0	1	
+reverse_12S_Oct2019_106	0	0	1	
+reverse_12S_Oct2019_107	0	0	1	
+reverse_12S_Oct2019_108	0	0	1	
+reverse_12S_Oct2019_109	0	0	1	
+reverse_12S_Oct2019_110	0	0	1	
+reverse_12S_Oct2019_111	0	0	1	
+reverse_12S_Oct2019_112	0	0	1	
+reverse_12S_Oct2019_113	0	0	1	
+reverse_12S_Oct2019_114	0	0	1	
+reverse_12S_Oct2019_115	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+reverse_12S_Oct2019_116	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+reverse_12S_Oct2019_117	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+reverse_12S_Oct2019_118	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_119	0	0	1	
+reverse_12S_Oct2019_120	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_121	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_122	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_12S_Oct2019_123	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+reverse_12S_Oct2019_124	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_12S_Oct2019_125	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+reverse_12S_Oct2019_126	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+reverse_12S_Oct2019_127	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+reverse_12S_Oct2019_128	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_129	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_130	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_131	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_132	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_133	0	0	1	Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus fulviflamma
+reverse_12S_Oct2019_134	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_135	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Leuresthes;Leuresthes tenuis
+reverse_12S_Oct2019_136	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+reverse_12S_Oct2019_137	0	0	1	
+reverse_12S_Oct2019_138	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_12S_Oct2019_139	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_12S_Oct2019_140	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_12S_Oct2019_141	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_12S_Oct2019_142	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;;;
+reverse_12S_Oct2019_143	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;
+reverse_12S_Oct2019_144	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;

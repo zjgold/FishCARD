@@ -1,0 +1,2228 @@
+---
+title: 'Comparison of Global vs. Local Reference Databases and Taxonomic Cutoff Scores for Metabarcoding Taxonomic Assignment: Case Study on MiFish 12S Specific Reference Databases and California Current Large Marine Ecosystem Fishes'
+author: "Zack Gold"
+date: "12/4/2020"
+output: html_document
+---
+
+```{r global-options, include=FALSE}
+knitr::opts_chunk$set(warning=FALSE, message=FALSE)
+```
+
+```{r, echo=FALSE}
+#Load Libraries
+library(dplyr)
+library(tidyverse)
+library(knitr)
+library(here)
+```
+
+```{r}
+#Load Data
+
+## California Fish Species
+ca_fish_list <- read.table(here("Data","CA_fish_species","CA_fish_list_20210216.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+## Species Monitored by PISCO, KFM, and RCCA
+monitored <- read.table(here("Data","CA_fish_species","Monitored_Species_list_2020216.txt"), header = 1, sep = "\t", stringsAsFactors = F)
+
+## Final Accessions
+final_accessions <- read.table(here("Supplemental Tables","final_accessions_20210521.txt"), header = 1, sep = "\t", stringsAsFactors = F)
+
+## Local DB
+FishCARD_db <- read.table(here("Data","local_database","Reference_db","trimmed","fishcard_12S_all_taxonomy_20201204.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+FishCARD_db %>%
+  filter(., str_detect(Final_name, "FISH")) %>% dplyr::select(Final_name) -> to_check_accessions 
+setdiff(to_check_accessions$Final_name, final_accessions$Accession)
+setdiff( final_accessions$Accession,to_check_accessions$Final_name)
+
+FishCARD_db2 <- read.table(here("Data","local_database","Reference_db","trimmed","fishcard_12S_all_taxonomy.txt"), header = FALSE, sep = "\t", stringsAsFactors = F)
+
+FishCARD_db2 %>%
+  filter(., str_detect(V1, "FISH")) %>% dplyr::select(V1) -> to_check_accessions2
+setdiff(to_check_accessions2$V1, final_accessions$Accession)
+setdiff( final_accessions$Accession,to_check_accessions2$V1)
+
+## Global DB
+Global_db <- read.table(here("Data","global_database","Reference_db","trimmed","global_database_taxonomy_20201204.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+Global_db %>%
+  filter(., str_detect(Final_name, "FISH")) %>% dplyr::select(Final_name) -> to_check_accessions 
+setdiff(to_check_accessions$Final_name, final_accessions$Accession)
+setdiff( final_accessions$Accession,to_check_accessions$Final_name)
+
+Global_db2 <- read.table(here("Data","global_database","Reference_db","trimmed","c19_fishcard_taxonomy.txt"), header = FALSE, sep = "\t", stringsAsFactors = F)
+
+Global_db2 %>%
+  filter(., str_detect(V1, "FISH")) %>% dplyr::select(V1) -> to_check_accessions2
+setdiff(to_check_accessions2$V1, final_accessions$Accession)
+setdiff( final_accessions$Accession,to_check_accessions2$V1)
+
+## GenBank DB
+GenBank_db <- read.table(here("Data","GenBank_database","Reference_db","trimmed","genbank_database_taxonomy_20201204.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+## Anacapa Results using Local DB
+local_asv <- read.table(here("Data","local_database","Anacapa_output","fishcard_12S_all_taxonomy_tables","Summary_by_percent_confidence","60","fishcard_12S_all_ASV_raw_taxonomy_60_edited.txt"), header = 1, sep = "\t", stringsAsFactors = F)
+
+## Anacapa Results using GenBank DB
+genbank_asv <- read.table(here("Data","genbank_database","Anacapa_output","12S_Oct2019_taxonomy_tables_033120","Summary_by_percent_confidence","60","12S_Oct2019_ASV_raw_taxonomy_60_edited.txt"), header = 1, sep = "\t", stringsAsFactors = F)
+
+## Anacapa Results using Global DB
+global_asv <- read.table(here("Data","global_database","Anacapa_output","c19_fishcard_taxonomy_tables","Summary_by_percent_confidence","60","c19_fishcard_ASV_raw_taxonomy_60_edited.txt"), header = 1, sep = "\t", stringsAsFactors = F)
+```
+
+# Barcoding Effort Statistics
+
+#### List of All California Fish Species
+```{r}
+ca_fish_list$Walker_Miller_Lea_Combo_20210216 %>% unique() %>% length()
+#1144 species in CA
+```
+
+#### CA Fish Species Barcoded by our Efforts
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., !str_detect(Species," sp[.]")) %>% 
+dplyr::select(Species) %>% unique() -> fishcard_only_species
+
+fishcard_only_species %>% dim()
+#607 total species barcoded
+```
+
+#### Average Numbder of Barcodes per Species
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+dplyr::select(Species) %>% 
+group_by(Species) %>% 
+  dplyr::count() %>% ungroup() %>% 
+  dplyr::summarise(mean(n), max(n), min(n))
+```
+#### Average Numbder of Barcodes per Species
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., str_detect(Final_name,"elas")) %>% 
+dplyr::select(Species) %>% 
+group_by(Species) %>% 
+  dplyr::count() %>% ungroup() %>% 
+  dplyr::summarise(mean(n), max(n), min(n))
+```
+#### Average Numbder of Barcodes per Species
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., str_detect(Final_name,"miu")) %>%
+dplyr::select(Species) %>% 
+group_by(Species) %>% 
+  dplyr::count() %>% ungroup() %>% 
+  dplyr::summarise(mean(n), max(n), min(n))
+```
+
+### Species in CRUX-GenBank
+```{r}
+GenBank_db %>% 
+  dplyr::select(Species) %>%  unique() %>%  dim()
+
+GenBank_db %>% dim()
+
+```
+
+### Species in Global
+```{r}
+
+Global_db %>% 
+  dplyr::select(Species) %>%  unique() %>%  dim()
+
+Global_db %>% dim()
+
+```
+
+#### Teleost
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., Class=="Actinopteri") %>% 
+    filter(., !str_detect(Species," sp[.]")) %>%
+  dplyr::select(Species) %>% unique() %>% dim()
+#552 Bony Fish species
+```
+
+
+#### Sharks and Rays
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., Class=="Chondrichthyes") %>% 
+    filter(., !str_detect(Species," sp[.]")) %>% 
+  dplyr::select(Species) %>% unique() %>% dim()
+#49 shark Fish species
+```
+
+#### Boneless Fish Species
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  filter(., Class %in% c("Myxini","Hyperoartia")) %>% 
+  dplyr::select(Species) %>% unique() %>% dim()
+
+#4 boneless Fish species
+```
+
+#### Check CA Fish Species List
+```{r}
+FishCARD_db %>% 
+  filter(., str_detect(Final_name,"FISHCARD_")) %>% 
+  dplyr::select(Species) -> FishCARD_df
+setdiff(FishCARD_df$Species,ca_fish_list$Walker_Miller_Lea_Combo_20210216) -> barcodes_with_genus_level_ids
+barcodes_with_genus_level_ids
+## 2 taxa barcoded could only be identified to Genus level, will remove for calculating statistics
+```
+
+#### CA Fish Species Added by our Barcoding Efforts
+```{r}
+GenBank_db %>% 
+  dplyr::select(Species) -> GenBank_db_taxonomy_species
+
+FishCARD_df %>% 
+   filter(., !Species %in% barcodes_with_genus_level_ids) -> FishCARD_df
+  
+setdiff(FishCARD_df$Species,GenBank_db_taxonomy_species$Species) -> species_added_by_our_efforts
+
+species_added_by_our_efforts %>%  length()
+FishCARD_df$Species %>%  unique() 
+write.csv(species_added_by_our_efforts,file=here("Data","CA_fish_species","species_added_by_our_efforts.csv"))
+```
+
+#### CA Fish Species that Already had MiFish 12S References 
+```{r}
+intersect(ca_fish_list$Walker_Miller_Lea_Combo_20210216,GenBank_db_taxonomy_species$Species) -> ca_species_already_barcoded
+
+ca_species_already_barcoded %>%  length
+```
+#### CA Fish Species Missing MiFish *12S* References Prior to Barcoding Efforts
+```{r}
+setdiff(ca_fish_list$Walker_Miller_Lea_Combo_20210216,GenBank_db_taxonomy_species$Species) -> ca_species_missing_barcodes_pre_fishcard
+
+
+ca_species_missing_barcodes_pre_fishcard %>%  length
+```
+
+#### List of All CA Fish Species that Now Have MiFish *12S* References
+```{r}
+
+FishCARD_db %>% 
+  dplyr::select(Species) %>% 
+  filter(., !Species %in% barcodes_with_genus_level_ids) -> FishCARD_df_total
+
+FishCARD_df_total$Species %>% unique() -> local_db_species_list
+local_db_species_list %>%  length()
+
+write.csv(local_db_species_list, file =here("Data","CA_fish_species","CA_fish_covered.csv"))
+
+```
+
+#### CA Fish Species that are still missing MiFish Reference Barcodes
+```{r}
+
+setdiff(ca_fish_list$Walker_Miller_Lea_Combo_20210216,local_db_species_list) -> Ca_fish_missing_mifish_barcodes
+
+setdiff(local_db_species_list,ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+
+local_db_species_list %>% length()
+
+Ca_fish_missing_mifish_barcodes %>%  length()
+ca_fish_list$Walker_Miller_Lea_Combo_20210216 %>% length()
+local_db_species_list %>%  length()
+
+write.csv(Ca_fish_missing_mifish_barcodes,file=here("Data","CA_fish_species","Ca_fish_missing_mifish_barcodes.csv"))
+```
+
+#### Percent of CA Fish species Barcoded for this study
+
+```{r}
+length(fishcard_only_species$Species)/length(ca_fish_list$Walker_Miller_Lea_Combo_20210216)*100
+```
+
+#### Percent of CA Fish species Now Barcoded
+
+```{r}
+length(local_db_species_list)/length(ca_fish_list$Walker_Miller_Lea_Combo_20210216)*100
+
+```
+#Number of new Seuquences Generated
+```{r}
+FishCARD_db %>% filter( str_detect(Final_name, "FISHCARD")) %>% dim()
+
+```
+
+
+#### Number of Species Monitored in CA by PISCO and NPS
+```{r}
+monitored$Scientific.name %>% length()
+
+```
+
+#### Non-Rockfish Monitored Species still missing a CA Barcode
+
+```{r}
+setdiff(monitored$Scientific.name,local_db_species_list) %>% as.tibble() %>% 
+  filter(., !str_detect(value,"Sebastes")) %>% #ignore Sebastes
+  filter(., !str_detect(value,"Bathymasteridae")) %>%  #ignore family level taxa that is represented
+  filter(., !str_detect(value,"Citharichtys")) #ignore genus level taxa that is represented
+```
+
+
+# eDNA Metabarcoding Case Study Results
+
+## Reads and ASVs Assigned Taxonomy Using the Local Reference Database
+
+```{r}
+# Organize dataframe
+local_asv %>% mutate_all(na_if,"") ->local_asv
+
+local_asv %>% 
+  group_by(fishcard_12S_all_seq_number) %>% 
+  mutate(., total = sum(fishcard_12S_all_LSC.B.1.S22.L001,fishcard_12S_all_PP.B.1.S4.L001,fishcard_12S_all_PedRF.B.1.S13.L001)) %>% 
+  filter(., total >1) %>% #removed singletons
+  ungroup() %>% arrange(., fishcard_12S_all_seq_number)-> local_asv
+
+```
+
+```{r}
+#All Reads
+#Total Reads
+local_asv %>% 
+  summarise(total_reads = sum(total))
+
+#Reads Assigned to NA
+local_asv %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned Only to Vertebrate Class
+local_asv %>% 
+  filter(., !is.na(Class)) %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Order Level
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+   filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Family Level
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Genus Level
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Species Level
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Total ASVs
+local_asv %>% dim()
+
+#ASVs assigned to NA
+local_asv %>% 
+  filter(., is.na(Domain)) %>% dim()
+
+#ASVs Assigned to Only Class
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Only Order
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>% dim()
+
+#ASVs Assigned to Family Level
+local_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#ASVs Assigned to Genus Level
+local_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Species Level
+local_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#Total Assigned Families
+local_asv$Family %>% unique() %>% is.na() %>%  length() -1 #NA is included
+
+#Total Assigned Genera
+local_asv$Genus %>% unique() %>% length() -1
+
+#Total Assigned Species
+local_asv$Species %>% unique() %>% length() -1
+
+#California Native Assigned Species
+setdiff(local_asv$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+#all species Native
+```
+### Supplemental Results
+
+#### Merged
+```{r}
+#Merged Total Reads
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  summarise(total_reads = sum(total))
+
+#Merged Reads Assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Class Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Order Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Species Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Total ASVs
+local_asv %>% 
+filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% dim()
+
+#Merged ASVs assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#Merged ASVs Assigned to Only Class
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Only Order
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#Merged ASVs Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged Total Assigned Species
+local_asv %>%
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim() 
+
+#Merged Total Assigned Families
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Family) %>%   filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#Merged Total Assigned Genera
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Genus) %>%   filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#Merged Total Assigned Species
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Species) %>%   filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+local_asv %>%
+  filter(str_detect(fishcard_12S_all_seq_number, "merged")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_merged_local
+setdiff(fish_species_merged_local$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+#### Forward
+```{r}
+#forward Total Reads
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  summarise(total_reads = sum(total))
+
+#forward Reads Assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Class Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Order Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Species Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Total ASVs
+local_asv %>% 
+filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% dim()
+
+#forward ASVs assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#forward ASVs Assigned to Only Class
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Only Order
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#forward ASVs Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward Total Assigned Species
+local_asv %>%
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim() 
+
+#forward Total Assigned Families
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Family) %>%   filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#forward Total Assigned Genera
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Genus) %>%   filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#forward Total Assigned Species
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Species) %>%   filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+local_asv %>%
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_forward_local
+setdiff(fish_species_forward_local$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+#### Reverse
+```{r}
+#reverse Total Reads
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  summarise(total_reads = sum(total))
+
+#reverse Reads Assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Class Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Order Actinopteri
+local_asv %>%   
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Species Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Total ASVs
+local_asv %>% 
+filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% dim()
+
+#reverse ASVs assigned to NA
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#reverse ASVs Assigned to Only Class
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Only Order
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Family Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#reverse ASVs Assigned to Genus Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Species Level
+local_asv %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#reverse Total Assigned Families
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Family) %>%   filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% dplyr::select(Family) %>%  unique() %>%  dim() #NA is included
+
+#reverse Total Assigned Genera
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Genus) %>%   filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% dplyr::select(Genus) %>%  unique() %>%  dim()
+
+#reverse Total Assigned Species
+local_asv %>% dplyr::select(fishcard_12S_all_seq_number,Species) %>%   filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% dplyr::select(Species) %>%  unique() %>%  dim()
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+local_asv %>%
+  filter(str_detect(fishcard_12S_all_seq_number, "reverse")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_reverse_local
+setdiff(fish_species_reverse_local$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+## Reads and ASVs Assigned Taxonomy Using the GenBank Reference Database
+
+```{r}
+# Organize dataframe
+genbank_asv %>% mutate_all(na_if,"") ->genbank_asv
+
+genbank_asv %>% 
+  group_by(Oct2019_seq_number) %>% 
+  mutate(., total = sum(X12S_Oct2019_LSC.B.1.S22.L001,X12S_Oct2019_PP.B.1.S4.L001,X12S_Oct2019_PedRF.B.1.S13.L001)) %>% 
+  filter(., total >1) %>% #removed singletons
+  ungroup() %>% arrange(., Oct2019_seq_number)-> genbank_asv
+
+```
+
+```{r}
+#All Reads
+#Total Reads
+genbank_asv %>% 
+  summarise(total_reads = sum(total))
+
+#Reads Assigned to NA
+genbank_asv %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned Only to Vertebrate Class
+genbank_asv %>% 
+  filter(., !is.na(Class)) %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Order Level
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+   filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Family Level
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Genus Level
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Species Level
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Total ASVs
+genbank_asv %>% dim()
+
+#ASVs assigned to NA
+genbank_asv %>% 
+  filter(., is.na(Domain)) %>% dim()
+
+#ASVs Assigned to Only Class
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Only Order
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>% dim()
+
+#ASVs Assigned to Family Level
+genbank_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#ASVs Assigned to Genus Level
+genbank_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Species Level
+genbank_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#Total Assigned Families
+genbank_asv$Family %>% unique() %>% is.na() %>%  length() -1 #NA is included
+
+#Total Assigned Genera
+genbank_asv$Genus %>% unique() %>% length() -1
+
+#Total Assigned Species
+genbank_asv$Species %>% unique() %>% length() -1
+
+#California Native Assigned Species
+intersect(genbank_asv$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+#species Native
+```
+### Supplemental Results
+
+#### Merged
+```{r}
+#Merged Total Reads
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  summarise(total_reads = sum(total))
+
+#Merged Reads Assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Class Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Order Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Species Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Total ASVs
+genbank_asv %>% 
+filter(str_detect(Oct2019_seq_number, "merged")) %>% dim()
+
+#Merged ASVs assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#Merged ASVs Assigned to Only Class
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Only Order
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#Merged ASVs Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Species Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#Merged Total Assigned Families
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Family) %>%   filter(str_detect(Oct2019_seq_number, "merged")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#Merged Total Assigned Genera
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Genus) %>%   filter(str_detect(Oct2019_seq_number, "merged")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#Merged Total Assigned Species
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Species) %>%   filter(str_detect(Oct2019_seq_number, "merged")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+genbank_asv %>%
+  filter(str_detect(Oct2019_seq_number, "merged")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_merged_genbank
+intersect(fish_species_merged_genbank$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+#### Forward
+```{r}
+#forward Total Reads
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  summarise(total_reads = sum(total))
+
+#forward Reads Assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Class Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Order Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Species Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Total ASVs
+genbank_asv %>% 
+filter(str_detect(Oct2019_seq_number, "forward")) %>% dim()
+
+#forward ASVs assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#forward ASVs Assigned to Only Class
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Only Order
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#forward ASVs Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "forward")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward Total Assigned Species
+genbank_asv %>%
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim() 
+
+#forward Total Assigned Families
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Family) %>%   filter(str_detect(Oct2019_seq_number, "forward")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#forward Total Assigned Genera
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Genus) %>%   filter(str_detect(Oct2019_seq_number, "forward")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#forward Total Assigned Species
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Species) %>%   filter(str_detect(Oct2019_seq_number, "forward")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+genbank_asv %>%
+  filter(str_detect(Oct2019_seq_number, "forward")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_forward_genbank
+intersect(fish_species_forward_genbank$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+#### Reverse
+```{r}
+#reverse Total Reads
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  summarise(total_reads = sum(total))
+
+#reverse Reads Assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Class Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Order Actinopteri
+genbank_asv %>%   
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Species Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Total ASVs
+genbank_asv %>% 
+filter(str_detect(Oct2019_seq_number, "reverse")) %>% dim()
+
+#reverse ASVs assigned to NA
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#reverse ASVs Assigned to Only Class
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Only Order
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Family Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#reverse ASVs Assigned to Genus Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Species Level
+genbank_asv %>% 
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#reverse Total Assigned Families
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Family) %>%   filter(str_detect(Oct2019_seq_number, "reverse")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#reverse Total Assigned Genera
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Genus) %>%   filter(str_detect(Oct2019_seq_number, "reverse")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#reverse Total Assigned Species
+genbank_asv %>% dplyr::select(Oct2019_seq_number,Species) %>%   filter(str_detect(Oct2019_seq_number, "reverse")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+genbank_asv %>%
+  filter(str_detect(Oct2019_seq_number, "reverse")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_reverse_genbank
+intersect(fish_species_reverse_genbank$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+## Reads and ASVs Assigned Taxonomy Using the Global Reference Database
+
+```{r}
+# Organize dataframe
+global_asv %>% mutate_all(na_if,"") ->global_asv
+
+global_asv %>% 
+  group_by(c19_fishcard_seq_number) %>% 
+  mutate(., total = sum(c19_fishcard_LSC.B.1.S22.L001,c19_fishcard_PP.B.1.S4.L001,c19_fishcard_PedRF.B.1.S13.L001)) %>% 
+  filter(., total >1) %>% #removed singletons
+  ungroup() %>% arrange(., c19_fishcard_seq_number)-> global_asv
+
+```
+
+```{r}
+#All Reads
+#Total Reads
+global_asv %>% 
+  summarise(total_reads = sum(total))
+
+#Reads Assigned to NA
+global_asv %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned Only to Vertebrate Class
+global_asv %>% 
+  filter(., !is.na(Class)) %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Order Level
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+   filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Reads Assigned to Only Vertebrate Family Level
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Genus Level
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Reads Assigned to Vertebrate Species Level
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Total ASVs
+global_asv %>% dim()
+
+#ASVs assigned to NA
+global_asv %>% 
+  filter(., is.na(Domain)) %>% dim()
+
+#ASVs Assigned to Only Class
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Only Order
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>% dim()
+
+#ASVs Assigned to Family Level
+global_asv %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#ASVs Assigned to Genus Level
+global_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#ASVs Assigned to Species Level
+global_asv %>% 
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>%
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#Total Assigned Families
+global_asv$Family %>% unique() %>% is.na() %>%  length() -1 #NA is included
+
+#Total Assigned Genera
+global_asv$Genus %>% unique() %>% length() -1
+
+#Total Assigned Species
+global_asv$Species %>% unique() %>% length() -1
+
+#California Native Assigned Species
+intersect(global_asv$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+#species Native
+```
+### Supplemental Results
+
+#### Merged
+```{r}
+#Merged Total Reads
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  summarise(total_reads = sum(total))
+
+#Merged Reads Assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Class Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned Only to Order Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Reads Assigned to Species Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#Merged Total ASVs
+global_asv %>% 
+filter(str_detect(c19_fishcard_seq_number, "merged")) %>% dim()
+
+#Merged ASVs assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#Merged ASVs Assigned to Only Class
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Only Order
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#Merged ASVs Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#Merged ASVs Assigned to Species Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#Merged Total Assigned Families
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Family) %>%   filter(str_detect(c19_fishcard_seq_number, "merged")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#Merged Total Assigned Genera
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Genus) %>%   filter(str_detect(c19_fishcard_seq_number, "merged")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#Merged Total Assigned Species
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Species) %>%   filter(str_detect(c19_fishcard_seq_number, "merged")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+global_asv %>%
+  filter(str_detect(c19_fishcard_seq_number, "merged")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_merged_global
+intersect(fish_species_merged_global$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+#### Forward
+```{r}
+#forward Total Reads
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  summarise(total_reads = sum(total))
+
+#forward Reads Assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Class Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned Only to Order Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Reads Assigned to Species Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#forward Total ASVs
+global_asv %>% 
+filter(str_detect(c19_fishcard_seq_number, "forward")) %>% dim()
+
+#forward ASVs assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#forward ASVs Assigned to Only Class
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Only Order
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward ASVs Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#forward ASVs Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#forward Total Assigned Species
+global_asv %>%
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% dim() 
+
+#forward Total Assigned Families
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Family) %>%   filter(str_detect(c19_fishcard_seq_number, "forward")) %>% dplyr::select(Family) %>%  unique() %>%  dim() -1 #NA is included
+
+#forward Total Assigned Genera
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Genus) %>%   filter(str_detect(c19_fishcard_seq_number, "forward")) %>% dplyr::select(Genus) %>%  unique() %>%  dim() -1
+
+#forward Total Assigned Species
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Species) %>%   filter(str_detect(c19_fishcard_seq_number, "forward")) %>% dplyr::select(Species) %>%  unique() %>% dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+global_asv %>%
+  filter(str_detect(c19_fishcard_seq_number, "forward")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_forward_global
+intersect(fish_species_forward_global$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+#### Reverse
+```{r}
+#reverse Total Reads
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  summarise(total_reads = sum(total))
+
+#reverse Reads Assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., is.na(Domain)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Class Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned Only to Order Actinopteri
+global_asv %>%   
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Reads Assigned to Species Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., !is.na(Species)) %>% 
+  summarise(total = sum(total))
+
+#reverse Total ASVs
+global_asv %>% 
+filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% dim()
+
+#reverse ASVs assigned to NA
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+  filter(., is.na(Domain)) %>% dim()
+
+#reverse ASVs Assigned to Only Class
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Only Order
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+  filter(., !is.na(Order)) %>%
+  filter(., is.na(Family)) %>%
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Family Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+  filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., is.na(Genus)) %>%
+  filter(., is.na(Species)) %>%  dim()
+
+#reverse ASVs Assigned to Genus Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+   filter(., !is.na(Class))  %>% 
+   filter(., !is.na(Family)) %>% 
+  filter(., !is.na(Genus)) %>%
+  filter(., is.na(Species)) %>% dim()
+
+#reverse ASVs Assigned to Species Level
+global_asv %>% 
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>%
+  filter(., !is.na(Species)) %>% dim()
+
+#reverse Total Assigned Families
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Family) %>%   filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% dplyr::select(Family) %>%  unique() %>%  dim() #NA is included
+
+#reverse Total Assigned Genera
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Genus) %>%   filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% dplyr::select(Genus) %>%  unique() %>%  dim()
+
+#reverse Total Assigned Species
+global_asv %>% dplyr::select(c19_fishcard_seq_number,Species) %>%   filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% dplyr::select(Species) %>%  unique() %>%  dim() -1
+
+#California Native Assigned Species
+#all given that it's the FishCARD DB
+global_asv %>%
+  filter(str_detect(c19_fishcard_seq_number, "reverse")) %>% 
+  dplyr::select(Species) %>% unique() %>% na.omit() -> fish_species_reverse_global
+intersect(fish_species_reverse_global$Species, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+
+## Taxonomic Comparisons
+```{r}
+
+### Combine Databases into One Table
+local_asv %>% 
+  transmute(fishcard_12S_all_seq_number=fishcard_12S_all_seq_number,
+            local_Domain=Domain,
+            local_Phylum=Phylum,
+            local_Class=Class,
+            local_Order=Order,
+            local_Family=Family,
+            local_Genus=Genus,
+            local_Species=Species) -> local_asv
+head(local_asv)
+dim(local_asv)
+
+genbank_asv %>% 
+  transmute(Oct2019_seq_number=Oct2019_seq_number,
+            genbank_Domain=Domain,
+            genbank_Phylum=Phylum,
+            genbank_Class=Class,
+            genbank_Order=Order,
+            genbank_Family=Family,
+            genbank_Genus=Genus,
+            genbank_Species=Species) -> genbank_asv
+head(genbank_asv)
+dim(genbank_asv)
+
+global_asv %>% 
+  transmute(c19_fishcard_seq_number=c19_fishcard_seq_number,
+            global_Domain=Domain,
+            global_Phylum=Phylum,
+            global_Class=Class,
+            global_Order=Order,
+            global_Family=Family,
+            global_Genus=Genus,
+            global_Species=Species) -> global_asv
+head(global_asv)
+dim(global_asv)
+
+big_fish <- cbind(local_asv,genbank_asv,global_asv)
+write.csv(big_fish, file =here("Supplemental Tables","ASV_comparison_table.csv"))
+```
+
+### Summarise Species Level Taxonomic Assignment Overlap between each reference database
+```{r}
+big_fish %>% 
+  dplyr::select(fishcard_12S_all_seq_number, local_Species,genbank_Species,global_Species) %>% 
+  mutate(local_Species = replace_na(local_Species, 0),
+         genbank_Species = replace_na(genbank_Species, 0),
+         global_Species = replace_na(global_Species, 0)) %>% 
+  mutate(.,local_global_match_species = if_else(local_Species == global_Species ,TRUE,FALSE),
+         local_genbank_match_species = if_else(local_Species == genbank_Species ,TRUE,FALSE),
+         global_genbank_match_species = if_else(global_Species == genbank_Species ,TRUE,FALSE),
+         threeway_species = if_else(global_Species == genbank_Species & global_Species ==local_Species ,TRUE,FALSE)) -> comparison_1
+
+comparison_1 %>% 
+  summarise(local_global_matching = sum(local_global_match_species==TRUE),
+            local_global_mis = sum(local_global_match_species==FALSE),
+            local_genbank_matching = sum(local_genbank_match_species==TRUE),
+            local_genbank_mis = sum(local_genbank_match_species==FALSE),
+            global_genbank_matching = sum(global_genbank_match_species==TRUE),
+            global_genbank_mis = sum(global_genbank_match_species==FALSE),
+            threeway_species_matching = sum(threeway_species==TRUE),
+            threeway_species_mis = sum(threeway_species==FALSE))
+```
+
+
+```{r}
+#####Exlcuding 0
+big_fish %>% 
+  dplyr::select(fishcard_12S_all_seq_number, Oct2019_seq_number,c19_fishcard_seq_number,local_Species,genbank_Species,global_Species) %>%
+  mutate(., type2 <- if_else(is.na(global_Species) & is.na(local_Species) & is.na(genbank_Species),"Delete","keep")) -> comparison_2
+
+colnames(comparison_2) <- c("fishcard_12S_all_seq_number","Oct2019_seq_number","c19_fishcard_seq_number","local_Species","genbank_Species","global_Species","type2" )
+
+comparison_2 %>% 
+  filter(., type2 =="keep") %>% 
+  mutate(local_Species = replace_na(local_Species, 0),
+         genbank_Species = replace_na(genbank_Species, 0),
+         global_Species = replace_na(global_Species, 0)) %>%
+  mutate(.,local_global_match_species = if_else(local_Species == global_Species ,TRUE,FALSE),
+         local_genbank_match_species = if_else(local_Species == genbank_Species ,TRUE,FALSE),
+         global_genbank_match_species = if_else(global_Species == genbank_Species ,TRUE,FALSE),
+         threeway_species = if_else(global_Species == genbank_Species & global_Species ==local_Species ,TRUE,FALSE)) -> comparison_2
+
+comparison_2 %>% 
+  summarise(local_global_matching = sum(local_global_match_species==TRUE),
+            local_global_mis = sum(local_global_match_species==FALSE),
+            local_genbank_matching = sum(local_genbank_match_species==TRUE),
+            local_genbank_mis = sum(local_genbank_match_species==FALSE),
+            global_genbank_matching = sum(global_genbank_match_species==TRUE),
+            global_genbank_mis = sum(global_genbank_match_species==FALSE),
+            threeway_species_matching = sum(threeway_species==TRUE),
+            threeway_species_mis = sum(threeway_species==FALSE))
+
+```
+
+#Patterns of NAs
+
+### Number of Matching NAs
+```{r}
+comparison_1 %>% 
+  filter(., local_Species =="0") %>% 
+  filter(., genbank_Species =="0") %>% 
+  filter(., global_Species =="0") -> all_zero
+dim(all_zero)
+#174 matching NA assignments
+```
+
+
+```{r}
+global_asv %>% 
+  filter(., is.na(global_Species)) -> global_no_species
+genbank_asv %>% 
+  filter(., is.na(genbank_Species)) -> genbank_no_species
+local_asv %>% 
+  filter(., is.na(local_Species)) -> local_no_species
+
+```
+
+
+```{r}
+as.data.frame(big_fish$local_Species) %>% na.omit() -> local_species
+as.data.frame(big_fish$genbank_Species) %>% na.omit()-> genbank_species
+as.data.frame(big_fish$global_Species) %>% na.omit()-> global_species
+
+colnames(local_species) <- c("species")
+colnames(genbank_species) <- c("species")
+colnames(global_species) <- c("species")
+
+rbind(local_species,genbank_species,global_species) %>% 
+  as.data.frame() %>% 
+  unique()-> all_species
+
+all_species %>% 
+  mutate(sp2=species) -> all_species_df
+
+all_species_df %>% 
+  mutate(., local = sp2 %in% local_species$species) %>% 
+  mutate(., genbank = sp2 %in% genbank_species$species) %>% 
+  mutate(., global = sp2 %in% global_species$species)  -> exampledf
+
+```
+
+##
+```{r}
+local_t <- subset(exampledf, local == TRUE)$sp2
+genbank_t <- subset(exampledf, genbank == TRUE)$sp2
+global_t <- subset(exampledf, global == TRUE)$sp2
+
+local_t %>% kable()
+genbank_t %>% kable()
+global_t %>% kable()
+
+```
+
+
+## Local vs. Genbank
+
+#### Intersection
+```{r}
+intersect(local_t,genbank_t)
+#21 total species shared
+```
+#### Locals only
+```{r}
+setdiff(local_t,genbank_t)
+#16 species assigned by local not by genbank
+```
+
+#### Genbank only
+```{r}
+setdiff(genbank_t,local_t)
+#17 species assigned by genbank not by local
+```
+```{r}
+setdiff(genbank_t,local_t) -> genbank_only_v_local_diff
+
+setdiff(genbank_only_v_local_diff, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+# 13 species are not CA natives that were assigned to CA species after including additional barcodes
+
+intersect(genbank_only_v_local_diff, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+# 4 species are CA native taxa that changed after including additional barcodes
+```
+## Global vs. CRUX
+
+#### Intersection
+```{r}
+intersect(global_t,genbank_t)
+#22 total species shared
+```
+#### Global only
+```{r}
+setdiff(global_t,genbank_t) -> global_not_genbank
+global_not_genbank
+#16 species assigned by global not by genbank
+```
+
+```{r}
+setdiff(global_not_genbank, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+# 15 species are CA natives that were assigned to CA species after including additional barcodes
+
+```
+
+#### Genbank only
+```{r}
+setdiff(genbank_t,global_t)
+#16 species assigned by Genbank not by global
+```
+
+```{r}
+setdiff(genbank_t,global_t) -> genbank_only_v_global_diff
+
+setdiff(genbank_only_v_global_diff, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+# 12 species are not CA natives that were assigned to CA species after including additional barcodes
+
+intersect(genbank_only_v_global_diff, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+# 4 species are CA native taxa that changed after including additional barcodes
+```
+
+## Global vs. Local
+
+#### Intersection
+```{r}
+intersect(global_t,local_t)
+#36 total species shared
+```
+#### Global only
+```{r}
+setdiff(global_t,local_t)
+#2 species assigned by global not by local
+#This species is not native to CA
+```
+
+##### Why?
+```{r}
+#Cheilotrema saturnum : shares barcode with a bunch of different drums, suggest 12S barcode may not be ideal for this species
+big_fish %>% 
+  filter(., global_Species =="Myliobatis aquila") 
+```
+
+```{r}
+#Cheilotrema saturnum : shares barcode with a bunch of different drums, suggest 12S barcode may not be ideal for this species
+big_fish %>% 
+  filter(., global_Species == "Trachurus lathami") 
+```
+
+#### Local only
+```{r}
+setdiff(local_t,global_t)
+#1 species assigned by local not by global
+# this is a native species
+```
+
+
+### Commonly Assigned Species Across All Three Reference Databases
+```{r}
+intersect(intersect(local_t,genbank_t), global_t) -> common_species_3
+#21 common species
+common_species_3
+```
+
+### Unique Local Assignments
+```{r}
+setdiff(local_t,union(genbank_t, global_t)) -> fishcard_species_unique
+#1 species Cheilotrema saturnum
+fishcard_species_unique
+```
+
+#### Why?
+```{r}
+#Cheilotrema saturnum : shares barcode with a bunch of different drums, suggest 12S barcode may not be ideal for this species
+big_fish %>% 
+  filter(., local_Species =="Cheilotrema saturnum") 
+```
+
+
+
+
+### Unique Global Assignments
+```{r}
+setdiff(global_t,union(local_t, genbank_t)) -> global_species_unique
+#no species
+```
+
+### Unique Genbank Assignments
+```{r}
+setdiff(genbank_t,union(local_t, global_t)) -> genbank_species_unique
+#16 species
+genbank_species_unique
+```
+
+#### Why?
+##### Non-native species
+
+```{r}
+
+setdiff(genbank_species_unique, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+#12 non Native CA species that were replaced with native taxa upon the additional of new reference barcodes
+```
+
+
+##### CA Native species investigation
+```{r}
+intersect(genbank_species_unique, ca_fish_list$Walker_Miller_Lea_Combo_20210216)
+```
+
+###### Why are these California species here?
+```{r}
+#Gobiesox maeandricus : assigned to CA clingfish (Gobiesox rhessodon) with additional barcodes
+big_fish %>% 
+  filter(., genbank_Species =="Gobiesox maeandricus")
+```
+
+```{r}
+#Icelinus filamentosus: assigned to Ruscarius creaseri roughcheek sculpin another CA native with additional barcodes
+big_fish %>% 
+  filter(., genbank_Species =="Icelinus filamentosus")
+```
+
+```{r}
+#Genyonemus lineatus : assigned to Umbrina roncador Yellowfin drum another CA species with additional barcodes
+big_fish %>% 
+  filter(., genbank_Species =="Genyonemus lineatus")
+```
+
+```{r}
+#Leuresthes tenuis: Atherinops affinis jacksmelt another CA species with additional barcodes
+big_fish %>% 
+  filter(., genbank_Species =="Leuresthes tenuis")
+```
+
+## Supplemental Results 
+
+### Comparison of Forward Read Assignments
+```{r}
+big_fish %>% 
+  filter(str_detect(fishcard_12S_all_seq_number, "forward")) %>% 
+  mutate(local_Species = replace_na(local_Species, 0),
+         genbank_Species = replace_na(genbank_Species, 0),
+         global_Species = replace_na(global_Species, 0)) %>% 
+  mutate(.,local_global_match_species = if_else(local_Species == global_Species ,TRUE,FALSE),
+         local_genbank_match_species = if_else(local_Species == genbank_Species ,TRUE,FALSE),
+         global_genbank_match_species = if_else(global_Species == genbank_Species ,TRUE,FALSE),
+         threeway_species = if_else(global_Species == genbank_Species & global_Species == local_Species ,TRUE,FALSE)) -> comparison_1_f
+
+comparison_1_f %>% 
+  filter(., threeway_species==FALSE)
+```
+
+
+# Supplemental Table 1
+
+```{R}
+ca_fish_list %>% 
+  mutate(., Local_DB = if_else(Walker_Miller_Lea_Combo_20210216 %in% FishCARD_db$Species,1, 0)) %>% 
+  mutate(., GenBank_DB = if_else(Walker_Miller_Lea_Combo_20210216 %in% GenBank_db$Species,1, 0)) %>% 
+  mutate(., Global_DB = if_else(Walker_Miller_Lea_Combo_20210216 %in% Global_db$Species,1, 0)) %>% 
+  arrange(Walker_Miller_Lea_Combo_20210216) %>% 
+  mutate(., species_added_by_our_efforts = if_else(Walker_Miller_Lea_Combo_20210216 %in% species_added_by_our_efforts,1, 0)) %>% 
+  left_join(Global_db, by=c("Walker_Miller_Lea_Combo_20210216"="Species")) %>% 
+  dplyr::select(Class,Walker_Miller_Lea_Combo_20210216, Local_DB,GenBank_DB,Global_DB,species_added_by_our_efforts) %>% distinct()-> supplemental_table_1
+
+write.csv(supplemental_table_1, file =here("Supplemental Tables","supplemental_table_1.csv"))
+```
+
+#Supplemental Table 9
+```{r}
+library(rfishbase)
+
+Ca_fish_missing_mifish_barcodes
+
+fish <- validate_names(Ca_fish_missing_mifish_barcodes)
+
+dat <- species(Ca_fish_missing_mifish_barcodes, fields=c("Species","Saltwater", "DemersPelag","AnaCat","DepthRangeShallow","DepthRangeDeep"))
+
+dat_dis <- distribution(Ca_fish_missing_mifish_barcodes, c("NorthernLatitude", "NorthernLatitudeNS", "SouthernLatitude", "SouthernLatitudeNS"))
+
+dat_dis %>% 
+  mutate( NorthernLatitude = if_else(NorthernLatitudeNS =="N", NorthernLatitude, NorthernLatitude*-1),
+      SouthernLatitude = if_else(SouthernLatitudeNS =="N", SouthernLatitude, SouthernLatitude*-1)    ) %>% 
+  group_by(Species) %>% 
+  dplyr::summarise(max_N = max(NorthernLatitude), max_S= min(SouthernLatitude)) -> dat_dis_max
+
+dat %>% 
+  left_join(dat_dis_max) %>% 
+  mutate(., Not_In_Fishbase=is.na(Saltwater)) %>% 
+  mutate(., Coastal = case_when( str_detect(DemersPelag,"reef") & DepthRangeShallow < 200 | DepthRangeDeep < 700~ "Coastal",
+          str_detect(DemersPelag,"neritic") & DepthRangeShallow < 200 | DepthRangeDeep < 700~ "Coastal",
+          str_detect(DemersPelag,"demersal") & DepthRangeShallow < 200 | DepthRangeDeep < 700~ "Coastal",
+                    str_detect(DemersPelag,"bentho") & DepthRangeShallow < 200 | DepthRangeDeep < 700~ "Coastal",
+         TRUE ~ "Not Coastal")) %>%
+  mutate(., Rockfish = str_detect(Species,"Sebastes")) %>%  
+  dplyr::select(Species, Coastal, Rockfish,Not_In_Fishbase)  -> supp_table_9
+write.csv(supp_table_9, file =here("Supplemental Tables","supp_table_9.csv"))
+
+```
+
+
+```{r}
+sup_9_edited <- read.csv(file =here("Supplemental Tables","supp_table_9_edited_20210521.csv"))
+
+sup_9_edited %>% 
+    dplyr::summarise(n_distinct(Species))
+
+sup_9_edited %>% 
+  filter(., Introduced!="Introduced to estuaries") %>% 
+  filter(., CA.Abundance=="Rare in CA") %>% 
+  dplyr::summarise(n_distinct(Species))
+
+sup_9_edited %>% 
+    filter(., Introduced!="Introduced to estuaries") %>% 
+  filter(., CA.Abundance=="Common" & Coastal=="Not Coastal") %>% 
+  dplyr::summarise(n_distinct(Species))
+
+sup_9_edited %>% 
+    filter(., Introduced!="Introduced to estuaries") %>% 
+  filter(., CA.Abundance=="Common" & Coastal=="Coastal") %>% 
+  dplyr::summarise(n_distinct(Species))
+
+sup_9_edited %>% 
+    filter(., Introduced=="Introduced to estuaries") %>% 
+  dplyr::summarise(n_distinct(Species))
+
+sup_9_edited %>% 
+    filter(., Rockfish=="TRUE") %>% 
+  dplyr::summarise(n_distinct(Species))
+
+
+```
+
+

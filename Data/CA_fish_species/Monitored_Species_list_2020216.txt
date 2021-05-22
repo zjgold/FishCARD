@@ -1,0 +1,98 @@
+Number	Common	Scientific name	NPS	RCCA	PISCO
+17	island_kelp_fish	Alloclinus holderi	x		x
+94	Thresher shark	Alopias vulpinus			X
+47	Wolf eel	Anarrhichthys ocellatus			X
+18	sargo	Anisotremus davidsonii		X	x
+79	Tomsmelt	Atherinops affinis			X
+85	White seabass	Atractoscion nobilis			X
+76	Tubesnout	Aulorhynchus flavidus			X
+74	Finescale triggerfish	Balistes polylepis			X
+52	Ronquil	Bathymasteridae			X
+60	Kelp Surfperch	Brachyistius frenatus			X
+58	Ocean whitefish	Caulolatilus princeps			X
+48	Monkeyface prickleback	Cebidichthys violaceus			X
+98	Swell shark	Cephaloscyllium ventriosum			X
+83	Black croaker	Cheilotrema saturnum			X
+1	blacksmith 	Chromis punctipinnis	x	X	x
+87	Sanddab	Citharichtys sp.			X
+64	Shiner surfperch	Cymatogaster aggregata			X
+4	black perch 	Embiotoca jacksoni	x	X	x
+5	striped seaperch	Embiotoca lateralis	x	X	x
+78	Northern Anchovy	Engraulis mordax			X
+95	Soupfin shark	Galeorhinus galeus			X
+2	opaleye	Girella nigricans	x	X	x
+49	California moray	Gymnothorax mordax			X
+8	rock wrasse	Halichoeres semicinctus	x	X	x
+81	Zebra perch	Kyphosus azureus			X
+27	horn shark	Heterodontus francisci		X	x
+55	Giant Kelpfish	Heterostichus rostratus			X
+25	kelp greenling*	Hexagrammos decagrammus		X	x
+26	rock greenling*	Hexagrammos lagocephalus		X	x
+61	Spotfin surfperch	Hyocritichthys analis			X
+66	Walleye surfperch	Hyperprosopon argenteum			X
+65	Silver surfperch	Hyperprosopon ellipticum			X
+6	pile perch	Embiotoca caryi	x	X	x
+3	garibaldi	Hypsypops rubicundus	x	X	x
+75	Largemouth blenny	Labrisomus xanti			X
+51	Lavendar sculpin	Leiocottus hirundo			X
+15	bluebanded_goby	Lythrypnus dalli	x		x
+39	Halfmoon	Medialuna californiensis		x	x
+67	Reef surfperch	Micrometrus aurora			X
+59	Dwarf surfperch	Micrometrus minimus			X
+84	Ocean sunfish	Mola mola			X
+91	Bat ray	Myliobatis californica			X
+56	Sarcastic fringehead	Neoclinus blanchardi			X
+23	lingcod	Ophiodon elongatus		X	x
+9	senorita	Halichoeres californica	x	X	x
+46	Painted greenling	Oxylebius pictus			X
+10	kelp bass	Paralabrax clathratus	x	X	x
+57	Spotted sandbass	Paralabrax maculatofasciatus			X
+21	barred sand bass	Paralabrax nebulifer		X	x
+88	California halibut	Paralichthys californicus			X
+63	Sharpnose surfperch	Phanerodon atripes			X
+62	White surfperch	Phanerodon furcatus			X
+90	Thornback ray	Platyrhinoidis triseriata			X
+86	C-O sole	Pleuronichthys coenosus			X
+53	Plainfin midshipman	Porichthys notatus			X
+92	Blue shark	Prionace glauca			X
+19	rainbow seaperch 	Rhacochilus toxotes		X	x
+20	rubberlip seaperch	Phanerodon vacca		X	x
+16	blackeye_goby	Rhinogobiops nicholsii	x		x
+72	Pacific bonito	Sarda chiliensis			X
+77	Pacific sardine	Sardinops sagax			X
+70	Chub mackerel	Scomber japonicus			X
+50	California scorpionfish	Scorpaena guttata			X
+22	cabezon*	Scorpaenichthys marmoratus		X	X
+11	kelp rockfish*	Sebastes atrovirens	x	X	x
+29	brown rockfish*	Sebastes auriculatus		X	x
+30	gopher rockfish*	Sebastes carnatus		X	x
+12	olive  rockfish* 	Sebastes caurinus	x	X	X
+31	black and yellow*	Sebastes chrysomelas		X	x
+44	Calico rockfish	Sebastes dalli			x
+41	widow rockfish	Sebastes entomelas			x
+33	yellowtail rockfish 	Sebastes flavidus		X	X
+40	squarespot rockfosh	Sebastes hopkinisi			x
+13	black rockfish	Sebastes melanops	x	X	X
+35	vermilion rockfish 	Sebastes miniatus		X	x
+14	blue rockfish*	Sebastes mystinus	x	X	X
+32	China rockfish*	Sebastes nebulosus		X	x
+37	bocaccio	Sebastes paucispinis		X	x
+36	canary rockfish	Sebastes pinniger		X	x
+28	grass rockfish*	Sebastes rastrelliger		X	x
+42	rosy rockfish	Sebastes rosaceus			x
+45	Stripetail rockfish	Sebastes saxicola			X
+43	halfbanded rockfish	Sebastes semicinctus			x
+34	copper rockfish	Sebastes serranoides		X	X
+38	treefish*	Sebastes serriceps		X	x
+82	Bluestriped chub	Kyphosus ocyurus			X
+7	CA sheephead	Bodianus pulcher	x	X	x
+73	Yellowtail	Seriola dorsalis			X
+71	Pacific barracuda	Sphyraena argentea			X
+93	Spiny dogfish	Squalus suckleyi			X
+97	Angel shark	Squatina californica			X
+24	giant sea bass†	Stereolepis gigas		X	x
+68	CA lizardfish	Synodus lucioceps			X
+96	Pacific torpedo ray	Tetronarce californica			X
+69	Jack makerel	Trachurus symmetricus			X
+89	Leopard shark	Triakis semifasciata			X
+54	Califonria Salema	Brachygenys californiensis			X

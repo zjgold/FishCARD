@@ -1,0 +1,1349 @@
+---
+title: "TAXXI Taxon Lowest Common Ancestor Analysis for MiFish 12S Barcode"
+author: "Zack Gold"
+date: "12/8/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(naniar)
+library(here)
+```
+
+# Load Data
+```{r}
+#Load Data
+FishCARD_df <- read.table(here("Data","local_database","Reference_db","trimmed","fishcard_12S_all_taxonomy_20201204.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+
+ca_fish_list <- read.table(here("Data","CA_fish_species","CA_fish_list_20210216.csv"), header = 1, sep = ",", stringsAsFactors = F)
+
+
+ca_fish_list %>% 
+  separate(., Walker_Miller_Lea_Combo_20210216, int=c("Genus", "Species"), remove = FALSE, sep = " ") -> ca_fish_list
+
+ca_fish_list$Genus %>%  unique() -> unique_genera
+ca_fish_list$Walker_Miller_Lea_Combo_20210216 %>%  unique() -> unique_species
+
+```
+
+# Function for Comparing Taxonomy
+
+```{r}
+taxx_convert <- function(taxxi_results,BCC_score) {
+  taxxi_results %>% 
+  mutate(., BCC=BCC_score) %>% 
+  separate(col=V1, into =c("Accession","tax_path","empty"), sep=";") %>% 
+  dplyr::select(-empty) %>% 
+  separate(col=tax_path, into =c("Domain","Phylum","Class","Order","Family","Genus","Species"), sep=",",convert = TRUE) %>% 
+  mutate(., Domain= str_replace(Domain, '.*\\:',''),
+         Domain= str_replace(Domain, '.*\\:',''),
+         Phylum= str_replace(Phylum, '.*\\:',''),
+         Class= str_replace(Class, '.*\\:',''),
+         Order= str_replace(Order, '.*\\:',''),
+         Family= str_replace(Family, '.*\\:',''),
+         Genus= str_replace(Genus, '.*\\:',''),
+         Species= str_replace(Species, '.*\\:','')) %>% 
+  separate(col=V2, into =c("Domain_p","Phylum_p","Class_p","Order_p","Family_p","Genus_p","Species_p"), sep=",",convert = TRUE) %>% 
+  mutate(., Domain_p= str_replace(Domain_p, '.*\\:',''),
+         Phylum_p= str_replace(Phylum_p, '.*\\:',''),
+         Class_p= str_replace(Class_p, '.*\\:',''),
+         Order_p= str_replace(Order_p, '.*\\:',''),
+         Family_p= str_replace(Family_p, '.*\\:',''),
+         Genus_p= str_replace(Genus_p, '.*\\:',''),
+         Species_p= str_replace(Species_p, '.*\\:','')) -> taxxi_results_int
+
+taxxi_results_int[taxxi_results_int=="<NA>"] = NA
+taxxi_results_int[taxxi_results_int=="NA"] = NA
+
+taxxi_results_int %>% 
+  replace(is.na(.), "") %>% 
+  mutate(., Type = case_when(Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  == Genus_p & Genus  != "unk_ord" & Species==Species_p & Species_p != "" ~ "Species_level_match", 
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  == Genus_p & Genus  == "unk_ord" & Species==Species_p & Species_p != "" ~ "Species_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  !=Genus_p & Species==Species_p & Species_p != "" ~ "Species_level_match_not_genus", 
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family !=Family_p & Species==Species_p & Species_p != "" ~ "Species_level_match_not_family", 
+                              Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species==Species_p & Species_p != "" ~ "Species_level_match_not_order", 
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family !=Family_p & Genus  ==Genus_p &  Genus  != "unk_ord"& Species!=Species_p & Genus_p != "" ~ "Genus_level_match_not_family", 
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  ==Genus_p & Species!=Species_p & Genus  != "unk_ord"& Genus_p != "" & Species_p == ""~ "Genus_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  ==Genus_p & Genus  != "unk_ord"& Species=="" & Genus_p != "" & Species_p == ""~ "Genus_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus  ==Genus_p & Genus  != "unk_ord"& Species!=Species_p & Genus_p != "" & Species_p != ""~ "Genus_level_match_misclassified_to_species",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus_p=="" & Family  != "unk_ord"& Species_p=="" & Family_p != ""~ "Family_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Genus_p=="unk_ord" & Species_p=="" & Family_p != ""~ "Family_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Family  != "unk_ord"& Genus!=Genus_p & Species_p=="" & Family_p != "" ~ "Family_level_match_misclassified_to_genus",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family ==Family_p & Family  != "unk_ord"& Genus!=Genus_p & Species!=Species_p & Family_p != ""~ "Family_level_match_misclassified_to_species",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family_p ==""& Genus_p =="" & Species_p =="" & Order_p != ""~ "Order_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family !=Family_p & Genus_p =="" & Species_p =="" & Order_p != ""~ "Order_level_match_misclassified_to_family",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family !=Family_p & Genus!=Genus_p & Species_p =="" & Order_p != ""~ "Order_level_match_misclassified_to_genus",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  ==Order_p & Family !=Family_p & Genus!=Genus_p & Species!=Species_p & Order_p != ""~ "Order_level_match_misclassified_to_species",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p==""&  Family_p==""&  Genus_p==""&  Species_p=="" & Class_p != ""~ "Class_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order_p=="" & Order  =="" & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p==""&  Family_p==""&  Genus_p==""&  Species_p=="" & Class_p != ""~ "Class_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p &  Order  !=Order_p & Family !=Family_p & Genus  =="" & Species!=Species_p &  Order_p==""&  Family_p==""&  Genus_p==""&  Species_p=="" & Class_p != ""~ "Class_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p!=""&  Family_p==""&  Genus_p==""&  Species_p=="" & Class_p != ""~ "Class_level_match_misclassified_to_order",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p!=""&  Family_p!=""&  Genus_p==""&  Species_p=="" & Class_p != ""~ "Class_level_match_misclassified_to_family",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p!=""&  Family_p!=""&  Genus_p!=""&  Species_p=="" & Class_p != ""~ "Class_level_match_misclassified_to_genus",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  ==Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p &  Order_p!=""&  Family_p!=""&  Genus_p!=""&  Species_p!="" & Class_p != ""~ "Class_level_match_misclassified_to_species",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  !=Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p & Phylum_p != ""~ "Phylum_level_match",
+                             Domain ==Domain_p & Phylum ==Phylum_p & Class  =="" & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p & Phylum_p != ""~ "Phylum_level_match",
+                             Domain ==Domain_p & Domain_p != "*" & Phylum !=Phylum_p & Class  !=Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p & Domain_p != "" & Species_p == "" & Genus_p == ""~ "Domain_level_match",
+                             Domain ==Domain_p & Domain_p != "*" & Phylum !=Phylum_p & Class  !=Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p & Domain_p != "" & Genus_p != "" & Species_p == "" ~ "Domain_level_match_misclassified_to_genus",
+                             Domain ==Domain_p & Domain_p != "*" & Phylum !=Phylum_p & Class  !=Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p & Domain_p != "" ~ "Domain_level_match_misclassified_to_species",
+                             Domain !=Domain_p & Phylum !=Phylum_p & Class  !=Class_p & Order  !=Order_p & Family !=Family_p & Genus  !=Genus_p & Species!=Species_p ~ "no_level_match",
+                             TRUE~"messed up")) -> taxxi_results_int_results
+return(taxxi_results_int_results)
+}
+
+```
+
+# Global Reference Database Assigned By Global Reference Database
+
+### Import GvG Data
+```{r}
+
+gvg40 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_40BLCA.out.100"), sep="\t",header = FALSE)
+gvg50 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_50BLCA.out.100"), sep="\t",header = FALSE)
+gvg60 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_60BLCA.out.100"), sep="\t",header = FALSE)
+gvg70 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_70BLCA.out.100"), sep="\t",header = FALSE)
+gvg80 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_80BLCA.out.100"), sep="\t",header = FALSE)
+gvg90 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_90BLCA.out.100"), sep="\t",header = FALSE)
+gvg95 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_95BLCA.out.100"), sep="\t",header = FALSE)
+gvg100 <- read.delim(file= here("Data","TAXXI","pred","c_19fishcard_12S_trim.100","pred_100BLCA.out.100"), sep="\t",header = FALSE)
+
+```
+
+### Run Taxx_convert and combine into one data file
+```{r}
+taxx_convert(gvg40,40) -> gvg40_results
+taxx_convert(gvg50,50) -> gvg50_results
+taxx_convert(gvg60,60) -> gvg60_results
+taxx_convert(gvg70,70) -> gvg70_results
+taxx_convert(gvg80,80) -> gvg80_results
+taxx_convert(gvg90,90) -> gvg90_results
+taxx_convert(gvg95,95) -> gvg95_results
+taxx_convert(gvg100,100) -> gvg100_results
+
+rbind(gvg40_results,gvg50_results,gvg60_results,gvg70_results,gvg80_results,gvg90_results,gvg95_results,gvg100_results) -> gvg_total_results
+```
+
+
+## Check Results
+```{r}
+gvg_total_results$Type %>%  unique() %>%  sort()
+
+#Species Level match
+gvg_total_results %>% 
+filter(., Type =="Species_level_match") %>% distinct()  %>% View()
+
+#Species_level_match_not_genus
+gvg_total_results %>% 
+filter(., Type =="Species_level_match_not_genus") %>% distinct() %>% View()
+
+#Species_level_match_not_family
+gvg_total_results %>% 
+filter(., Type =="Species_level_match_not_family") %>% distinct() %>% View()
+
+#Species_level_match_not_order
+gvg_total_results %>% 
+filter(., Type =="Species_level_match_not_order") %>% distinct() %>% View()
+
+#Genus_level_match
+gvg_total_results %>% 
+filter(., Type =="Genus_level_match") %>% distinct() %>%View()
+
+#Genus_level_match_misclassified_to_species
+gvg_total_results %>% 
+filter(., Type =="Genus_level_match_misclassified_to_species") %>% distinct() %>% View()
+
+#Family_level_match
+gvg_total_results %>% 
+filter(., Type =="Family_level_match") %>% distinct() %>% View()
+
+#Family_level_match_misclassified_to_genus
+gvg_total_results %>% 
+filter(., Type =="Family_level_match_misclassified_to_genus") %>% distinct() %>% View()
+
+#Family_level_match_misclassified_to_species
+gvg_total_results %>% 
+filter(., Type =="Family_level_match_misclassified_to_species") %>% distinct() %>% View()
+
+#Order_level_match
+gvg_total_results %>% 
+filter(., Type =="Order_level_match") %>% distinct() %>% View()
+
+#Order_level_match_misclassified_to_family
+gvg_total_results %>% 
+filter(., Type =="Order_level_match_misclassified_to_family") %>% distinct() %>% View()
+
+#Order_level_match_misclassified_to_genus
+gvg_total_results %>% 
+filter(., Type =="Order_level_match_misclassified_to_genus") %>% distinct() %>% View()
+
+#Order_level_match_misclassified_to_species
+gvg_total_results %>% 
+filter(., Type =="Order_level_match_misclassified_to_species") %>% distinct() %>% View()
+
+#Class_level_match
+gvg_total_results %>% 
+filter(., Type =="Class_level_match") %>% distinct() %>% View()
+
+#Class_level_match_misclassified_to_order
+gvg_total_results %>% 
+filter(., Type =="Class_level_match_misclassified_to_order") %>% distinct() %>% View()
+
+#Class_level_match_misclassified_to_family
+gvg_total_results %>% 
+filter(., Type =="Class_level_match_misclassified_to_family") %>% distinct() %>% View()
+
+#Order_level_match_misclassified_to_genus
+gvg_total_results %>% 
+filter(., Type =="Order_level_match_misclassified_to_genus") %>% distinct() %>% View()
+
+#Class_level_match_misclassified_to_species
+gvg_total_results %>% 
+filter(., Type =="Class_level_match_misclassified_to_species") %>% distinct() %>% View()
+
+#Phylum_level_match
+gvg_total_results %>% 
+filter(., Type =="Phylum_level_match") %>% distinct() %>% View()
+
+#Domain_level_match
+gvg_total_results %>% 
+filter(., Type =="Domain_level_match") %>% distinct() %>% View()
+
+#Domain_level_match_misclassified_to_genus
+gvg_total_results %>% 
+filter(., Type =="Domain_level_match_misclassified_to_genus") %>% distinct() %>% View()
+
+#Domain_level_match_misclassified_to_species
+gvg_total_results %>% 
+filter(., Type =="Domain_level_match_misclassified_to_species") %>% distinct() %>% View()
+
+#no_level_match
+gvg_total_results %>% 
+filter(., Type =="no_level_match") %>% distinct() %>% View()
+
+
+```
+
+```{r}
+gvg_total_results
+
+write.csv(gvg_total_results,file = here("Data","TAXXI","Global_reference_database_self_assignment.csv"))
+```
+
+```{r}
+gvg_total_results %>% 
+  group_by(BCC) %>% 
+  dplyr::count(Type) %>%
+  group_by(BCC) %>% 
+  dplyr::summarise(., Type=Type,n=n, tot = sum(n),
+         perc = n/tot*100) %>% 
+  mutate(., misclassified = str_detect(Type,"misclassified"),
+         no_level_match = str_detect(Type,"no_level_match"),
+         match_not_ = str_detect(Type,"match_not_")) %>% 
+  mutate(., Issues = case_when(misclassified == TRUE ~"TRUE",
+                               no_level_match == TRUE ~"TRUE",
+                               match_not_== TRUE ~ "TRUE", 
+                               misclassified == FALSE ~"FALSE",
+                               no_level_match == FALSE ~"FALSE",
+                               match_not_== FALSE ~ "FALSE" )) -> gvg_total_sum_results
+
+gvg_total_sum_results
+```
+
+```{r}
+gvg_total_results %>% 
+  dplyr::select(-Accession) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  filter(., BCC==60) %>% 
+  distinct(Species,Type) %>%  
+  ungroup() %>% 
+  group_by(Species) %>% 
+  dplyr::summarise(., Type= dplyr::n_distinct(Type)) %>% 
+  filter(., Type ==1) -> species_1_type
+```
+### Summarize Taxonomic Assignments
+```{r}
+gvg_total_results %>% 
+  dplyr::select(-Accession) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  filter(., BCC==60) %>% 
+  distinct(Species,Type) %>% 
+  ungroup() %>% 
+  pivot_wider(names_from = Type, values_from = Type) %>% 
+  mutate(., lowest_assigned_level = case_when(!is.na(Species_level_match)~"Species_level_match",
+                                               !is.na(Genus_level_match)~"Genus_level_match",
+                                               !is.na(Family_level_match)~"Family_level_match",
+                                               !is.na(Class_level_match)~"Class_level_match",                                                     !is.na(Order_level_match)~"Order_level_match",
+                                             TRUE ~"idc"  )) -> gvg_total_results_species_count
+```
+ 
+ 
+##### Unique Fish Species in Global Reference Database
+```{r}
+gvg_total_results_species_count$Species %>% unique() %>%  length()
+```
+
+##### Number of Species Level Matches
+```{r}
+gvg_total_results_species_count %>% 
+  filter(., lowest_assigned_level=="Species_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species))
+```
+
+##### Number of Non-Species Level Matches
+```{r}
+gvg_total_results_species_count %>% 
+  filter(., lowest_assigned_level!="Species_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species))
+```
+
+
+##### Number of Genus Level Matches
+```{r}
+gvg_total_results_species_count %>% 
+  filter(., lowest_assigned_level=="Genus_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species))
+```
+##### Number of Family Level Matches
+```{r}
+gvg_total_results_species_count %>% 
+  filter(., lowest_assigned_level=="Family_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species))
+```
+##### Number of Class Level Matches
+```{r}
+gvg_total_results_species_count %>% 
+  filter(., lowest_assigned_level=="Class_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species))
+```
+##### Else 
+```{r}
+gvg_total_results_species_count %>% 
+    filter(., lowest_assigned_level!="Species_level_match") %>% 
+  filter(., lowest_assigned_level!="Genus_level_match") %>% 
+  filter(., lowest_assigned_level!="Family_level_match") %>% 
+  filter(., lowest_assigned_level!="Class_level_match") %>% 
+    filter(., lowest_assigned_level!="Order_level_match") %>% 
+  dplyr::summarise(., dplyr::n_distinct(Species)) 
+```
+
+
+
+```{r}
+#Colors for plots
+library(wesanderson)
+wes_palette("GrandBudapest1") -> moon1
+wes_palette("GrandBudapest2") -> moon2
+wes_palette("Moonrise3") -> moon3
+wes_palette("Zissou1") -> moon4
+```
+
+### Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores
+
+```{r}
+gvg_total_sum_results %>% 
+  filter(., Issues==FALSE) ->gvg_total_sum_results_true
+
+gvg_total_sum_results_true$Type<- as.factor(gvg_total_sum_results_true$Type)
+gvg_total_sum_results_true$Type <- ordered(gvg_total_sum_results_true$Type, levels = c("Domain_level_match","Phylum_level_match","Class_level_match","Order_level_match","Family_level_match", "Genus_level_match", "Species_level_match"))
+  
+gvg_total_sum_results_true$BCC <- as.character(gvg_total_sum_results_true$BCC)
+
+gvg_total_sum_results_true$BCC<- as.factor(gvg_total_sum_results_true$BCC)
+gvg_total_sum_results_true$BCC <- ordered(gvg_total_sum_results_true$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvg_total_sum_results_true %>% 
+  mutate(., perc=perc/100) %>% 
+ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  theme_classic() +
+  scale_fill_manual(values=c(moon3,moon2[2],moon2[4]),labels = c("Domain","Phylum","Class","Order","Family","Genus","Species")) +
+  scale_color_manual(values=c(moon3,moon2[2],moon2[4]),labels = c("Domain","Phylum","Class","Order","Family","Genus","Species")) + 
+  guides(fill=guide_legend(title="Correct Taxonomic Path To:"), color=guide_legend(title="Correct Taxonomic Path To:"))+
+  scale_y_continuous(labels = scales::percent) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Global Reference Database Assigned By Global Reference Database") -> gvg_tax
+
+gvg_tax
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_tax_class.eps"),
+       plot = gvg_tax,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+```
+### Misclassification Rates Across Bootstrap Confidence Cutoff Scores
+```{r}
+
+gvg_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., misclassified==TRUE)  ->gvg_total_sum_results_misclassified
+  
+
+gvg_total_sum_results_misclassified$Type<- as.factor(gvg_total_sum_results_misclassified$Type)
+gvg_total_sum_results_misclassified$Type <- ordered(gvg_total_sum_results_misclassified$Type, levels = c("Domain_level_match_misclassified_to_genus",                                                                        "Domain_level_match_misclassified_to_species",
+ "Class_level_match_misclassified_to_order",                                                                                           "Class_level_match_misclassified_to_family",
+ "Class_level_match_misclassified_to_genus",
+ "Class_level_match_misclassified_to_species",
+ "Order_level_match_misclassified_to_family",
+"Order_level_match_misclassified_to_genus",
+"Order_level_match_misclassified_to_species",
+"Family_level_match_misclassified_to_genus",
+"Family_level_match_misclassified_to_species",
+"Genus_level_match_misclassified_to_species"))
+  
+gvg_total_sum_results_misclassified$BCC <- as.character(gvg_total_sum_results_misclassified$BCC)
+
+gvg_total_sum_results_misclassified$BCC<- as.factor(gvg_total_sum_results_misclassified$BCC)
+gvg_total_sum_results_misclassified$BCC <- ordered(gvg_total_sum_results_misclassified$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvg_total_sum_results_misclassified %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  scale_fill_manual(values=c("darkorchid4","darkorchid2","darkseagreen","darkgreen","darkolivegreen3","springgreen4","darkred","red3","orangered2","gold2","yellow","dodgerblue4")) +
+  scale_color_manual(values=c("darkorchid4","darkorchid2","darkseagreen","darkgreen","darkolivegreen3","springgreen4","darkred","red3","orangered2","gold2","yellow","dodgerblue4")) + 
+  theme_classic() +
+  guides(fill=guide_legend(title="Misclassification"), color=guide_legend(title="Misclassification"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.05)) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Misclassification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Global Reference Database Assigned By Global Reference Database")-> gvg_over
+
+gvg_over
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_misclass.eps"),
+       plot = gvg_over,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+### Summary of True Positive Rate and Overclassification Rates
+```{r}
+gvg_total_sum_results_misclassified %>% 
+  group_by(BCC) %>% 
+  dplyr::summarise( total_perc= sum(perc)*100) -> gvg_total_perc
+
+gvg_total_sum_results_true %>% 
+  filter(., Type =="Species_level_match") %>% 
+  left_join(gvg_total_perc) %>% 
+  dplyr::select(BCC, TPR=perc, OC=total_perc)
+```
+
+
+### Exploration of Bizarre Patterns
+```{r}
+
+gvg_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., match_not_==TRUE)  ->gvg_total_sum_results_match_not_
+  
+
+gvg_total_sum_results_match_not_$Type<- as.factor(gvg_total_sum_results_match_not_$Type)
+  
+gvg_total_sum_results_match_not_$BCC <- as.character(gvg_total_sum_results_match_not_$BCC)
+
+gvg_total_sum_results_match_not_$BCC<- as.factor(gvg_total_sum_results_match_not_$BCC)
+gvg_total_sum_results_match_not_$BCC <- ordered(gvg_total_sum_results_match_not_$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvg_total_sum_results_match_not_ %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") +
+  theme_classic() +
+  guides(fill=guide_legend(title="Bizarre Patterns"), color=guide_legend(title="Bizarre Patterns"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.0011)) +
+  geom_hline(yintercept = 1, linetype="dashed") 
+
+```
+
+Unclear why these taxonomic assignments match for species, but not for higher levels of classification. Potential explanations:
+a) Incorrect higher level taxonomic classifications, 
+b) At very low cutoff scores there may be some unexpected taxonomic assignments
+c) An issue with the TAXXI assignments?
+
+#### Non Vertebrate Sequences
+```{r}
+gvg_total_results %>% 
+  filter(., Class %in% c("Insecta",  "Arachnida", "Chromadorea" ,"Enoplea")) 
+```
+
+## Focussing on Taxonomic Bootstrap Cutoff Score of 60 
+
+### Genera with Highest Counts of Only Genus Level Identififcation 
+
+```{r}
+gvg_total_results %>% 
+  group_by(BCC,Domain, Phylum, Class, Order, Family,Genus) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> genera_count
+
+gvg_total_results %>% 
+  filter(., Type =="Genus_level_match") %>% 
+  group_by(BCC,Class,Family,Genus) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(genera_count, by=c("Genus","BCC")) %>% 
+  group_by(BCC) %>% 
+  mutate(., prop_Genus_id = Species_count/Species_count_total) %>% 
+  dplyr::select(BCC, Class.x , Family.x, Genus, prop_Genus_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvg_total_results_sum
+
+gvg_total_results_sum %>% 
+  ungroup() %>% 
+  mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "Local Reference Database","Other")) %>% 
+  filter(., BCC==60) %>% 
+  filter(., Species_count >5) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Genus, -Species_count), fill=Location, group=Location)) + geom_col() + theme_classic() + ylab("Species Counts") +xlab("Genus") +theme(axis.text.x = element_text(angle = 45,hjust = 1))+ scale_fill_manual(values = c(moon4[1],moon4[3])) + 
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Global Reference Database Assigned By Global Reference Database") + theme(legend.position = "empty")-> gvg_genus_count
+
+gvg_genus_count
+```
+
+```{r}
+gvg_total_results_sum %>% 
+  ungroup() %>% 
+  mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "Local Reference Database","Other")) %>% 
+  filter(., BCC==60) %>% 
+  filter(., Species_count >5) %>% View()
+
+
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_genus_count.eps"),
+       plot = gvg_genus_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+
+```
+
+### Genera with Highest Proportion of Genus Level Identififcation 
+```{r}
+
+gvg_total_results_sum %>% 
+  ungroup() %>% 
+  mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "California Current Fish","Other")) %>% 
+  group_by(Genus) %>% 
+  filter(., BCC ==60) %>% 
+  mutate(., max_genus_props = max(prop_Genus_id)) %>% 
+    filter(., prop_Genus_id >.7) %>% 
+  ggplot(., aes(y=prop_Genus_id, x=reorder(Genus, -prop_Genus_id),fill=Location, group=Location)) + geom_col() + theme_classic() +theme(axis.text.x = element_text(angle = 90)) + ylab("Proportion of Species") +xlab("Genus") +
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Global Reference Database Assigned By Global Reference Database ") + scale_fill_manual(values = c(moon4[1],moon4[3]))+ theme(legend.position = "empty")  -> gvg_genus_prop
+
+gvg_genus_prop
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_genus_prop.eps"),
+       plot = gvg_genus_prop,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+  
+
+
+```
+
+### Families with Highest Counts of Family Level Identififcation
+
+```{r}
+
+gvg60_results %>% 
+  group_by(Domain, Phylum, Class, Order, Family) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> family_count
+
+
+gvg60_results %>% 
+  filter(., Type =="Family_level_match") %>% 
+  group_by(Class,Family) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(family_count, by=c("Family")) %>% 
+  mutate(., prop_family_id = Species_count/Species_count_total) %>% 
+  dplyr::select(Class.x , Family, prop_family_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvg60_results_sum_family
+
+
+gvg60_results_sum_family %>% 
+  ungroup() %>% 
+    mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  filter(., Species_count >1) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Family, -Species_count), fill=Location, group=Location)) + geom_col()  + theme_classic() + ylab("Species Counts") +xlab("Family") +theme(axis.text.x = element_text(angle = 45,hjust = 1))+
+  labs(title = "Families with Poor Taxonomic Resolution",
+              subtitle = "Global Reference Database Assigned By Global Reference Database ") + scale_fill_manual(values = c(moon4[1],moon4[3]))+ theme(legend.position = "empty")-> gvg_family_count
+
+gvg_family_count
+
+FishCARD_df %>% 
+  filter(., Family=="Cichlidae") -> cic
+
+
+gvg60_results_sum_family %>% 
+  ungroup() %>% 
+    mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  filter(., Species_count >1) %>%  View()
+
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_family_count.eps"),
+       plot = gvg_family_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+  
+```
+
+### Families with Highest Counts of Class Level Identififcation
+```{r}
+
+gvg60_results %>% 
+  group_by(Domain, Phylum, Class) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> class_count
+
+
+gvg60_results %>% 
+  filter(., Type =="Class_level_match") %>% 
+  group_by(Class, Family) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(class_count, by=c("Class")) %>% 
+  mutate(., prop_family_id = Species_count/Species_count_total) %>% 
+  dplyr::select(Class ,Family, prop_family_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvg60_results_sum_class
+
+
+gvg60_results_sum_class %>% 
+  ungroup() %>% 
+      mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Family, -Species_count), fill=Location, group=Location)) + geom_col() + theme(axis.text.x = element_text(angle = 45,hjust = 1))  + theme_classic() + ylab("Species Counts") +xlab("Family") +
+  labs(title = "Families with Poor Taxonomic Resolution",
+              subtitle = "Global Reference Database Assigned By Global Reference Database ")+theme(axis.text.x = element_text(angle = 45,hjust = 1)) + scale_fill_manual(values = c(moon4[1],moon4[3]))+ theme(legend.position = "empty")-> gvg_class_count
+
+gvg_class_count
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvg_class_count.eps"),
+       plot = gvg_class_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+# Local Reference Database Assigned By Global Reference Database
+
+### Import GvL Data
+```{r}
+
+gvl40 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_40BLCA.out.100"), sep="\t",header = FALSE)
+gvl50 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_50BLCA.out.100"), sep="\t",header = FALSE)
+gvl60 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_60BLCA.out.100"), sep="\t",header = FALSE)
+gvl70 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_70BLCA.out.100"), sep="\t",header = FALSE)
+gvl80 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_80BLCA.out.100"), sep="\t",header = FALSE)
+gvl90 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_90BLCA.out.100"), sep="\t",header = FALSE)
+gvl95 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_95BLCA.out.100"), sep="\t",header = FALSE)
+gvl100 <- read.delim(file=here("Data","TAXXI","pred","globaltrim_localtrim.100", "pred_100BLCA.out.100"), sep="\t",header = FALSE)
+
+```
+
+### Run Taxx_convert and combine into one dataset
+```{r}
+taxx_convert(gvl40,40) -> gvl40_results
+taxx_convert(gvl50,50) -> gvl50_results
+taxx_convert(gvl60,60) -> gvl60_results
+taxx_convert(gvl70,70) -> gvl70_results
+taxx_convert(gvl80,80) -> gvl80_results
+taxx_convert(gvl90,90) -> gvl90_results
+taxx_convert(gvl95,95) -> gvl95_results
+taxx_convert(gvl100,100) -> gvl100_results
+
+rbind(gvl40_results,gvl50_results,gvl60_results,gvl70_results,gvl80_results,gvl90_results,gvl95_results,gvl100_results) -> gvl_total_results
+```
+
+### Summarize Taxonomic Assignments
+```{r}
+
+gvl_total_results %>% 
+  group_by(BCC) %>% 
+  dplyr::count(Type) %>%
+  group_by(BCC) %>% 
+  dplyr::summarise(., Type=Type,n=n, tot = sum(n),
+         perc = n/tot*100) %>% 
+  mutate(., misclassified = str_detect(Type,"misclassified"),
+         no_level_match = str_detect(Type,"no_level_match"),
+         match_not_ = str_detect(Type,"match_not_")) %>% 
+  mutate(., Issues = case_when(misclassified == TRUE ~"TRUE",
+                               no_level_match == TRUE ~"TRUE",
+                               match_not_== TRUE ~ "TRUE", 
+                               misclassified == FALSE ~"FALSE",
+                               no_level_match == FALSE ~"FALSE",
+                               match_not_== FALSE ~ "FALSE" )) -> gvl_total_sum_results
+```
+### Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores
+
+```{r}
+
+gvl_total_sum_results %>% 
+  filter(., Issues==FALSE) ->gvl_total_sum_results_true
+
+gvl_total_sum_results_true$Type<- as.factor(gvl_total_sum_results_true$Type)
+gvl_total_sum_results_true$Type <- ordered(gvl_total_sum_results_true$Type, levels = c("Domain_level_match","Phylum_level_match","Class_level_match","Order_level_match","Family_level_match", "Genus_level_match", "Species_level_match"))
+  
+gvl_total_sum_results_true$BCC <- as.character(gvl_total_sum_results_true$BCC)
+
+gvl_total_sum_results_true$BCC<- as.factor(gvl_total_sum_results_true$BCC)
+gvl_total_sum_results_true$BCC <- ordered(gvl_total_sum_results_true$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvl_total_sum_results_true %>% 
+  mutate(., perc=perc/100) %>% 
+ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  theme_classic() +
+  scale_fill_manual(values=c(moon3[-1],moon2[2],moon2[4]),labels = c("Phylum","Class","Order","Family","Genus","Species")) +
+  scale_color_manual(values=c(moon3[-1],moon2[2],moon2[4]),labels = c("Phylum","Class","Order","Family","Genus","Species")) + 
+  guides(fill=guide_legend(title="Correct Taxonomic Path To:"), color=guide_legend(title="Correct Taxonomic Path To:"))+
+  scale_y_continuous(labels = scales::percent) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database")-> gvl_tax_class
+
+gvl_tax_class
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_tax_class.eps"),
+       plot = gvl_tax_class,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+### Misclassification Rates Across Bootstrap Confidence Cutoff Scores
+```{r}
+
+gvl_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., misclassified==TRUE)  ->gvl_total_sum_results_misclassified
+  
+
+gvl_total_sum_results_misclassified$Type<- as.factor(gvl_total_sum_results_misclassified$Type)
+gvl_total_sum_results_misclassified$Type <- ordered(gvl_total_sum_results_misclassified$Type, levels = c("Domain_level_match_misclassified_to_genus",                                                                        "Domain_level_match_misclassified_to_species",
+ "Class_level_match_misclassified_to_order",                                                                                           "Class_level_match_misclassified_to_family",
+ "Class_level_match_misclassified_to_genus",
+ "Class_level_match_misclassified_to_species",
+ "Order_level_match_misclassified_to_family",
+"Order_level_match_misclassified_to_genus",
+"Order_level_match_misclassified_to_species",
+"Family_level_match_misclassified_to_genus",
+"Family_level_match_misclassified_to_species",
+"Genus_level_match_misclassified_to_species"))
+  
+gvl_total_sum_results_misclassified$BCC <- as.character(gvl_total_sum_results_misclassified$BCC)
+
+gvl_total_sum_results_misclassified$BCC<- as.factor(gvl_total_sum_results_misclassified$BCC)
+gvl_total_sum_results_misclassified$BCC <- ordered(gvl_total_sum_results_misclassified$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvl_total_sum_results_misclassified %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  scale_fill_manual(values=c("red3","orangered2","gold2","yellow","dodgerblue4")) +
+  scale_color_manual(values=c("red3","orangered2","gold2","yellow","dodgerblue4")) + 
+  theme_classic() +
+  guides(fill=guide_legend(title="Misclassification"), color=guide_legend(title="Misclassification"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.05)) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Misclassification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database")-> gvl_over_class
+
+gvl_over_class
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_misclass.eps"),
+       plot = gvl_over_class,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+### Summary of True Positive Rate and Overclassification Rates
+```{r}
+gvl_total_sum_results_misclassified %>% 
+  group_by(BCC) %>% 
+  dplyr::summarise( total_perc= sum(perc)*100) -> gvl_total_perc
+
+gvl_total_sum_results_true %>% 
+  filter(., Type =="Species_level_match") %>% 
+  left_join(gvl_total_perc) %>% 
+  dplyr::select(BCC, TPR=perc, OC=total_perc)
+```
+
+### Exploration of Bizzare Patterns
+```{r}
+gvl_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., match_not_==TRUE)  -> gvl_total_sum_results_match_not_
+  
+
+gvl_total_sum_results_match_not_$Type<- as.factor(gvl_total_sum_results_match_not_$Type)
+  
+gvl_total_sum_results_match_not_$BCC <- as.character(gvl_total_sum_results_match_not_$BCC)
+
+gvl_total_sum_results_match_not_$BCC<- as.factor(gvl_total_sum_results_match_not_$BCC)
+gvl_total_sum_results_match_not_$BCC <- ordered(gvl_total_sum_results_match_not_$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+gvl_total_sum_results_match_not_ %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") +
+  theme_classic() +
+  guides(fill=guide_legend(title="Bizarre Patterns"), color=guide_legend(title="Bizarre Patterns"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.0011)) +
+  geom_hline(yintercept = 1, linetype="dashed") 
+
+```
+
+## Focussing on Taxonomic Bootstrap Cutoff Score of 60 
+
+### Genera with Highest Counts of Genus Level Identififcation
+
+```{r}
+
+gvl_total_results %>% 
+  group_by(BCC,Domain, Phylum, Class, Order, Family,Genus) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> genera_count_gvl
+
+gvl_total_results %>% 
+  filter(., Type =="Genus_level_match") %>% 
+  group_by(BCC,Class,Family,Genus) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species),) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(genera_count_gvl, by=c("Genus","BCC")) %>% 
+  group_by(BCC) %>% 
+  mutate(., prop_Genus_id = Species_count/Species_count_total) %>% 
+  dplyr::select(BCC, Class.x , Family.x, Genus, prop_Genus_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvl_total_results_sum
+
+
+gvl_total_results_sum %>% 
+    mutate(., Location = dplyr::if_else( BCC >1, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  filter(., BCC==60) %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Genus, -Species_count),fill=Location, group=Location)) + geom_col()  + theme_classic() + ylab("Species Counts") +xlab("Genus") + theme(axis.text.x = element_text(angle = 70,hjust = 1))+
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> gvl_genus_count
+
+gvl_genus_count
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_genus_count.eps"),
+       plot = gvl_genus_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+
+```
+
+### Genera with Highest Proportions of Genus Level Identififcation
+```{r}
+
+gvl_total_results_sum %>% 
+      mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  group_by(Genus) %>% 
+  filter(., BCC ==60) %>% 
+  filter(., Genus %in% unique_genera) %>% 
+  mutate(., max_genus_props = max(prop_Genus_id)) %>% 
+    filter(., prop_Genus_id >.2) %>% 
+  ggplot(., aes(y=prop_Genus_id, x=reorder(Genus, -prop_Genus_id),fill=Location, group=Location )) + geom_col() +  theme_classic() + ylab("Proportion") +xlab("Genus") + theme(axis.text.x = element_text(angle = 45,hjust = 1)) +
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> gvl_genus_prop
+
+gvl_genus_prop
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_genus_prop.eps"),
+       plot = gvl_genus_prop,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+### Families with Highest Counts of Family Level Identififcation
+```{r}
+
+gvl60_results %>% 
+  group_by(Domain, Phylum, Class, Order, Family) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> family_count
+
+
+gvl60_results %>% 
+  filter(., Type =="Family_level_match") %>% 
+  group_by(Class,Family) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(family_count, by=c("Family")) %>% 
+  mutate(., prop_family_id = Species_count/Species_count_total) %>% 
+  dplyr::select(Class.x , Family, prop_family_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvl60_results_sum_family
+
+gvl60_results_sum_family %>% 
+        mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Family, -Species_count),fill=Location, group=Location )) + geom_col()  + theme_classic() + ylab("Species Counts") +xlab("Family") + theme(axis.text.x = element_text(angle = 45,hjust = 1)) +
+  labs(title = "Families with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> gvl_family_count
+gvl_family_count
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_family_count.eps"),
+       plot = gvl_family_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+```
+### Families with Highest Counts of Class Level Identififcation
+```{r}
+
+gvl60_results %>% 
+  group_by(Domain, Phylum, Class) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> class_count
+
+
+gvl60_results %>% 
+  filter(., Type =="Class_level_match") %>% 
+  group_by(Class, Family) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(class_count, by=c("Class")) %>% 
+  mutate(., prop_family_id = Species_count/Species_count_total) %>% 
+  dplyr::select(Class ,Family, prop_family_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> gvl60_results_sum_class
+
+
+gvl60_results_sum_class %>% 
+     mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Family, -Species_count),,fill=Location, group=Location)) + geom_col()  + theme_classic() +  theme(axis.text.x = element_text(angle = 45,hjust = 1))+ ylab("Species Counts") +xlab("Family") +
+  labs(title = "Families with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Global Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> gvl_class_count
+
+gvl_class_count
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","gvl_class_count.eps"),
+       plot = gvl_class_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+```
+
+# Local Reference Database Assigned By Global Reference Database
+
+### Import LvL Data
+```{r}
+
+lvl40 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_40BLCA.out.100"), sep="\t",header = FALSE)
+lvl50 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_50BLCA.out.100"), sep="\t",header = FALSE)
+lvl60 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_60BLCA.out.100"), sep="\t",header = FALSE)
+lvl70 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_70BLCA.out.100"), sep="\t",header = FALSE)
+lvl80 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_80BLCA.out.100"), sep="\t",header = FALSE)
+lvl90 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_90BLCA.out.100"), sep="\t",header = FALSE)
+lvl95 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_95BLCA.out.100"), sep="\t",header = FALSE)
+lvl100 <- read.delim(file=here("Data","TAXXI","pred","fishcard_12S_trim.100","pred_100BLCA.out.100"), sep="\t",header = FALSE)
+
+
+```
+
+### Run Taxx_convert
+```{r}
+taxx_convert(lvl40,40) -> lvl40_results
+taxx_convert(lvl50,50) -> lvl50_results
+taxx_convert(lvl60,60) -> lvl60_results
+taxx_convert(lvl70,70) -> lvl70_results
+taxx_convert(lvl80,80) -> lvl80_results
+taxx_convert(lvl90,90) -> lvl90_results
+taxx_convert(lvl95,95) -> lvl95_results
+taxx_convert(lvl100,100) -> lvl100_results
+
+rbind(lvl40_results,lvl50_results,lvl60_results,lvl70_results,lvl80_results,lvl90_results,lvl95_results,lvl100_results) -> lvl_total_results
+```
+
+### Summarize Taxonomic Assignments
+
+```{r}
+
+lvl_total_results %>% 
+  group_by(BCC) %>% 
+  dplyr::count(Type) %>%
+  group_by(BCC) %>% 
+  dplyr::summarise(., Type=Type,n=n, tot = sum(n),
+         perc = n/tot*100) %>% 
+  mutate(., misclassified = str_detect(Type,"misclassified"),
+         no_level_match = str_detect(Type,"no_level_match"),
+         match_not_ = str_detect(Type,"match_not_")) %>% 
+  mutate(., Issues = case_when(misclassified == TRUE ~"TRUE",
+                               no_level_match == TRUE ~"TRUE",
+                               match_not_== TRUE ~ "TRUE", 
+                               misclassified == FALSE ~"FALSE",
+                               no_level_match == FALSE ~"FALSE",
+                               match_not_== FALSE ~ "FALSE" )) -> lvl_total_sum_results
+```
+### Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores
+
+```{r}
+lvl_total_sum_results %>% 
+  filter(., Issues==FALSE) ->lvl_total_sum_results_true
+
+lvl_total_sum_results_true$Type<- as.factor(lvl_total_sum_results_true$Type)
+lvl_total_sum_results_true$Type <- ordered(lvl_total_sum_results_true$Type, levels = c("Domain_level_match","Phylum_level_match","Class_level_match","Order_level_match","Family_level_match", "Genus_level_match", "Species_level_match"))
+  
+lvl_total_sum_results_true$Type %>%  unique()
+lvl_total_sum_results_true$BCC <- as.character(lvl_total_sum_results_true$BCC)
+
+lvl_total_sum_results_true$BCC<- as.factor(lvl_total_sum_results_true$BCC)
+lvl_total_sum_results_true$BCC <- ordered(lvl_total_sum_results_true$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+lvl_total_sum_results_true %>% 
+  mutate(., perc=perc/100) %>% 
+ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  theme_classic() +
+  scale_fill_manual(values=c(moon3[-1],moon2[2],moon2[4]),labels = c("Phylum","Class","Order","Family","Genus","Species")) +
+  scale_color_manual(values=c(moon3[-1],moon2[2],moon2[4]),labels = c("Phylum","Class","Order","Family","Genus","Species")) + 
+  guides(fill=guide_legend(title="Correct Taxonomic Path To:"), color=guide_legend(title="Correct Taxonomic Path To:"))+
+  scale_y_continuous(labels = scales::percent) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Taxonomic Classification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Regional Reference Database Assigned By Regional Reference Database")-> lvl_tax_class
+
+lvl_tax_class
+```
+
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","lvl_tax_class.eps"),
+       plot = lvl_tax_class,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+
+```
+
+
+```{r}
+
+lvl_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., misclassified==TRUE)  ->lvl_total_sum_results_misclassified
+  
+
+lvl_total_sum_results_misclassified$Type<- as.factor(lvl_total_sum_results_misclassified$Type)
+lvl_total_sum_results_misclassified$Type <- ordered(lvl_total_sum_results_misclassified$Type, levels = c("Domain_level_match_misclassified_to_genus",                                                                        "Domain_level_match_misclassified_to_species",
+ "Class_level_match_misclassified_to_order",                                                                                           "Class_level_match_misclassified_to_family",
+ "Class_level_match_misclassified_to_genus",
+ "Class_level_match_misclassified_to_species",
+ "Order_level_match_misclassified_to_family",
+"Order_level_match_misclassified_to_genus",
+"Order_level_match_misclassified_to_species",
+"Family_level_match_misclassified_to_genus",
+"Family_level_match_misclassified_to_species",
+"Genus_level_match_misclassified_to_species"))
+  
+lvl_total_sum_results_misclassified$BCC <- as.character(lvl_total_sum_results_misclassified$BCC)
+
+lvl_total_sum_results_misclassified$BCC<- as.factor(lvl_total_sum_results_misclassified$BCC)
+lvl_total_sum_results_misclassified$BCC <- ordered(lvl_total_sum_results_misclassified$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+lvl_total_sum_results_misclassified %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") + 
+  scale_fill_manual(values=c("red3","orangered2","gold2","yellow","dodgerblue4")) +
+  scale_color_manual(values=c("red3","orangered2","gold2","yellow","dodgerblue4")) + 
+  theme_classic() +
+  guides(fill=guide_legend(title="Misclassification"), color=guide_legend(title="Misclassification"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.05)) +
+  geom_hline(yintercept = 1, linetype="dashed") +
+  labs(title = "Misclassification Rates Across Bootstrap Confidence Cutoff Scores",
+              subtitle = "Regional Reference Database Assigned By Regional Reference Database")-> lvl_over_class
+
+lvl_over_class
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","lvl_misclass.eps"),
+       plot = lvl_over_class,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+
+```
+
+### Summary of True Positive Rate and Overclassification Rates
+```{r}
+lvl_total_sum_results_misclassified %>% 
+  group_by(BCC) %>% 
+  dplyr::summarise( total_perc= sum(perc)*100) -> lvl_total_perc
+
+lvl_total_sum_results_true %>% 
+  filter(., Type =="Species_level_match") %>% 
+  left_join(lvl_total_perc) %>% 
+  dplyr::select(BCC, TPR=perc, OC=total_perc)
+```
+### Exploration of Bizzare Patterns
+```{r}
+
+lvl_total_sum_results %>% 
+    mutate(., perc=perc/100) %>% 
+  filter(., match_not_==TRUE)  ->lvl_total_sum_results_match_not_
+  
+
+lvl_total_sum_results_match_not_$Type<- as.factor(lvl_total_sum_results_match_not_$Type)
+  
+lvl_total_sum_results_match_not_$BCC <- as.character(lvl_total_sum_results_match_not_$BCC)
+
+lvl_total_sum_results_match_not_$BCC<- as.factor(lvl_total_sum_results_match_not_$BCC)
+lvl_total_sum_results_match_not_$BCC <- ordered(lvl_total_sum_results_match_not_$BCC, levels = c("40",                                      "50","60",  "70",
+ "80",
+ "90",
+ "95",
+"100"))
+
+lvl_total_sum_results_match_not_ %>% 
+  ggplot(., aes(y=perc, color=Type, fill=Type, x=BCC)) + geom_col() + ylab("Percent") + xlab("Bootstrap Confidence Cutoff Score") +
+  theme_classic() +
+  guides(fill=guide_legend(title="Bizarre Patterns"), color=guide_legend(title="Bizarre Patterns"))+
+  scale_y_continuous(labels = scales::percent, limits = c(0,0.0011)) +
+  geom_hline(yintercept = 1, linetype="dashed") 
+
+```
+## Focussing on Taxonomic Bootstrap Cutoff Score of 60
+
+### Genera with Highest Counts of Genus Level Identififcation
+
+```{r}
+
+lvl_total_results %>% 
+  group_by(BCC,Domain, Phylum, Class, Order, Family,Genus) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> genera_count_lvl
+
+lvl_total_results %>% 
+  filter(., Type =="Genus_level_match") %>% 
+  group_by(BCC,Class,Family,Genus) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(genera_count_lvl, by=c("Genus","BCC")) %>% 
+  group_by(BCC) %>% 
+  mutate(., prop_Genus_id = Species_count/Species_count_total) %>% 
+  dplyr::select(BCC, Class.x , Family.x, Genus, prop_Genus_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> lvl_total_results_sum
+
+lvl_total_results_sum %>% 
+  mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  filter(., BCC==60) %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Genus, -Species_count), fill=Location, group=Location)) + geom_col() + theme(axis.text.x = element_text(angle = 45,hjust = 1))  + theme_classic() +theme(axis.text.x = element_text(angle = 45,hjust = 1))+ ylab("Species Counts") +xlab("Genus") +
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Regional Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> lvl_genus_count
+
+lvl_genus_count
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","lvl_genus_count.eps"),
+       plot = lvl_genus_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+
+```
+
+### Genera with Highest Proportion of Genus Level Identififcation
+
+```{r}
+
+lvl_total_results_sum %>%
+  mutate(., Location = dplyr::if_else( Genus %in% unique_genera, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  group_by(Genus) %>% 
+  filter(., BCC ==60) %>% 
+  filter(., Genus %in% unique_genera) %>% 
+  mutate(., max_genus_props = max(prop_Genus_id)) %>% 
+  ggplot(., aes(y=prop_Genus_id, x=reorder(Genus, -prop_Genus_id), fill=Location, group=Location)) + geom_col() +theme_classic() + theme(axis.text.x = element_text(angle = 45,hjust = 1)) +ylab("Proportions") +xlab("Genus") +
+  labs(title = "Genera with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Regional Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> lvl_genus_prop
+
+lvl_genus_prop
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","lvl_genus_prop.eps"),
+       plot = lvl_genus_prop,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+  
+
+
+```
+
+### Families with Highest Counts of Family Level Identififcation
+```{r}
+
+lvl60_results %>% 
+  group_by(Domain, Phylum, Class, Order, Family) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> family_count
+
+
+lvl60_results %>% 
+  filter(., Type =="Family_level_match") %>% 
+  group_by(Class,Family) %>%
+  dplyr::summarise(., Species_count = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) %>% 
+  left_join(family_count, by=c("Family")) %>% 
+  mutate(., prop_family_id = Species_count/Species_count_total) %>% 
+  dplyr::select(Class.x , Family, prop_family_id, Species_count, Species_count_total) %>% 
+  arrange(desc(Species_count)) -> lvl60_results_sum_family
+
+lvl60_results_sum_family %>% 
+   mutate(., Location = dplyr::if_else( Family %in% FishCARD_df$Family, "California Current Fish","Other")) %>% 
+  ungroup() %>% 
+  filter(., Species_count >0) %>% 
+  ggplot(., aes(y=Species_count, x=reorder(Family, -Species_count), fill=Location, group=Location)) + geom_col() + theme_classic()+theme(axis.text.x = element_text(angle = 45,hjust = 1)) +ylab("Species Counts") +xlab("Family") +
+  labs(title = "Families with Poor Taxonomic Resolution",
+              subtitle = "Regional Reference Database Assigned By Regional Reference Database ")+ theme(legend.position = "empty") + scale_fill_manual(values = c(moon4[1]))-> lvl_family_count
+
+lvl_family_count
+```
+
+```{r}
+ggsave(filename = here("Data","TAXXI","Figures","lvl_family_count.eps"),
+       plot = lvl_family_count,
+       device = cairo_ps,
+       dpi = 300,
+       width = 8,
+  height = 8,
+  units = c("in"))
+```
+
+### Families with Highest Counts of Class Level Identififcation
+```{r}
+
+lvl60_results %>% 
+  group_by(Domain, Phylum, Class) %>%
+  dplyr::summarise(., Species_count_total = n_distinct(Species)) %>% 
+  filter(., Class %in% c("Actinopteri","Chondrichthyes","Myxini","Hyperoartia","Cladistia","Dipnoi","Coelacanthimorpha")) -> class_count
+
+
+lvl60_results %>% 
+  filter(., Type =="Class_level_match") 
+
+#none
+```

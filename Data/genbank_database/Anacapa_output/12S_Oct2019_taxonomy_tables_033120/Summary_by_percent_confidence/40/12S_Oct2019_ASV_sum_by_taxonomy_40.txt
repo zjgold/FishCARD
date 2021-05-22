@@ -1,0 +1,113 @@
+sum.taxonomy	X12S_Oct2019_LSC.B.1.S22.L001	X12S_Oct2019_PP.B.1.S4.L001	X12S_Oct2019_PedRF.B.1.S13.L001
+Eukaryota;Chordata;Actinopteri;Alepocephaliformes;Platytroctidae;Normichthys;Normichthys operosus	1	0	0
+Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax unicolor	1291	0	1329
+Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Leuresthes;Leuresthes tenuis	0	730	1811
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Blenniidae;Omobranchus;Omobranchus punctatus	0	0	2
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus	0	1	0
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox maeandricus	0	0	2070
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Neoclinus;Neoclinus nudus	0	136	0
+Eukaryota;Chordata;Actinopteri;Blenniiformes;NA;;	0	0	2
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Tripterygiidae;Enneapterygius;	0	0	723
+Eukaryota;Chordata;Actinopteri;Blenniiformes;Tripterygiidae;Enneapterygius;Enneapterygius philippinus	1	0	0
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Caranx;	0	0	1
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;	0	0	4
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi	0	0	3677
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola rivoliana	0	0	1
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachinotus;Trachinotus baillonii	0	0	1
+Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus	3558	2748	631
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Centrarchidae;Micropterus;Micropterus dolomieu	1	0	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Centrarchidae;Micropterus;Micropterus floridanus	0	0	1
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Centrarchidae;Micropterus;Micropterus punctulatus	0	0	1
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;	0	5	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans	0	1	1
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella simplicidens	1488	18415	4483
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella tricuspidata	0	1	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea	0	0	338
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Labracoglossa;Labracoglossa argenteiventris	1	0	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis	16597	8848	4733
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Microcanthus;Microcanthus strigatus	2	6	2
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;NA;	1	5	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Lutjanidae;Lutjanus;	1	2	1
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Lutjanidae;NA;	1	1	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;NA;;	15	279	19
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;	2	2	0
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Oplegnathidae;Oplegnathus;Oplegnathus woodwardi	26	116	81
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Sinipercidae;Siniperca;Siniperca chuatsi	0	0	1
+Eukaryota;Chordata;Actinopteri;Centrarchiformes;Sinipercidae;Siniperca;Siniperca scherzeri	0	1	0
+Eukaryota;Chordata;Actinopteri;Cichliformes;Cichlidae;Oreochromis;Oreochromis niloticus	0	1	0
+Eukaryota;Chordata;Actinopteri;Cichliformes;Opistognathidae;Opistognathus;Opistognathus sp. MEGANE-AGOAMADAI	0	2	0
+Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax	0	167	3680
+Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis japonicus	1	0	0
+Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax	9398	1857	0
+Eukaryota;Chordata;Actinopteri;Cypriniformes;Cyprinidae;Ctenopharyngodon;Ctenopharyngodon idella	0	0	1
+Eukaryota;Chordata;Actinopteri;Holocentriformes;Holocentridae;Sargocentron;	1	0	0
+Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus	1	0	0
+Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Hemigymnus;Hemigymnus fasciatus	0	1	0
+Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica	13555	6342	8152
+Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher	880	2525	4131
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Dipterygonotus;Dipterygonotus balteatus	1	0	1
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Etelis;Etelis carbunculus	0	0	474
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;	3	12	3
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus argentimaculatus	0	4	2
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus fulviflamma	0	0	1
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Lutjanus kasmira	1	0	0
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;Lutjanus;Oplegnathus woodwardi	0	0	2
+Eukaryota;Chordata;Actinopteri;Lutjaniformes;Lutjanidae;NA;	0	1	1
+Eukaryota;Chordata;Actinopteri;Mugiliformes;Mugilidae;Chaenomugil;Chaenomugil proboscideus	3134	178	0
+Eukaryota;Chordata;Actinopteri;NA;;NA;	7328	27802	18728
+Eukaryota;Chordata;Actinopteri;NA;Embiotocidae;Brachyistius;Brachyistius frenatus	0	418	0
+Eukaryota;Chordata;Actinopteri;NA;Embiotocidae;Cymatogaster;Cymatogaster aggregata	0	0	1
+Eukaryota;Chordata;Actinopteri;NA;Embiotocidae;Embiotoca;Embiotoca jacksoni	352	2070	0
+Eukaryota;Chordata;Actinopteri;NA;Embiotocidae;Rhacochilus;Rhacochilus vacca	945	294	2162
+Eukaryota;Chordata;Actinopteri;NA;Malacanthidae;Malacanthus;Malacanthus latovittatus	1383	32	340
+Eukaryota;Chordata;Actinopteri;NA;Monodactylidae;Monodactylus;Monodactylus argenteus	2	0	1
+Eukaryota;Chordata;Actinopteri;NA;Opistognathidae;Opistognathus;	1	0	0
+Eukaryota;Chordata;Actinopteri;NA;Opistognathidae;Opistognathus;Opistognathus jacksoniensis	0	855	129
+Eukaryota;Chordata;Actinopteri;NA;Opistognathidae;Opistognathus;Opistognathus punctatus	1	0	0
+Eukaryota;Chordata;Actinopteri;NA;Opistognathidae;Opistognathus;Opistognathus sp. MEGANE-AGOAMADAI	0	5	0
+Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;	1	0	0
+Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chromis;Chromis punctipinnis	6998	446	1787
+Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Chrysiptera;Chrysiptera rex	0	1	0
+Eukaryota;Chordata;Actinopteri;NA;Pomacentridae;Hypsypops;Hypsypops rubicundus	790	184	0
+Eukaryota;Chordata;Actinopteri;NA;Sciaenidae;Argyrosomus;	0	134	1140
+Eukaryota;Chordata;Actinopteri;NA;Sciaenidae;Genyonemus;Genyonemus lineatus	62	0	0
+Eukaryota;Chordata;Actinopteri;NA;Sciaenidae;NA;	0	0	7
+Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena africana	1	0	1
+Eukaryota;Chordata;Actinopteri;NA;Sphyraenidae;Sphyraena;Sphyraena helleri	11222	1279	8248
+Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori	0	239	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;Acropomatidae;Neoscombrops;Neoscombrops pacificus	1	0	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;Banjosidae;Banjos;Banjos banjos	0	1	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;NA;;	1	0	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;	1	0	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis doederleini	1	0	0
+Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas	6213	0	3420
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Alcichthys;Alcichthys elongatus	0	0	7
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Chitonotus;Chitonotus pugetensis	0	0	1
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Icelinus;Icelinus filamentosus	0	0	996
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;NA;	0	0	3
+Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ocynectes;	0	0	1
+Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus	0	0	399
+Eukaryota;Chordata;Actinopteri;Perciformes;Peristediidae;Satyrichthys;Satyrichthys welchi	1	1	6
+Eukaryota;Chordata;Actinopteri;Perciformes;Sebastidae;Sebastes;	336	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Grammistes;Grammistes sexlineatus	1	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;NA;	1	0	0
+Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Plectranthias;Plectranthias wheeleri	1	0	0
+Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus	0	0	13063
+Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys albigutta	0	0	1
+Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys olivaceus	0	227	382
+Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Xystreurys;Xystreurys liolepis	0	1	0
+Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens	0	0	105
+Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni	357	0	0
+Eukaryota;Chordata;Actinopteri;Scombriformes;Gempylidae;Ruvettus;Ruvettus pretiosus	1	0	0
+Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;Thunnus;	1	0	0
+Eukaryota;Chordata;Actinopteri;Scombriformes;Scombropidae;Scombrops;	0	3	0
+Eukaryota;Chordata;Actinopteri;Scombriformes;Scombropidae;Scombrops;Scombrops boops	1	4	0
+Eukaryota;Chordata;Actinopteri;Scombriformes;Scombropidae;Scombrops;Scombrops sp. SI-2017	0	1	0
+Eukaryota;Chordata;Actinopteri;Siluriformes;NA;;	1	0	0
+Eukaryota;Chordata;Actinopteri;Spariformes;Sparidae;NA;	1	0	0
+Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis	1008	0	0
+Eukaryota;Chordata;Actinopteri;Uranoscopiformes;Ammodytidae;Ammodytes;	0	2	0
+Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis aquila	27	0	0
+Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica	262	0	34
+Eukaryota;Chordata;Mammalia;Artiodactyla;Delphinidae;Tursiops;Tursiops truncatus	0	4	0
+NA	58550	6518	16644

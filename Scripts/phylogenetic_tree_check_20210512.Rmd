@@ -1,0 +1,219 @@
+---
+title: "Tree Building Check Regional DB"
+author: "Zack Gold"
+date: "5/12/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(Biostrings)
+library(here)
+library(phangorn)
+# Load Libraries
+library(here)
+library(tidyverse)
+library(Biostrings)
+library(ggtree)
+library(seqRFLP)
+library(aplot)
+library(ape)
+library(phangorn)
+library(seqinr)
+library(ggstance)
+library(ggtree)
+library(tidytree)
+library(cowplot)
+library(patchwork)
+library(DECIPHER)
+library(ips)
+library(magrittr)  
+library(knitr)
+library(PNWColors)
+library(phytools)
+library(treeio)
+library(treedata.table)
+
+```
+
+# Import Data
+```{r}
+
+fishcard_fasta <- readDNAStringSet(file = here("Data","local_database","Reference_db","trimmed","fishcard_12S_all_.fasta"))
+fishcard_taxonomy <- read.table(file = here("Data","local_database","Reference_db","trimmed","fishcard_12S_all_taxonomy.txt"), sep="\t")
+CA_fishes <- read.csv(file = here("Data","CA_fish_species","CA_fish_list_20210216.csv" ), header = T)
+names(fishcard_fasta) %>% as_tibble() -> fishcard_fasta_accessions
+
+
+generated_seqs <- fishcard_fasta_accessions %>% filter(., str_detect(value,"FISHCARD"))
+selected_sequences <- fishcard_fasta[generated_seqs$value]
+
+names(selected_sequences) %>% as_tibble()-> new_accessions
+
+new_accessions %>%  
+  left_join(fishcard_taxonomy, by= c("value"="V1")) -> new_taxa
+
+names(selected_sequences) <- new_taxa$V2
+
+selected_sequences_unique <- fishcard_fasta[generated_seqs$value]
+
+```
+
+
+## Create an alignment for Porpoise sequences
+```{r, message=FALSE, warning=FALSE}
+#Align the sequences directly without translation
+DNA <- AlignSeqs(selected_sequences) 
+writeXStringSet(DNA, file=here("Data","phylogenetic_tree","fishcard_aligned.fasta"))
+
+DNA_all <- AlignSeqs(fishcard_fasta) 
+writeXStringSet(DNA_all, file=here("Data","phylogenetic_tree","regional_db_aligned.fasta"))
+
+DNA_unique <- AlignSeqs(selected_sequences_unique) 
+writeXStringSet(DNA_unique, file=here("Data","phylogenetic_tree","fishcard_aligned_accessions.fasta"))
+
+```
+
+```{r}
+BrowseSeqs(DNA,highlight=0, openURL= FALSE, htmlFile = here("Data","phylogenetic_tree","dereplicated_alignment_explore.html")) -> ff
+here()
+print("See dereplicated_alignment_explore.html")
+```
+
+### Create Quick and Dirty Phylogenetic Tree
+
+```{r, width=20, height=8}
+d <- DistanceMatrix(DNA, correction="none", verbose=FALSE)
+c <- IdClusters(d, method="UPGMA", cutoff=.05, showPlot=TRUE, myXStringSet=DNA, verbose=FALSE)
+
+
+```
+
+# Phangorn Phylogenetic Tree Construction
+
+## Haplotype Unique 
+
+### Build phyDat file
+```{r}
+phyDat <- read.phyDat(here("Data","phylogenetic_tree","regional_db_aligned.fasta"),format="fasta") 
+
+```
+
+### Model Test
+```{r}
+mt <- modelTest(phyDat)
+head(mt)
+```
+
+### Build Distance Matrix
+```{r}
+dna_dist <- dist.ml(phyDat, model="JC69")
+
+```
+
+### Build Trees
+
+
+```{r}
+### Two example model types
+UPGMA <- upgma(dna_dist)
+```
+
+#### UPGMA
+
+```{r}
+fit_upgma <- pml(UPGMA, phyDat)
+
+```
+
+```{r, message=FALSE, warning=FALSE}
+### Run bootstrapping
+fitJC_upgma <- optim.pml(fit_upgma, model = "JC", rearrangement = "stochastic")
+
+```
+
+### Bootstrapping
+```{r, height=20, width=8}
+bs_upgma <- bootstrap.pml(fitJC_upgma, bs=100, optNni=TRUE, multicore=TRUE, control = pml.control(trace=0))
+
+bs_upgma_tree_rooted <- plotBS(midpoint(fitJC_upgma$tree), bs_upgma, p = 50, type="p" ,label.offset	=0.0001, bs.col	
+= "dodgerblue4", bs.adj = c(1.2,1.2))
+
+write.tree(bs_upgma_tree_rooted, file=here("Data","phylogenetic_tree","bs_upgma_tree_rooted.tre"))
+
+```
+### UPGMA Rooted Haplotypes Unique
+```{r}
+pnw_palette(name="Lake",n=7,type="discrete") -> lake
+
+tree_jc_2 <- read.tree(here("Data","phylogenetic_tree","bs_upgma_tree_rooted.tre"))
+
+tree_jc_2$tip.label %>% as_tibble() %>% 
+  left_join(fishcard_taxonomy, by=c("value"="V1")) %>% 
+  separate(., V2, into=c("D","P","C","O","F","G","S"), sep=";", remove=F) %>% 
+  mutate(., Generated_Sequence = if_else(str_detect(value,"FISHCARD"),"Newly Generated","GenBank"))-> tax_holder
+
+nodeid(tree_jc_2, tree_jc_2$node.label) -> nodes_labeler
+tree_jc_2$node.label -> gg5
+fun <- data.frame(nodes_labeler, gg5)
+ 
+fun %>% 
+  dplyr::select(node = nodes_labeler, bootstrap =gg5) -> fun
+
+tree_jc_2 %>% 
+  as.tibble() %>% 
+  left_join(fun) %>% 
+   mutate(bootstrap = na_if(bootstrap, "NA")) -> nn
+nn$bootstrap <- as.numeric(nn$bootstrap)
+
+dd <- as.tibble(tree_jc_2$tip.label)
+
+dd %>% 
+  left_join(tax_holder) -> dd2
+
+dd2 %>% 
+  unite("Tip_lab", c("value","S"), remove = FALSE) -> dd3
+
+tree_jc_2$tip.label <- dd3$Tip_lab
+
+p <- ggtree(tree_jc_2)  + geom_treescale()
+
+ p <- p %<+% nn + geom_label2(aes(subset=bootstrap > 40, label=bootstrap), nudge_x = -0.0005, alpha=0.5, size=6, color="darkred", label.padding = unit(0.1, "lines"),
+label.r = unit(0.1, "lines"),
+label.size = 0.1)
+
+
+
+fig_jc <- p %<+% dd3 + 
+  geom_tiplab(aes(fill = factor(Generated_Sequence)),
+              color = "black", # color for label font
+              geom = "label",  # labels not text
+              label.padding = unit(0.05, "lines"), # amount of padding around the labels
+              label.size = 0,
+              size=1,# size of label border
+              hjust = -0.3,
+              alpha=.75) + # horizontal adjustment
+    scale_fill_manual("Source",values = c( lake[2],lake[5])) + #change color of tips
+  theme(legend.position = c(0.85,0.5),
+        legend.title=element_text(size=1, face="bold"), 
+    legend.text=element_text(size=1)) +
+  geom_tippoint(aes(color=Generated_Sequence, shape=Generated_Sequence), size=1, alpha=.75) +
+    scale_colour_manual("Generated_Sequence", values= c(lake[2],lake[5])) 
+
+fig_jc
+```
+
+
+```{r, echo=FALSE}
+ggsave(plot=fig_jc, 
+       file=here(here("Data","phylogenetic_tree","upgma_rooted_tree_20210513.png")),
+       height=100,
+        width=14,
+       units="in", 
+       dpi=300, 
+       limitsize = FALSE)
+```
+
+
+
+

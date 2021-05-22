@@ -1,0 +1,2153 @@
+all_seq_number	fishcard_12S_all_LSC.B.1.S22.L001	fishcard_12S_all_PP.B.1.S4.L001	fishcard_12S_all_PedRF.B.1.S13.L001	sum taxonomy
+forward_fishcard_12S_all_1	14	73	53	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_2	43	18	10	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_3	38	15	18	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_4	31	4	19	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_5	0	38	10	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_6	0	0	37	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_7	12	12	7	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_8	14	0	11	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_9	17	2	2	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_10	10	5	3	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_11	11	5	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_12	1	6	8	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_13	5	6	3	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_14	5	6	3	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_15	2	11	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_16	2	1	10	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_17	0	11	2	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_18	3	1	7	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_19	0	6	5	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_20	2	5	3	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_21	2	4	4	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_22	0	0	10	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_23	6	2	1	
+forward_fishcard_12S_all_24	8	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_25	5	2	1	
+forward_fishcard_12S_all_26	5	1	2	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_27	7	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_28	5	1	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_29	5	0	1	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_30	4	2	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_31	2	2	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_32	0	2	4	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_33	0	2	4	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_34	0	0	6	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_35	4	1	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_36	3	0	2	
+forward_fishcard_12S_all_37	0	1	4	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_38	4	0	0	
+forward_fishcard_12S_all_39	4	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_40	4	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_41	3	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_42	3	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_43	3	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_44	2	1	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_45	1	2	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_46	0	4	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+forward_fishcard_12S_all_47	0	4	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_fishcard_12S_all_48	0	0	4	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_49	0	0	4	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_50	0	0	4	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_51	0	0	4	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_52	0	0	4	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_53	3	0	0	
+forward_fishcard_12S_all_54	3	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_55	2	0	1	
+forward_fishcard_12S_all_56	2	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_57	2	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_58	1	2	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_59	1	0	2	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_60	1	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_61	1	0	2	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_62	1	0	2	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_63	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_64	0	3	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_65	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_66	0	2	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_67	0	2	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_68	0	0	3	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_69	0	0	3	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_70	2	0	0	
+forward_fishcard_12S_all_71	2	0	0	
+forward_fishcard_12S_all_72	2	0	0	
+forward_fishcard_12S_all_73	2	0	0	
+forward_fishcard_12S_all_74	2	0	0	
+forward_fishcard_12S_all_75	2	0	0	
+forward_fishcard_12S_all_76	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_77	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_78	2	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_79	2	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_80	2	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_81	2	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_82	2	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_83	2	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_84	2	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_85	2	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_86	2	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_87	1	0	1	
+forward_fishcard_12S_all_88	1	1	0	
+forward_fishcard_12S_all_89	1	1	0	
+forward_fishcard_12S_all_90	1	1	0	
+forward_fishcard_12S_all_91	1	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_92	1	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_93	1	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_94	1	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_95	1	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_96	1	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_97	1	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_98	1	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_99	0	2	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_100	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_101	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_102	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_103	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_104	0	2	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_105	0	2	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_106	0	2	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_107	0	2	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+forward_fishcard_12S_all_108	0	2	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_109	0	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_110	0	2	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Brachyistius;Brachyistius frenatus
+forward_fishcard_12S_all_111	0	1	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_112	0	1	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_113	0	1	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_114	0	0	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_115	0	0	2	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_116	0	0	2	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_117	0	0	2	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;
+forward_fishcard_12S_all_118	0	0	2	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;
+forward_fishcard_12S_all_119	0	0	2	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_120	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_121	0	0	2	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_122	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_123	0	0	2	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_124	1	0	0	
+forward_fishcard_12S_all_125	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_126	1	0	0	
+forward_fishcard_12S_all_127	1	0	0	
+forward_fishcard_12S_all_128	1	0	0	
+forward_fishcard_12S_all_129	1	0	0	
+forward_fishcard_12S_all_130	1	0	0	
+forward_fishcard_12S_all_131	1	0	0	
+forward_fishcard_12S_all_132	1	0	0	
+forward_fishcard_12S_all_133	1	0	0	
+forward_fishcard_12S_all_134	1	0	0	
+forward_fishcard_12S_all_135	1	0	0	
+forward_fishcard_12S_all_136	1	0	0	
+forward_fishcard_12S_all_137	1	0	0	
+forward_fishcard_12S_all_138	1	0	0	
+forward_fishcard_12S_all_139	1	0	0	
+forward_fishcard_12S_all_140	1	0	0	
+forward_fishcard_12S_all_141	1	0	0	
+forward_fishcard_12S_all_142	1	0	0	
+forward_fishcard_12S_all_143	1	0	0	
+forward_fishcard_12S_all_144	1	0	0	
+forward_fishcard_12S_all_145	1	0	0	
+forward_fishcard_12S_all_146	1	0	0	
+forward_fishcard_12S_all_147	1	0	0	
+forward_fishcard_12S_all_148	1	0	0	
+forward_fishcard_12S_all_149	1	0	0	
+forward_fishcard_12S_all_150	1	0	0	
+forward_fishcard_12S_all_151	1	0	0	
+forward_fishcard_12S_all_152	1	0	0	
+forward_fishcard_12S_all_153	1	0	0	
+forward_fishcard_12S_all_154	1	0	0	
+forward_fishcard_12S_all_155	1	0	0	
+forward_fishcard_12S_all_156	1	0	0	
+forward_fishcard_12S_all_157	1	0	0	
+forward_fishcard_12S_all_158	1	0	0	
+forward_fishcard_12S_all_159	1	0	0	
+forward_fishcard_12S_all_160	1	0	0	
+forward_fishcard_12S_all_161	1	0	0	
+forward_fishcard_12S_all_162	1	0	0	
+forward_fishcard_12S_all_163	1	0	0	
+forward_fishcard_12S_all_164	1	0	0	
+forward_fishcard_12S_all_165	1	0	0	
+forward_fishcard_12S_all_166	1	0	0	
+forward_fishcard_12S_all_167	1	0	0	
+forward_fishcard_12S_all_168	1	0	0	
+forward_fishcard_12S_all_169	1	0	0	
+forward_fishcard_12S_all_170	1	0	0	
+forward_fishcard_12S_all_171	1	0	0	
+forward_fishcard_12S_all_172	1	0	0	
+forward_fishcard_12S_all_173	1	0	0	
+forward_fishcard_12S_all_174	1	0	0	
+forward_fishcard_12S_all_175	1	0	0	
+forward_fishcard_12S_all_176	1	0	0	
+forward_fishcard_12S_all_177	1	0	0	
+forward_fishcard_12S_all_178	1	0	0	
+forward_fishcard_12S_all_179	1	0	0	
+forward_fishcard_12S_all_180	1	0	0	
+forward_fishcard_12S_all_181	1	0	0	
+forward_fishcard_12S_all_182	1	0	0	
+forward_fishcard_12S_all_183	1	0	0	
+forward_fishcard_12S_all_184	1	0	0	
+forward_fishcard_12S_all_185	1	0	0	
+forward_fishcard_12S_all_186	1	0	0	
+forward_fishcard_12S_all_187	1	0	0	
+forward_fishcard_12S_all_188	1	0	0	
+forward_fishcard_12S_all_189	1	0	0	
+forward_fishcard_12S_all_190	1	0	0	
+forward_fishcard_12S_all_191	1	0	0	
+forward_fishcard_12S_all_192	1	0	0	
+forward_fishcard_12S_all_193	1	0	0	
+forward_fishcard_12S_all_194	1	0	0	
+forward_fishcard_12S_all_195	1	0	0	
+forward_fishcard_12S_all_196	1	0	0	
+forward_fishcard_12S_all_197	1	0	0	
+forward_fishcard_12S_all_198	1	0	0	
+forward_fishcard_12S_all_199	1	0	0	
+forward_fishcard_12S_all_200	1	0	0	
+forward_fishcard_12S_all_201	1	0	0	
+forward_fishcard_12S_all_202	1	0	0	
+forward_fishcard_12S_all_203	1	0	0	
+forward_fishcard_12S_all_204	1	0	0	
+forward_fishcard_12S_all_205	1	0	0	
+forward_fishcard_12S_all_206	1	0	0	
+forward_fishcard_12S_all_207	1	0	0	
+forward_fishcard_12S_all_208	1	0	0	
+forward_fishcard_12S_all_209	1	0	0	
+forward_fishcard_12S_all_210	1	0	0	
+forward_fishcard_12S_all_211	1	0	0	
+forward_fishcard_12S_all_212	1	0	0	
+forward_fishcard_12S_all_213	1	0	0	
+forward_fishcard_12S_all_214	1	0	0	
+forward_fishcard_12S_all_215	1	0	0	
+forward_fishcard_12S_all_216	1	0	0	
+forward_fishcard_12S_all_217	1	0	0	
+forward_fishcard_12S_all_218	1	0	0	
+forward_fishcard_12S_all_219	1	0	0	
+forward_fishcard_12S_all_220	1	0	0	
+forward_fishcard_12S_all_221	1	0	0	
+forward_fishcard_12S_all_222	1	0	0	
+forward_fishcard_12S_all_223	1	0	0	
+forward_fishcard_12S_all_224	1	0	0	
+forward_fishcard_12S_all_225	1	0	0	
+forward_fishcard_12S_all_226	1	0	0	
+forward_fishcard_12S_all_227	1	0	0	
+forward_fishcard_12S_all_228	1	0	0	
+forward_fishcard_12S_all_229	1	0	0	
+forward_fishcard_12S_all_230	1	0	0	
+forward_fishcard_12S_all_231	1	0	0	
+forward_fishcard_12S_all_232	1	0	0	
+forward_fishcard_12S_all_233	1	0	0	
+forward_fishcard_12S_all_234	1	0	0	
+forward_fishcard_12S_all_235	1	0	0	
+forward_fishcard_12S_all_236	1	0	0	
+forward_fishcard_12S_all_237	1	0	0	
+forward_fishcard_12S_all_238	1	0	0	
+forward_fishcard_12S_all_239	1	0	0	
+forward_fishcard_12S_all_240	1	0	0	
+forward_fishcard_12S_all_241	1	0	0	
+forward_fishcard_12S_all_242	1	0	0	
+forward_fishcard_12S_all_243	1	0	0	
+forward_fishcard_12S_all_244	1	0	0	
+forward_fishcard_12S_all_245	1	0	0	
+forward_fishcard_12S_all_246	1	0	0	
+forward_fishcard_12S_all_247	1	0	0	
+forward_fishcard_12S_all_248	1	0	0	
+forward_fishcard_12S_all_249	1	0	0	
+forward_fishcard_12S_all_250	1	0	0	
+forward_fishcard_12S_all_251	1	0	0	
+forward_fishcard_12S_all_252	1	0	0	
+forward_fishcard_12S_all_253	1	0	0	
+forward_fishcard_12S_all_254	1	0	0	
+forward_fishcard_12S_all_255	1	0	0	
+forward_fishcard_12S_all_256	1	0	0	
+forward_fishcard_12S_all_257	1	0	0	
+forward_fishcard_12S_all_258	1	0	0	
+forward_fishcard_12S_all_259	1	0	0	
+forward_fishcard_12S_all_260	1	0	0	
+forward_fishcard_12S_all_261	1	0	0	
+forward_fishcard_12S_all_262	1	0	0	
+forward_fishcard_12S_all_263	1	0	0	
+forward_fishcard_12S_all_264	1	0	0	
+forward_fishcard_12S_all_265	1	0	0	
+forward_fishcard_12S_all_266	1	0	0	
+forward_fishcard_12S_all_267	1	0	0	
+forward_fishcard_12S_all_268	1	0	0	
+forward_fishcard_12S_all_269	1	0	0	
+forward_fishcard_12S_all_270	1	0	0	
+forward_fishcard_12S_all_271	1	0	0	
+forward_fishcard_12S_all_272	1	0	0	
+forward_fishcard_12S_all_273	1	0	0	
+forward_fishcard_12S_all_274	1	0	0	
+forward_fishcard_12S_all_275	1	0	0	
+forward_fishcard_12S_all_276	1	0	0	
+forward_fishcard_12S_all_277	1	0	0	
+forward_fishcard_12S_all_278	1	0	0	
+forward_fishcard_12S_all_279	1	0	0	
+forward_fishcard_12S_all_280	1	0	0	
+forward_fishcard_12S_all_281	1	0	0	
+forward_fishcard_12S_all_282	1	0	0	
+forward_fishcard_12S_all_283	1	0	0	
+forward_fishcard_12S_all_284	1	0	0	
+forward_fishcard_12S_all_285	1	0	0	
+forward_fishcard_12S_all_286	1	0	0	
+forward_fishcard_12S_all_287	1	0	0	
+forward_fishcard_12S_all_288	1	0	0	
+forward_fishcard_12S_all_289	1	0	0	
+forward_fishcard_12S_all_290	1	0	0	
+forward_fishcard_12S_all_291	1	0	0	
+forward_fishcard_12S_all_292	1	0	0	
+forward_fishcard_12S_all_293	1	0	0	
+forward_fishcard_12S_all_294	1	0	0	
+forward_fishcard_12S_all_295	1	0	0	
+forward_fishcard_12S_all_296	1	0	0	
+forward_fishcard_12S_all_297	1	0	0	
+forward_fishcard_12S_all_298	1	0	0	
+forward_fishcard_12S_all_299	1	0	0	
+forward_fishcard_12S_all_300	1	0	0	
+forward_fishcard_12S_all_301	1	0	0	
+forward_fishcard_12S_all_302	1	0	0	
+forward_fishcard_12S_all_303	1	0	0	
+forward_fishcard_12S_all_304	1	0	0	
+forward_fishcard_12S_all_305	1	0	0	
+forward_fishcard_12S_all_306	1	0	0	
+forward_fishcard_12S_all_307	1	0	0	
+forward_fishcard_12S_all_308	1	0	0	
+forward_fishcard_12S_all_309	1	0	0	
+forward_fishcard_12S_all_310	1	0	0	
+forward_fishcard_12S_all_311	1	0	0	
+forward_fishcard_12S_all_312	1	0	0	
+forward_fishcard_12S_all_313	1	0	0	
+forward_fishcard_12S_all_314	1	0	0	
+forward_fishcard_12S_all_315	1	0	0	
+forward_fishcard_12S_all_316	1	0	0	
+forward_fishcard_12S_all_317	1	0	0	
+forward_fishcard_12S_all_318	1	0	0	
+forward_fishcard_12S_all_319	1	0	0	
+forward_fishcard_12S_all_320	1	0	0	
+forward_fishcard_12S_all_321	1	0	0	
+forward_fishcard_12S_all_322	1	0	0	
+forward_fishcard_12S_all_323	1	0	0	
+forward_fishcard_12S_all_324	1	0	0	
+forward_fishcard_12S_all_325	1	0	0	
+forward_fishcard_12S_all_326	1	0	0	
+forward_fishcard_12S_all_327	1	0	0	
+forward_fishcard_12S_all_328	1	0	0	
+forward_fishcard_12S_all_329	1	0	0	
+forward_fishcard_12S_all_330	1	0	0	
+forward_fishcard_12S_all_331	1	0	0	
+forward_fishcard_12S_all_332	1	0	0	
+forward_fishcard_12S_all_333	1	0	0	
+forward_fishcard_12S_all_334	1	0	0	
+forward_fishcard_12S_all_335	1	0	0	
+forward_fishcard_12S_all_336	1	0	0	
+forward_fishcard_12S_all_337	1	0	0	
+forward_fishcard_12S_all_338	1	0	0	
+forward_fishcard_12S_all_339	1	0	0	
+forward_fishcard_12S_all_340	1	0	0	
+forward_fishcard_12S_all_341	1	0	0	
+forward_fishcard_12S_all_342	1	0	0	
+forward_fishcard_12S_all_343	1	0	0	
+forward_fishcard_12S_all_344	1	0	0	
+forward_fishcard_12S_all_345	1	0	0	
+forward_fishcard_12S_all_346	1	0	0	
+forward_fishcard_12S_all_347	1	0	0	
+forward_fishcard_12S_all_348	1	0	0	
+forward_fishcard_12S_all_349	1	0	0	
+forward_fishcard_12S_all_350	1	0	0	
+forward_fishcard_12S_all_351	1	0	0	
+forward_fishcard_12S_all_352	1	0	0	
+forward_fishcard_12S_all_353	1	0	0	
+forward_fishcard_12S_all_354	1	0	0	
+forward_fishcard_12S_all_355	1	0	0	
+forward_fishcard_12S_all_356	1	0	0	
+forward_fishcard_12S_all_357	1	0	0	
+forward_fishcard_12S_all_358	1	0	0	
+forward_fishcard_12S_all_359	1	0	0	
+forward_fishcard_12S_all_360	1	0	0	
+forward_fishcard_12S_all_361	1	0	0	
+forward_fishcard_12S_all_362	1	0	0	
+forward_fishcard_12S_all_363	1	0	0	
+forward_fishcard_12S_all_364	1	0	0	
+forward_fishcard_12S_all_365	1	0	0	
+forward_fishcard_12S_all_366	1	0	0	
+forward_fishcard_12S_all_367	1	0	0	
+forward_fishcard_12S_all_368	1	0	0	
+forward_fishcard_12S_all_369	1	0	0	
+forward_fishcard_12S_all_370	1	0	0	
+forward_fishcard_12S_all_371	1	0	0	
+forward_fishcard_12S_all_372	1	0	0	
+forward_fishcard_12S_all_373	1	0	0	
+forward_fishcard_12S_all_374	1	0	0	
+forward_fishcard_12S_all_375	1	0	0	
+forward_fishcard_12S_all_376	1	0	0	
+forward_fishcard_12S_all_377	1	0	0	
+forward_fishcard_12S_all_378	1	0	0	
+forward_fishcard_12S_all_379	1	0	0	
+forward_fishcard_12S_all_380	1	0	0	
+forward_fishcard_12S_all_381	1	0	0	
+forward_fishcard_12S_all_382	1	0	0	
+forward_fishcard_12S_all_383	1	0	0	
+forward_fishcard_12S_all_384	1	0	0	
+forward_fishcard_12S_all_385	1	0	0	
+forward_fishcard_12S_all_386	1	0	0	
+forward_fishcard_12S_all_387	1	0	0	
+forward_fishcard_12S_all_388	1	0	0	
+forward_fishcard_12S_all_389	1	0	0	
+forward_fishcard_12S_all_390	1	0	0	
+forward_fishcard_12S_all_391	1	0	0	
+forward_fishcard_12S_all_392	1	0	0	
+forward_fishcard_12S_all_393	1	0	0	
+forward_fishcard_12S_all_394	1	0	0	
+forward_fishcard_12S_all_395	1	0	0	
+forward_fishcard_12S_all_396	1	0	0	
+forward_fishcard_12S_all_397	1	0	0	
+forward_fishcard_12S_all_398	1	0	0	
+forward_fishcard_12S_all_399	1	0	0	
+forward_fishcard_12S_all_400	1	0	0	
+forward_fishcard_12S_all_401	1	0	0	
+forward_fishcard_12S_all_402	1	0	0	
+forward_fishcard_12S_all_403	1	0	0	
+forward_fishcard_12S_all_404	1	0	0	
+forward_fishcard_12S_all_405	1	0	0	
+forward_fishcard_12S_all_406	1	0	0	
+forward_fishcard_12S_all_407	1	0	0	
+forward_fishcard_12S_all_408	1	0	0	
+forward_fishcard_12S_all_409	1	0	0	
+forward_fishcard_12S_all_410	1	0	0	
+forward_fishcard_12S_all_411	1	0	0	
+forward_fishcard_12S_all_412	1	0	0	
+forward_fishcard_12S_all_413	1	0	0	
+forward_fishcard_12S_all_414	1	0	0	
+forward_fishcard_12S_all_415	1	0	0	
+forward_fishcard_12S_all_416	1	0	0	
+forward_fishcard_12S_all_417	1	0	0	
+forward_fishcard_12S_all_418	1	0	0	
+forward_fishcard_12S_all_419	1	0	0	
+forward_fishcard_12S_all_420	1	0	0	
+forward_fishcard_12S_all_421	1	0	0	
+forward_fishcard_12S_all_422	1	0	0	
+forward_fishcard_12S_all_423	1	0	0	
+forward_fishcard_12S_all_424	1	0	0	
+forward_fishcard_12S_all_425	1	0	0	
+forward_fishcard_12S_all_426	1	0	0	
+forward_fishcard_12S_all_427	1	0	0	
+forward_fishcard_12S_all_428	1	0	0	
+forward_fishcard_12S_all_429	1	0	0	
+forward_fishcard_12S_all_430	1	0	0	
+forward_fishcard_12S_all_431	1	0	0	
+forward_fishcard_12S_all_432	1	0	0	
+forward_fishcard_12S_all_433	1	0	0	
+forward_fishcard_12S_all_434	1	0	0	
+forward_fishcard_12S_all_435	1	0	0	
+forward_fishcard_12S_all_436	1	0	0	
+forward_fishcard_12S_all_437	1	0	0	
+forward_fishcard_12S_all_438	1	0	0	
+forward_fishcard_12S_all_439	1	0	0	
+forward_fishcard_12S_all_440	1	0	0	
+forward_fishcard_12S_all_441	1	0	0	
+forward_fishcard_12S_all_442	1	0	0	
+forward_fishcard_12S_all_443	1	0	0	
+forward_fishcard_12S_all_444	1	0	0	
+forward_fishcard_12S_all_445	1	0	0	
+forward_fishcard_12S_all_446	1	0	0	
+forward_fishcard_12S_all_447	1	0	0	
+forward_fishcard_12S_all_448	1	0	0	
+forward_fishcard_12S_all_449	1	0	0	
+forward_fishcard_12S_all_450	1	0	0	
+forward_fishcard_12S_all_451	1	0	0	
+forward_fishcard_12S_all_452	1	0	0	
+forward_fishcard_12S_all_453	1	0	0	
+forward_fishcard_12S_all_454	1	0	0	
+forward_fishcard_12S_all_455	1	0	0	
+forward_fishcard_12S_all_456	1	0	0	
+forward_fishcard_12S_all_457	1	0	0	
+forward_fishcard_12S_all_458	1	0	0	
+forward_fishcard_12S_all_459	1	0	0	
+forward_fishcard_12S_all_460	1	0	0	
+forward_fishcard_12S_all_461	1	0	0	
+forward_fishcard_12S_all_462	1	0	0	
+forward_fishcard_12S_all_463	1	0	0	
+forward_fishcard_12S_all_464	1	0	0	
+forward_fishcard_12S_all_465	1	0	0	
+forward_fishcard_12S_all_466	1	0	0	
+forward_fishcard_12S_all_467	1	0	0	
+forward_fishcard_12S_all_468	1	0	0	
+forward_fishcard_12S_all_469	1	0	0	
+forward_fishcard_12S_all_470	1	0	0	
+forward_fishcard_12S_all_471	1	0	0	
+forward_fishcard_12S_all_472	1	0	0	
+forward_fishcard_12S_all_473	1	0	0	
+forward_fishcard_12S_all_474	1	0	0	
+forward_fishcard_12S_all_475	1	0	0	
+forward_fishcard_12S_all_476	1	0	0	
+forward_fishcard_12S_all_477	1	0	0	
+forward_fishcard_12S_all_478	1	0	0	
+forward_fishcard_12S_all_479	1	0	0	
+forward_fishcard_12S_all_480	1	0	0	
+forward_fishcard_12S_all_481	1	0	0	
+forward_fishcard_12S_all_482	1	0	0	
+forward_fishcard_12S_all_483	1	0	0	
+forward_fishcard_12S_all_484	1	0	0	
+forward_fishcard_12S_all_485	1	0	0	
+forward_fishcard_12S_all_486	1	0	0	
+forward_fishcard_12S_all_487	1	0	0	
+forward_fishcard_12S_all_488	1	0	0	
+forward_fishcard_12S_all_489	1	0	0	
+forward_fishcard_12S_all_490	1	0	0	
+forward_fishcard_12S_all_491	1	0	0	
+forward_fishcard_12S_all_492	1	0	0	
+forward_fishcard_12S_all_493	1	0	0	
+forward_fishcard_12S_all_494	1	0	0	
+forward_fishcard_12S_all_495	1	0	0	
+forward_fishcard_12S_all_496	1	0	0	
+forward_fishcard_12S_all_497	1	0	0	
+forward_fishcard_12S_all_498	1	0	0	
+forward_fishcard_12S_all_499	1	0	0	
+forward_fishcard_12S_all_500	1	0	0	
+forward_fishcard_12S_all_501	1	0	0	
+forward_fishcard_12S_all_502	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_503	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_504	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_505	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_506	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_507	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_508	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_509	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_510	1	0	0	
+forward_fishcard_12S_all_511	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_512	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_513	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_514	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_515	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_516	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_517	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_518	1	0	0	
+forward_fishcard_12S_all_519	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_520	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_521	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_522	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_523	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_524	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_525	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_526	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_527	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_528	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_529	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_530	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_531	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_532	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_533	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_534	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus
+forward_fishcard_12S_all_535	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_536	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_537	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_538	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_539	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_540	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_541	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_542	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_543	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_544	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_545	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_546	1	0	0	
+forward_fishcard_12S_all_547	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_548	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_549	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_550	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_551	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_552	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_553	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_554	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_555	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_556	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_557	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_558	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_559	1	0	0	
+forward_fishcard_12S_all_560	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_561	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_562	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_563	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_564	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_565	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_566	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_567	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_568	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_569	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_570	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_571	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_572	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_573	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_574	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_575	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_576	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_577	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_578	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_579	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_580	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_581	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_582	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_583	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_584	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_585	1	0	0	
+forward_fishcard_12S_all_586	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_587	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_588	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_589	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_590	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_591	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_592	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_593	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_594	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_595	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_596	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+forward_fishcard_12S_all_597	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_598	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_599	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_600	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_601	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_602	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_603	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_604	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_605	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_606	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_607	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_608	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_609	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_610	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_611	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_612	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_613	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_614	1	0	0	
+forward_fishcard_12S_all_615	1	0	0	
+forward_fishcard_12S_all_616	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_617	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_618	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_619	1	0	0	
+forward_fishcard_12S_all_620	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_621	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_622	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_623	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Anchoa;Anchoa compressa
+forward_fishcard_12S_all_624	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_625	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_626	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_627	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_628	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_629	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_630	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_631	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_632	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_633	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_634	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_635	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_636	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_637	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_638	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_639	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_640	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_641	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_642	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_643	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_644	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_645	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_646	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_647	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_648	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_649	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_650	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_651	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_652	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_653	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_654	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_655	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_656	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_657	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_658	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_659	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_660	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_661	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_662	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_663	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_664	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_665	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_666	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_667	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_668	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_669	1	0	0	
+forward_fishcard_12S_all_670	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_671	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_672	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_673	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_674	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_675	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_676	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_677	1	0	0	
+forward_fishcard_12S_all_678	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_679	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_680	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_681	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_682	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_683	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_684	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_685	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_686	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_687	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_688	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_689	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+forward_fishcard_12S_all_690	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+forward_fishcard_12S_all_691	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_692	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_693	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_694	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_695	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_696	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_697	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_698	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_699	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_700	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_701	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_702	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_703	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_704	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_705	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_706	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_707	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_708	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_709	1	0	0	
+forward_fishcard_12S_all_710	1	0	0	
+forward_fishcard_12S_all_711	1	0	0	
+forward_fishcard_12S_all_712	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_713	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_714	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_715	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_716	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_717	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_718	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_719	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_720	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_721	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_722	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_723	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_724	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_725	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_726	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_727	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+forward_fishcard_12S_all_728	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_729	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_730	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_731	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_732	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_733	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_734	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_735	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_736	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_737	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_738	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_739	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_740	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_741	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_742	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_743	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_744	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_745	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_746	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_747	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_748	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_749	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_750	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_751	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_752	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_753	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_754	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_755	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_756	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_757	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_758	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_759	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_760	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_761	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_762	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_763	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_764	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_765	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_766	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_767	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_768	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_769	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_770	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_771	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_772	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_773	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_774	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_775	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_776	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_777	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_778	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_779	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_780	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_781	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_782	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_783	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_784	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_785	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_786	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_787	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_788	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_789	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_790	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_791	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_792	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_793	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_794	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_795	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_796	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_797	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_798	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_799	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_800	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_801	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_802	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_803	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_804	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_805	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_806	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_807	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_808	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_809	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_810	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_811	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_812	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_813	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_814	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_815	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_816	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_817	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_818	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_819	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_820	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_821	1	0	0	
+forward_fishcard_12S_all_822	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_823	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_824	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_825	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_826	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_827	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_828	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_829	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_830	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_831	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_832	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_833	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_834	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_835	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_836	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_837	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_838	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_839	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_840	1	0	0	
+forward_fishcard_12S_all_841	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_842	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_843	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_844	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_845	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_846	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_847	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_848	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_849	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_850	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_851	1	0	0	
+forward_fishcard_12S_all_852	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_853	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_854	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_855	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_856	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_857	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_858	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_859	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_860	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_861	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_862	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_863	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_864	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_865	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_866	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_867	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_868	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_869	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_870	1	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+forward_fishcard_12S_all_871	1	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+forward_fishcard_12S_all_872	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_873	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_874	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_875	1	0	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_876	1	0	0	
+forward_fishcard_12S_all_877	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_878	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_879	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_880	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_881	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_882	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_883	1	0	0	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_884	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_885	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_886	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_887	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_888	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_889	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_890	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_891	1	0	0	
+forward_fishcard_12S_all_892	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_893	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_894	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+forward_fishcard_12S_all_895	1	0	0	
+forward_fishcard_12S_all_896	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_897	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_898	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_899	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_900	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_901	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_902	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_903	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_904	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_905	1	0	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_906	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_907	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_908	1	0	0	
+forward_fishcard_12S_all_909	1	0	0	
+forward_fishcard_12S_all_910	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_911	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_912	1	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_913	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_914	1	0	0	
+forward_fishcard_12S_all_915	1	0	0	
+forward_fishcard_12S_all_916	1	0	0	
+forward_fishcard_12S_all_917	1	0	0	
+forward_fishcard_12S_all_918	1	0	0	
+forward_fishcard_12S_all_919	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_920	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_921	1	0	0	
+forward_fishcard_12S_all_922	1	0	0	
+forward_fishcard_12S_all_923	1	0	0	
+forward_fishcard_12S_all_924	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_925	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_926	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_927	0	1	0	
+forward_fishcard_12S_all_928	0	1	0	
+forward_fishcard_12S_all_929	0	1	0	
+forward_fishcard_12S_all_930	0	1	0	
+forward_fishcard_12S_all_931	0	1	0	
+forward_fishcard_12S_all_932	0	1	0	
+forward_fishcard_12S_all_933	0	1	0	
+forward_fishcard_12S_all_934	0	1	0	
+forward_fishcard_12S_all_935	0	1	0	
+forward_fishcard_12S_all_936	0	1	0	
+forward_fishcard_12S_all_937	0	1	0	
+forward_fishcard_12S_all_938	0	1	0	
+forward_fishcard_12S_all_939	0	1	0	
+forward_fishcard_12S_all_940	0	1	0	
+forward_fishcard_12S_all_941	0	1	0	
+forward_fishcard_12S_all_942	0	1	0	
+forward_fishcard_12S_all_943	0	1	0	
+forward_fishcard_12S_all_944	0	1	0	
+forward_fishcard_12S_all_945	0	1	0	
+forward_fishcard_12S_all_946	0	1	0	
+forward_fishcard_12S_all_947	0	1	0	
+forward_fishcard_12S_all_948	0	1	0	
+forward_fishcard_12S_all_949	0	1	0	
+forward_fishcard_12S_all_950	0	1	0	
+forward_fishcard_12S_all_951	0	1	0	
+forward_fishcard_12S_all_952	0	1	0	
+forward_fishcard_12S_all_953	0	1	0	
+forward_fishcard_12S_all_954	0	1	0	
+forward_fishcard_12S_all_955	0	1	0	
+forward_fishcard_12S_all_956	0	1	0	
+forward_fishcard_12S_all_957	0	1	0	
+forward_fishcard_12S_all_958	0	1	0	
+forward_fishcard_12S_all_959	0	1	0	
+forward_fishcard_12S_all_960	0	1	0	
+forward_fishcard_12S_all_961	0	1	0	
+forward_fishcard_12S_all_962	0	1	0	
+forward_fishcard_12S_all_963	0	1	0	
+forward_fishcard_12S_all_964	0	1	0	
+forward_fishcard_12S_all_965	0	1	0	
+forward_fishcard_12S_all_966	0	1	0	
+forward_fishcard_12S_all_967	0	1	0	
+forward_fishcard_12S_all_968	0	1	0	
+forward_fishcard_12S_all_969	0	1	0	
+forward_fishcard_12S_all_970	0	1	0	
+forward_fishcard_12S_all_971	0	1	0	
+forward_fishcard_12S_all_972	0	1	0	
+forward_fishcard_12S_all_973	0	1	0	
+forward_fishcard_12S_all_974	0	1	0	
+forward_fishcard_12S_all_975	0	1	0	
+forward_fishcard_12S_all_976	0	1	0	
+forward_fishcard_12S_all_977	0	1	0	
+forward_fishcard_12S_all_978	0	1	0	
+forward_fishcard_12S_all_979	0	1	0	
+forward_fishcard_12S_all_980	0	1	0	
+forward_fishcard_12S_all_981	0	1	0	
+forward_fishcard_12S_all_982	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_983	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_984	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_985	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_986	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_987	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_988	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_989	0	1	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_990	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_991	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_992	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_993	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_994	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_995	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_996	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_997	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_998	0	1	0	
+forward_fishcard_12S_all_999	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1000	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1001	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1002	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1003	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1004	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1005	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1006	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1007	0	1	0	
+forward_fishcard_12S_all_1008	0	1	0	
+forward_fishcard_12S_all_1009	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1010	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1011	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1012	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1013	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1014	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1015	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1016	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1017	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1018	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1019	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1020	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1021	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1022	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1023	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1024	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1025	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1026	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1027	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1028	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1029	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1030	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1031	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1032	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1033	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1034	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1035	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1036	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1037	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1038	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1039	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1040	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1041	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1042	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_1043	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1044	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1045	0	1	0	
+forward_fishcard_12S_all_1046	0	1	0	
+forward_fishcard_12S_all_1047	0	1	0	
+forward_fishcard_12S_all_1048	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1049	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1050	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1051	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1052	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1053	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1054	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1055	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1056	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1057	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1058	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1059	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1060	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1061	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1062	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1063	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1064	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1065	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1066	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1067	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1068	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1069	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1070	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1071	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1072	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1073	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1074	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1075	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1076	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1077	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1078	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1079	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1080	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1081	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1082	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1083	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1084	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1085	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1086	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1087	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1088	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1089	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1090	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1091	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1092	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1093	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1094	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1095	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1096	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1097	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1098	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1099	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1100	0	1	0	Eukaryota;Chordata;Actinopteri;;;;
+forward_fishcard_12S_all_1101	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1102	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1103	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1104	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1105	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1106	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1107	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1108	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1109	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1110	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1111	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1112	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1113	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1114	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1115	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1116	0	1	0	
+forward_fishcard_12S_all_1117	0	1	0	
+forward_fishcard_12S_all_1118	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1119	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1120	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1121	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1122	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1123	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1124	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1125	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1126	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1127	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1128	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1129	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1130	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1131	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1132	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1133	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1134	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1135	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1136	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1137	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1138	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1139	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1140	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1141	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1142	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1143	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1144	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1145	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1146	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1147	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1148	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1149	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1150	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1151	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1152	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1153	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1154	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1155	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1156	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1157	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1158	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1159	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_1160	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_1161	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_1162	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_1163	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_1164	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;;
+forward_fishcard_12S_all_1165	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+forward_fishcard_12S_all_1166	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1167	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1168	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1169	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1170	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1171	0	1	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+forward_fishcard_12S_all_1172	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1173	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1174	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1175	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1176	0	1	0	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Xystreurys;Xystreurys liolepis
+forward_fishcard_12S_all_1177	0	1	0	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus
+forward_fishcard_12S_all_1178	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1179	0	1	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+forward_fishcard_12S_all_1180	0	1	0	
+forward_fishcard_12S_all_1181	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1182	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1183	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1184	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1185	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1186	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1187	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1188	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1189	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1190	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1191	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1192	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1193	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1194	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1195	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1196	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1197	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1198	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1199	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1200	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1201	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1202	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1203	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1204	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1205	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1206	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1207	0	1	0	
+forward_fishcard_12S_all_1208	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1209	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1210	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1211	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1212	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1213	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1214	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1215	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1216	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1217	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1218	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1219	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1220	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1221	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1222	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1223	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1224	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1225	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1226	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1227	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1228	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1229	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1230	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1231	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1232	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1233	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1234	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1235	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1236	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1237	0	1	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1238	0	1	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+forward_fishcard_12S_all_1239	0	1	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1240	0	1	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1241	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_fishcard_12S_all_1242	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1243	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1244	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_fishcard_12S_all_1245	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1246	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1247	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1248	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1249	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1250	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+forward_fishcard_12S_all_1251	0	1	0	
+forward_fishcard_12S_all_1252	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1253	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1254	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1255	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1256	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1257	0	1	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1258	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1259	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1260	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1261	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1262	0	1	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+forward_fishcard_12S_all_1263	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1264	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1265	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1266	0	1	0	
+forward_fishcard_12S_all_1267	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Brachyistius;Brachyistius frenatus
+forward_fishcard_12S_all_1268	0	1	0	
+forward_fishcard_12S_all_1269	0	0	1	
+forward_fishcard_12S_all_1270	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1271	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1272	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1273	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1274	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1275	0	0	1	
+forward_fishcard_12S_all_1276	0	0	1	
+forward_fishcard_12S_all_1277	0	0	1	
+forward_fishcard_12S_all_1278	0	0	1	
+forward_fishcard_12S_all_1279	0	0	1	
+forward_fishcard_12S_all_1280	0	0	1	
+forward_fishcard_12S_all_1281	0	0	1	
+forward_fishcard_12S_all_1282	0	0	1	
+forward_fishcard_12S_all_1283	0	0	1	
+forward_fishcard_12S_all_1284	0	0	1	
+forward_fishcard_12S_all_1285	0	0	1	
+forward_fishcard_12S_all_1286	0	0	1	
+forward_fishcard_12S_all_1287	0	0	1	
+forward_fishcard_12S_all_1288	0	0	1	
+forward_fishcard_12S_all_1289	0	0	1	
+forward_fishcard_12S_all_1290	0	0	1	
+forward_fishcard_12S_all_1291	0	0	1	
+forward_fishcard_12S_all_1292	0	0	1	
+forward_fishcard_12S_all_1293	0	0	1	
+forward_fishcard_12S_all_1294	0	0	1	
+forward_fishcard_12S_all_1295	0	0	1	
+forward_fishcard_12S_all_1296	0	0	1	
+forward_fishcard_12S_all_1297	0	0	1	
+forward_fishcard_12S_all_1298	0	0	1	
+forward_fishcard_12S_all_1299	0	0	1	
+forward_fishcard_12S_all_1300	0	0	1	
+forward_fishcard_12S_all_1301	0	0	1	
+forward_fishcard_12S_all_1302	0	0	1	
+forward_fishcard_12S_all_1303	0	0	1	
+forward_fishcard_12S_all_1304	0	0	1	
+forward_fishcard_12S_all_1305	0	0	1	
+forward_fishcard_12S_all_1306	0	0	1	
+forward_fishcard_12S_all_1307	0	0	1	
+forward_fishcard_12S_all_1308	0	0	1	
+forward_fishcard_12S_all_1309	0	0	1	
+forward_fishcard_12S_all_1310	0	0	1	
+forward_fishcard_12S_all_1311	0	0	1	
+forward_fishcard_12S_all_1312	0	0	1	
+forward_fishcard_12S_all_1313	0	0	1	
+forward_fishcard_12S_all_1314	0	0	1	
+forward_fishcard_12S_all_1315	0	0	1	
+forward_fishcard_12S_all_1316	0	0	1	
+forward_fishcard_12S_all_1317	0	0	1	
+forward_fishcard_12S_all_1318	0	0	1	
+forward_fishcard_12S_all_1319	0	0	1	
+forward_fishcard_12S_all_1320	0	0	1	
+forward_fishcard_12S_all_1321	0	0	1	
+forward_fishcard_12S_all_1322	0	0	1	
+forward_fishcard_12S_all_1323	0	0	1	
+forward_fishcard_12S_all_1324	0	0	1	
+forward_fishcard_12S_all_1325	0	0	1	
+forward_fishcard_12S_all_1326	0	0	1	
+forward_fishcard_12S_all_1327	0	0	1	
+forward_fishcard_12S_all_1328	0	0	1	
+forward_fishcard_12S_all_1329	0	0	1	
+forward_fishcard_12S_all_1330	0	0	1	
+forward_fishcard_12S_all_1331	0	0	1	
+forward_fishcard_12S_all_1332	0	0	1	
+forward_fishcard_12S_all_1333	0	0	1	
+forward_fishcard_12S_all_1334	0	0	1	
+forward_fishcard_12S_all_1335	0	0	1	
+forward_fishcard_12S_all_1336	0	0	1	
+forward_fishcard_12S_all_1337	0	0	1	
+forward_fishcard_12S_all_1338	0	0	1	
+forward_fishcard_12S_all_1339	0	0	1	
+forward_fishcard_12S_all_1340	0	0	1	
+forward_fishcard_12S_all_1341	0	0	1	
+forward_fishcard_12S_all_1342	0	0	1	
+forward_fishcard_12S_all_1343	0	0	1	
+forward_fishcard_12S_all_1344	0	0	1	
+forward_fishcard_12S_all_1345	0	0	1	
+forward_fishcard_12S_all_1346	0	0	1	
+forward_fishcard_12S_all_1347	0	0	1	
+forward_fishcard_12S_all_1348	0	0	1	
+forward_fishcard_12S_all_1349	0	0	1	
+forward_fishcard_12S_all_1350	0	0	1	
+forward_fishcard_12S_all_1351	0	0	1	
+forward_fishcard_12S_all_1352	0	0	1	
+forward_fishcard_12S_all_1353	0	0	1	
+forward_fishcard_12S_all_1354	0	0	1	
+forward_fishcard_12S_all_1355	0	0	1	
+forward_fishcard_12S_all_1356	0	0	1	
+forward_fishcard_12S_all_1357	0	0	1	
+forward_fishcard_12S_all_1358	0	0	1	
+forward_fishcard_12S_all_1359	0	0	1	
+forward_fishcard_12S_all_1360	0	0	1	
+forward_fishcard_12S_all_1361	0	0	1	
+forward_fishcard_12S_all_1362	0	0	1	
+forward_fishcard_12S_all_1363	0	0	1	
+forward_fishcard_12S_all_1364	0	0	1	
+forward_fishcard_12S_all_1365	0	0	1	
+forward_fishcard_12S_all_1366	0	0	1	
+forward_fishcard_12S_all_1367	0	0	1	
+forward_fishcard_12S_all_1368	0	0	1	
+forward_fishcard_12S_all_1369	0	0	1	
+forward_fishcard_12S_all_1370	0	0	1	
+forward_fishcard_12S_all_1371	0	0	1	
+forward_fishcard_12S_all_1372	0	0	1	
+forward_fishcard_12S_all_1373	0	0	1	
+forward_fishcard_12S_all_1374	0	0	1	
+forward_fishcard_12S_all_1375	0	0	1	
+forward_fishcard_12S_all_1376	0	0	1	
+forward_fishcard_12S_all_1377	0	0	1	
+forward_fishcard_12S_all_1378	0	0	1	
+forward_fishcard_12S_all_1379	0	0	1	
+forward_fishcard_12S_all_1380	0	0	1	
+forward_fishcard_12S_all_1381	0	0	1	
+forward_fishcard_12S_all_1382	0	0	1	
+forward_fishcard_12S_all_1383	0	0	1	
+forward_fishcard_12S_all_1384	0	0	1	
+forward_fishcard_12S_all_1385	0	0	1	
+forward_fishcard_12S_all_1386	0	0	1	
+forward_fishcard_12S_all_1387	0	0	1	
+forward_fishcard_12S_all_1388	0	0	1	
+forward_fishcard_12S_all_1389	0	0	1	
+forward_fishcard_12S_all_1390	0	0	1	
+forward_fishcard_12S_all_1391	0	0	1	
+forward_fishcard_12S_all_1392	0	0	1	
+forward_fishcard_12S_all_1393	0	0	1	
+forward_fishcard_12S_all_1394	0	0	1	
+forward_fishcard_12S_all_1395	0	0	1	
+forward_fishcard_12S_all_1396	0	0	1	
+forward_fishcard_12S_all_1397	0	0	1	
+forward_fishcard_12S_all_1398	0	0	1	
+forward_fishcard_12S_all_1399	0	0	1	
+forward_fishcard_12S_all_1400	0	0	1	
+forward_fishcard_12S_all_1401	0	0	1	
+forward_fishcard_12S_all_1402	0	0	1	
+forward_fishcard_12S_all_1403	0	0	1	
+forward_fishcard_12S_all_1404	0	0	1	
+forward_fishcard_12S_all_1405	0	0	1	
+forward_fishcard_12S_all_1406	0	0	1	
+forward_fishcard_12S_all_1407	0	0	1	
+forward_fishcard_12S_all_1408	0	0	1	
+forward_fishcard_12S_all_1409	0	0	1	
+forward_fishcard_12S_all_1410	0	0	1	
+forward_fishcard_12S_all_1411	0	0	1	
+forward_fishcard_12S_all_1412	0	0	1	
+forward_fishcard_12S_all_1413	0	0	1	
+forward_fishcard_12S_all_1414	0	0	1	
+forward_fishcard_12S_all_1415	0	0	1	
+forward_fishcard_12S_all_1416	0	0	1	
+forward_fishcard_12S_all_1417	0	0	1	
+forward_fishcard_12S_all_1418	0	0	1	
+forward_fishcard_12S_all_1419	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1420	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1421	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1422	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1423	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1424	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1425	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1426	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1427	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1428	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1429	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1430	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1431	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1432	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1433	0	0	1	
+forward_fishcard_12S_all_1434	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1435	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1436	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1437	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1438	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1439	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1440	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1441	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1442	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1443	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1444	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1445	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1446	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1447	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1448	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_fishcard_12S_all_1449	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1450	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1451	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1452	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1453	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1454	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1455	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1456	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1457	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1458	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1459	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1460	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1461	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1462	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+forward_fishcard_12S_all_1463	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1464	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1465	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1466	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1467	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1468	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1469	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1470	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1471	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1472	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1473	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1474	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1475	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1476	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1477	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1478	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1479	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1480	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1481	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+forward_fishcard_12S_all_1482	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1483	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1484	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1485	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1486	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Howellidae;Howella;Howella brodiei
+forward_fishcard_12S_all_1487	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1488	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1489	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1490	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1491	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1492	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1493	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1494	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1495	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1496	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1497	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1498	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1499	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1500	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1501	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1502	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1503	0	0	1	
+forward_fishcard_12S_all_1504	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1505	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1506	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1507	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1508	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1509	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1510	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1511	0	0	1	
+forward_fishcard_12S_all_1512	0	0	1	
+forward_fishcard_12S_all_1513	0	0	1	
+forward_fishcard_12S_all_1514	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1515	0	0	1	
+forward_fishcard_12S_all_1516	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1517	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1518	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+forward_fishcard_12S_all_1519	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1520	0	0	1	
+forward_fishcard_12S_all_1521	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1522	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1523	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1524	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1525	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1526	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1527	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1528	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Cheilotrema;Cheilotrema saturnum
+forward_fishcard_12S_all_1529	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1530	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1531	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1532	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1533	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1534	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1535	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1536	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1537	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1538	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1539	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1540	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1541	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1542	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1543	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1544	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1545	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1546	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1547	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1548	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1549	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1550	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1551	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1552	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1553	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1554	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+forward_fishcard_12S_all_1555	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_fishcard_12S_all_1556	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_fishcard_12S_all_1557	0	0	1	
+forward_fishcard_12S_all_1558	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_fishcard_12S_all_1559	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_fishcard_12S_all_1560	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Cheilotrema;Cheilotrema saturnum
+forward_fishcard_12S_all_1561	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1562	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus
+forward_fishcard_12S_all_1563	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus
+forward_fishcard_12S_all_1564	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;
+forward_fishcard_12S_all_1565	0	0	1	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;
+forward_fishcard_12S_all_1566	0	0	1	
+forward_fishcard_12S_all_1567	0	0	1	
+forward_fishcard_12S_all_1568	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1569	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1570	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1571	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1572	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1573	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1574	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1575	0	0	1	
+forward_fishcard_12S_all_1576	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1577	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1578	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1579	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1580	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea
+forward_fishcard_12S_all_1581	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1582	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1583	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1584	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1585	0	0	1	
+forward_fishcard_12S_all_1586	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1587	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1588	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1589	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1590	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1591	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1592	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1593	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1594	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+forward_fishcard_12S_all_1595	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1596	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1597	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1598	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1599	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1600	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1601	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+forward_fishcard_12S_all_1602	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+forward_fishcard_12S_all_1603	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1604	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+forward_fishcard_12S_all_1605	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1606	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus
+forward_fishcard_12S_all_1607	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1608	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1609	0	0	1	
+forward_fishcard_12S_all_1610	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1611	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1612	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1613	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1614	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1615	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1616	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1617	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1618	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1619	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1620	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1621	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1622	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1623	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1624	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola rivoliana
+forward_fishcard_12S_all_1625	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1626	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1627	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1628	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+forward_fishcard_12S_all_1629	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1630	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1631	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1632	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1633	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1634	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1635	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1636	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+forward_fishcard_12S_all_1637	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1638	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1639	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1640	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1641	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1642	0	0	1	
+forward_fishcard_12S_all_1643	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1644	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1645	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1646	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1647	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1648	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1649	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1650	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1651	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1652	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1653	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1654	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1655	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1656	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1657	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1658	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1659	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1660	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1661	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1662	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1663	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1664	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1665	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1666	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1667	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1668	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1669	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1670	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1671	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1672	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1673	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1674	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1675	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1676	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1677	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1678	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1679	0	0	1	
+forward_fishcard_12S_all_1680	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1681	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1682	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1683	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1684	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1685	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1686	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1687	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1688	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1689	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1690	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+forward_fishcard_12S_all_1691	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1692	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1693	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1694	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1695	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1696	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1697	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1698	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1699	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1700	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1701	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1702	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1703	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1704	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1705	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1706	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1707	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1708	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1709	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1710	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1711	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1712	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1713	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1714	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1715	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1716	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1717	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1718	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1719	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1720	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1721	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1722	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1723	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1724	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1725	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1726	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1727	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1728	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1729	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1730	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1731	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1732	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1733	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1734	0	0	1	
+forward_fishcard_12S_all_1735	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1736	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1737	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1738	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1739	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+forward_fishcard_12S_all_1740	0	0	1	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_1741	0	0	1	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_1742	0	0	1	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+forward_fishcard_12S_all_1743	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1744	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1745	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1746	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1747	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1748	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1749	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1750	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1751	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1752	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1753	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1754	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1755	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1756	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1757	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1758	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1759	0	0	1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+forward_fishcard_12S_all_1760	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1761	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1762	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1763	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1764	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1765	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1766	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1767	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+forward_fishcard_12S_all_1768	0	0	1	
+forward_fishcard_12S_all_1769	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1770	0	0	1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;;
+forward_fishcard_12S_all_1771	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1772	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+forward_fishcard_12S_all_1773	0	0	1	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+forward_fishcard_12S_all_1774	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1775	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+forward_fishcard_12S_all_1776	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1777	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1778	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1779	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1780	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+forward_fishcard_12S_all_1781	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+forward_fishcard_12S_all_1782	0	0	1	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+forward_fishcard_12S_all_1783	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1784	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1785	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+forward_fishcard_12S_all_1786	0	0	1	
+forward_fishcard_12S_all_1787	0	0	1	
+forward_fishcard_12S_all_1788	0	0	1	
+forward_fishcard_12S_all_1789	0	0	1	
+forward_fishcard_12S_all_1790	0	0	1	
+forward_fishcard_12S_all_1791	0	0	1	
+forward_fishcard_12S_all_1792	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_fishcard_12S_all_1793	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_fishcard_12S_all_1794	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+forward_fishcard_12S_all_1795	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+forward_fishcard_12S_all_1796	0	0	1	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+merged_fishcard_12S_all_1	7310	27791	18715	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+merged_fishcard_12S_all_2	16111	8783	4698	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+merged_fishcard_12S_all_3	12870	6292	6255	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_fishcard_12S_all_4	0	17890	4446	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+merged_fishcard_12S_all_5	9623	1269	8185	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+merged_fishcard_12S_all_6	13729	1614	3173	
+merged_fishcard_12S_all_7	8642	1837	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_fishcard_12S_all_8	0	0	9607	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+merged_fishcard_12S_all_9	6164	0	3392	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+merged_fishcard_12S_all_10	6954	444	1776	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+merged_fishcard_12S_all_11	875	2503	4097	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+merged_fishcard_12S_all_12	5283	672	1181	
+merged_fishcard_12S_all_13	3532	2730	626	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+merged_fishcard_12S_all_14	2721	750	688	
+merged_fishcard_12S_all_15	0	0	3656	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+merged_fishcard_12S_all_16	2527	423	533	
+merged_fishcard_12S_all_17	939	293	2135	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+merged_fishcard_12S_all_18	0	0	3350	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+merged_fishcard_12S_all_19	3134	178	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+merged_fishcard_12S_all_20	2864	0	0	
+merged_fishcard_12S_all_21	0	727	1793	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+merged_fishcard_12S_all_22	1245	257	1014	
+merged_fishcard_12S_all_23	352	2059	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+merged_fishcard_12S_all_24	1578	0	645	
+merged_fishcard_12S_all_25	0	164	2020	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+merged_fishcard_12S_all_26	0	0	2046	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Gobiesox;Gobiesox rhessodon
+merged_fishcard_12S_all_27	1367	0	677	
+merged_fishcard_12S_all_28	1227	160	445	
+merged_fishcard_12S_all_29	1383	32	340	Eukaryota;Chordata;Actinopteri;;Malacanthidae;Caulolatilus;Caulolatilus princeps
+merged_fishcard_12S_all_30	0	0	1630	Eukaryota;Chordata;Actinopteri;Clupeiformes;Clupeidae;Sardinops;Sardinops sagax
+merged_fishcard_12S_all_31	1097	0	450	
+merged_fishcard_12S_all_32	1515	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+merged_fishcard_12S_all_33	1478	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+merged_fishcard_12S_all_34	1030	0	377	
+merged_fishcard_12S_all_35	0	0	1319	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+merged_fishcard_12S_all_36	1310	0	0	
+merged_fishcard_12S_all_37	1284	0	0	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
+merged_fishcard_12S_all_38	0	134	1140	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Cheilotrema;Cheilotrema saturnum
+merged_fishcard_12S_all_39	933	123	209	
+merged_fishcard_12S_all_40	806	0	393	
+merged_fishcard_12S_all_41	413	113	601	
+merged_fishcard_12S_all_42	670	0	430	
+merged_fishcard_12S_all_43	798	104	189	
+merged_fishcard_12S_all_44	700	144	161	
+merged_fishcard_12S_all_45	999	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+merged_fishcard_12S_all_46	0	0	995	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+merged_fishcard_12S_all_47	0	0	938	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_fishcard_12S_all_48	0	855	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+merged_fishcard_12S_all_49	689	155	0	
+merged_fishcard_12S_all_50	537	90	142	
+merged_fishcard_12S_all_51	0	0	723	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Gibbonsia;
+merged_fishcard_12S_all_52	570	0	128	
+merged_fishcard_12S_all_53	695	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+merged_fishcard_12S_all_54	668	0	0	
+merged_fishcard_12S_all_55	457	83	126	
+merged_fishcard_12S_all_56	412	65	167	
+merged_fishcard_12S_all_57	0	226	380	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Paralichthys;Paralichthys californicus
+merged_fishcard_12S_all_58	367	54	166	
+merged_fishcard_12S_all_59	329	0	252	
+merged_fishcard_12S_all_60	463	0	106	
+merged_fishcard_12S_all_61	553	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_fishcard_12S_all_62	0	0	531	
+merged_fishcard_12S_all_63	0	0	530	
+merged_fishcard_12S_all_64	528	0	0	
+merged_fishcard_12S_all_65	528	0	0	
+merged_fishcard_12S_all_66	456	49	0	
+merged_fishcard_12S_all_67	0	0	493	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_fishcard_12S_all_68	357	0	135	
+merged_fishcard_12S_all_69	491	0	0	
+merged_fishcard_12S_all_70	375	0	105	
+merged_fishcard_12S_all_71	0	0	474	Eukaryota;Chordata;Actinopteri;Blenniiformes;Gobiesocidae;Rimicola;Rimicola muscarum
+merged_fishcard_12S_all_72	461	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_fishcard_12S_all_73	350	88	0	
+merged_fishcard_12S_all_74	296	36	106	
+merged_fishcard_12S_all_75	0	415	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Brachyistius;Brachyistius frenatus
+merged_fishcard_12S_all_76	413	0	0	
+merged_fishcard_12S_all_77	0	0	397	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+merged_fishcard_12S_all_78	257	21	109	
+merged_fishcard_12S_all_79	0	0	387	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+merged_fishcard_12S_all_80	375	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+merged_fishcard_12S_all_81	0	372	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+merged_fishcard_12S_all_82	261	0	93	
+merged_fishcard_12S_all_83	354	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
+merged_fishcard_12S_all_84	299	46	0	
+merged_fishcard_12S_all_85	0	0	337	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Hermosilla;Hermosilla azurea
+merged_fishcard_12S_all_86	336	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Sebastidae;Sebastes;
+merged_fishcard_12S_all_87	231	0	100	
+merged_fishcard_12S_all_88	295	0	33	
+merged_fishcard_12S_all_89	299	29	0	
+merged_fishcard_12S_all_90	320	0	0	
+merged_fishcard_12S_all_91	166	0	146	
+merged_fishcard_12S_all_92	194	43	67	
+merged_fishcard_12S_all_93	260	0	34	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+merged_fishcard_12S_all_94	238	51	0	
+merged_fishcard_12S_all_95	0	274	0	
+merged_fishcard_12S_all_96	267	0	0	
+merged_fishcard_12S_all_97	263	0	0	
+merged_fishcard_12S_all_98	198	55	0	
+merged_fishcard_12S_all_99	247	0	0	
+merged_fishcard_12S_all_100	0	246	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+merged_fishcard_12S_all_101	240	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+merged_fishcard_12S_all_102	0	0	240	
+merged_fishcard_12S_all_103	0	237	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+merged_fishcard_12S_all_104	232	0	0	
+merged_fishcard_12S_all_105	224	0	0	
+merged_fishcard_12S_all_106	0	0	210	
+merged_fishcard_12S_all_107	208	0	0	
+merged_fishcard_12S_all_108	0	206	0	
+merged_fishcard_12S_all_109	191	0	0	
+merged_fishcard_12S_all_110	0	0	191	
+merged_fishcard_12S_all_111	189	0	0	
+merged_fishcard_12S_all_112	0	0	183	
+merged_fishcard_12S_all_113	117	0	60	
+merged_fishcard_12S_all_114	0	176	0	
+merged_fishcard_12S_all_115	0	170	0	
+merged_fishcard_12S_all_116	114	0	54	
+merged_fishcard_12S_all_117	163	0	0	
+merged_fishcard_12S_all_118	129	0	34	
+merged_fishcard_12S_all_119	0	162	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Hypsypops;Hypsypops rubicundus
+merged_fishcard_12S_all_120	157	0	0	
+merged_fishcard_12S_all_121	156	0	0	
+merged_fishcard_12S_all_122	94	0	60	
+merged_fishcard_12S_all_123	152	0	0	
+merged_fishcard_12S_all_124	0	0	152	
+merged_fishcard_12S_all_125	147	0	0	
+merged_fishcard_12S_all_126	142	0	0	
+merged_fishcard_12S_all_127	119	19	0	
+merged_fishcard_12S_all_128	0	0	138	
+merged_fishcard_12S_all_129	136	0	0	
+merged_fishcard_12S_all_130	0	136	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Neoclinus;Neoclinus blanchardi
+merged_fishcard_12S_all_131	0	135	0	
+merged_fishcard_12S_all_132	133	0	0	
+merged_fishcard_12S_all_133	103	0	30	
+merged_fishcard_12S_all_134	0	0	133	
+merged_fishcard_12S_all_135	0	0	128	Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Alloclinus;Alloclinus holderi
+merged_fishcard_12S_all_136	72	0	53	
+merged_fishcard_12S_all_137	0	125	0	
+merged_fishcard_12S_all_138	123	0	0	
+merged_fishcard_12S_all_139	119	0	0	
+merged_fishcard_12S_all_140	115	0	0	
+merged_fishcard_12S_all_141	76	0	39	
+merged_fishcard_12S_all_142	80	0	33	
+merged_fishcard_12S_all_143	95	16	0	
+merged_fishcard_12S_all_144	0	0	111	
+merged_fishcard_12S_all_145	107	0	0	
+merged_fishcard_12S_all_146	106	0	0	
+merged_fishcard_12S_all_147	0	0	102	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectidae;Pleuronichthys;Pleuronichthys decurrens
+merged_fishcard_12S_all_148	97	0	0	
+merged_fishcard_12S_all_149	96	0	0	
+merged_fishcard_12S_all_150	0	0	95	
+merged_fishcard_12S_all_151	0	92	0	
+merged_fishcard_12S_all_152	86	0	0	
+merged_fishcard_12S_all_153	84	0	0	
+merged_fishcard_12S_all_154	82	0	0	
+merged_fishcard_12S_all_155	80	0	0	
+merged_fishcard_12S_all_156	79	0	0	
+merged_fishcard_12S_all_157	55	0	23	
+merged_fishcard_12S_all_158	71	0	0	
+merged_fishcard_12S_all_159	71	0	0	
+merged_fishcard_12S_all_160	70	0	0	
+merged_fishcard_12S_all_161	0	0	69	
+merged_fishcard_12S_all_162	68	0	0	
+merged_fishcard_12S_all_163	43	0	20	
+merged_fishcard_12S_all_164	63	0	0	
+merged_fishcard_12S_all_165	62	0	0	
+merged_fishcard_12S_all_166	61	0	0	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Umbrina;Umbrina roncador
+merged_fishcard_12S_all_167	59	0	0	
+merged_fishcard_12S_all_168	59	0	0	
+merged_fishcard_12S_all_169	58	0	0	
+merged_fishcard_12S_all_170	0	0	58	
+merged_fishcard_12S_all_171	55	0	0	
+merged_fishcard_12S_all_172	0	0	52	
+merged_fishcard_12S_all_173	51	0	0	
+merged_fishcard_12S_all_174	49	0	0	
+merged_fishcard_12S_all_175	0	0	47	
+merged_fishcard_12S_all_176	44	0	0	
+merged_fishcard_12S_all_177	42	0	0	
+merged_fishcard_12S_all_178	42	0	0	
+merged_fishcard_12S_all_179	39	0	0	
+merged_fishcard_12S_all_180	38	0	0	
+merged_fishcard_12S_all_181	36	0	0	
+merged_fishcard_12S_all_182	36	0	0	
+merged_fishcard_12S_all_183	35	0	0	
+merged_fishcard_12S_all_184	0	0	35	
+merged_fishcard_12S_all_185	34	0	0	
+merged_fishcard_12S_all_186	34	0	0	
+merged_fishcard_12S_all_187	34	0	0	
+merged_fishcard_12S_all_188	33	0	0	
+merged_fishcard_12S_all_189	0	0	33	
+merged_fishcard_12S_all_190	0	0	32	
+merged_fishcard_12S_all_191	21	0	8	
+merged_fishcard_12S_all_192	28	0	0	
+merged_fishcard_12S_all_193	27	0	0	
+merged_fishcard_12S_all_194	27	0	0	Eukaryota;Chordata;Chondrichthyes;Myliobatiformes;Myliobatidae;Myliobatis;Myliobatis californica
+merged_fishcard_12S_all_195	26	0	0	
+merged_fishcard_12S_all_196	25	0	0	
+merged_fishcard_12S_all_197	25	0	0	
+merged_fishcard_12S_all_198	0	0	25	
+merged_fishcard_12S_all_199	24	0	0	
+merged_fishcard_12S_all_200	22	0	0	
+merged_fishcard_12S_all_201	0	0	17	
+merged_fishcard_12S_all_202	0	0	17	
+merged_fishcard_12S_all_203	16	0	0	
+merged_fishcard_12S_all_204	11	0	0	
+merged_fishcard_12S_all_205	7	0	0	
+merged_fishcard_12S_all_206	7	0	0	
+merged_fishcard_12S_all_207	6	0	0	
+merged_fishcard_12S_all_208	0	6	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+merged_fishcard_12S_all_209	4	0	0	
+merged_fishcard_12S_all_210	0	4	0	
+merged_fishcard_12S_all_211	0	3	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+merged_fishcard_12S_all_212	1	0	0	
+reverse_fishcard_12S_all_1	1	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_2	1	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_3	1	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_4	0	2	0	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Trachurus;Trachurus symmetricus
+reverse_fishcard_12S_all_5	0	1	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_6	0	1	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_7	0	0	2	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_8	1	0	0	
+reverse_fishcard_12S_all_9	1	0	0	
+reverse_fishcard_12S_all_10	1	0	0	
+reverse_fishcard_12S_all_11	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_fishcard_12S_all_12	1	0	0	
+reverse_fishcard_12S_all_13	1	0	0	
+reverse_fishcard_12S_all_14	1	0	0	
+reverse_fishcard_12S_all_15	1	0	0	
+reverse_fishcard_12S_all_16	1	0	0	
+reverse_fishcard_12S_all_17	1	0	0	
+reverse_fishcard_12S_all_18	1	0	0	
+reverse_fishcard_12S_all_19	1	0	0	
+reverse_fishcard_12S_all_20	1	0	0	
+reverse_fishcard_12S_all_21	1	0	0	
+reverse_fishcard_12S_all_22	1	0	0	
+reverse_fishcard_12S_all_23	1	0	0	
+reverse_fishcard_12S_all_24	1	0	0	
+reverse_fishcard_12S_all_25	1	0	0	
+reverse_fishcard_12S_all_26	1	0	0	
+reverse_fishcard_12S_all_27	1	0	0	
+reverse_fishcard_12S_all_28	1	0	0	
+reverse_fishcard_12S_all_29	1	0	0	
+reverse_fishcard_12S_all_30	1	0	0	
+reverse_fishcard_12S_all_31	1	0	0	
+reverse_fishcard_12S_all_32	1	0	0	
+reverse_fishcard_12S_all_33	1	0	0	
+reverse_fishcard_12S_all_34	1	0	0	
+reverse_fishcard_12S_all_35	1	0	0	
+reverse_fishcard_12S_all_36	1	0	0	
+reverse_fishcard_12S_all_37	1	0	0	
+reverse_fishcard_12S_all_38	1	0	0	
+reverse_fishcard_12S_all_39	1	0	0	
+reverse_fishcard_12S_all_40	1	0	0	
+reverse_fishcard_12S_all_41	1	0	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Chaenopsidae;Chaenopsis;Chaenopsis alepidota
+reverse_fishcard_12S_all_42	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+reverse_fishcard_12S_all_43	1	0	0	Eukaryota;Chordata;Actinopteri;Tetraodontiformes;Balistidae;Balistes;Balistes polylepis
+reverse_fishcard_12S_all_44	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+reverse_fishcard_12S_all_45	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+reverse_fishcard_12S_all_46	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+reverse_fishcard_12S_all_47	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+reverse_fishcard_12S_all_48	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_49	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_50	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_51	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_52	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;Scombridae;;
+reverse_fishcard_12S_all_53	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Halichoeres;Halichoeres semicinctus
+reverse_fishcard_12S_all_54	1	0	0	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;;
+reverse_fishcard_12S_all_55	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_56	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_57	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_58	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_59	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_60	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_61	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_62	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_63	1	0	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_fishcard_12S_all_64	1	0	0	Eukaryota;Chordata;Actinopteri;;;;
+reverse_fishcard_12S_all_65	1	0	0	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+reverse_fishcard_12S_all_66	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_67	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_68	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_69	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_70	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_71	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_72	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_73	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_74	1	0	0	Eukaryota;Chordata;Actinopteri;;Sphyraenidae;Sphyraena;Sphyraena argentea
+reverse_fishcard_12S_all_75	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_76	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_77	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+reverse_fishcard_12S_all_78	1	0	0	
+reverse_fishcard_12S_all_79	1	0	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Medialuna;Medialuna californiensis
+reverse_fishcard_12S_all_80	1	0	0	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Umbrina;Umbrina roncador
+reverse_fishcard_12S_all_81	1	0	0	
+reverse_fishcard_12S_all_82	1	0	0	Eukaryota;Chordata;Actinopteri;;Pomacentridae;Chromis;Chromis punctipinnis
+reverse_fishcard_12S_all_83	1	0	0	Eukaryota;Chordata;Actinopteri;Scombriformes;;;
+reverse_fishcard_12S_all_84	1	0	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+reverse_fishcard_12S_all_85	0	1	0	
+reverse_fishcard_12S_all_86	0	1	0	
+reverse_fishcard_12S_all_87	0	1	0	
+reverse_fishcard_12S_all_88	0	1	0	
+reverse_fishcard_12S_all_89	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_90	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_91	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_92	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_93	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_94	0	1	0	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;Girella;Girella nigricans
+reverse_fishcard_12S_all_95	0	1	0	Eukaryota;Chordata;Actinopteri;Ophidiiformes;Ophidiidae;Chilara;Chilara taylori
+reverse_fishcard_12S_all_96	0	1	0	Eukaryota;Chordata;Actinopteri;Clupeiformes;Engraulidae;Engraulis;Engraulis mordax
+reverse_fishcard_12S_all_97	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_98	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_99	0	1	0	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_100	0	1	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Labrisomidae;Neoclinus;Neoclinus blanchardi
+reverse_fishcard_12S_all_101	0	1	0	Eukaryota;Chordata;Actinopteri;Blenniiformes;Clinidae;Heterostichus;Heterostichus rostratus
+reverse_fishcard_12S_all_102	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+reverse_fishcard_12S_all_103	0	1	0	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca jacksoni
+reverse_fishcard_12S_all_104	0	0	1	
+reverse_fishcard_12S_all_105	0	0	1	
+reverse_fishcard_12S_all_106	0	0	1	
+reverse_fishcard_12S_all_107	0	0	1	
+reverse_fishcard_12S_all_108	0	0	1	
+reverse_fishcard_12S_all_109	0	0	1	
+reverse_fishcard_12S_all_110	0	0	1	
+reverse_fishcard_12S_all_111	0	0	1	
+reverse_fishcard_12S_all_112	0	0	1	
+reverse_fishcard_12S_all_113	0	0	1	
+reverse_fishcard_12S_all_114	0	0	1	
+reverse_fishcard_12S_all_115	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;;
+reverse_fishcard_12S_all_116	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Semicossyphus;Semicossyphus pulcher
+reverse_fishcard_12S_all_117	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Hexagrammidae;Oxylebius;Oxylebius pictus
+reverse_fishcard_12S_all_118	0	0	1	Eukaryota;Chordata;Actinopteri;Pempheriformes;Polyprionidae;Stereolepis;Stereolepis gigas
+reverse_fishcard_12S_all_119	0	0	1	
+reverse_fishcard_12S_all_120	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_121	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_122	0	0	1	Eukaryota;Chordata;Actinopteri;Labriformes;Labridae;Oxyjulis;Oxyjulis californica
+reverse_fishcard_12S_all_123	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+reverse_fishcard_12S_all_124	0	0	1	Eukaryota;Chordata;Actinopteri;Centrarchiformes;Kyphosidae;;
+reverse_fishcard_12S_all_125	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;Citharichthys sordidus
+reverse_fishcard_12S_all_126	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+reverse_fishcard_12S_all_127	0	0	1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Paralichthyidae;Citharichthys;
+reverse_fishcard_12S_all_128	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_129	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_130	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_131	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+reverse_fishcard_12S_all_132	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+reverse_fishcard_12S_all_133	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;
+reverse_fishcard_12S_all_134	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax clathratus
+reverse_fishcard_12S_all_135	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;Atherinops;Atherinops affinis
+reverse_fishcard_12S_all_136	0	0	1	Eukaryota;Chordata;Actinopteri;Atheriniformes;Atherinopsidae;;
+reverse_fishcard_12S_all_137	0	0	1	
+reverse_fishcard_12S_all_138	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_fishcard_12S_all_139	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_fishcard_12S_all_140	0	0	1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;;
+reverse_fishcard_12S_all_141	0	0	1	Eukaryota;Chordata;Actinopteri;;;;
+reverse_fishcard_12S_all_142	0	0	1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Ruscarius;Ruscarius creaseri
+reverse_fishcard_12S_all_143	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi
+reverse_fishcard_12S_all_144	0	0	1	Eukaryota;Chordata;Actinopteri;Carangiformes;Carangidae;Seriola;Seriola lalandi

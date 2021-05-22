@@ -1,0 +1,30 @@
+---
+title: "CRUX_2.0_primerTree Notebook"
+output: html_notebook
+---
+
+# Load libraries
+R libraries required --- Make a bit of code that automatically installs packages that are missing
+```{r}
+library(ShortRead)
+library(primerTree)
+library(tidyverse)
+library(tidyr)
+library(dplyr)
+library(ape)
+library(tibble)
+library(rlist)
+library(rlang)
+library(taxonomizr)
+library(data.table)
+library(RCurl)
+library(parallel)
+library(here)
+```
+
+# Load Data 
+```{r}
+here()
+combined_df <- readRDS(file = here("Data","phylogenetic_tree","blast_results_with_taxonomy.RDS"))
+```
+
