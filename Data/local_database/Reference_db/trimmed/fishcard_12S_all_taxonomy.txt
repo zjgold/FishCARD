@@ -692,7 +692,7 @@ FISHCARD_miu_648.1	Eukaryota;Chordata;Chondrichthyes;Lamniformes;Megachasmidae;M
 FISHCARD_miu_649.1	Eukaryota;Chordata;Chondrichthyes;Carcharhiniformes;Triakidae;Mustelus;Mustelus lunulatus
 FISHCARD_miu_650.1	Eukaryota;Chordata;Chondrichthyes;Pristiformes/Rhiniformes group;Rhinobatidae;Zapteryx;Zapteryx exasperata
 FISHCARD_miu_651.1	Eukaryota;Chordata;Actinopteri;Scombriformes;Centrolophidae;Icichthys;Icichthys lockingtoni
-FISHCARD_miu_652.1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Genyonemus;Genyonemus lineatus
+FISHCARD_miu_652.1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Roncador;Roncador stearnsii
 FISHCARD_miu_653.1	Eukaryota;Chordata;Actinopteri;Stomiiformes;Sternoptychidae;Sternoptyx;Sternoptyx obscura
 FISHCARD_miu_654.1	Eukaryota;Chordata;Actinopteri;Perciformes;Liparidae;Nectoliparis;Nectoliparis pelagicus
 FISHCARD_miu_655.1	Eukaryota;Chordata;Actinopteri;Anguilliformes;Muraenidae;Gymnothorax;Gymnothorax mordax
