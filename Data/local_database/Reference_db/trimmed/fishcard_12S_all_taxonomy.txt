@@ -2774,3 +2774,4 @@ AP009494.1	Eukaryota;Chordata;Actinopteri;Alepocephaliformes;Alepocephalidae;Bat
 NC_042186.1	Eukaryota;Chordata;Actinopteri;Perciformes;Cottidae;Myoxocephalus;Myoxocephalus scorpius
 LC021005.1	Eukaryota;Chordata;Actinopteri;Alepocephaliformes;Alepocephalidae;Bajacalifornia;Bajacalifornia megalops
 LC036770.1	Eukaryota;Chordata;Actinopteri;Perciformes;Agonidae;Blepsias;Blepsias bilobus
+FISHCARD_miu_702.1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Atractoscion;Atractoscion nobilis
