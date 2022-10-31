@@ -1,6 +1,7 @@
 # Improving Metabarcoding Taxonomic Assignment: A Case Study of Fishes in a Large Marine Ecosystem
 
-Pre-print is Available [here](https://10.22541/au.161407483.33882798/v1)
+Paper is [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13450
+Original Pre-print is Available [here](https://10.22541/au.161407483.33882798/v1)
 
 
 Zachary Gold<sup>1</sup>,Emily Curd<sup>1</sup>,Kelly D. Goodwin<sup>3</sup>,Emma Choi<sup>2</sup>, Ben Frable<sup>2</sup>,Andrew R. Thompson<sup>4</sup>,H.J. Walker, Jr. <sup>2</sup>, Ronald S. Burton<sup>2</sup>,  Dovi Kacev<sup>2</sup>,Lucas D. Martz<sup>2</sup>,Paul H. Barber<sup>1</sup>
