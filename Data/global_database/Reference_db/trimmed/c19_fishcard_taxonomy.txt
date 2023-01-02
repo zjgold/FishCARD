@@ -44879,3 +44879,4 @@ FISHCARD_miu_698.1	Eukaryota;Chordata;Actinopteri;Pleuronectiformes;Pleuronectid
 FISHCARD_miu_699.1	Eukaryota;Chordata;Actinopteri;Perciformes;Serranidae;Paralabrax;Paralabrax nebulifer
 FISHCARD_miu_700.1	Eukaryota;Chordata;Actinopteri;Gobiiformes;Gobiidae;Lythrypnus;Lythrypnus dalli
 FISHCARD_miu_701.1	Eukaryota;Chordata;Actinopteri;;Embiotocidae;Embiotoca;Embiotoca caryi
+FISHCARD_miu_702.1	Eukaryota;Chordata;Actinopteri;;Sciaenidae;Atractoscion;Atractoscion nobilis
