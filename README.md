@@ -1,6 +1,6 @@
 # Improving Metabarcoding Taxonomic Assignment: A Case Study of Fishes in a Large Marine Ecosystem
 
-Paper is [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13450
+Paper is [here](https://onlinelibrary.wiley.com/doi/abs/10.1111/1755-0998.13450)
 
 GenBank Accessions are here: [teleost fish](https://www.ncbi.nlm.nih.gov/nuccore/?term=OQ846038:OQ846726[accn]) & [elasmobranchs](https://www.ncbi.nlm.nih.gov/nuccore/?term=OQ946452:OQ946504[accn])
 
