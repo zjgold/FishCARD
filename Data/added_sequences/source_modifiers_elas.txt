@@ -1,0 +1,54 @@
+Sequence_ID	Organism	Fwd_primer_name	Rev_primer_name	Specimen_voucher	Country	Note	Lat_Lon	Collection_date	Collected_by
+FISHCARD_elas_01.1	Galeocerdo cuvier	MiFish Elasmobranch	MiFish Elasmobranch	#12-39	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	4-Apr-12	commercial fishers (via J Snow)
+FISHCARD_elas_02.1	Galeorhinus galeus	MiFish Elasmobranch	MiFish Elasmobranch	#10-76	USA	"San Diego Co.: La Jolla, N of SIO Pier"	"32.8667N,117.25W"	29-May-10	J Deyling [local fisher]
+FISHCARD_elas_03.1	Heterodontus francisci	MiFish Elasmobranch	MiFish Elasmobranch	#07-84	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	10-May-07	J Snow
+FISHCARD_elas_04.1	Isurus oxyrinchus	MiFish Elasmobranch	MiFish Elasmobranch	#12-27	Mexico	Punta Palmilla	"22.99N,109.43W"	20-Dec-11	J Snow
+FISHCARD_elas_05.1	Rhizoprionodon longurio	MiFish Elasmobranch	MiFish Elasmobranch	#13-250	Mexico	Todas Santos Commercial Beach	"23.41N,110.23W"	7-Jun-13	commercial fishermen (via J Snow)
+FISHCARD_elas_06.1	Sphyrna zygaena	MiFish Elasmobranch	MiFish Elasmobranch	#09-293	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	2-Jun-09	J Snow
+FISHCARD_elas_07.1	Mobula mobular	MiFish Elasmobranch	MiFish Elasmobranch	#16-76	Sri Lanka	NULL		30-May-12	D Fernando
+FISHCARD_elas_08.1	Pteroplatytrygon violacea	MiFish Elasmobranch	MiFish Elasmobranch	#12-94	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	22-Aug-12	commercial fishers (via J Snow)
+FISHCARD_elas_10.1	Mobula thurstoni	MiFish Elasmobranch	MiFish Elasmobranch	#16-75	Sri Lanka	NULL		28-May-12	D Fernando
+FISHCARD_elas_11.1	Pseudobatos productus	MiFish Elasmobranch	MiFish Elasmobranch	#03-160	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	22-Aug-02	"M Craig & J Fodrie, SIO grad. students"
+FISHCARD_elas_12.1	Gymnura marmorata	MiFish Elasmobranch	MiFish Elasmobranch	#01-180	USA	"San Diego Co.: La Jolla, off Black’s Beach"	"32.8667N,117.25W"	5-Oct-01	"M Craig & J Fodrie, SIO grad. students"
+FISHCARD_elas_13.1	Euprotomicrus bispinatus	MiFish Elasmobranch	MiFish Elasmobranch	#98-173	USA	NULL	"29.25N,144.7167W"	28-May-97	"R Pitman, NMFS-La Jolla"
+FISHCARD_elas_14.1	Alopias superciliosus	MiFish Elasmobranch	MiFish Elasmobranch	#04-32	USA	"ca 70 mi offshore, near U.S./Mexico border"	"32.5833N,118.3333W"	2-Mar-04	"local fisherman, via C. Sepulveda, SIO"
+FISHCARD_elas_15.1	Carcharhinus longimanus	MiFish Elasmobranch	MiFish Elasmobranch	#97-223	USA	NULL	"7.7333N,141.7833W"	13-Sep-97	"M Hinton, IATTC"
+FISHCARD_elas_16.1	Prionace glauca	MiFish Elasmobranch	MiFish Elasmobranch	#96-101	USA	Tanner Bank	"32.6917N,119.1167W"	8-Aug-95	WL Smith
+FISHCARD_elas_17.1	Hydrolagus colliei	MiFish Elasmobranch	MiFish Elasmobranch	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-95	"R Rosenblatt & party, SIO"
+FISHCARD_elas_18.1	Euprotomicrus bispinatus	MiFish Elasmobranch	MiFish Elasmobranch	FISHCARD_elas_18.1	USA	NULL	"29.25N,144.7167W"	28-May-97	"R Pitman, NMFS-La Jolla"
+FISHCARD_elas_19.1	Somniosus pacificus	MiFish Elasmobranch	MiFish Elasmobranch	#95-13	USA	Loran: 28208.2/40726.6		7-Dec-91	"R Hupp, Sea World"
+FISHCARD_elas_20.1	Hypanus dipterurus	MiFish Elasmobranch	MiFish Elasmobranch	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-01	"M Craig & Joel Fodrie, SIO graduate students"
+FISHCARD_elas_21.1	Carcharodon carcharias	MiFish Elasmobranch	MiFish Elasmobranch	#04-43	USA	off Newport Beach; 6 mi	"33.53N,117.9367W"	10-Sep-03	"local fisherman (via C Lowe, CSULB)"
+FISHCARD_elas_22.1	Gymnura marmorata	MiFish Elasmobranch	MiFish Elasmobranch	FISHCARD_elas_22.1	USA	"San Diego Co.: La Jolla, off Black’s Beach"	"32.8667N,117.25W"	5-Oct-01	"M Craig & J Fodrie, SIO grad. students"
+FISHCARD_elas_23.1	Hexanchus griseus	MiFish Elasmobranch	MiFish Elasmobranch	#01-187	USA	"Santa Barbara Channel, off El Capitan State Beach"	"34.3833N,119.7W"	14-Aug-01	"gift:  RN Lea, Calif. Fish & Game"
+FISHCARD_elas_24.1	Himantolophus sagamius	MiFish Elasmobranch	MiFish Elasmobranch	#02-2	USA	San Diego Co.: Del Mar (at “Dog Beach”); in surf zone	"32.9583N,117.265W"	15-Dec-01	M Grundler
+FISHCARD_elas_25.1	Bathyraja trachura	MiFish Elasmobranch	MiFish Elasmobranch	#01-109	USA	off Monterey Bay	"36.75N,121.9167W"	18-Apr-01	"received from RN Lea, Calif. Fish & Game"
+FISHCARD_elas_26.1	Platyrhinoidis triseriata	MiFish Elasmobranch	MiFish Elasmobranch	#03-161	USA	"San Diego Co.: La Jolla, Scripps Reserve"	"32.85N,117.2667W"	19-Nov-02	"M Craig & J Fodrie, SIO grad. students"
+FISHCARD_elas_27.1	Pseudobatos productus	MiFish Elasmobranch	MiFish Elasmobranch	FISHCARD_elas_27.1	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	22-Aug-02	"M Craig & J Fodrie, SIO grad. students"
+FISHCARD_elas_28.1	Parmaturus xaniurus	MiFish Elasmobranch	MiFish Elasmobranch	#97-131	USA	off Yankee Point	"36.5117N,122.0083W"	6-Mar-97	J Field
+FISHCARD_elas_29.1	Mustelus californicus	MiFish Elasmobranch	MiFish Elasmobranch	#03-65	USA	San Diego Co.: “between Encinitas & Oceanside”	"33.1083N,117.325W"	13-Jul-03	"via J Hyde, SIO grad student"
+FISHCARD_elas_30.1	Triakis semifasciata	MiFish Elasmobranch	MiFish Elasmobranch	#02-18	USA	San Diego Co.: La Jolla Shores	"32.85N,117.2667W"	13-Sep-01	"E Kisfaludy, SIO"
+FISHCARD_elas_31.1	Urobatis halleri	MiFish Elasmobranch	MiFish Elasmobranch	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-01	"M Craig & Joel Fodrie, SIO graduate students"
+FISHCARD_elas_32.1	Alopias superciliosus	MiFish Elasmobranch	MiFish Elasmobranch	FISHCARD_elas_32.1	USA	"ca 70 mi offshore, near U.S./Mexico border"	"32.5833N,118.3333W"	2-Mar-04	"local fisherman, via C. Sepulveda, SIO"
+FISHCARD_elas_33.1	Notorynchus cepedianus	MiFish Elasmobranch	MiFish Elasmobranch	#04-47	USA	San Diego Co.: Point Loma kelp bed	"32.7283N,117.2683W"	5-Apr-04	"M Shane & party, Hubbs-Sea World Res. Inst."
+FISHCARD_elas_34.1	Alopias pelagicus	MiFish Elasmobranch	MiFish Elasmobranch	#04-188	Mexico	off Guaymas	"27.9167N,111.0667W"	14-Nov-04	"commercial fisherman (via C. Sepulveda, SIO grad. student)"
+FISHCARD_elas_35.1	Tetronarce californica	MiFish Elasmobranch	MiFish Elasmobranch	#05-1	USA	San Diego Co.: Carlsbad: Encino Power Plant	"33.1583N,117.3483W"	2-Feb-05	"J Hyde & B Erisman, SIO grad. students"
+FISHCARD_elas_36.1	Beringraja binoculata	MiFish Elasmobranch	MiFish Elasmobranch	#05-114	USA	off northern California	"37.9167N,122.5W"	31-Jul-05	NULL
+FISHCARD_elas_37.1	Pteroplatytrygon violacea	MiFish Elasmobranch	MiFish Elasmobranch	#05-76	USA	San Diego Co.: off Torrey Pines	"32.9083N,117.2583W"	19-Aug-05	"E Kisfaludy & S Albers, SIO"
+FISHCARD_elas_38.1	Mustelus henlei	MiFish Elasmobranch	MiFish Elasmobranch	#05-84	USA	San Diego Co: off San Diego	"32.7667N,117.2167W"	27-Sep-05	B Steele
+FISHCARD_elas_39.1	Apristurus brunneus	MiFish Elasmobranch	MiFish Elasmobranch	#05-89	USA	NULL	"35.965N,121.6267W"	9-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_40.1	Beringraja rhina	MiFish Elasmobranch	MiFish Elasmobranch	#05-89	USA	NULL	"35.965N,121.6267W"	9-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_41.1	Apristurus kampae	MiFish Elasmobranch	MiFish Elasmobranch	#05-97	USA	NULL	"32.83N,117.7833W"	23-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_42.1	Beringraja inornata	MiFish Elasmobranch	MiFish Elasmobranch	#05-102	USA	NULL	"32.8733N,117.3017W"	24-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_43.1	Cephaloscyllium ventriosum	MiFish Elasmobranch	MiFish Elasmobranch	#05-98	USA	NULL	"34.37N,119.7683W"	17-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_44.1	Bathyraja interrupta	MiFish Elasmobranch	MiFish Elasmobranch	#05-87	USA	NULL	"36.3867N,122.0667W"	9-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_45.1	Beringraja stellulata	MiFish Elasmobranch	MiFish Elasmobranch	#05-86	USA	NULL	"36.81N,122.0483W"	8-Jul-05	D Kamikawa & NMFS party
+FISHCARD_elas_46.1	Bathyraja abyssicola	MiFish Elasmobranch	MiFish Elasmobranch	#06-002	USA	Bering Sea	"56.8517N,172.4183W"	24-Jun-04	"DE Stevenson, NMFS"
+FISHCARD_elas_47.1	Amblyraja hyperborea	MiFish Elasmobranch	MiFish Elasmobranch	#06-36	USA	NULL	"36.71N,122.28W"	3-Nov-01	NMFS-Seattle
+FISHCARD_elas_48.1	Rhincodon typus	MiFish Elasmobranch	MiFish Elasmobranch	#05-111	Philippines	Pamilican Island: Bohol	"9.1667N,124.4167E"	24-Feb-97	MNR Alava & AA Yaptinchay
+FISHCARD_elas_49.1	Squalus suckleyi	MiFish Elasmobranch	MiFish Elasmobranch	#06-7	USA	NULL	"36.74N,121.9117W"	1-Jul-93	M Domeier
+FISHCARD_elas_50.1	Squatina californica	MiFish Elasmobranch	MiFish Elasmobranch	#06-5	USA	San Diego Co.: off Carlsbad	"33.1333N,117.3433W"	25-Aug-05	Hubbs-Sea World Res. Inst.
+FISHCARD_elas_51.1	Megachasma pelagios	MiFish Elasmobranch	MiFish Elasmobranch	#07-53	Mexico	off Bahia Tortugas	"27.6833N,114.8833W"	16-Nov-06	Capt E Magana & crew
+FISHCARD_elas_52.1	Mustelus lunulatus	MiFish Elasmobranch	MiFish Elasmobranch	#09-212	Mexico	Todos Santos Commercial Beach	"23.6833N,110.3833W"	8-May-09	commercial fishermen (via J Snow)
+FISHCARD_elas_53.1	Zapteryx exasperata	MiFish Elasmobranch	MiFish Elasmobranch	6 #10-59	Mexico	Todos Santos Commercial  Beach	"23.41N,110.23W"	7-May-10	commercial fishers [via J Snow]
+FISHCARD_elas_54.1	Euprotomicrus sp.	MiFish Elasmobranch	MiFish Elasmobranch	FISHCARD_elas_54.1	USA	NULL	"29.25N,144.7167W"	28-May-97	"R Pitman, NMFS-La Jolla"

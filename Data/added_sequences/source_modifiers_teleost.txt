@@ -1,0 +1,690 @@
+Sequence_ID	Organism	Fwd_primer_name	Rev_primer_name	Specimen_voucher	Country	Note	Lat_Lon	Collection_date	Collected_by			
+FISHCARD_miu_001.1	Nansenia candida	MiFish Teleost	MiFish Teleost	#06-98	USA	NULL	"32.8N,124.0667W"	1-Jun-2006	"P Davison & M Decima, SIO grad. students"			
+FISHCARD_miu_002.1	Syngnathus leptorhynchus	MiFish Teleost	MiFish Teleost	#11-230	Pacific Ocean	NULL		16-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_003.1	Nectoliparis pelagicus	MiFish Teleost	MiFish Teleost	#06-34	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_004.1	Zaniolepis frenata	MiFish Teleost	MiFish Teleost	#12-14	USA	California Current	"34.35N,121.0833W"	8-Feb-2012	"P Davison, SIO"			
+FISHCARD_miu_005.1	Gobiesox maeandricus	MiFish Teleost	MiFish Teleost	#06-42	USA	San Luis Obispo Co.:  Cambria; intertidal	"35.5933N,121.5933W"	25-Jun-1905	"M Ramon, UC Santa Cruz"			
+FISHCARD_miu_006.1	Merluccius productus	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_007.1	Coelorinchus scaphopsis	MiFish Teleost	MiFish Teleost	#97-184	USA	NULL	"37.925N,123.455W"	28-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_008.1	Roncador stearnsii	MiFish Teleost	MiFish Teleost	#02-75	USA	"San Diego Co.: La Jolla, near SIO"	"32.8667N,117.25W"	28-Jun-2002	"M Craig, SIO"			
+FISHCARD_miu_009.1	Scomber japonicus	MiFish Teleost	MiFish Teleost	#04-102	USA	San Diego Co.: La Jolla:  “few hundred yards off SIO Pier”	"32.8667N,117.25W"	8-Jul-2004	"C Sepulveda, SIO grad. student"			
+FISHCARD_miu_010.1	Icosteus aenigmaticus	MiFish Teleost	MiFish Teleost	#99-95	USA	off Cape Mendocino	"39.3333N,123.6667W"	15-Sep-1998	NULL			
+FISHCARD_miu_011.1	Sphyraena argentea	MiFish Teleost	MiFish Teleost	#04-179	USA	San Diego Co.: off Torrey Pines State Park	"32.9667N,117.2667W"	16-Oct-2004	"J Fodrie, SIO grad. student"			
+FISHCARD_miu_012.1	Trachipterus altivelis	MiFish Teleost	MiFish Teleost	#02-15	USA	Santa Catalina Island	"33.3833N,118.4W"	1-Mar-2002	"via M Shane, Hubbs-SeaWorld Research Inst."			
+FISHCARD_miu_013.1	Protomyctophum crockeri	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_014.1	Parophrys vetulus	MiFish Teleost	MiFish Teleost	#02-72	USA	San Diego Co.: La Jolla:  near SIO	"32.8667N,117.25W"	18-Jun-2002	"M Craig, J Fodrie & M Newman, SIO grad. students"			
+FISHCARD_miu_015.1	Microstomus pacificus	MiFish Teleost	MiFish Teleost	#99-30	Canada	NULL	"51.2117N,128.5533W"	10-Jul-1992	"(prob.) L Zimm, SIO"			
+FISHCARD_miu_016.1	Glyptocephalus zachirus	MiFish Teleost	MiFish Teleost	#05-91	USA	NULL	"35.085N,121.2167W"	10-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_017.1	Lyopsetta exilis	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_018.1	Melanonus zugmayeri	MiFish Teleost	MiFish Teleost	#10-168	Pacific Ocean	NULL	"32.9167N,140.3167W"	10-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_019.1	Psettichthys melanostictus	MiFish Teleost	MiFish Teleost	#05-113	USA	off northern California	"37.9167N,122.5W"	30-Jul-2005	NULL			
+FISHCARD_miu_020.1	Engraulis mordax	MiFish Teleost	MiFish Teleost	#05-79	USA	San Diego Co.: just north of SIO Pier	"32.8667N,117.25W"	26-Aug-2005	"B Erisman & party, SIO"			
+FISHCARD_miu_021.1	Sternoptyx obscura	MiFish Teleost	MiFish Teleost	#05-04	USA	NULL	"34.695N,123.21W"	1-Feb-2005	"D Bailey (K Smith lab), SIO"			
+FISHCARD_miu_022.1	Sternoptyx pseudobscura	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_023.1	Stomias atriventer	MiFish Teleost	MiFish Teleost	#01-74	USA	San Diego Co.: off Point Loma	"32.6833N,117.2333W"	5-May-2001	"P Hastings & M Ohman & party, SIO"			
+FISHCARD_miu_024.1	Vinciguerria nimbaria	MiFish Teleost	MiFish Teleost	#10-172	Pacific Ocean	NULL	"34.0667N,139.9833W"	14-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_025.1	Vinciguerria lucetia	MiFish Teleost	MiFish Teleost	10 #06-296	Pacific Ocean	NULL	"16.095N,106.6933W"	2-Nov-2006	NULL			
+FISHCARD_miu_026.1	Stenobrachius leucopsarus	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_027.1	Scopelogadus bispinosus	MiFish Teleost	MiFish Teleost	#93-300	Mexico	off Baja CA Norte	"32.2733N,119.43W"	21-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_028.1	Notoscopelus resplendens	MiFish Teleost	MiFish Teleost	#10-167	Pacific Ocean	NULL	"32.0667N,137.9167W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_029.1	Triphoturus nigrescens	MiFish Teleost	MiFish Teleost	#10-167	Pacific Ocean	NULL	"32.0667N,137.9167W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_030.1	Lobianchia gemellarii	MiFish Teleost	MiFish Teleost	#10-167	Pacific Ocean	NULL	"32.0667N,137.9167W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_031.1	Diaphus theta	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_032.1	Centrobranchus nigroocellatus	MiFish Teleost	MiFish Teleost	#10-166	Pacific Ocean	NULL	"32.1N,137.9W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_033.1	Lestidiops pacificus	MiFish Teleost	MiFish Teleost	#10-164	Pacific Ocean	NULL	"32.0667N,137.9W"	8-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_034.1	Melamphaes simus	MiFish Teleost	MiFish Teleost	#10-164	Pacific Ocean	NULL	"32.0667N,137.9W"	8-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_035.1	Leuresthes tenuis	MiFish Teleost	MiFish Teleost	#05-64	USA	Orange Co.: Doheny State Beach; shore	"38.075N,123.965W"	8-Jul-2005	"D Roberts [per K Martin, Occidental College]"			
+FISHCARD_miu_036.1	Trachurus symmetricus	MiFish Teleost	MiFish Teleost	#03-75	USA	San Diego Co.: La Jolla: Scripps Canyon	"32.85N,117.25W"	1-Jul-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_037.1	Gobiesox rhessodon	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_038.1	Ophidion scrippsae	MiFish Teleost	MiFish Teleost	#02-26	USA	San Diego Co.: La Jolla:  Scripps Coastal Reserve	"32.8717N,117.255W"	28-Feb-2002	"M Craig & party, SIO"			
+FISHCARD_miu_039.1	Sebastes semicinctus	MiFish Teleost	MiFish Teleost	#97-181	USA	NULL	"37.58N,122.915W"	27-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_040.1	Sebastes saxicola	MiFish Teleost	MiFish Teleost	#01-189	USA	off Point Loma	"32.6833N,117.2333W"	20-Oct-2001	"R Rosenblatt & P Franks, SIO"			
+FISHCARD_miu_041.1	Sebastes rastrelliger	MiFish Teleost	MiFish Teleost	#10-96	USA	Monterey Co.: Elkhorn Slough Nat’l Estuarine Res. Reserve	"36.8117N,121.7883W"	5-Aug-2010	[via RN Lea]			
+FISHCARD_miu_042.1	Sebastes babcocki	MiFish Teleost	MiFish Teleost	#07-183	USA	Monterey Co. Ascension Canyon	"36.9167N,122.4667W"	6-Nov-2007	"P Reiley, Calif. Fish &  Game"			
+FISHCARD_miu_043.1	Phanerodon vacca	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_044.1	Phanerodon furcatus	MiFish Teleost	MiFish Teleost	#06-267	Mexico	Bahia El Rosario	"29.95N,115.8167W"	28-Jun-1905	"J Rosales, CICESE"			
+FISHCARD_miu_045.1	Micrometrus minimus	MiFish Teleost	MiFish Teleost	#06-267	Mexico	Bahia El Rosario	"29.95N,115.8167W"	28-Jun-1905	"J Rosales, CICESE"			
+FISHCARD_miu_046.1	Hyperprosopon argenteum	MiFish Teleost	MiFish Teleost	#06-267	Mexico	Bahia El Rosario	"29.95N,115.8167W"	28-Jun-1905	"J Rosales, CICESE"			
+FISHCARD_miu_047.1	Syngnathus exilis	MiFish Teleost	MiFish Teleost	#19-52	USA	"San Diego Co.: La Jolla, SIO Pier"		3-Jun-2019	BW Frable			
+FISHCARD_miu_048.1	Macroramphosus gracilis	MiFish Teleost	MiFish Teleost	#09-308	USA	California Current	"32.65N,118.85W"	30-Sep-2008	"P Davison, SIO"			
+FISHCARD_miu_049.1	Hippocampus ingens	MiFish Teleost	MiFish Teleost	#10-131	Mexico	"Islas Tres Marias: Isla Maria Magdalena, “seamount” off SE end"	"21.4483N,106.3433W"	15-Nov-2010	"G Galland & party, SIO"			
+FISHCARD_miu_050.1	Cosmocampus arctus	MiFish Teleost	MiFish Teleost	#11-100	Mexico	Puerto Refugio	"29.5433N,113.5567W"	21-Jul-2010	"G Galland & J Lund, SIO"			
+FISHCARD_miu_051.1	Bathyagonus pentacanthus	MiFish Teleost	MiFish Teleost	#97-184	USA	NULL	"37.925N,123.455W"	28-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_052.1	Zaniolepis latipinnis	MiFish Teleost	MiFish Teleost	#11-364	USA	San Diego Co.: off Point Loma	"32.62N,117.28W"	26-Feb-2011	P Hastings & biology class			
+FISHCARD_miu_053.1	Hypsoblennius gilberti	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_054.1	Hypsoblennius gentilis	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_055.1	Eucryphycus californicus	MiFish Teleost	MiFish Teleost	#07-183	USA	Monterey Co. Ascension Canyon	"36.9167N,122.4667W"	6-Nov-2007	"P Reiley, Calif. Fish &  Game"			
+FISHCARD_miu_056.1	Anarrhichthys ocellatus	MiFish Teleost	MiFish Teleost	#06-271	USA	Newport: born in captivity at Oregon Coast Aquarium	"44.8N,124.05W"		via SIO Aquarium			
+FISHCARD_miu_057.1	Chiasmodon subniger	MiFish Teleost	MiFish Teleost	#07-165	USA	San Diego Co.: off Point Loma	"32.6833N,117.2333W"	27-Oct-2007	"P Hastings, L Levin & SIO Deep-Sea Biol. Class"			
+FISHCARD_miu_059.1	Rhinogobiops nicholsii	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_060.1	Gillichthys mirabilis	MiFish Teleost	MiFish Teleost	#03-167	USA	San Diego Co.: Encinitas:  mouth of San Elijo Lagoon	"33.0133N,117.2617W"	19-Nov-2003	"J Fodrie & HJ Walker, SIO"			
+FISHCARD_miu_061.1	Oneirodes acanthias	MiFish Teleost	MiFish Teleost	#11-231	Pacific Ocean	NULL	"33.0667N,121.4833W"	17-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_062.1	Plagiotremus azaleus	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_063.1	Labrisomus xanti	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_064.1	Hypsoblennius jenkinsi	MiFish Teleost	MiFish Teleost	#17-23	USA	"Monterey, commercial wharf"		9-Jan-2017	A Kim via RN Lea			
+FISHCARD_miu_065.1	Sebastes gilli	MiFish Teleost	MiFish Teleost	#07-72	USA	Tanner Bank	"32.6667N,119.1333W"	6-Apr-2005	"J Hyde, SIO grad student"			
+FISHCARD_miu_066.1	Galeocerdo cuvier	MiFish Teleost	MiFish Teleost	#12-39	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	4-Apr-2012	commercial fishers (via J Snow)			
+FISHCARD_miu_067.1	Galeorhinus galeus	MiFish Teleost	MiFish Teleost	#10-76	USA	"San Diego Co.: La Jolla, N of SIO Pier"	"32.8667N,117.25W"	29-May-2010	J Deyling [local fisher]			
+FISHCARD_miu_068.1	Sphyrna zygaena	MiFish Teleost	MiFish Teleost	#09-293	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	2-Jun-2009	J Snow			
+FISHCARD_miu_069.1	Mobula mobular	MiFish Teleost	MiFish Teleost	#16-76	Sri Lanka	NULL		30-May-2012	D Fernando			
+FISHCARD_miu_070.1	Haemulon flaviguttatum	MiFish Teleost	MiFish Teleost	#06-264	Mexico	Bahia de Los Angeles	"29N,113W"	25-Nov-2006	"J Hyde, SIO grad. student"			
+FISHCARD_miu_071.1	Mycteroperca jordani	MiFish Teleost	MiFish Teleost	#06-40	Pacific Ocean	NULL		30-Aug-2000	"M Craig, Occidental College"			
+FISHCARD_miu_072.1	Morone saxatilis	MiFish Teleost	MiFish Teleost	#10-195	USA	off Santa Barbara Island	"33.4667N,119.0333W"	20-Jun-2001	"[via D Pondella, Occidental College]"			
+FISHCARD_miu_073.1	Dolichopteryx longipes	MiFish Teleost	MiFish Teleost	#06-28	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_074.1	Gadus macrocephalus	MiFish Teleost	MiFish Teleost	62 #10-47	USA	NULL	"48.2183N,125.5117W"	26-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_075.1	Thaleichthys pacificus	MiFish Teleost	MiFish Teleost	9 #10-44	USA	NULL	"47.9N,125.0367W"	25-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_076.1	Ophiodon elongatus	MiFish Teleost	MiFish Teleost	#06-50	USA	San Diego Co.: off La Jolla and Del Mar	"32.9167N,117.2667W"	21-Apr-2006	"E Kisfaludi, SIO"			
+FISHCARD_miu_077.1	Genyonemus lineatus	MiFish Teleost	MiFish Teleost	#10- 77	USA 	San Diego Co.: San Onofre 		11-Feb-2010				
+FISHCARD_miu_078.1	Allocyttus folletti	MiFish Teleost	MiFish Teleost	#97-120	USA	NULL	"36.75N,121.9167W"	6-Jul-1996	NULL			
+FISHCARD_miu_079.1	Coryphaenoides acrolepis	MiFish Teleost	MiFish Teleost	#05-104	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_080.1	Pseudobatos productus	MiFish Teleost	MiFish Teleost	#03-160	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	22-Aug-2002	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_081.1	Gymnura marmorata	MiFish Teleost	MiFish Teleost	#01-180	USA	"San Diego Co.: La Jolla, off Black’s Beach"	"32.8667N,117.25W"	5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_082.1	Bothrocara molle	MiFish Teleost	MiFish Teleost	#05-165	USA	NULL	"34.5333N,121.1167W"	25-Oct-1997	NMFS			
+FISHCARD_miu_083.1	Caulolatilus princeps	MiFish Teleost	MiFish Teleost	#00-160	USA	San Diego Co.: off Point Loma	"32.6833N,117.2333W"	3-Dec-2000	Capt. D Reef via B Steele			
+FISHCARD_miu_084.1	Hypsypops rubicundus	MiFish Teleost	MiFish Teleost	#03-69	USA	San Diego Co.: Point Loma kelp bed	"32.6833N,117.2333W"	3-Jun-2003	Hubbs-Sea World Res. Inst.			
+FISHCARD_miu_085.1	Remorina albescens	MiFish Teleost	MiFish Teleost	#05-37	Australia	Port Stephens	"32.13S,152.0817E"	1-Mar-2005	"K Gray, VIMS grad. student"			
+FISHCARD_miu_087.1	Sardinops sagax	MiFish Teleost	MiFish Teleost	#04-102	USA	San Diego Co.: La Jolla:  Òfew hundred yards off SIO PierÓ		8-Jul-2004	"C Sepulveda, SIO grad. student"			
+FISHCARD_miu_088.1	Icichthys lockingtoni	MiFish Teleost	MiFish Teleost	#00-60	USA	(?) off central California		19-Nov-1999	"[RN Lea, Calif. Fish & Game]"			
+FISHCARD_miu_089.1	Platichthys stellatus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_090.1	Scopelogadus bispinosus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_090.1	Mexico	off Baja CA Norte	"32.2733N,119.43W"	21-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_091.1	Pleuronichthys coenosus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_092.1	Pleuronichthys guttulatus	MiFish Teleost	MiFish Teleost	#01-179	USA	San Diego Co.: Mission Bay: off Crown Point Mitigation Site	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_093.1	Ichthyococcus irregularis	MiFish Teleost	MiFish Teleost	#05-105	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_094.1	Bathylagoides wesethi	MiFish Teleost	MiFish Teleost	#08-197	USA	NULL	"34.3167N,120.9333W"	6-Apr-2007	"P Davison & M Decima, SIO grad students"			
+FISHCARD_miu_095.1	Melamphaes lugubris	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_096.1	Tactostoma macropus	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_097.1	Bathophilus flemingi	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_098.1	Sternoptyx diaphana	MiFish Teleost	MiFish Teleost	#05-105	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_100.1	Bathophilus brevis	MiFish Teleost	MiFish Teleost	#10-167	Pacific Ocean	NULL	"32.0667N,137.9167W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_101.1	Danaphos oculatus	MiFish Teleost	MiFish Teleost	#08-31	USA	California Current	"33.2N,118.5833W"	2-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_103.1	Mugil setosus	MiFish Teleost	MiFish Teleost	#98-1	Mexico	south of La Bocana; high marsh pool	"26.75N,114.25W"	1-Jan-1998	"D Talley & P Dayton, SIO"			
+FISHCARD_miu_104.1	Diaphus anderseni	MiFish Teleost	MiFish Teleost	#10-166	Pacific Ocean	NULL	"32.1N,137.9W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_105.1	Scopelarchus guentheri	MiFish Teleost	MiFish Teleost	#10-166	Pacific Ocean	NULL	"32.1N,137.9W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_106.1	Remora osteochir	MiFish Teleost	MiFish Teleost	#05-36	Panama	Pinas Bay	"7.55N,78.2W"	1-Mar-2005	"J Graves, VIMS [exchange]"			
+FISHCARD_miu_107.1	Diplospinus multistriatus	MiFish Teleost	MiFish Teleost	#10-166	Pacific Ocean	NULL	"32.1N,137.9W"	9-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_108.1	Luvarus imperialis	MiFish Teleost	MiFish Teleost	#07-44	Mexico	NULL		1-Feb-2007	"gift: W Morrison, fisherman"			
+FISHCARD_miu_109.1	Synchiropus atrilabiatus	MiFish Teleost	MiFish Teleost	60 #06-293	Pacific Ocean	NULL	"3.8867N,102.2717W"	25-Oct-2006	NULL			
+FISHCARD_miu_110.1	Chesnonia verrucosa	MiFish Teleost	MiFish Teleost	#05-114	USA	off northern California	"37.9167N,122.5W"	31-Jul-2005	NULL			
+FISHCARD_miu_111.1	Icelinus quadriseriatus	MiFish Teleost	MiFish Teleost	#02-19	USA	San Diego Co.: off Pacific Beach	"32.7783N,117.305W"	26-Mar-2002	"E Kisfaludy, SIO"			
+FISHCARD_miu_112.1	Artedius notospilotus	MiFish Teleost	MiFish Teleost	#04-2	USA	San Diego Co.: San Diego	"32.6833N,117.2333W"	7-Jan-2004	"M Craig & J Hyde, SIO grad. students"			
+FISHCARD_miu_113.1	Neoclinus blanchardi	MiFish Teleost	MiFish Teleost	#00-73	USA	Los Angeles Co.: Redondo Beach: Redondo Canyon	"33.85N,118.3833W"	19-Jul-2000	"M Craig, Occidental College"			
+FISHCARD_miu_114.1	Microgadus proximus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_116.1	Eustomias sp.	MiFish Teleost	MiFish Teleost	#10-172	Pacific Ocean	NULL	"34.0667N,139.9833W"	14-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_118.1	Macropinna microstoma	MiFish Teleost	MiFish Teleost	#09-334	USA	California Current	"32.85N,120.6W"	23-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_119.1	Opostomias mitsuii	MiFish Teleost	MiFish Teleost	#11-154	Pacific Ocean	NULL	"43.95N,125.8333W"	26-Aug-2008	"P Davison, SIO"			
+FISHCARD_miu_120.1	Photonectes margarita	MiFish Teleost	MiFish Teleost	#11-200	Pacific Ocean	NULL	"35.7833N,126.9833W"	27-Sep-2008	"P Davison, SIO"			
+FISHCARD_miu_121.1	Cololabis saira	MiFish Teleost	MiFish Teleost	#11-139	Pacific Ocean	NULL	"41.5167N,129.9833W"	15-Aug-2008	"P Davison, SIO"			
+FISHCARD_miu_122.1	Hirundichthys rondeletii	MiFish Teleost	MiFish Teleost	#11-6	Pacific Ocean	NULL	"32.1N,135.4833W"	7-Aug-2009	"P Davison, SIO"			
+FISHCARD_miu_123.1	Hyporhamphus naos	MiFish Teleost	MiFish Teleost	#07-190	Mexico	La Playita	"23.0333N,109.5167W"	15-Sep-2007	J Snow			
+FISHCARD_miu_124.1	Loweina rara	MiFish Teleost	MiFish Teleost	#10-171	Pacific Ocean	NULL	"32.8833N,140.2833W"	11-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_125.1	Diogenichthys atlanticus	MiFish Teleost	MiFish Teleost	tons	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_126.1	Electrona risso	MiFish Teleost	MiFish Teleost	#11-274	Pacific Ocean	NULL	"32.2833N,124.85W"	15-Nov-2008	"P Davison, SIO"			
+FISHCARD_miu_127.1	Nannobrachium bristori	MiFish Teleost	MiFish Teleost	#10-172	Pacific Ocean	NULL	"34.0667N,139.9833W"	14-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_128.1	Nannobrachium hawaiiensis	MiFish Teleost	MiFish Teleost	many	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_129.1	Protomyctophum thompsoni	MiFish Teleost	MiFish Teleost	#11-187	Pacific Ocean	NULL	"41.4N,126.3833W"	21-Sep-2008	"P Davison, SIO"			
+FISHCARD_miu_130.1	Rosenblattichthys volucris	MiFish Teleost	MiFish Teleost	#06-293	Pacific Ocean	NULL	"3.8867N,102.2717W"	25-Oct-2006	NULL			
+FISHCARD_miu_131.1	Sebastes lentiginosus	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_132.1	Scopelarchus analis	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_133.1	Sudis atrox	MiFish Teleost	MiFish Teleost	#18-79	Pacific Ocean	White Shark Cafe		15-May-2018	EJ Portner; AN Netburn; BA Block and team			
+FISHCARD_miu_134.1	Cyema atrum	MiFish Teleost	MiFish Teleost	#08-49	Pacific Ocean	NULL	"34.7N,123.1833W"	31-Jan-1996	"KL Smith & party, SIO"			
+FISHCARD_miu_135.1	Zu cristatus	MiFish Teleost	MiFish Teleost	#10-170	Pacific Ocean	NULL	"32.8833N,140.2667W"	11-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_136.1	Anoplogaster cornuta	MiFish Teleost	MiFish Teleost	#09-332	USA	California Current	"32.8167N,120.8833W"	22-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_137.1	Melamphaes suborbitalis	MiFish Teleost	MiFish Teleost	#10-164	Pacific Ocean	NULL	"32.0667N,137.9W"	8-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_138.1	Atherinops affinis	MiFish Teleost	MiFish Teleost	#07-157	Mexico	"Bahia de los Angeles, southern end"	"29N,113.5W"	27-Apr-2006	J Rosales & party			
+FISHCARD_miu_139.1	Caranx caninus	MiFish Teleost	MiFish Teleost	#10-131	Mexico	"Islas Tres Marias: Isla Maria Magdalena, “seamount” off SE end"	"21.4483N,106.3433W"	15-Nov-2010	"G Galland & party, SIO"			
+FISHCARD_miu_140.1	Pteraclis aesticola	MiFish Teleost	MiFish Teleost	#10-165	Pacific Ocean	NULL	"32.0833N,137.9333W"	8-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_141.1	Brachyistius frenatus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_142.1	Cymatogaster aggregata	MiFish Teleost	MiFish Teleost	#01-179	USA	San Diego Co.: Mission Bay: off Crown Point Mitigation Site	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_143.1	Pteroplatytrygon violacea	MiFish Teleost	MiFish Teleost	#12-94	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	22-Aug-2012	commercial fishers (via J Snow)			
+FISHCARD_miu_144.1	Dorosoma petenense	MiFish Teleost	MiFish Teleost	#10-78	USA	Orange Co.: Huntington Beach	"33.64N,117.98W"	17-Feb-2010	MBC App. Environ. Sci.			
+FISHCARD_miu_145.1	Diplophos taenia	MiFish Teleost	MiFish Teleost	#14-18	Mexico	Cabo San Lucas	"22.8667N,109.8833W"		J Snow			
+FISHCARD_miu_146.1	Prognathodes falcifer	MiFish Teleost	MiFish Teleost	#06-269	Mexico	San Benitos Islands	"28.3167N,115.5833W"	1-Jul-1999	"B Burhans, SIO Aquarium"			
+FISHCARD_miu_147.1	Melichthys niger	MiFish Teleost	MiFish Teleost	#10-129	Mexico	Islas Tres Marias:  Isla Maria Magdalena - NW corner	"24.4467N,106.4983W"	15-Nov-2010	"G Galland & B Erisman, SIO"			
+FISHCARD_miu_148.1	Mola mola	MiFish Teleost	MiFish Teleost	#08-1	USA	off San Nicolas Island	"33N,119.5W"	29-Nov-2007	"Capt D Muirline, SIO [via E Kisfaludi]"			
+FISHCARD_miu_149.1	Ranzania laevis	MiFish Teleost	MiFish Teleost	#14-81	USA	San Diego Co.: off San Diego	"32.1N,117.4W"	4-Sep-2014	M Irey			
+FISHCARD_miu_150.1	Mulloidichthys dentatus	MiFish Teleost	MiFish Teleost	#10-193	Mexico	Todos Santos Commercial  Beach	"23.41N,110.23W"	22-Dec-2010	commercial fishers [via J Snow]			
+FISHCARD_miu_151.1	Mugil cephalus	MiFish Teleost	MiFish Teleost	#07-112	USA	San Diego Co.: San Diego	"32.7667N,117.2167W"	1-Apr-2004	"M Shane, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_152.1	Eucinostomus gracilis	MiFish Teleost	MiFish Teleost	#10-119	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	3-Jul-2010	commercial fishermen [via J Snow]			
+FISHCARD_miu_153.1	Caranx sexfasciatus	MiFish Teleost	MiFish Teleost	#16-42	Mexico	Cabo Real		19-Aug-2016	J Snow			
+FISHCARD_miu_154.1	Auxis rochei	MiFish Teleost	MiFish Teleost	#12-30	Mexico	Punta Palmilla	"22.99N,109.43W"	21-Jan-2012	J Snow			
+FISHCARD_miu_155.1	Auxis thazard	MiFish Teleost	MiFish Teleost	#13-7	Mexico	off Punta Palmilla	"22.99N,109.7W"	20-Nov-2012	J Snow			
+FISHCARD_miu_156.1	Katsuwonus pelamis	MiFish Teleost	MiFish Teleost	#12-98	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	17-Oct-2012	commercial fishers (via J Snow)			
+FISHCARD_miu_157.1	Lepidocybium flavobrunneum	MiFish Teleost	MiFish Teleost	#09-131	USA	NULL			M Irey			
+FISHCARD_miu_158.1	Scomberomorus concolor	MiFish Teleost	MiFish Teleost	#11-340	Mexico	near Colorado River delta	"32.1N,115.1W"	25-Aug-2011	"via B Erisman, SIO"			
+FISHCARD_miu_159.1	Trichiurus nitens	MiFish Teleost	MiFish Teleost	#08-132	Mexico	La Playita	"23.0333N,109.5167W"	10-May-2008	J Snow			
+FISHCARD_miu_160.1	Amphistichus argenteus	MiFish Teleost	MiFish Teleost	#06-267; 08-178	Mexico	Bahia El Rosario	"29.95N,115.8167W"	28-Jun-1905	"J Rosales, CICESE"			
+FISHCARD_miu_161.1	Amphistichus koelzi	MiFish Teleost	MiFish Teleost	#08-174	USA	Santa Cruz Co.: Seacliff Beach	"36.975N,121.9117W"	1-May-2007	"MF Westphal (via S Miller, SIO)"			
+FISHCARD_miu_162.1	Hyperprosopon ellipticum	MiFish Teleost	MiFish Teleost	#08-176	USA	Arcadia Beach	"45.9N,123.95W"	10-May-2008	"MF Westphal (via S Miller, SIO)"			
+FISHCARD_miu_163.1	Zalembius rosaceus	MiFish Teleost	MiFish Teleost	#11-364	USA	San Diego Co.: off Point Loma	"32.62N,117.28W"	26-Feb-2011	P Hastings & biology class			
+FISHCARD_miu_164.1	Rhacochilus toxotes	MiFish Teleost	MiFish Teleost	#07-181	USA	San Diego Co.: Carlsbad kelp	"33.1233N,117.34W"	29-Apr-2004	"M Shane, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_165.1	Halichoeres semicinctus	MiFish Teleost	MiFish Teleost	#04-112	Mexico	Bahia de Los Angeles:  various localities	"29N,113.5W"	11-Sep-2004	"L Allen, T Hovey & D Warren, Cal-State Northridge"			
+FISHCARD_miu_166.1	Chaetodipterus zonatus	MiFish Teleost	MiFish Teleost	#09-292	Mexico	La Playita	"23.0333N,109.5167W"	29-May-2009	J Snow			
+FISHCARD_miu_167.1	Kyphosus ocyurus	MiFish Teleost	MiFish Teleost	#09-161	Mexico	One and Only	"23N,109.7167W"	18-Jan-2009	J Snow			
+FISHCARD_miu_168.1	Sebastes constellatus	MiFish Teleost	MiFish Teleost	#08-166	Mexico	Todos Santos Commercial Beach	"23.6833N,110.3833W"	15-Oct-2008	commercial fishermen (via J Snow)			
+FISHCARD_miu_169.1	Sebastes eos	MiFish Teleost	MiFish Teleost	#07-183	USA	Monterey Co. Ascension Canyon	"36.9167N,122.4667W"	6-Nov-2007	"P Reiley, Calif. Fish &  Game"			
+FISHCARD_miu_170.1	Sebastes goodei	MiFish Teleost	MiFish Teleost	#19-23	USA	"San Diego Co., off Pt. Loma"		27-Apr-2019	"BW Frable, J Taylor and SIO 125 BioMech class"			
+FISHCARD_miu_171.1	Sebastes macdonaldi	MiFish Teleost	MiFish Teleost	#06-266	Mexico	Bahia de Los Angeles	"29N,113W"	25-Nov-2006	"J Hyde, SIO grad. student"			
+FISHCARD_miu_172.1	Sebastes melanosema	MiFish Teleost	MiFish Teleost	#06-85	USA	north part of 9-Mile Bank	"32.5833N,117.41W"	19-Feb-2006	"J Hyde, SIO grad. student"			
+FISHCARD_miu_173.1	Sebastes rosenblatti	MiFish Teleost	MiFish Teleost	#09-197	USA	Monterey Co.: Soquel Canyon	"36.75N,121.9167W"	3-Oct-2008	NULL			
+FISHCARD_miu_174.1	Sebastes ruberrimus	MiFish Teleost	MiFish Teleost	#09-194	USA	Monterey Co.: Monterey Canyon	"36.75N,121.9167W"	29-Jan-2009	"P Kelly, Calif F&G"			
+FISHCARD_miu_175.1	Erilepis zonifer	MiFish Teleost	MiFish Teleost	#08-79	Pacific Ocean	NULL		30-Jun-1905	commercial fisherman [gift from G. Thiesfeld]			
+FISHCARD_miu_176.1	Leiocottus hirundo	MiFish Teleost	MiFish Teleost	#08-60	USA	San Clemente Island	"32.9N,118.4833W"	24-Jul-2007	"P Zirofski, Sea Camp"			
+FISHCARD_miu_177.1	Agonomalus mozinoi	MiFish Teleost	MiFish Teleost	#09-291	USA	"Monterey Co.: Carmel Bay, The Pinnacles, Lingcod Reef"		15-Sep-2008	"T Love & J Welsh, Monterey Bay Aquarium"			
+FISHCARD_miu_178.1	Xeneretmus ritteri	MiFish Teleost	MiFish Teleost	#16-19	USA	San Diego Co.: off Point Loma	"32.6833N,117.2333W"	13-Mar-2016	P Hastings & class			
+FISHCARD_miu_179.1	Cryptacanthodes aleutensis	MiFish Teleost	MiFish Teleost	#06-35	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_180.1	Melanostigma pammelas	MiFish Teleost	MiFish Teleost	#15-43	USA	San Diego Co.: San Diego	"32.725N,117.5767W"	7-Nov-2015	"W Watcharapong, SIO"			
+FISHCARD_miu_181.1	Xiphister mucosus	MiFish Teleost	MiFish Teleost	#12-91	USA	San Luis Obispo Co.: near San Simeon; intertidal	"35.6533N,121.2417W"	26-Nov-2011	"DP German & MH Horn, CSF"			
+FISHCARD_miu_182.1	Albatrossia pectoralis	MiFish Teleost	MiFish Teleost	#10-31	USA	NULL	"40.9033N,124.7267W"	17-Sep-2005	NWFC/NMFS			
+FISHCARD_miu_183.1	Atheresthes stomias	MiFish Teleost	MiFish Teleost	#10-32	USA	NULL	"39.64N,123.9717W"	18-Sep-2005	NWFC/NMFS			
+FISHCARD_miu_184.1	Fowlerichthys avalonis	MiFish Teleost	MiFish Teleost	#15-36	USA	San Diego Co.: SIO; on beach	"32.8667N,117.25W"	13-Jul-2015	"W Watcharapong, SIO"			
+FISHCARD_miu_185.1	Sebastes wilsoni	MiFish Teleost	MiFish Teleost	#97-178	USA	NULL	"37.255N,122.775W"	26-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_186.1	Hexagrammos decagrammus	MiFish Teleost	MiFish Teleost	#04-48	USA	Monterey Co.: off Asilomar	"36.75N,121.9167W"	16-May-2001	Calif. Fish & Game			
+FISHCARD_miu_187.1	Rimicola muscarum	MiFish Teleost	MiFish Teleost	#03-40	USA	Santa Barbara Co.: near Goleta Pier	"34.45N,119.8333W"	31-Mar-2003	"J Fodrie, SIO grad. student"			
+FISHCARD_miu_188.1	Brosmophycis marginata	MiFish Teleost	MiFish Teleost	#02-32	USA	off San Diego; found in tube of oceanographic apparatus	"32.595N,119.1433W"	16-Apr-2002	"E Oleson, SIO"			
+FISHCARD_miu_189.1	Embiotoca jacksoni	MiFish Teleost	MiFish Teleost	#02-31	USA	San Diego Co.: Mission Bay	"32.7833N,117.25W"	10-Apr-2002	"J Fodrie, SIO"			
+FISHCARD_miu_190.1	Gibbonsia metzi	MiFish Teleost	MiFish Teleost	#06-267	Mexico	Bahia El Rosario	"29.95N,115.8167W"	28-Jun-1905	"J Rosales, CICESE"			
+FISHCARD_miu_191.1	Sebastes borealis	MiFish Teleost	MiFish Teleost	#01-186	USA	between Carmel Bay and Big Sur	"36.4417N,121.9083W"	4-Sep-2001	"gift:  RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_192.1	Sebastes diploproa	MiFish Teleost	MiFish Teleost	#03-164	USA	San Diego Co.: off La Jolla:  in drift kelp	"32.85N,117.8667W"	14-Jul-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_193.1	Sebastes flavidus	MiFish Teleost	MiFish Teleost	#97-182	USA	NULL	"37.575N,122.86W"	27-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_194.1	Sebastes phillipsi	MiFish Teleost	MiFish Teleost	#02-14	USA	off San Diego	"32.8N,117.8W"	3-Mar-2002	"S Grossberg & C Taylor, SIO"			
+FISHCARD_miu_195.1	Sebastes proriger	MiFish Teleost	MiFish Teleost	#95-25	USA	N end of Cordell Bank	"38.0833N,123W"	30-Mar-1995	NULL			
+FISHCARD_miu_196.1	Sebastes rufus	MiFish Teleost	MiFish Teleost	#95-12	USA	60-Mile Bank	"32.0833N,118.25W"	3-Oct-1994	NULL			
+FISHCARD_miu_197.1	Sebastes serriceps	MiFish Teleost	MiFish Teleost	#03-164	USA	San Diego Co.: off La Jolla:  in drift kelp	"32.85N,117.8667W"	14-Jul-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_198.1	Acipenser transmontanus	MiFish Teleost	MiFish Teleost	#03-46	USA	Los Angeles Co.: Palos Verdes: Flat Rock	"33.75N,118.4333W"	25-Apr-2003	"M Craig & party, SIO"			
+FISHCARD_miu_199.1	Albula pacifica	MiFish Teleost	MiFish Teleost	#00-120	USA	Orange Co.: Newport Bay	"33.625N,117.895W"	21-Aug-2000	"M Shane, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_200.1	Lophotus capellei	MiFish Teleost	MiFish Teleost	#00-121	USA	San Luis Obispo Co.: Morro Bay	"35.0833N,121W"	17-Nov-1995	NULL			
+FISHCARD_miu_201.1	Hyporthodus niphobles	MiFish Teleost	MiFish Teleost	#08-58	Mexico	Todos Santos (commercial beach	"23.3833N,110.2W"	23-Jan-2008	local fisherman			
+FISHCARD_miu_202.1	Atherinopsis californiensis	MiFish Teleost	MiFish Teleost	#03-158	USA	San Diego Co.: La Jolla: Êbeach north of SIO 		1-Oct-2003	P Hastings			
+FISHCARD_miu_203.1	Nomeus gronovii	MiFish Teleost	MiFish Teleost	#05-32	USA	"off Kona, Hawaii"	"19.64N,155.995W"	25-May-2005	J Hyde (SIO) & NMFS party			
+FISHCARD_miu_204.1	Thunnus alalunga	MiFish Teleost	MiFish Teleost	#04-162	Mexico	off Baja California	"32N,117.5W"	7-Oct-2004	"via C Sepulveda, SIO grad student"			
+FISHCARD_miu_205.1	Diaphus theta	MiFish Teleost	MiFish Teleost	#08-197	USA	NULL	"34.3167N,120.9333W"	6-Apr-2007	"P Davison & M Decima, SIO grad students"			
+FISHCARD_miu_206.1	Sebastolobus alascanus	MiFish Teleost	MiFish Teleost	#11-187	Pacific Ocean	NULL	"41.4N,126.3833W"	21-Sep-2008	"P Davison, SIO"			
+FISHCARD_miu_207.1	Oneirodes eschrichtii	MiFish Teleost	MiFish Teleost	#10-110	USA	San Diego Co.: off Point Loma	"32.6367N,117.57W"	7-Aug-2010	"HJ Walker, SIO & WL Smith, Field Mus."			
+FISHCARD_miu_208.1	Heterodontus francisci	MiFish Teleost	MiFish Teleost	#07-84	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	10-May-2007	J Snow			
+FISHCARD_miu_209.1	Isurus oxyrinchus	MiFish Teleost	MiFish Teleost	#12-27	Mexico	Punta Palmilla	"22.99N,109.43W"	20-Dec-2011	J Snow			
+FISHCARD_miu_210.1	Rhizoprionodon longurio	MiFish Teleost	MiFish Teleost	#13-250	Mexico	Todas Santos Commercial Beach	"23.41N,110.23W"	7-Jun-2013	commercial fishermen (via J Snow)			
+FISHCARD_miu_211.1	Strongylura exilis	MiFish Teleost	MiFish Teleost	#17-17	Ecuador	"Cartago Bay, anchorage, (Albemarle Island)"	"0.5836N,90.9168W"	12-Feb-1933	NA			
+FISHCARD_miu_212.1	Ariosoma gilberti	MiFish Teleost	MiFish Teleost	#12-48	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	2-Jul-2012	commercial fishers (via J Snow)			
+FISHCARD_miu_213.1	Nicholsina denticulata	MiFish Teleost	MiFish Teleost	#09-367	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	12-Aug-2009	commerical fishermen [via J Snow]			
+FISHCARD_miu_214.1	Lamna ditropis	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_215.1	Decodon melasma	MiFish Teleost	MiFish Teleost	#08-157	Mexico	Point Palmilla	"22.9833N,109.7167W"	30-Aug-2008	J Snow			
+FISHCARD_miu_216.1	Eopsetta jordani	MiFish Teleost	MiFish Teleost	64 #10-49	USA	NULL	"46.5317N,124.325W"	28-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_217.1	Argentina sialis	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_218.1	Valenciennellus tripunctulatus	MiFish Teleost	MiFish Teleost	#10-165	Pacific Ocean	NULL	"32.0833N,137.9333W"	8-Aug-2009	"P Davison, SIO grad student"			
+FISHCARD_miu_219.1	Melamphaes acanthomus	MiFish Teleost	MiFish Teleost	#17-25	USA	"San Diego Co.: San Diego Trough, along Coroado Escarpment"		14-Oct-2017	BW Frable; A Sirovic and SIO 136			
+FISHCARD_miu_220.1	Lutjanus peru	MiFish Teleost	MiFish Teleost	#01-100	USA	San Diego Co.: off Mission Bay jetty	"32.7833N,117.25W"	17-Jul-2001	"J Coe, skipper (via B Steele)"			
+FISHCARD_miu_221.1	Lampris guttatus	MiFish Teleost	MiFish Teleost	#04-195	USA	NULL	"21.31N,157.8717W"	11-Dec-2004	"commercial longline fishing vessel (via J Hyde, SIO)"			
+FISHCARD_miu_222.1	Euprotomicrus bispinatus	MiFish Teleost	MiFish Teleost	#98-173	Pacific Ocean	NULL	"29.25N,144.7167W"	28-May-1997	"R Pitman, NMFS-La Jolla"			
+FISHCARD_miu_224.1	Microstoma microstoma	MiFish Teleost	MiFish Teleost	#08-43	Pacific Ocean	California Current	"33.7667N,120.85W"	19-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_225.1	Melamphaes laeviceps	MiFish Teleost	MiFish Teleost	#06-296	Pacific Ocean	NULL	"16.095N,106.6933W"	2-Nov-2006	NULL			
+FISHCARD_miu_226.1	Thunnus obesus	MiFish Teleost	MiFish Teleost	#03-127	Mexico	Alijos Rocks: Butterfly Bank	"24.95N,115.75W"	27-Sep-2003	"via J Hyde, SIO grad. student"			
+FISHCARD_miu_227.1	Sebastes reedi	MiFish Teleost	MiFish Teleost	#95-22	USA	"Fish Rocks, S of Point Arena"	"38.64N,123.735W"	26-Jul-1992	C Talbot			
+FISHCARD_miu_228.1	Stellerina xyosterna	MiFish Teleost	MiFish Teleost	#03-93	USA	"Monterey Co.: Monterey Bay: Capitola, “just right of the pier”"	"36.97N,121.9533W"	10-Oct-2002	"UCSC Ichthyology Class [via RN Lea, Calif. Fish & Game)"			
+FISHCARD_miu_229.1	Xeneretmus leiops	MiFish Teleost	MiFish Teleost	#99-81	USA	Monterey Co.: N side of Monterey Canyon (between Point Sur & Monterey Bay)	"36.5167N,121.9083W"	3-Mar-1999	P Reilly & J Spratt			
+FISHCARD_miu_230.1	Congriscus megastomus	MiFish Teleost	MiFish Teleost	#94-160	USA	NULL	"32.7883N,117.51W"	6-Jul-1993	MS Lowery & party			
+FISHCARD_miu_231.1	Leuroglossus stilbius	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_232.1	Pseudobathylagus milleri	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_233.1	Rathbunella hypoplecta	MiFish Teleost	MiFish Teleost	#03-60	USA	San Diego Co.: La Jolla: Scripps Canyon	"32.8667N,117.2667W"	30-May-2003	"J Hyde, SIO grad student"			
+FISHCARD_miu_235.1	Porichthys notatus	MiFish Teleost	MiFish Teleost	#95-3	USA	San Diego Co.: off Point Loma	"32.74N,117.3483W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_236.1	Taractes asper	MiFish Teleost	MiFish Teleost	#00-165	USA	NULL	"34.035N,121.57W"	7-Dec-2000	CD Parker			
+FISHCARD_miu_237.1	Synchiropus atrilabiatus	MiFish Teleost	MiFish Teleost	#99-1	USA	San Diego: off Ocean Beach	"32.625N,117.3233W"	19-Jan-1999	"S Lagos & party, City of San Diego, Marine Biology"			
+FISHCARD_miu_238.1	Caranx vinctus	MiFish Teleost	MiFish Teleost	#97-140	USA	San Diego Co.: San Diego Bay:  Emory Cove	"32.7667N,117.2167W"	12-Aug-1997	"M Irey, local fisherman"			
+FISHCARD_miu_239.1	Selene brevoortii	MiFish Teleost	MiFish Teleost	#98-120	USA	San Diego Co.: South San Diego Bay	"32.7667N,117.2167W"	27-Dec-1997	"M Irey, commercial fisherman"			
+FISHCARD_miu_240.1	Seriola dorsalis	MiFish Teleost	MiFish Teleost	#03-128	Mexico	San Martin Island	"30.4833N,116.1167W"	26-Sep-2003	"via J Hyde, SIO grad. student"			
+FISHCARD_miu_241.1	Chaenopsis alepidota	MiFish Teleost	MiFish Teleost	#00-9	USA	Santa Catalina Island:  Empire Landing	"33.3833N,118.4W"	1-Apr-2000	"D Pondella & party, Occidental College"			
+FISHCARD_miu_242.1	Chauliodus macouni	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_243.1	Gibbonsia elegans	MiFish Teleost	MiFish Teleost	#02-24	USA	"San Diego Co.: La Jolla:  Scripps Coastal Reserve, Dike Rock"	"32.85N,117.25W"	25-Feb-2002	"M Craig, SIO"			
+FISHCARD_miu_244.1	Heterostichus rostratus	MiFish Teleost	MiFish Teleost	#01-179	USA	San Diego Co.: Mission Bay: off Crown Point Mitigation Site	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_245.1	Opisthonema libertate	MiFish Teleost	MiFish Teleost	#98-37	USA	San Diego Co.: Carlsbad in kelp bed	"33.1283N,117.34W"	21-Aug-1997	"M Shane & party, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_246.1	Artedius corallinus	MiFish Teleost	MiFish Teleost	#01-124	USA	San Diego Co.: La Jolla:  off Children’s Pool	"32.85N,117.2667W"	7-Jul-2001	"M Craig, SIO"			
+FISHCARD_miu_248.1	Artedius notospilotus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_248.1	USA	San Diego Co.: San Diego	"32.6833N,117.2333W"	7-Jan-2004	"M Craig & J Hyde, SIO grad. students"			
+FISHCARD_miu_249.1	Chitonotus pugetensis	MiFish Teleost	MiFish Teleost	#02-26	USA	San Diego Co.: La Jolla:  Scripps Coastal Reserve	"32.8717N,117.255W"	28-Feb-2002	"M Craig & party, SIO"			
+FISHCARD_miu_250.1	Clinocottus analis	MiFish Teleost	MiFish Teleost	#01-125	USA	"San Diego Co.: La Jolla:  SIO, at “Dike Rock”"	"32.8667N,117.25W"	10-Jul-2001	"M Craig, SIO"			
+FISHCARD_miu_251.1	Icelinus burchami	MiFish Teleost	MiFish Teleost	#97-132	USA	off Cypress Point	"36.565N,121.995W"	14-Mar-1997	J Field			
+FISHCARD_miu_252.1	Icelinus cavifrons	MiFish Teleost	MiFish Teleost	#04-33	USA	San Diego Co.: La Jolla Canyon	"32.8667N,117.2667W"	29-Mar-2004	"J Hyde, SIO grad. student"			
+FISHCARD_miu_253.1	Icelinus filamentosus	MiFish Teleost	MiFish Teleost	#97-184	USA	NULL	"37.925N,123.455W"	28-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_254.1	Icelinus oculatus	MiFish Teleost	MiFish Teleost	#97-59	USA	NULL	"38.575N,123.695W"	1-Jul-1995	"A Rocha, SIO/NMFS"			
+FISHCARD_miu_255.1	Leptocottus armatus	MiFish Teleost	MiFish Teleost	#01-199	USA	"Los Angeles: Los Angeles, Playa Vista, Ballona Creek"	"33.9667N,118.45W"	6-Sep-2001	"D Pondella, Occidental College"			
+FISHCARD_miu_256.1	Orthonopias triacis	MiFish Teleost	MiFish Teleost	#03-166	USA	"Monterey Co.: Carmel,  Monastary Beach"	"36.55N,121.9167W"	24-Aug-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_257.1	Scorpaenichthys marmoratus	MiFish Teleost	MiFish Teleost	#03-70	USA	San Diego Co.: La Jolla Canyon	"32.85N,117.25W"	19-Jun-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_258.1	Careproctus melanurus	MiFish Teleost	MiFish Teleost	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_259.1	Liparis mucosus	MiFish Teleost	MiFish Teleost	#00-166	USA	"San Diego Co.: Point Loma, New Hope Rock"	"32.6833N,117.2333W"	10-Nov-2000	"C Gramlich, SDSU Biology Dept."			
+FISHCARD_miu_260.1	Symphurus atricaudus	MiFish Teleost	MiFish Teleost	#02-19	USA	San Diego Co.: off Pacific Beach	"32.7783N,117.305W"	26-Mar-2002	"E Kisfaludy, SIO"			
+FISHCARD_miu_261.1	Remora remora	MiFish Teleost	MiFish Teleost	#03-53	Mexico	removed from olive ridley turtle	"19.9167N,107W"	21-Jun-1905	"R Pitman, NMFS-La Jolla"			
+FISHCARD_miu_262.1	Elops affinis	MiFish Teleost	MiFish Teleost	#98-168	Mexico	NULL	"30.2517N,114.1183W"	29-Apr-1997	NMFS Marine Mammal Div.			
+FISHCARD_miu_263.1	Amphistichus rhodoterus	MiFish Teleost	MiFish Teleost	#03-43	USA	Klamath Co.: near Crescent City	"41.8333N,124.5333W"		"J Cabrall, fisherman [via RN Lea, Calif. D&G]"			
+FISHCARD_miu_264.1	Embiotoca lateralis	MiFish Teleost	MiFish Teleost	#03-47	USA	Santa Barbara Co.: Goleta Point	"34.45N,119.8333W"	26-Apr-2003	"M Craig & party, SIO"			
+FISHCARD_miu_265.1	Cymatogaster aggregata	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island		27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_266.1	Phanerodon atripes	MiFish Teleost	MiFish Teleost	#02-7	Mexico	"Islas San Benito, Benito del Este:  Tranquility Cove (NE end of island)"	"28.3167N,115.5833W"	9-Aug-2001	D Pondella & RN Lea			
+FISHCARD_miu_267.1	Anchoa compressa	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_268.1	Anchoa delicatissima	MiFish Teleost	MiFish Teleost	#02-26	USA	San Diego Co.: La Jolla:  Scripps Coastal Reserve	"32.8717N,117.255W"	28-Feb-2002	"M Craig & party, SIO"			
+FISHCARD_miu_269.1	Cheilopogon pinnatibarbatus	MiFish Teleost	MiFish Teleost	#87-166	USA	30 mi WSW of Point Loma; 30 mi	"32.6833N,117.2333W"	8-Nov-1987	"H Dorr, Mt Carmel High"			
+FISHCARD_miu_270.1	Fundulus parvipinnis	MiFish Teleost	MiFish Teleost	#03-167	USA	San Diego Co.: Encinitas:  mouth of San Elijo Lagoon	"33.0133N,117.2617W"	19-Nov-2003	"J Fodrie & HJ Walker, SIO"			
+FISHCARD_miu_271.1	Ruvettus pretiosus	MiFish Teleost	MiFish Teleost	#94-155	Mexico	NULL	"32.2717N,118.0733W"	5-Dec-1994	D Dodson			
+FISHCARD_miu_272.1	Gigantactis vanhoeffeni	MiFish Teleost	MiFish Teleost	#99-97	USA	Gorda-Shelter Cove	"39.7733N,124.1817W"	14-Feb-1999	Rick & Tony			
+FISHCARD_miu_273.1	Acanthogobius flavimanus	MiFish Teleost	MiFish Teleost	#03-78	USA	"San Diego Co.: Mission Bay, off Fiesta Island"	"32.7783N,117.2217W"	13-Jun-2003	"J Fodrie, SIO grad. student"			
+FISHCARD_miu_275.1	Rhinogobiops nicholsii	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_276.1	Ctenogobius sagittula	MiFish Teleost	MiFish Teleost	#98-124	USA	San Diego Co.: Tijuana Estuary:  Oneonta Slough (N arm of estuary at seacoast)	"32.5833N,117.1333W"	18-Jun-1998	"G Williams, SDSU-PERL"			
+FISHCARD_miu_277.1	Lethops connectens	MiFish Teleost	MiFish Teleost	#01-83	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	8-Jun-2001	"E Kisfaludy, SIO"			
+FISHCARD_miu_278.1	Quietula y-cauda	MiFish Teleost	MiFish Teleost	#03-51	USA	San Diego Co.: San Diego Bay: near San Diego-Coronado Bay Bridge (Coronado side)	"32.69N,117.155W"	2-Jun-2003	"HJ Walker, SIO & T Wilson, NMFS-Seattle"			
+FISHCARD_miu_279.1	Typhlogobius californiensis	MiFish Teleost	MiFish Teleost	#00-3	USA	San Diego Co.: La Jolla:  Bird Rock area; tidepools	"32.8667N,117.2667W"	2-Mar-2000	"R McConnaughey, R Rosenblatt, HJ Walker, C Klepadlo & party, SIO"			
+FISHCARD_miu_280.1	Cyclothone acclinidens	MiFish Teleost	MiFish Teleost	#02-47	Pacific Ocean	Tonga Trench	"23.3233S,174.8867W"	22-Oct-2001	"A Yayanos & party, SIO"			
+FISHCARD_miu_281.1	Cyclothone pseudopallida	MiFish Teleost	MiFish Teleost	#02-47	Pacific Ocean	Tonga Trench	"23.3233S,174.8867W"	22-Oct-2001	"A Yayanos & party, SIO"			
+FISHCARD_miu_282.1	Anisotremus davidsonii	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_283.1	Brachygenys californiensis	MiFish Teleost	MiFish Teleost	#02-1	Mexico	Isla Calaveras (near Bahia de Los Angeles)	"29N,113.5W"	1-Nov-2001	D Talley			
+FISHCARD_miu_284.1	Hexagrammos decagrammus	MiFish Teleost	MiFish Teleost	#01-113	USA	"Monterey Co.: Monterey, off Asilomar"	"36.75N,121.9167W"	16-May-2001	"received from RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_285.1	Oxylebius pictus	MiFish Teleost	MiFish Teleost	#01-193	USA	Santa Barbara Channel: off El Capitan State Beach	"34.3933N,120.1583W"	14-Aug-2001	"[via RN Lea, Calif. Fish & Game]"			
+FISHCARD_miu_286.1	Idiacanthus antrostomus	MiFish Teleost	MiFish Teleost	#93-297	USA	NULL	"37.0433N,123.4583W"	19-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_287.1	Istiophorus platypterus	MiFish Teleost	MiFish Teleost	#95-6	Mexico	off Baja California Sur	"23.95N,113.5167W"	15-Jun-1905	"R Pitman, NMFS"			
+FISHCARD_miu_288.1	Tetrapturus angustirostris	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_289.1	Girella nigricans	MiFish Teleost	MiFish Teleost	#01-125	USA	"San Diego Co.: La Jolla:  SIO, at “Dike Rock”"	"32.8667N,117.25W"	10-Jul-2001	"M Craig, SIO"			
+FISHCARD_miu_290.1	Kyphosus azureus	MiFish Teleost	MiFish Teleost	#01-199	USA	"Los Angeles: Los Angeles, Playa Vista, Ballona Creek"		6-Jun-2001	"D Pondella, Occidental College"			
+FISHCARD_miu_291.1	Medialuna californiensis	MiFish Teleost	MiFish Teleost	#01-197	USA	"Santa Catalina Island, west cove"	"33.3833N,118.4W"	22-Aug-2001	"D Pondella, Occidental College"			
+FISHCARD_miu_292.1	Halichoeres californica	MiFish Teleost	MiFish Teleost	#03-156	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	27-Oct-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_293.1	Bodianus pulcher	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_294.1	Alloclinus holderi	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_295.1	Lobotes pacificus	MiFish Teleost	MiFish Teleost	#98-170	USA	San Diego Co.: South San Diego Bay (SDG&E Power Plant)	"32.7667N,117.2167W"	1-Jan-1998	"M Irey, commercial fisherman"			
+FISHCARD_miu_296.1	Lophiodes caulinaris	MiFish Teleost	MiFish Teleost	#01-122	USA	between San Francisco and Monterey Bay	"37N,122W"	22-Mar-2001	"via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_297.1	Lophiodes spilurus	MiFish Teleost	MiFish Teleost	#01-114	USA	NULL		28-May-2001	"Manuel A. (?) - via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_298.1	Lophotus lacepede	MiFish Teleost	MiFish Teleost	#00-121	USA	San Luis Obispo Co.: Morro Bay	"35.0833N,121W"	17-Nov-1995	NULL			
+FISHCARD_miu_299.1	Lutjanus argentiventris	MiFish Teleost	MiFish Teleost	#03-163	Mexico	Bahia de Los Angeles: Campo Archelon	"29N,113.5W"	13-Sep-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_300.1	Coryphaenoides filifer	MiFish Teleost	MiFish Teleost	#02-70	Pacific Ocean	off coast of Oregon	"42.4267N,125.1983W"	24-Jul-1999	"C Goldfinger, OSU"			
+FISHCARD_miu_301.1	Caulolatilus princeps	MiFish Teleost	MiFish Teleost	#03-155	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	16-Oct-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_302.1	Aristostomias scintillans	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_303.1	Halargyreus johnsonii	MiFish Teleost	MiFish Teleost	#96-66	USA	Eureka Co.: between Trinidad Head & just N of Eureka	"40.8N,124.1667W"	28-Mar-1995	"A Cody, fisherman & RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_304.1	Pseudupeneus grandisquamis	MiFish Teleost	MiFish Teleost	#98-121	USA	San Diego Co.: kelp bed off Carlsbad	"33.0833N,117.3W"	24-Aug-1998	"M Shane, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_305.1	Lampadena urophaos	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_306.1	Lampanyctus tenuiformis	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_307.1	Nannobrachium ritteri	MiFish Teleost	MiFish Teleost	#97-185	USA	NULL	"38.57N,123.635W"	1-Jul-1995	A Rocha & NMFS party			
+FISHCARD_miu_308.1	Notolychnus valdiviae	MiFish Teleost	MiFish Teleost	#02-47	Pacific Ocean	Tonga Trench	"23.3233S,174.8867W"	22-Oct-2001	"A Yayanos & party, SIO"			
+FISHCARD_miu_309.1	Symbolophorus californiensis	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_310.1	Symbolophorus evermanni	MiFish Teleost	MiFish Teleost	#02-47	Pacific Ocean	Tonga Trench	"23.3233S,174.8867W"	22-Oct-2001	"A Yayanos & party, SIO"			
+FISHCARD_miu_311.1	Taaningichthys bathyphilus	MiFish Teleost	MiFish Teleost	#02-47	Pacific Ocean	Tonga Trench	"23.3233S,174.8867W"	22-Oct-2001	"A Yayanos & party, SIO"			
+FISHCARD_miu_312.1	Triphoturus mexicanus	MiFish Teleost	MiFish Teleost	#93-300	Mexico	off Baja CA Norte	"32.2733N,119.43W"	21-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_313.1	Myliobatis californica	MiFish Teleost	MiFish Teleost	#01-181	USA	San Diego Co.: off Del Mar Fairgrounds	"32.9767N,117.2733W"	5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_314.1	Eptatretus stoutii	MiFish Teleost	MiFish Teleost	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_315.1	Avocettina infans	MiFish Teleost	MiFish Teleost	#93-300	Mexico	off Baja CA Norte	"32.2733N,119.43W"	21-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_316.1	Nemichthys scolopaceus	MiFish Teleost	MiFish Teleost	#93-299	USA	NULL	"36.1867N,121.915W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_317.1	Facciolella gilbertii	MiFish Teleost	MiFish Teleost	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_318.1	Cubiceps baxteri	MiFish Teleost	MiFish Teleost	#98-26	Pacific Ocean	East Sulu Sea	"9N,122E"	1-Aug-1995	"W Perrin, NMFS & L Dolar, SIO"			
+FISHCARD_miu_319.1	Psenes pellucidus	MiFish Teleost	MiFish Teleost	#98-26	Pacific Ocean	East Sulu Sea	"9N,122E"	1-Aug-1995	"W Perrin, NMFS & L Dolar, SIO"			
+FISHCARD_miu_320.1	Scopelosaurus harryi	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_321.1	Myrophis vafer	MiFish Teleost	MiFish Teleost	#99-50	USA	San Diego Co.: Mission Bay: Northern Wildlife Preserve	"32.7833N,117.25W"	24-Apr-1999	"D Talley, SIO grad. student"			
+FISHCARD_miu_322.1	Ophichthus zophochir	MiFish Teleost	MiFish Teleost	#02-93	USA	Orange Co.: upper Newport Bay:  Shellmaker Island	"33.6167N,117.9333W"	18-Aug-2001	"PA Gregory, Calif. Fish & Game"			
+FISHCARD_miu_323.1	Lactoria diaphana	MiFish Teleost	MiFish Teleost	#03-89	Mexico	Hurricane Bank; from stomach of wahoo		1-Oct-2002	"B Schneider, sports fisherman"			
+FISHCARD_miu_324.1	Lestidiops ringens	MiFish Teleost	MiFish Teleost	#93-297	USA	NULL	"37.0433N,123.4583W"	19-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_325.1	Macroparalepis johnfitchi	MiFish Teleost	MiFish Teleost	#94-266	USA	NULL	"32.6717N,117.735W"	20-Apr-1994	"D Ambrose, NMFS-La Jolla"			
+FISHCARD_miu_326.1	Magnisudis atlantica	MiFish Teleost	MiFish Teleost	#03-122	USA	from stomach of mako		23-Sep-2003	"C Sepulveda, SIO grad. student"			
+FISHCARD_miu_327.1	Stemonosudis macrura	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_328.1	Citharichthys sordidus	MiFish Teleost	MiFish Teleost	#02-19	USA	San Diego Co.: off Pacific Beach	"32.7783N,117.305W"	26-Mar-2002	"E Kisfaludy, SIO"			
+FISHCARD_miu_329.1	Citharichthys stigmaeus	MiFish Teleost	MiFish Teleost	#01-180	USA	"San Diego Co.: La Jolla, off Black’s Beach"	"32.8667N,117.25W"	5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_330.1	Citharichthys xanthostigma	MiFish Teleost	MiFish Teleost	#02-19	USA	San Diego Co.: off Pacific Beach	"32.7783N,117.305W"	26-Mar-2002	"E Kisfaludy, SIO"			
+FISHCARD_miu_331.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	#03-51	USA	San Diego Co.: San Diego Bay: near San Diego-Coronado Bay Bridge (Coronado side)	"32.69N,117.155W"	2-Jun-2003	"HJ Walker, SIO & T Wilson, NMFS-Seattle"			
+FISHCARD_miu_332.1	Xystreurys liolepis	MiFish Teleost	MiFish Teleost	#02-71	USA	San Diego Co.: La Jolla:  near SIO	"32.8667N,117.25W"	18-Jun-2002	"M Craig, J Fodrie & M Newman, SIO grad. students"			
+FISHCARD_miu_333.1	Pentaceros wheeleri	MiFish Teleost	MiFish Teleost	#01-108	USA	ca 20 nm WNW of Davenport	"37.0683N,122.57W"	28-Jun-2000	"received from RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_334.1	Pholis ornata	MiFish Teleost	MiFish Teleost	#02-131	USA	San Francisco Co.: San Francisco Bay:  off Hunter’s Point	"37.73N,122.3783W"	11-Dec-2001	Calif. Fish & Game (via RN Lea)			
+FISHCARD_miu_335.1	Sagamichthys abei	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_336.1	Clidoderma asperrimum	MiFish Teleost	MiFish Teleost	#04-76	USA	Port San Luis	"36.2333N,126.4833W"		"via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_337.1	Embassichthys bathybius	MiFish Teleost	MiFish Teleost	#97-185	USA	NULL	"38.57N,123.635W"	1-Jul-1995	A Rocha & NMFS party			
+FISHCARD_miu_338.1	Hippoglossoides elassodon	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_339.1	Pleuronichthys decurrens	MiFish Teleost	MiFish Teleost	#02-71	USA	San Diego Co.: La Jolla:  near SIO	"32.8667N,117.25W"	18-Jun-2002	"M Craig, J Fodrie & M Newman, SIO grad. students"			
+FISHCARD_miu_340.1	Pleuronichthys ritteri	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_341.1	Pleuronichthys verticalis	MiFish Teleost	MiFish Teleost	#02-25	USA	San Diego Co.: La Jolla:  Scripps Coastal Reserve	"32.8683N,117.2567W"	28-Feb-2002	"M Craig & J Fodrie, SIO"			
+FISHCARD_miu_342.1	Polydactylus approximans	MiFish Teleost	MiFish Teleost	#98-176	USA	San Diego Co.: South San Diego Bay	"32.7667N,117.2167W"	10-Mar-1998	"M Irey, commercial fisherman"			
+FISHCARD_miu_343.1	Stereolepis gigas	MiFish Teleost	MiFish Teleost	#03-74	USA	NULL		25-Apr-2003	"D Pondella, Occidental College"			
+FISHCARD_miu_344.1	Pomacanthus zonipectus	MiFish Teleost	MiFish Teleost	NA	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_345.1	Azurina hirundo	MiFish Teleost	MiFish Teleost	#02-7	Mexico	"Islas San Benito, Benito del Este:  Tranquility Cove (NE end of island)"	"28.3167N,115.5833W"	9-Aug-2001	D Pondella & RN Lea			
+FISHCARD_miu_346.1	Chromis alta	MiFish Teleost	MiFish Teleost	#02-7	Mexico	"Islas San Benito, Benito del Este:  Tranquility Cove (NE end of island)"	"28.3167N,115.5833W"	9-Aug-2001	D Pondella & RN Lea			
+FISHCARD_miu_347.1	Chromis punctipinnis	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_348.1	Pristigenys serrula	MiFish Teleost	MiFish Teleost	#94-142	USA	San Diego Co.: off La Jolla Cove	"32.85N,117.2667W"	2-Oct-1994	local fisherman via B Steele			
+FISHCARD_miu_349.1	Psychrolutes phrictus	MiFish Teleost	MiFish Teleost	#00-61	USA	NULL		15-Dec-1999	NULL			
+FISHCARD_miu_350.1	Regalecus glesne	MiFish Teleost	MiFish Teleost	#97-226	USA	ca 17 miles W of Point Loma	"32.6833N,117.25W"	26-Oct-1997	commercial gill net fisherman			
+FISHCARD_miu_351.1	Rhamphocottus richardsonii	MiFish Teleost	MiFish Teleost	#01-79	USA	Monterey Co.: off Point Sur	"36.3N,121.9W"	1-Jul-1999	"via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_352.1	Cheilotrema saturnum	MiFish Teleost	MiFish Teleost	#03-165	USA	San Diego Co.: La Jolla	"32.85N,117.2667W"	28-Jul-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_353.1	Cynoscion parvipinnis	MiFish Teleost	MiFish Teleost	#97-143	USA	San Diego Co.: San Diego Bay	"32.7667N,117.2167W"	7-Feb-1997	"M Irey, local fisherman"			
+FISHCARD_miu_354.1	Menticirrhus undulatus	MiFish Teleost	MiFish Teleost	#01-181	USA	San Diego Co.: off Del Mar Fairgrounds	"32.9767N,117.2733W"	5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_355.1	Seriphus politus	MiFish Teleost	MiFish Teleost	#02-25	USA	San Diego Co.: La Jolla:  Scripps Coastal Reserve	"32.8683N,117.2567W"	28-Feb-2002	"M Craig & J Fodrie, SIO"			
+FISHCARD_miu_356.1	Umbrina roncador	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_357.1	Allothunnus fallai	MiFish Teleost	MiFish Teleost	#97-117	Pacific Ocean	[no locality data]		12-Jun-1996	"gift:  J Graham, SIO"			
+FISHCARD_miu_358.1	Scomberomorus sierra	MiFish Teleost	MiFish Teleost	#98-171	USA	San Diego Co.: off Carlsbad	"33.1333N,117.3433W"	24-Aug-1998	"M Shane, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_359.1	Thunnus albacares	MiFish Teleost	MiFish Teleost	#03-127	Mexico	Alijos Rocks: Butterfly Bank	"24.95N,115.75W"	27-Sep-2003	"via J Hyde, SIO grad. student"			
+FISHCARD_miu_360.1	Scorpaena guttata	MiFish Teleost	MiFish Teleost	#01-198	USA	Los Angeles Co.: Playa Vista	"33.85N,118.3833W"	3-Sep-2001	"D Pondella, Occidental College"			
+FISHCARD_miu_361.1	Scorpaenodes xyris	MiFish Teleost	MiFish Teleost	#02-81	Ecuador	Isla Tortuga (Brattle Island):  off Villamil	"1.0167S,90.8667W"	11-Jan-2002	"J McCosker, CAS & J Stephens, Occidental College"			
+FISHCARD_miu_362.1	Hemanthias signifer	MiFish Teleost	MiFish Teleost	#03-117	Mexico	Bahia de Los Angeles		12-Sep-2003	"J Hyde, SIO grad. student"			
+FISHCARD_miu_363.1	Mycteroperca xenarcha	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_364.1	Paralabrax auroguttatus	MiFish Teleost	MiFish Teleost	#64-235	USA	(various marine fishes)			NULL			
+FISHCARD_miu_365.1	Paralabrax clathratus	MiFish Teleost	MiFish Teleost	#01-179	USA	San Diego Co.: Mission Bay: off Crown Point Mitigation Site	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_366.1	Paralabrax maculatofasciatus	MiFish Teleost	MiFish Teleost	#98-34	Mexico	Bahia de Los Angeles	"29N,113.5W"	25-Mar-1998	H Khim & P Ajtai			
+FISHCARD_miu_367.1	Sphyraena ensis	MiFish Teleost	MiFish Teleost	#98-36	USA	San Diego Co.: Oceanside in kelp bed	"33.2933N,117.4933W"	20-Oct-1997	"M Shane & party, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_368.1	Sphyrna lewini	MiFish Teleost	MiFish Teleost	#98-39	USA	San Diego Co.: San Diego Bay	"32.7667N,117.2167W"	6-Oct-1997	"M Shane & party, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_369.1	Argyropelecus sladeni	MiFish Teleost	MiFish Teleost	#93-298	USA	NULL	"36.7733N,122.58W"	20-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_370.1	Esselenichthys carli	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_371.1	Kasatkia seigeli	MiFish Teleost	MiFish Teleost	#03-92	USA	Monterey Co.: Monterey Bay: south side of bay off Pacific Grove [“Erick’s Pinnacle”]	"36.6183N,121.915W"	22-Oct-2001	"G Bernardi [via RN Lea, Calif. Fish & Game]"			
+FISHCARD_miu_372.1	Plectobranchus evides	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_373.1	Peprilus simillimus	MiFish Teleost	MiFish Teleost	#02-13	USA	San Diego Co.: La Jolla:  SIO	"32.8667N,117.25W"	21-Feb-2002	"M Craig & J Fodrie, SIO"			
+FISHCARD_miu_374.1	Syngnathus californiensis	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_375.1	Synodus lacertinus	MiFish Teleost	MiFish Teleost	#99-28	Mexico	approx 6 km south of U.S. border	"32.4733N,117.175W"	8-Oct-1998	"S Lagos & party, City of San Diego"			
+FISHCARD_miu_376.1	Synodus lucioceps	MiFish Teleost	MiFish Teleost	#02-72	USA	San Diego Co.: La Jolla:  near SIO	"32.8667N,117.25W"	18-Jun-2002	"M Craig, J Fodrie & M Newman, SIO grad. students"			
+FISHCARD_miu_377.1	Tetragonurus cuvieri	MiFish Teleost	MiFish Teleost	#01-107	USA	3 mi off Santa Maria River	"35N,120.5W"		NULL			
+FISHCARD_miu_378.1	Sphoeroides annulatus	MiFish Teleost	MiFish Teleost	#98-34	Mexico	Bahia de Los Angeles	"29N,113.5W"	25-Mar-1998	H Khim & P Ajtai			
+FISHCARD_miu_379.1	Desmodema lorum	MiFish Teleost	MiFish Teleost	#93-296	USA	NULL	"34.7233N,121.9467W"	18-Nov-1993	"P Smith & party, NMFS"			
+FISHCARD_miu_380.1	Assurger anzac	MiFish Teleost	MiFish Teleost	#94-141	Mexico	NULL	"31.15N,116.8833W"	20-Sep-1994	G Pregler			
+FISHCARD_miu_381.1	Prionotus stephanophrys	MiFish Teleost	MiFish Teleost	#98-175	USA	San Diego Co.: off Imperial Beach	"32.5833N,117.1333W"	7-Mar-1996	"R Steele, commercial fisherman"			
+FISHCARD_miu_382.1	Zaprora silenus	MiFish Teleost	MiFish Teleost	#94-239	USA	Aleutian Islands	"52.6583N,179.3633W"	9-Jul-1994	"HJ Walker, SIO & W Flerx & party, NMFS-Seattle"			
+FISHCARD_miu_383.1	Lycenchelys crotalinus	MiFish Teleost	MiFish Teleost	#02-94	USA	off Point Sur	"36.35N,112.15W"	12-May-2002	"via:  RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_384.1	Lycodes cortezianus	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_385.1	Lycodes diapterus	MiFish Teleost	MiFish Teleost	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_386.1	Lycodes pacificus	MiFish Teleost	MiFish Teleost	#97-192	USA	NULL	"41.255N,124.375W"	9-Jul-1995	A  Rocha  &  NMFS party			
+FISHCARD_miu_387.1	Lyconema barbatum	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_388.1	Eucinostomus argenteus	MiFish Teleost	MiFish Teleost	#04-86	Mexico	inside Puerto Escondido harbor	"25.8N,111.3333W"	28-Jul-2004	"M Craig & B Erisman, SIO grad. students"			
+FISHCARD_miu_389.1	Ruscarius creaseri	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_390.1	Esselenichthys carli	MiFish Teleost	MiFish Teleost	FISHCARD_miu_390.1	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_391.1	Lampanyctus tenuiformis	MiFish Teleost	MiFish Teleost	#04-101	USA	NULL	"34.7N,123.25W"	2-Jul-2004	"D Bailey, SIO"			
+FISHCARD_miu_392.1	Diodon holocanthus	MiFish Teleost	MiFish Teleost	#04-85	Mexico	"Puerto Escondido, exposed side of “North Windows”"	"25.8N,111.3333W"	28-Jul-2004	"M Craig & B Erisman, SIO grad. students"			
+FISHCARD_miu_393.1	Nematistius pectoralis	MiFish Teleost	MiFish Teleost	#04-86	Mexico	inside Puerto Escondido harbor	"25.8N,111.3333W"	28-Jul-2004	"M Craig & B Erisman, SIO grad. students"			
+FISHCARD_miu_394.1	Sarda chiliensis	MiFish Teleost	MiFish Teleost	#04-102	USA	San Diego Co.: La Jolla:  “few hundred yards off SIO Pier”	"32.8667N,117.25W"	8-Jul-2004	"C Sepulveda, SIO grad. student"			
+FISHCARD_miu_395.1	Lutjanus novemfasciatus	MiFish Teleost	MiFish Teleost	#04-89	Mexico	Puerto Escondido	"25.8N,111.3333W"	16-Jul-2004	"B Erisman, SIO grad. student"			
+FISHCARD_miu_396.1	Lythrypnus zebra	MiFish Teleost	MiFish Teleost	#04-44	USA	San Diego Co.: La Jolla Cove	"32.85N,117.2667W"	7-May-2004	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_397.1	Chirolophis decoratus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_398.1	Sebastolobus altivelis	MiFish Teleost	MiFish Teleost	#04-80	USA	NULL		21-Jun-2004	"via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_399.1	Enophrys bison	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_400.1	Icelinus fimbriatus	MiFish Teleost	MiFish Teleost	#04-77	USA	Monterey Canyon	"36.7933N,121.8317W"	28-Mar-2004	"via RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_401.1	Coryphaenoides yaquinae	MiFish Teleost	MiFish Teleost	#04-101	USA	NULL	"34.7N,123.25W"	2-Jul-2004	"D Bailey, SIO"			
+FISHCARD_miu_402.1	Liparis florae	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_403.1	Odontopyxis trispinosa	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_404.1	Podothecus accipenserinus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_405.1	Calamus brachysomus	MiFish Teleost	MiFish Teleost	#04-113	Mexico	Bahia de Los Angeles:  off sand spit between Turtle Camp & lighthouse	"29N,113.5W"	11-Sep-2004	"M Craig, HJ Walker & J Hyde, SIO"			
+FISHCARD_miu_406.1	Phanerodon vacca	MiFish Teleost	MiFish Teleost	FISHCARD_miu_406.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_407.1	Anoplarchus purpurescens	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_408.1	Microgadus proximus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_408.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_409.1	Gadus chalcogrammus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_410.1	Phtheirichthys lineatus	MiFish Teleost	MiFish Teleost	#04-194	USA	"off Kona Coast, Hawaii"	"19.24N,155.7W"	24-Sep-2004	"J Hyde, SIO, & NMFS party"			
+FISHCARD_miu_411.1	Makaira nigricans	MiFish Teleost	MiFish Teleost	#04-194	USA	"off Kona Coast, Hawaii"	"19.24N,155.7W"	24-Sep-2004	"J Hyde, SIO, & NMFS party"			
+FISHCARD_miu_412.1	Xiphias gladius	MiFish Teleost	MiFish Teleost	#04-194	USA	"off Kona Coast, Hawaii"	"19.24N,155.7W"	24-Sep-2004	"J Hyde, SIO, & NMFS party"			
+FISHCARD_miu_413.1	Hexagrammos stelleri	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_414.1	Enophrys bison	MiFish Teleost	MiFish Teleost	FISHCARD_miu_414.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_415.1	Agonopsis sterletus	MiFish Teleost	MiFish Teleost	#04-190	USA	San Diego Co.: La Jolla: Scripps Canyon	"32.8667N,117.25W"	9-Nov-2004	"P Ajtai & J Hyde, SIO grad. students"			
+FISHCARD_miu_416.1	Anoplarchus purpurescens	MiFish Teleost	MiFish Teleost	FISHCARD_miu_416.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_417.1	Apodichthys flavidus	MiFish Teleost	MiFish Teleost	#04-104	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	20-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_418.1	Chirolophis decoratus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_418.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_419.1	Pholis ornata	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_420.1	Coryphaenoides yaquinae	MiFish Teleost	MiFish Teleost	FISHCARD_miu_420.1	USA	NULL	"34.7N,123.25W"	2-Jul-2004	"D Bailey, SIO"			
+FISHCARD_miu_421.1	Lepidopsetta bilineata	MiFish Teleost	MiFish Teleost	FISHCARD_miu_421.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_422.1	Parophrys vetulus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_422.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_423.1	Platichthys stellatus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_423.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_424.1	Pleuronichthys coenosus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_424.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_425.1	Pomacanthus zonipectus	MiFish Teleost	MiFish Teleost	#05-56	Mexico	Isla Carmen	"25.9667N,111.0833W"	8-May-2005	"B Erisman, SIO & J Sanchez, UCDavis"			
+FISHCARD_miu_426.1	Sufflamen verres	MiFish Teleost	MiFish Teleost	#05-56	Mexico	Isla Carmen	"25.9667N,111.0833W"	8-May-2005	"B Erisman, SIO & J Sanchez, UCDavis"			
+FISHCARD_miu_427.1	Cephalopholis colonus	MiFish Teleost	MiFish Teleost	#05-59	Mexico	Isla Carmen	"25.9667N,111.0833W"	25-May-2005	"B Erisman, SIO"			
+FISHCARD_miu_428.1	Echeneis naucrates	MiFish Teleost	MiFish Teleost	#05-37	Australia	Port Stephens	"32.13S,152.0817E"	1-Mar-2005	"K Gray, VIMS grad. student"			
+FISHCARD_miu_429.1	Remora australis	MiFish Teleost	MiFish Teleost	#05-32	USA	"off Kona, Hawaii"	"19.64N,155.995W"	26-May-2005	J Hyde (SIO) & NMFS party			
+FISHCARD_miu_430.1	Remora brachyptera	MiFish Teleost	MiFish Teleost	#05-36	Panama	Pinas Bay	"7.55N,78.2W"	1-Mar-2005	"J Graves, VIMS [exchange]"			
+FISHCARD_miu_431.1	Hemilepidotus hemilepidotus	MiFish Teleost	MiFish Teleost	#05-113	USA	off northern California	"37.9167N,122.5W"	30-Jul-2005	NULL			
+FISHCARD_miu_432.1	Sternoptyx obscura	MiFish Teleost	MiFish Teleost	FISHCARD_miu_432.1	USA	NULL	"34.695N,123.21W"	1-Feb-2005	"D Bailey (K Smith lab), SIO"			
+FISHCARD_miu_433.1	Diplophos taenia	MiFish Teleost	MiFish Teleost	#04-194	USA	"off Kona Coast, Hawaii"	"19.24N,155.7W"	24-Sep-2004	"J Hyde, SIO, & NMFS party"			
+FISHCARD_miu_434.1	Paraclinus integripinnis	MiFish Teleost	MiFish Teleost	#04-46	USA	San Diego Co.: Point Loma: Cabrillo National Monument	"32.6833N,117.2333W"	13-Apr-2004	"M Craig, J Hyde & HJ Walker, SIO party"			
+FISHCARD_miu_435.1	Cyclothone pallida	MiFish Teleost	MiFish Teleost	#05-80	Pacific Ocean	NULL		21-Jun-2005	"D Bailey & K Smith, SIO"			
+FISHCARD_miu_436.1	Bajacalifornia burragei	MiFish Teleost	MiFish Teleost	#05-80	Pacific Ocean	NULL	"34.6983N,123.205W"	21-Jun-2005	"D Bailey & K Smith, SIO"			
+FISHCARD_miu_437.1	Nezumia liolepis	MiFish Teleost	MiFish Teleost	#05-104	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_438.1	Holtbyrnia latifrons	MiFish Teleost	MiFish Teleost	#05-105	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_439.1	Lipolagus ochotensis	MiFish Teleost	MiFish Teleost	#05-105	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_440.1	Poromitra crassiceps	MiFish Teleost	MiFish Teleost	#05-105	USA	San Diego Co.: off Point Loma	"32.6N,117.5083W"	2-Oct-2005	"P Hastings, L Levin, C Klepadlo & SIO party"			
+FISHCARD_miu_441.1	Syngnathus californiensis	MiFish Teleost	MiFish Teleost	#02-71	USA	San Diego Co.: La Jolla:  near SIO	"32.8667N,117.25W"	18-Jun-2002	"M Craig, J Fodrie & M Newman, SIO grad. students"			
+FISHCARD_miu_442.1	Lycenchelys camchatica	MiFish Teleost	MiFish Teleost	#05-90	USA	NULL	"36N,122W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_443.1	Cataetyx rubrirostris	MiFish Teleost	MiFish Teleost	#05-97	USA	NULL	"32.83N,117.7833W"	23-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_444.1	Lycodapus mandibularis	MiFish Teleost	MiFish Teleost	#05-99	USA	NULL	"34N,118W"	21-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_445.1	Alosa sapidissima	MiFish Teleost	MiFish Teleost	#05-88	USA	NULL	"36N,122W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_446.1	Anoplopoma fimbria	MiFish Teleost	MiFish Teleost	#05-89	USA	NULL	"35.965N,121.6267W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_447.1	Hippoglossina stomata	MiFish Teleost	MiFish Teleost	#05-88	USA	NULL	"36N,122W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_448.1	Eptatretus deani	MiFish Teleost	MiFish Teleost	#05-95	USA	NULL	"34.5267N,121.1083W"	16-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_449.1	Antimora microlepis	MiFish Teleost	MiFish Teleost	#05-103	USA	NULL	"33.1617N,118.4733W"	22-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_450.1	Physiculus rastrelliger	MiFish Teleost	MiFish Teleost	#05-100	USA	NULL	"33.5567N,117.8833W"	22-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_451.1	Bothrocara brunneum	MiFish Teleost	MiFish Teleost	#05-87	USA	NULL	"36.3867N,122.0667W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_452.1	Alepocephalus tenebrosus	MiFish Teleost	MiFish Teleost	#05-165	USA	NULL	"34.5333N,121.1167W"	25-Oct-1997	NMFS			
+FISHCARD_miu_453.1	Anoplarchus insignis	MiFish Teleost	MiFish Teleost	#05-169	USA	San Juan Island	"48.5333N,123.0167W"	1-Jul-1999	S Norton			
+FISHCARD_miu_454.1	Bathyagonus alascanus	MiFish Teleost	MiFish Teleost	#05-199	USA	NULL	"48.585N,122.9383W"	21-Apr-2004	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_455.1	Benthalbella dentata	MiFish Teleost	MiFish Teleost	#05-164	USA	NULL		4-Nov-1996	"W Flerx, NMFS-Seattle"			
+FISHCARD_miu_456.1	Bertella idiomorpha	MiFish Teleost	MiFish Teleost	#05-158	USA	NULL	"55.385N,155.4433W"	31-May-1991	NMFS-Seattle			
+FISHCARD_miu_457.1	Blepsias cirrhosus	MiFish Teleost	MiFish Teleost	#05-185	Russia	South Moneron Island	"46.2367N,141.2333E"	24-Aug-2001	G Jensen & D Stevenson			
+FISHCARD_miu_458.1	Borostomias panamensis	MiFish Teleost	MiFish Teleost	#05-176	Pacific Ocean	NULL	"8.9667N,111.6W"	16-Sep-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_459.1	Ceratias holboelli	MiFish Teleost	MiFish Teleost	#05-159	USA	NULL	"54.3833N,166.65W"	20-Feb-1992	NMFS-Seattle			
+FISHCARD_miu_460.1	Chaenophryne longiceps	MiFish Teleost	MiFish Teleost	#05-160	Greenland	Davis Strait	"63.75N,56.235W"	5-Aug-1994	K Sato			
+FISHCARD_miu_461.1	Chaenophryne melanorhabdus	MiFish Teleost	MiFish Teleost	#05-167	USA	NULL	"38.695N,123.8783W"	2-Nov-1997	NMFS			
+FISHCARD_miu_462.1	Chirolophis nugator	MiFish Teleost	MiFish Teleost	#05-183	USA	NULL	"48.485N,123.235W"	14-Jun-2001	Wash. Dept. Fish & Wildlife			
+FISHCARD_miu_463.1	Cottus asper	MiFish Teleost	MiFish Teleost	#05-198	USA	NULL	"46.2067N,123.4317W"	11-Aug-2003	"M Paquin, NMFS"			
+FISHCARD_miu_464.1	Cryptacanthodes giganteus	MiFish Teleost	MiFish Teleost	#05-195	USA	Puget Sound	"48.2933N,123.6783W"	10-Jun-2003	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_465.1	Gasterosteus aculeatus	MiFish Teleost	MiFish Teleost	#05-168	Russia	Tanfilyeva Island	"43.4467N,145.9433E"	19-Aug-1998	E Macdonald & party			
+FISHCARD_miu_466.1	Gonichthys tenuiculus	MiFish Teleost	MiFish Teleost	#05-177	Pacific Ocean	NULL	"6.6167N,84.8W"	8-Oct-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_467.1	Hemilepidotus spinosus	MiFish Teleost	MiFish Teleost	#05-192	USA	Puget Sound	"48.22N,123.0583W"	15-May-2003	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_468.1	Hexagrammos lagocephalus	MiFish Teleost	MiFish Teleost	#06-003	USA	NULL			gift: Univ. of Washington			
+FISHCARD_miu_469.1	Hippoglossus stenolepis	MiFish Teleost	MiFish Teleost	#05-196	USA	Puget Sound		18-Jun-2003	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_470.1	Hygophum atratum	MiFish Teleost	MiFish Teleost	#05-173	Pacific Ocean	NULL		3-Aug-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_471.1	Hygophum proximum	MiFish Teleost	MiFish Teleost	#05-174	Pacific Ocean	NULL		24-Aug-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_472.1	Hypomesus pretiosus	MiFish Teleost	MiFish Teleost	#05-193	USA	NULL		20-May-2003	Wash. Dept. Fish & Wildlife			
+FISHCARD_miu_473.1	Icelinus tenuis	MiFish Teleost	MiFish Teleost	#05-180	USA	NULL		16-May-2001	Wash. Dept. Fish & Wildlife			
+FISHCARD_miu_474.1	Lampanyctus parvicauda	MiFish Teleost	MiFish Teleost	#05-175	Pacific Ocean	NULL		31-Aug-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_475.1	Entosphenus tridentatus	MiFish Teleost	MiFish Teleost	#05-179	USA	NULL		12-May-2001	"WE Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_476.1	Lepidogobius lepidus	MiFish Teleost	MiFish Teleost	#05-182	USA	NULL		5-Jun-2001	Wash. Dept. Fish & Wildlife			
+FISHCARD_miu_477.1	Lepidopus fitchi	MiFish Teleost	MiFish Teleost	#05-163	USA	NULL		3-Nov-1996	"W Flerx, NMFS-Seattle"			
+FISHCARD_miu_478.1	Liparis fucensis	MiFish Teleost	MiFish Teleost	#05-195	USA	Puget Sound		10-Jun-2003	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_479.1	Liparis pulchellus	MiFish Teleost	MiFish Teleost	#05-200	USA	NULL		21-May-2004	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_480.1	Lophodolos acanthognathus	MiFish Teleost	MiFish Teleost	#05-160	Greenland	Davis Strait		5-Aug-1994	K Sato			
+FISHCARD_miu_481.1	Lumpenus sagitta	MiFish Teleost	MiFish Teleost	#05-190	USA	St. Vendovi		29-Apr-2003	"S OÕNeill & J West, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_482.1	Melanocetus johnsonii	MiFish Teleost	MiFish Teleost	#05-166	USA	NULL		27-Oct-1997	"JW Orr, NMFS-Seattle"			
+FISHCARD_miu_483.1	Mirorictus taningi	MiFish Teleost	MiFish Teleost	#05-165	USA	NULL		25-Oct-1997	NMFS			
+FISHCARD_miu_484.1	Myctophum aurolaternatum	MiFish Teleost	MiFish Teleost	#05-178	Pacific Ocean	NULL		22-Nov-2000	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_485.1	Myctophum lychnobium	MiFish Teleost	MiFish Teleost	#05-170	Pacific Ocean	NULL		6-Aug-1999	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_486.1	Myctophum nitidulum	MiFish Teleost	MiFish Teleost	#05-171	Pacific Ocean	NULL		10-Nov-1999	"RL Pitman, NMFS-La Jolla"			
+FISHCARD_miu_487.1	Nautichthys oculofasciatus	MiFish Teleost	MiFish Teleost	#05-189	USA	Myrtle Edwards Park		23-Apr-2003	"M Meyers, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_488.1	Oncorhynchus gorbuscha	MiFish Teleost	MiFish Teleost	#05-162	Russia	"Sea of Okhotsk, Kuril Islands"		24-Aug-1995	JA Lopez & AA Balanov			
+FISHCARD_miu_489.1	Oncorhynchus keta	MiFish Teleost	MiFish Teleost	#05-161	Russia	"Sea of Okhotsk, Kuril Islands"		4-Aug-2005	T Pietsch & party			
+FISHCARD_miu_490.1	Oncorhynchus kisutch	MiFish Teleost	MiFish Teleost	#05-161	Russia	"Sea of Okhotsk, Kuril Islands"		4-Aug-1995	T Pietsch & party			
+FISHCARD_miu_491.1	Oneirodes thompsoni	MiFish Teleost	MiFish Teleost	#06-003	USA	NULL			gift: Univ. of Washington			
+FISHCARD_miu_492.1	Pholis clemensi	MiFish Teleost	MiFish Teleost	#05-169	USA	San Juan Island		1-Jul-1999	S Norton			
+FISHCARD_miu_493.1	Pholis laeta	MiFish Teleost	MiFish Teleost	#05-172	USA	San Juan Island		8-Jun-2000	S Norton			
+FISHCARD_miu_494.1	Poroclinus rothrocki	MiFish Teleost	MiFish Teleost	#05-187	USA	NULL		12-Jun-2002	"E Acuna, NMFS-La Jolla"			
+FISHCARD_miu_495.1	Reinhardtius hippoglossoides	MiFish Teleost	MiFish Teleost	#05-188	USA	NULL		5-Feb-2003	S Robinson			
+FISHCARD_miu_496.1	Spirinchus starksi	MiFish Teleost	MiFish Teleost	#05-194	USA	Puget Sound		23-May-2003	"W Palsson, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_497.1	Synchirus gilli	MiFish Teleost	MiFish Teleost	#05-186	USA	San Juan Island		20-Mar-2002	L Britt			
+FISHCARD_miu_498.1	Gadus chalcogrammus	MiFish Teleost	MiFish Teleost	#05-191	USA	Strait of Georgia		29-Apr-2003	"S OÕNeill & J West, Wash. Dept. Fish & Wildlife"			
+FISHCARD_miu_499.1	Trichodon trichodon	MiFish Teleost	MiFish Teleost	#05-197	USA	NULL		27-Jun-2003	C  Bucher			
+FISHCARD_miu_500.1	Phytichthys chirus	MiFish Teleost	MiFish Teleost	#05-172	USA	San Juan Island		8-Jun-2000	S Norton			
+FISHCARD_miu_501.1	Xiphister atropurpureus	MiFish Teleost	MiFish Teleost	#05-172	USA	San Juan Island		8-Jun-2000	S Norton			
+FISHCARD_miu_502.1	Anotopterus pharao	MiFish Teleost	MiFish Teleost	#06-16	USA	NULL	"36.715N,122.285W"	29-Oct-1997	KA Moots			
+FISHCARD_miu_503.1	Aphanopus arigato	MiFish Teleost	MiFish Teleost	#06-19	USA	NULL	"39.4833N,124.0767W"	3-Nov-1997	KA Moots			
+FISHCARD_miu_504.1	Argyropelecus aculeatus	MiFish Teleost	MiFish Teleost	#06-11	USA	NULL	"34.8933N,121.5033W"	26-Oct-1997	KA Moots			
+FISHCARD_miu_505.1	Artedius harringtoni	MiFish Teleost	MiFish Teleost	#06-4	USA	Whidbey Island: Saratoga Passage	"48.0233N,122.2417W"	11-Oct-2005	W Palsson & T Parra			
+FISHCARD_miu_506.1	Careproctus cypselurus	MiFish Teleost	MiFish Teleost	#06-17	USA	NULL	"37.25N,123.14W"	31-Oct-1997	KA Moots			
+FISHCARD_miu_507.1	Caristius macropus	MiFish Teleost	MiFish Teleost	#06-33	USA	NULL	"54.4883N,166.3217W"	6-Aug-2004	NMFS-Seattle			
+FISHCARD_miu_508.1	Cebidichthys violaceus	MiFish Teleost	MiFish Teleost	#06-42	USA	San Luis Obispo Co.:  Cambria; intertidal	"35.5933N,121.5933W"	25-Jun-1905	"M Ramon, UC Santa Cruz"			
+FISHCARD_miu_509.1	Clinocottus acuticeps	MiFish Teleost	MiFish Teleost	#06-46	USA	Bob Creek	"43N,124.25W"		"M Ramon [via G Bernardi, UCSanta Cruz]"			
+FISHCARD_miu_510.1	Clinocottus embryum	MiFish Teleost	MiFish Teleost	#06-49	USA	NULL	"45N,124W"	27-Jun-1905	"C Pfister [via G Bernardi, UCSanta Cruz]"			
+FISHCARD_miu_511.1	Clinocottus globiceps	MiFish Teleost	MiFish Teleost	#06-45	USA	"Santa Cruz Co.: Santa Cruz, Scott’s Creek"	"36.9667N,122.0167W"	19-Jun-2004	"M Ramon [via G Bernardi, UCSanta Cruz]"			
+FISHCARD_miu_512.1	Clinocottus recalvus	MiFish Teleost	MiFish Teleost	#06-45	USA	"Santa Cruz Co.: Santa Cruz, Scott’s Creek"	"36.9667N,122.0167W"	19-Jun-2004	"M Ramon [via G Bernardi, UCSanta Cruz]"			
+FISHCARD_miu_513.1	Cryptacanthodes aleutensis	MiFish Teleost	MiFish Teleost	FISHCARD_miu_513.1	USA	NULL			NULL			
+FISHCARD_miu_514.1	Dormitator latifrons	MiFish Teleost	MiFish Teleost	#06-44	Mexico	Estero Coyote	"26.8167N,113.525W"		"D Huang [via G  Bernardi, UC Santa Cruz]"			
+FISHCARD_miu_515.1	Elassodiscus caudatus	MiFish Teleost	MiFish Teleost	#06-29	USA	NULL	"55.5783N,168.8367W"	21-Jul-2004	NMFS-Seattle			
+FISHCARD_miu_516.1	Eurypharynx pelecanoides	MiFish Teleost	MiFish Teleost	#06-23	USA	NULL	"34.5167N,121.1167W"	26-Oct-1997	K Shaw & NMFS-Seattle party			
+FISHCARD_miu_517.1	Gibbonsia montereyensis	MiFish Teleost	MiFish Teleost	#06-41	USA	San Luis Obispo Co.:  Vandenburg Air Force Base; intertidal	"34.7283N,120.5767W"	26-Mar-2003	"M Ramon, UC Santa Cruz"			
+FISHCARD_miu_518.1	Kali kerberti	MiFish Teleost	MiFish Teleost	#06-10	USA	NULL	"34.5567N,121.025W"	25-Oct-1997	KA Moots			
+FISHCARD_miu_519.1	Lipariscus nanus	MiFish Teleost	MiFish Teleost	#06-32	USA	NULL	"55.42N,168.2667W"	28-Jul-2004	NMFS-Seattle			
+FISHCARD_miu_520.1	Lycodapus fierasfer	MiFish Teleost	MiFish Teleost	#06-27	USA	NULL	"45.7033N,124.9183W"	5-Nov-1996	NMFS-Seattle			
+FISHCARD_miu_521.1	Maulisia mauli	MiFish Teleost	MiFish Teleost	#06-24	USA	NULL	"35.8217N,121.96W"	28-Oct-1997	NMFS-Seattle			
+FISHCARD_miu_522.1	Oligocottus maculosus	MiFish Teleost	MiFish Teleost	#06-46	USA	Bob Creek	"43N,124.25W"		"M Ramon [via G Bernardi, UCSanta Cruz]"			
+FISHCARD_miu_523.1	Oligocottus snyderi	MiFish Teleost	MiFish Teleost	#06-42	USA	San Luis Obispo Co.:  Cambria; intertidal	"35.5933N,121.5933W"	25-Jun-1905	"M Ramon, UC Santa Cruz"			
+FISHCARD_miu_524.1	Oncorhynchus mykiss	MiFish Teleost	MiFish Teleost	#05-116	USA	Trinity Co.: near Trinity River	"40.7167N,122.8W"		PA Nelson			
+FISHCARD_miu_525.1	Paraliparis pectoralis	MiFish Teleost	MiFish Teleost	#06-30	USA	NULL	"56.0917N,169.1967W"	24-Jul-2004	NMFS-Seattle			
+FISHCARD_miu_526.1	Pleurogrammus monopterygius	MiFish Teleost	MiFish Teleost	#06-37	USA	NULL	"54.21N,166.0617W"	8-Jun-2004	NMFS-Seattle			
+FISHCARD_miu_527.1	Radulinus asprellus	MiFish Teleost	MiFish Teleost	#06-22	USA	Gulf of Alaska	"59.4467N,141.67W"	12-Jul-1999	NULL			
+FISHCARD_miu_528.1	Rhinoliparis barbulifer	MiFish Teleost	MiFish Teleost	#06-15	USA	NULL	"36.3733N,121.22W"	29-Oct-1997	KA Moots			
+FISHCARD_miu_529.1	Serrivomer jesperseni	MiFish Teleost	MiFish Teleost	#06-10	USA	NULL	"34.5567N,121.025W"	25-Oct-1997	KA Moots			
+FISHCARD_miu_530.1	Serrivomer sector	MiFish Teleost	MiFish Teleost	#06-20	USA	NULL	"39.5383N,124.1867W"	3-Nov-1997	KA Moots			
+FISHCARD_miu_531.1	Talismania bifurcata	MiFish Teleost	MiFish Teleost	#06-13	USA	NULL	"35.4217N,121.5017W"	27-Oct-1997	KA Moots			
+FISHCARD_miu_532.1	Kajikia audax	MiFish Teleost	MiFish Teleost	#06-38	USA	NULL	"19.32N,155.93W"	28-May-2005	"J Hyde, SIO grad. student & NMFS-La Jolla"			
+FISHCARD_miu_533.1	Zesticelus profundorum	MiFish Teleost	MiFish Teleost	#06-31	USA	NULL	"55.575N,168.8283W"	27-Jul-2004	NMFS-Seattle			
+FISHCARD_miu_534.1	Dermatolepis dermatolepis	MiFish Teleost	MiFish Teleost	#06-121	Pacific Ocean	Clipperton Island		1-Sep-2004	"R Vetter, NMFS-La Jolla"			
+FISHCARD_miu_535.1	Opisthonema medirastre	MiFish Teleost	MiFish Teleost	#07-96	Mexico	La Playita	"23.0333N,109.5167W"	22-Aug-2007	J Snow			
+FISHCARD_miu_536.1	Parvilux ingens	MiFish Teleost	MiFish Teleost	#06-98	USA	NULL	"32.8N,124.0667W"	1-Jun-2006	"P Davison & M Decima, SIO grad. students"			
+FISHCARD_miu_537.1	Barbourisia rufa	MiFish Teleost	MiFish Teleost	#06-105	USA	off Fort Bragg	"39.535N,124.0717W"	16-Aug-2005	"Capt R Select [via RN Lea, Calif. Fish & Game]"			
+FISHCARD_miu_538.1	Lampanyctus festivus	MiFish Teleost	MiFish Teleost	#06-100	USA	NULL	"32.7667N,124.1167W"	2-Jun-2006	"P Davison & M Decima, SIO grad. students"			
+FISHCARD_miu_539.1	Vinciguerria poweriae	MiFish Teleost	MiFish Teleost	#06-92	USA	NULL	"33.5167N,122.1167W"	19-May-2006	"P Davison & M Decima, SIO grad. students"			
+FISHCARD_miu_540.1	Prognathodes falcifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_540.1	Mexico	San Benitos Islands		1-Jul-1999	"B Burhans, SIO Aquarium"			
+FISHCARD_miu_541.1	Bolinichthys longipes	MiFish Teleost	MiFish Teleost	#06-101	USA	NULL	"32.7N,124.2167W"	3-Jun-2006	"P Davison & M Decima, SIO grad. students"			
+FISHCARD_miu_542.1	Xanthichthys mento	MiFish Teleost	MiFish Teleost	#06-122	Mexico	Alijos Rocks	"24.95N,115.75W"	12-Oct-2004	"R Vetter, NMFS-La Jolla"			
+FISHCARD_miu_543.1	Lagocephalus lagocephalus	MiFish Teleost	MiFish Teleost	#09-153	Mexico	Todos Santos Commercial  Beach	"23.6833N,110.3833W"	19-Dec-2008	J Snow			
+FISHCARD_miu_544.1	Diodon hystrix	MiFish Teleost	MiFish Teleost	#09-143	Mexico	Cabo Real	"22.9833N,109.7667W"	17-Nov-2008	J Snow			
+FISHCARD_miu_545.1	Cyclothone atraria	MiFish Teleost	MiFish Teleost	NA	USA	NULL			NULL			
+FISHCARD_miu_546.1	Sphoeroides lobatus	MiFish Teleost	MiFish Teleost	#07-57	Mexico	San Luis Canyon	"23.15N,109.4167W"	30-Mar-2007	J Snow			
+FISHCARD_miu_547.1	Ophichthus triserialis	MiFish Teleost	MiFish Teleost	#07-94	Mexico	San Luis Canyon; 2 miles at sea	"23.15N,109.4167W"	21-Jul-2007	J Snow			
+FISHCARD_miu_548.1	Scorpaena mystes	MiFish Teleost	MiFish Teleost	#07-92	Mexico	Todos Santos Commercial Beach		20-Jul-2007	J Snow			
+FISHCARD_miu_549.1	Selene peruviana	MiFish Teleost	MiFish Teleost	#07-88	Mexico	La Playita	"23.0333N,109.5167W"	19-Jun-2007	J Snow			
+FISHCARD_miu_550.1	Trachinotus rhodopus	MiFish Teleost	MiFish Teleost	#07-85	Mexico	Cabo Real; off the beach	"22.9833N,109.7667W"	28-May-2007	J Snow			
+FISHCARD_miu_551.1	Chloroscombrus orqueta	MiFish Teleost	MiFish Teleost	#07-88	Mexico	La Playita	"23.0333N,109.5167W"	19-Jun-2007	J Snow			
+FISHCARD_miu_552.1	Microlepidotus inornatus	MiFish Teleost	MiFish Teleost	#07-190	Mexico	La Playita	"23.0333N,109.5167W"	15-Sep-2007	J Snow			
+FISHCARD_miu_553.1	Apogon guadalupensis	MiFish Teleost	MiFish Teleost	#08-59	USA	San Clemente Island	"32.9N,118.4833W"	1-Jul-2007	"J Lord, SIO Aquarium"			
+FISHCARD_miu_554.1	Astroscopus zephyreus	MiFish Teleost	MiFish Teleost	#08-66	Mexico	Todos Santos (commercial beach)	"23.3833N,110.2W"	12-Feb-2008	J Snow (from local fisherman)			
+FISHCARD_miu_555.1	Apogon pacificus	MiFish Teleost	MiFish Teleost	#08-61	Mexico	La Playita	"23.0333N,109.5167W"	23-Jan-2008	J Snow (from b ait fisherman)			
+FISHCARD_miu_556.1	Diplectrum maximum	MiFish Teleost	MiFish Teleost	#08-58	Mexico	Todos Santos (commercial beach	"23.3833N,110.2W"	23-Jan-2008	local fisherman			
+FISHCARD_miu_557.1	Fistularia corneta	MiFish Teleost	MiFish Teleost	#08-167	Mexico	just outside Puerto Los Cabas Breakwater	"23.0333N,109.3333W"	16-Oct-2008	J Snow & HJ Walker			
+FISHCARD_miu_558.1	Chanos chanos	MiFish Teleost	MiFish Teleost	#07-77	USA	NULL			NULL			
+FISHCARD_miu_559.1	Epinephelus analogus	MiFish Teleost	MiFish Teleost	#07-75	Mexico	"Mazatlan, Pescaderia Embarcadero de la Isla de la Piedra"	"23.2167N,106.4167W"	26-Mar-2002	M Craig			
+FISHCARD_miu_560.1	Harengula thrissina	MiFish Teleost	MiFish Teleost	#08-16	Mexico	Cabo San Lucas area	"22.8667N,109.8833W"	1-Dec-2007	J Snow			
+FISHCARD_miu_561.1	Leiocottus hirundo	MiFish Teleost	MiFish Teleost	FISHCARD_miu_561.1	USA	San Clemente Island	"32.9N,118.4833W"	24-Jul-2007	"P Zirofski, Sea Camp"			
+FISHCARD_miu_562.1	Melamphaes parvus	MiFish Teleost	MiFish Teleost	#08-32	USA	California Current	"33.3833N,121.3833W"	11-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_563.1	Fodiator acutus	MiFish Teleost	MiFish Teleost	#07-88	Mexico	La Playita	"23.0333N,109.5167W"	19-Jun-2007	J Snow			
+FISHCARD_miu_564.1	Nannobrachium regale	MiFish Teleost	MiFish Teleost	#08-31	Pacific Ocean	California Current: SW Catalina Island		2-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_565.1	Chaetodon humeralis	MiFish Teleost	MiFish Teleost	#07-77	USA	NULL			NULL			
+FISHCARD_miu_566.1	Eucinostomus currani	MiFish Teleost	MiFish Teleost	#09-154	Mexico	Faro Casa	"23.2167N,109.85W"	23-Dec-2008	J Snow			
+FISHCARD_miu_567.1	Cottus aleuticus	MiFish Teleost	MiFish Teleost	#08-97	USA	"Monterey Co.: Carmel River, below Robinson Rd. & Scarlett Rd."	"36.5383N,121.645W"	27-Jun-2007	"gift: RN Lea, Calif.F&G"			
+FISHCARD_miu_568.1	Lutjanus colorado	MiFish Teleost	MiFish Teleost	#08-151	Mexico	Todos Santos Commercial Beach	"23.6833N,110.3833W"	6-Aug-2008	J Snow			
+FISHCARD_miu_569.1	Bellator xenisma	MiFish Teleost	MiFish Teleost	#08-54	Mexico	La Playita	"23.0333N,109.5167W"	18-Jan-2008	J Snow			
+FISHCARD_miu_570.1	Chilomycterus reticulatus	MiFish Teleost	MiFish Teleost	#07-187	Mexico	San Luis Canyon	"23.15N,109.4167W"	27-Apr-2007	J Snow			
+FISHCARD_miu_571.1	Vinciguerria lucetia	MiFish Teleost	MiFish Teleost	#09-204	Mexico	Punta Palmilla; on beach	"22.97N,109.7W"	20-Feb-2009	J Snow			
+FISHCARD_miu_572.1	Diogenichthys laternatus	MiFish Teleost	MiFish Teleost	#09-204	Mexico	Punta Palmilla; on beach	"22.97N,109.7W"	20-Feb-2009	J Snow			
+FISHCARD_miu_573.1	Seriola rivoliana	MiFish Teleost	MiFish Teleost	#09-212	Mexico	Todos Santos Commercial Beach	"23.6833N,110.3833W"	8-May-2009	commercial fishermen (via J Snow)			
+FISHCARD_miu_574.1	Hyporthodus acanthistius	MiFish Teleost	MiFish Teleost	#00-142	USA	Los Angeles Co.: Palos V erdes Peninsula	"33.0833N,118.4W"		"M Craig, Occidental College"			
+FISHCARD_miu_575.1	Argyropelecus lychnus	MiFish Teleost	MiFish Teleost	#06-297	USA	NULL		10-Oct-2006	NULL			
+FISHCARD_miu_576.1	Zalieutes elater	MiFish Teleost	MiFish Teleost	#10-20	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	9-Feb-2010	local fisherman [via J Snow]			
+FISHCARD_miu_577.1	Decapterus muroadsi	MiFish Teleost	MiFish Teleost	#10-21-SK	Mexico	off Punta Palmilla	"22.9833N,109.7167W"	11-Feb-2010	J Snow			
+FISHCARD_miu_578.1	Uraspis helvola	MiFish Teleost	MiFish Teleost	#10-20	Mexico	Todos Santos Commercial Beach	"23.41N,110.23W"	9-Feb-2010	local fisherman [via J Snow]			
+FISHCARD_miu_579.1	Naucrates ductor	MiFish Teleost	MiFish Teleost	#09-280	USA	"San Diego Co.: La Jolla, off BlackÕs Beach"		5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_580.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	#08-11	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	20-Dec-2007	J Snow			
+FISHCARD_miu_581.1	Sardinops sagax	MiFish Teleost	MiFish Teleost	#07-89	Mexico	Todos Santos Commercial  Beach	"23.3833N,110.2W"	21-Jun-2007	J Snow			
+FISHCARD_miu_582.1	Gobiesox rhessodon	MiFish Teleost	MiFish Teleost	#09-170	USA	"San Diego Co.:  La Jolla, near Bird Rock"	"32.85N,117.2667W"	1-May-1998	"J Davis, SIO grad. student"			
+FISHCARD_miu_583.1	Trachinotus paitensis	MiFish Teleost	MiFish Teleost	#07-95	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	20-Aug-2007	J Snow			
+FISHCARD_miu_584.1	Pronotogrammus multifasciatus	MiFish Teleost	MiFish Teleost	35 #08-58	Mexico	Todos Santos (commercial beach	"23.3833N,110.2W"	23-Jan-2008	local fisherman			
+FISHCARD_miu_585.1	Nectoliparis pelagicus	MiFish Teleost	MiFish Teleost	56 #06-34	USA	NULL			NULL			
+FISHCARD_miu_586.1	Dolichopteryx longipes	MiFish Teleost	MiFish Teleost	10 #06-28	USA	NULL			NULL			
+FISHCARD_miu_587.1	Hemiramphus saltator	MiFish Teleost	MiFish Teleost	23 #04-107	Mexico	Bahia de Los Angeles:  off Turtle Camp	"29N,113.5W"	9-Sep-2004	"J Hyde & HJ Walker, SIO"			
+FISHCARD_miu_588.1	Isopsetta isolepis	MiFish Teleost	MiFish Teleost	64 #10-26	USA	NULL	"44.2717N,124.2283W"	5-Sep-2005	NWFC/NMFS			
+FISHCARD_miu_589.1	Atheresthes stomias	MiFish Teleost	MiFish Teleost	64 #10-32	USA	NULL	"39.64N,123.9717W"	18-Sep-2005	NWFC/NMFS			
+FISHCARD_miu_590.1	Albatrossia pectoralis	MiFish Teleost	MiFish Teleost	62 #10-31	USA	NULL	"40.9033N,124.7267W"	17-Sep-2005	NWFC/NMFS			
+FISHCARD_miu_591.1	Phtheirichthys lineatus	MiFish Teleost	MiFish Teleost	42 #10-18	USA	NULL			NULL			
+FISHCARD_miu_592.1	Fistularia corneta	MiFish Teleost	MiFish Teleost	57 #08-167	Mexico	just outside Puerto Los Cabas Breakwater	"23.0333N,109.3333W"	16-Oct-2008	J Snow & HJ Walker			
+FISHCARD_miu_593.1	Syngnathus auliscus	MiFish Teleost	MiFish Teleost	57 #09-234-T	USA	San Diego Co.: San Elijo Lagoon by Visitor Center (ca 1 km from ocean)	"33.0133N,117.2617W"	16-Jun-2009	"HJ Walker & party, SIO"			
+FISHCARD_miu_594.1	Melamphaes parvus	MiFish Teleost	MiFish Teleost	31 #09-320	USA	California Current	"32.15N,123.95W"	14-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_595.1	Argyropelecus sladeni	MiFish Teleost	MiFish Teleost	10 #08-38	USA	California Current	"33.7833N,121.05W"	18-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_596.1	Synchiropus atrilabiatus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_596.1	Pacific Ocean	NULL	"3.8867N,102.2717W"	25-Oct-2006	NULL			
+FISHCARD_miu_597.1	Diogenichthys laternatus	MiFish Teleost	MiFish Teleost	25 #09-308	USA	California Current	"32.65N,118.85W"	30-Sep-2008	"P Davison, SIO"			
+FISHCARD_miu_598.1	Protomyctophum crockeri	MiFish Teleost	MiFish Teleost	25 #09-333	USA	California Current	"32.85N,120.9167W"	22-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_599.1	Ceratoscopelus townsendi	MiFish Teleost	MiFish Teleost	25 #09-28	USA	NULL	"34.2667N,120.8833W"	4-Apr-2007	M Ohman & P Davison			
+FISHCARD_miu_600.1	Triphoturus mexicanus	MiFish Teleost	MiFish Teleost	25 #09-334	USA	California Current	"32.85N,120.6W"	23-Oct-2008	"P Davison, SIO"			
+FISHCARD_miu_601.1	Stenobrachius leucopsarus	MiFish Teleost	MiFish Teleost	25 #08-197	USA	NULL	"34.3167N,120.9333W"	6-Apr-2007	"P Davison & M Decima, SIO grad students"			
+FISHCARD_miu_602.1	Diaphus theta	MiFish Teleost	MiFish Teleost	25 #08-197	USA	NULL	"34.3167N,120.9333W"	6-Apr-2007	"P Davison & M Decima, SIO grad students"			
+FISHCARD_miu_603.1	Coelorinchus scaphopsis	MiFish Teleost	MiFish Teleost	62 #97-184	USA	NULL	"37.925N,123.455W"	28-Jun-1995	A Rocha & NMFS party			
+FISHCARD_miu_604.1	Coryphaenoides filifer	MiFish Teleost	MiFish Teleost	62 #02-70	USA	off coast of Oregon	"42.4267N,125.1983W"	24-Jul-1999	"C Goldfinger, OSU"			
+FISHCARD_miu_605.1	Coralliozetus springeri	MiFish Teleost	MiFish Teleost	01-164	Panama	Taboquilla Island	"8.7833N,79.55W"	27-Jul-2001	DR Robertson			
+FISHCARD_miu_606.1	Coralliozetus springeri	MiFish Teleost	MiFish Teleost	09-399	Costa Rica	Cocos Islands (Isla del Cocos): Manuelita	"5.55N,87.0667W"	19-Sep-2009	"B Zgliczynski, SIO"			
+FISHCARD_miu_607.1	Syngnathus leptorhynchus	MiFish Teleost	MiFish Teleost	#09-393	USA	"San Diego Co.: Mission Bay, off Crown Point"		27-Jan-2009	P Zerofsky			
+FISHCARD_miu_608.1	Bathyagonus nigripinnis	MiFish Teleost	MiFish Teleost	56 #10-43	USA	NULL	"47.5667N,125.2467W"	24-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_609.1	Clupea pallasii	MiFish Teleost	MiFish Teleost	8 #10-52	USA	NULL	"44.7817N,124.2517W"	31-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_610.1	Syngnathus auliscus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_610.1	USA	San Diego Co.: San Elijo Lagoon by Visitor Center (ca 1 km from ocean)	"33.0133N,117.2617W"	16-Jun-2009	"HJ Walker & party, SIO"			
+FISHCARD_miu_611.1	Tarletonbeania crenularis	MiFish Teleost	MiFish Teleost	#08-42	USA	California Current	"33.8333N,120.9333W"	19-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_612.1	Bathysphyraenops simplex	MiFish Teleost	MiFish Teleost	#08-38	USA	California Current	"33.7833N,121.05W"	18-Apr-2007	"P Davison, SIO grad. student"			
+FISHCARD_miu_613.1	Acanthocybium solandri	MiFish Teleost	MiFish Teleost	#05-30	USA	NULL	"1.95S,95.1667W"	5-Apr-2005	"fishermen [via C. Sepulveda, SIO]"			
+FISHCARD_miu_614.1	Euthynnus lineatus	MiFish Teleost	MiFish Teleost	#05-29	Mexico	near Cabo San Lucas	"22.8667N,109.8833W"	1-May-2005	"fisherman [via C. Sepulveda, SIO]"			
+FISHCARD_miu_615.1	Alopias superciliosus	MiFish Teleost	MiFish Teleost	#04-32	USA	"ca 70 mi offshore, near U.S./Mexico border"	"32.5833N,118.3333W"	2-Mar-2004	"local fisherman, via C. Sepulveda, SIO"			
+FISHCARD_miu_616.1	Carcharhinus longimanus	MiFish Teleost	MiFish Teleost	#97-223	USA	NULL	"7.7333N,141.7833W"	13-Sep-1997	"M Hinton, IATTC"			
+FISHCARD_miu_617.1	Prionace glauca	MiFish Teleost	MiFish Teleost	#96-101	USA	Tanner Bank	"32.6917N,119.1167W"	8-Aug-1995	WL Smith			
+FISHCARD_miu_618.1	Hydrolagus colliei	MiFish Teleost	MiFish Teleost	#95-2	USA	San Diego Co.: off Point Loma	"32.7367N,117.4033W"	4-Mar-1995	"R Rosenblatt & party, SIO"			
+FISHCARD_miu_619.1	Somniosus pacificus	MiFish Teleost	MiFish Teleost	#95-13	USA	Loran: 28208.2/40726.6		7-Dec-1991	"R Hupp, Sea World"			
+FISHCARD_miu_620.1	Hypanus dipterurus	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_621.1	Carcharodon carcharias	MiFish Teleost	MiFish Teleost	#04-43	USA	off Newport Beach; 6 mi	"33.53N,117.9367W"	10-Sep-2003	"local fisherman (via C Lowe, CSULB)"			
+FISHCARD_miu_622.1	Hexanchus griseus	MiFish Teleost	MiFish Teleost	#01-187	USA	"Santa Barbara Channel, off El Capitan State Beach"	"34.3833N,119.7W"	14-Aug-2001	"gift:  RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_623.1	Himantolophus sagamius	MiFish Teleost	MiFish Teleost	#02-2	USA	San Diego Co.: Del Mar (at “Dog Beach”); in surf zone	"32.9583N,117.265W"	15-Dec-2001	M Grundler			
+FISHCARD_miu_624.1	Bathyraja trachura	MiFish Teleost	MiFish Teleost	#01-109	USA	off Monterey Bay	"36.75N,121.9167W"	18-Apr-2001	"received from RN Lea, Calif. Fish & Game"			
+FISHCARD_miu_625.1	Platyrhinoidis triseriata	MiFish Teleost	MiFish Teleost	#03-161	USA	"San Diego Co.: La Jolla, Scripps Reserve"	"32.85N,117.2667W"	19-Nov-2002	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_626.1	Parmaturus xaniurus	MiFish Teleost	MiFish Teleost	#97-131	USA	off Yankee Point	"36.5117N,122.0083W"	6-Mar-1997	J Field			
+FISHCARD_miu_627.1	Mustelus californicus	MiFish Teleost	MiFish Teleost	#03-65	USA	San Diego Co.: “between Encinitas & Oceanside”	"33.1083N,117.325W"	13-Jul-2003	"via J Hyde, SIO grad student"			
+FISHCARD_miu_628.1	Triakis semifasciata	MiFish Teleost	MiFish Teleost	#02-18	USA	San Diego Co.: La Jolla Shores	"32.85N,117.2667W"	13-Sep-2001	"E Kisfaludy, SIO"			
+FISHCARD_miu_629.1	Urobatis halleri	MiFish Teleost	MiFish Teleost	#01-178	USA	San Diego Co.: Mission Bay: NW of Fiesta Island	"32.7833N,117.25W"	27-Sep-2001	"M Craig & Joel Fodrie, SIO graduate students"			
+FISHCARD_miu_630.1	Alopias superciliosus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_630.1	USA	"ca 70 mi offshore, near U.S./Mexico border"	"32.5833N,118.3333W"	2-Mar-2004	"local fisherman, via C. Sepulveda, SIO"			
+FISHCARD_miu_631.1	Notorynchus cepedianus	MiFish Teleost	MiFish Teleost	#04-47	USA	San Diego Co.: Point Loma kelp bed	"32.7283N,117.2683W"	5-Apr-2004	"M Shane & party, Hubbs-Sea World Res. Inst."			
+FISHCARD_miu_632.1	Alopias pelagicus	MiFish Teleost	MiFish Teleost	#04-188	Mexico	off Guaymas	"27.9167N,111.0667W"	14-Nov-2004	"commercial fisherman (via C. Sepulveda, SIO grad. student)"			
+FISHCARD_miu_633.1	Tetronarce californica	MiFish Teleost	MiFish Teleost	#05-1	USA	San Diego Co.: Carlsbad: Encino Power Plant	"33.1583N,117.3483W"	2-Feb-2005	"J Hyde & B Erisman, SIO grad. students"			
+FISHCARD_miu_634.1	Beringraja binoculata	MiFish Teleost	MiFish Teleost	#05-114	USA	off northern California	"37.9167N,122.5W"	31-Jul-2005	NULL			
+FISHCARD_miu_635.1	Pteroplatytrygon violacea	MiFish Teleost	MiFish Teleost	#05-76	USA	San Diego Co.: off Torrey Pines	"32.9083N,117.2583W"	19-Aug-2005	"E Kisfaludy & S Albers, SIO"			
+FISHCARD_miu_636.1	Mustelus henlei	MiFish Teleost	MiFish Teleost	#05-84	USA	San Diego Co: off San Diego	"32.7667N,117.2167W"	27-Sep-2005	B Steele			
+FISHCARD_miu_637.1	Apristurus brunneus	MiFish Teleost	MiFish Teleost	#05-89	USA	NULL	"35.965N,121.6267W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_638.1	Beringraja rhina	MiFish Teleost	MiFish Teleost	#05-89	USA	NULL	"35.965N,121.6267W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_639.1	Apristurus kampae	MiFish Teleost	MiFish Teleost	#05-97	USA	NULL	"32.83N,117.7833W"	23-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_640.1	Beringraja inornata	MiFish Teleost	MiFish Teleost	#05-102	USA	NULL	"32.8733N,117.3017W"	24-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_641.1	Cephaloscyllium ventriosum	MiFish Teleost	MiFish Teleost	#05-98	USA	NULL	"34.37N,119.7683W"	17-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_642.1	Bathyraja interrupta	MiFish Teleost	MiFish Teleost	#05-87	USA	NULL	"36.3867N,122.0667W"	9-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_643.1	Beringraja stellulata	MiFish Teleost	MiFish Teleost	#05-86	USA	NULL	"36.81N,122.0483W"	8-Jul-2005	D Kamikawa & NMFS party			
+FISHCARD_miu_644.1	Amblyraja hyperborea	MiFish Teleost	MiFish Teleost	#06-36	USA	NULL	"36.71N,122.28W"	3-Nov-2001	NMFS-Seattle			
+FISHCARD_miu_645.1	Rhincodon typus	MiFish Teleost	MiFish Teleost	#05-111	Philippines	Pamilican Island: Bohol	"9.1667N,124.4167E"	24-Feb-1997	MNR Alava & AA Yaptinchay			
+FISHCARD_miu_646.1	Squalus suckleyi	MiFish Teleost	MiFish Teleost	#06-7	USA	NULL	"36.74N,121.9117W"	1-Jul-1993	M Domeier			
+FISHCARD_miu_647.1	Squatina californica	MiFish Teleost	MiFish Teleost	#06-5	USA	San Diego Co.: off Carlsbad	"33.1333N,117.3433W"	25-Aug-2005	Hubbs-Sea World Res. Inst.			
+FISHCARD_miu_648.1	Megachasma pelagios	MiFish Teleost	MiFish Teleost	#07-53	Mexico	off Bahia Tortugas	"27.6833N,114.8833W"	16-Nov-2006	Capt E Magana & crew			
+FISHCARD_miu_649.1	Mustelus lunulatus	MiFish Teleost	MiFish Teleost	#09-212	Mexico	Todos Santos Commercial Beach	"23.6833N,110.3833W"	8-May-2009	commercial fishermen (via J Snow)			
+FISHCARD_miu_650.1	Zapteryx exasperata	MiFish Teleost	MiFish Teleost	6 #10-59	Mexico	Todos Santos Commercial  Beach	"23.41N,110.23W"	7-May-2010	commercial fishers [via J Snow]			
+FISHCARD_miu_651.1	Icichthys lockingtoni	MiFish Teleost	MiFish Teleost	FISHCARD_miu_651.1	USA	(?) off central California		19-Nov-1999	"[RN Lea, Calif. Fish & Game]"			
+FISHCARD_miu_652.1	Roncador stearnsii	MiFish Teleost	MiFish Teleost	#01-180	USA	"San Diego Co.: La Jolla, off BlackÕs Beach"		5-Oct-2001	"M Craig & J Fodrie, SIO grad. students"			
+FISHCARD_miu_653.1	Sternoptyx obscura	MiFish Teleost	MiFish Teleost	FISHCARD_miu_653.1	USA	NULL	"34.695N,123.21W"	1-Feb-2005	"D Bailey (K Smith lab), SIO"			
+FISHCARD_miu_654.1	Nectoliparis pelagicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_654.1	Pacific Ocean	NULL			NULL			
+FISHCARD_miu_655.1	Gymnothorax mordax	MiFish Teleost	MiFish Teleost	#09-293	Mexico	Todos Santos Commercial Beach	"23.3833N,110.2W"	2-Jun-2009	J Snow			
+FISHCARD_miu_656.1	Astroscopus zephyreus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_656.1	Mexico	Todos Santos (commercial beach)	"23.3833N,110.2W"	12-Feb-2008	J Snow (from local fisherman)			
+FISHCARD_miu_657.1	Danaphos oculatus	MiFish Teleost	MiFish Teleost	#09-115	USA	NULL	"33.7833N,121.0667W"	18-Apr-2007	M Ohman & P Davison			
+FISHCARD_miu_661.1	Eopsetta jordani	MiFish Teleost	MiFish Teleost	#10-49	USA	NULL	"46.5317N,124.325W"	28-Aug-2005	NWFC/NMFS			
+FISHCARD_miu_662.1	Aulorhynchus flavidus	MiFish Teleost	MiFish Teleost	#04-103	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_663.1	Aulorhynchus flavidus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_663.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_664.1	Aulorhynchus flavidus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_664.1	USA	Puget Sound:  Port Orchard NMFS salmon pens	"47.5333N,122.6667W"	1-Sep-2003	"R Burhans & M Ball, SIO Aquarium"			
+FISHCARD_miu_665.1	Thunnus obesus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_665.1	Mexico	Alijos Rocks: Butterfly Bank	"24.95N,115.75W"	27-Sep-2003	"via J Hyde, SIO grad. student"			
+FISHCARD_miu_666.1	Sebastes reedi	MiFish Teleost	MiFish Teleost	FISHCARD_miu_666.1	USA	"Fish Rocks, S of Point Arena"	"38.64N,123.735W"	26-Jul-1992	C Talbot			
+FISHCARD_miu_667.1	Micrometrus aurora	MiFish Teleost	MiFish Teleost	FISHCARD_miu_667.1	USA	NULL			Monterey Bay Aquarium - Giacomo Bernardi			
+FISHCARD_miu_668.1	Micrometrus aurora	MiFish Teleost	MiFish Teleost	FISHCARD_miu_668.1	USA	NULL			Monterey Bay Aquarium - Giacomo Bernardi			
+FISHCARD_miu_669.1	Ranzania laevis	MiFish Teleost	MiFish Teleost	FISHCARD_miu_669.1	USA	Hawaii			NULL			
+FISHCARD_miu_670.1	Mola mola	MiFish Teleost	MiFish Teleost	FISHCARD_miu_670.1	USA	"California, Santa Barbara"			NULL			
+FISHCARD_miu_671.1	Mola tecta	MiFish Teleost	MiFish Teleost	FISHCARD_miu_671.1	Peru	Peru			NULL			
+FISHCARD_miu_672.1	Mola alexandrini	MiFish Teleost	MiFish Teleost	FISHCARD_miu_672.1	Ecuador	"Pta Vicente Rosa, Galapagos"			NULL			
+FISHCARD_miu_673.1	Masturus lanceolatus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_673.1	Ecuador	Coastal mainland			NULL			
+FISHCARD_miu_674.1	Mola alexandrini	MiFish Teleost	MiFish Teleost	FISHCARD_miu_674.1	Norway	"Buvika, Trondheimsfjorden"			NULL			
+FISHCARD_miu_675.1	Ranzania laevis	MiFish Teleost	MiFish Teleost	FISHCARD_miu_675.1	Pacific Ocean	Sargasso Sea	"32.0167N,117.2667W"		NULL			
+FISHCARD_miu_676.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_676.1	USA	NULL			NULL			
+FISHCARD_miu_677.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_677.1	USA	NULL			NULL			
+FISHCARD_miu_678.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_678.1	USA	NULL			NULL			
+FISHCARD_miu_679.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_679.1	USA	NULL			NULL			
+FISHCARD_miu_680.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_680.1	USA	NULL			NULL			
+FISHCARD_miu_681.1	Seriphus politus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_681.1	USA	NULL			NULL			
+FISHCARD_miu_682.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_682.1	USA	NULL			NULL			
+FISHCARD_miu_683.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_683.1	USA	NULL			NULL			
+FISHCARD_miu_684.1	Seriphus politus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_684.1	USA	NULL			NULL			
+FISHCARD_miu_685.1	Phanerodon furcatus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_685.1	USA	NULL			NULL			
+FISHCARD_miu_686.1	Paralabrax clathratus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_686.1	USA	NULL			NULL			
+FISHCARD_miu_687.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_687.1	USA	NULL			NULL			
+FISHCARD_miu_688.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_688.1	USA	NULL			NULL			
+FISHCARD_miu_689.1	Urobatis halleri	MiFish Teleost	MiFish Teleost	FISHCARD_miu_689.1	USA	NULL			NULL			
+FISHCARD_miu_690.1	Seriphus politus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_690.1	USA	NULL			NULL			
+FISHCARD_miu_691.1	Seriphus politus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_691.1	USA	NULL			NULL			
+FISHCARD_miu_692.1	Paralabrax clathratus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_692.1	USA	NULL			NULL			
+FISHCARD_miu_693.1	Pleuronichthys ritteri	MiFish Teleost	MiFish Teleost	FISHCARD_miu_693.1	USA	NULL			NULL			
+FISHCARD_miu_694.1	Seriphus politus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_694.1	USA	NULL			NULL			
+FISHCARD_miu_695.1	Paralabrax maculatofasciatus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_695.1	USA	NULL			NULL			
+FISHCARD_miu_696.1	Paralichthys californicus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_696.1	USA	NULL			NULL			
+FISHCARD_miu_697.1	Symphurus atricaudus	MiFish Teleost	MiFish Teleost	FISHCARD_miu_697.1	USA	NULL			NULL			
+FISHCARD_miu_698.1	Pleuronichthys ritteri	MiFish Teleost	MiFish Teleost	FISHCARD_miu_698.1	USA	NULL			NULL			
+FISHCARD_miu_699.1	Paralabrax nebulifer	MiFish Teleost	MiFish Teleost	FISHCARD_miu_699.1	USA	NULL			NULL			
+FISHCARD_miu_700.1	Lythrypnus dalli	MiFish Teleost	MiFish Teleost	FISHCARD_miu_700.1	Mexico	"Isla Ventana, Bahia de Los Angeles, El Arco"		20-Jul-2003	"M Craig, SIO grad. student"			
+FISHCARD_miu_701.1	Embiotoca caryi	MiFish Teleost	MiFish Teleost	#03-47	USA	Santa Barbara Co.: Goleta Point	"34.45N,119.8333W"	26-Apr-2003	"M Craig & party, SIO"			
+FISHCARD_miu_702.1	Atractoscion nobilis	MiFish Teleost	MiFish Teleost	NULL	USA	NULL			NULL			
